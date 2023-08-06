@@ -1,0 +1,10 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "ForensicVM"
+authors = [{name = "Eng.º Nuno Mourinho", email = "nuno.mourinho@gmail.com"}, {name = "Dr. Rogério Matos Bravo", email = "r@nomail.com"}, {name = "Engº. Mário Jorge Costa Candeias", email = "mario.candeias@ipbeja.pt"}]
+dynamic = ["version", "description"]
+
+
