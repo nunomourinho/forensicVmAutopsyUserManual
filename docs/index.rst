@@ -38,31 +38,3 @@ Check out the :doc:`usage` section for further information, including how to :re
    Getting Started <user/getting_started>
    Product Overview <user/product_overview/product_overview>     
    Using ForensicVM <user/using_forensicvm>
-   Forensic Image Life Cycle <user/forensic_image_life_cycle>
-
-.. toctree::
-   :maxdepth: 3
-   :caption: ForensicVM Server Manual
-
-   Introduction <admin/introduction>
-   System Overview <admin/system_overview>
-   Installation and Setup <admin/installation_and_setup>
-   Managing Users <admin/managing_users>
-   Configuring ForensicVM <admin/configuring_forensicvm>
-   Network Setup <admin/network_setup>
-   Storage Management <admin/storage_management>
-   Monitoring and Performance Tuning <admin/monitoring_and_performance_tuning>
-   Backup and Recovery <admin/backup_and_recovery>
-   System Updates and Maintenance <admin/system_updates_and_maintenance>
-   Security and Compliance <admin/security_and_compliance>
-   Troubleshooting <admin/troubleshooting>
-   Index <admin/index>
-   Appendix <admin/appendix>
-  
-.. toctree::
-   :maxdepth: 3
-   :caption: Reference
-   
-   Typeset <admin/typset>      
-   Glossary <glossary>
-   
