@@ -1,9 +1,0 @@
-==============
-System Overview
-==============
-ForensicVM is a specialized tool designed to facilitate ...
-
-System Components
------------------
-- Component 1...
-- Component 2...
