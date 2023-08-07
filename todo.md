@@ -82,12 +82,12 @@
          - [ ] Processor and number or cores
          - [ ] Speed
          - [ ] Disk type and size
-         - [ ] Disk read speed (test)
+         - [ ] Disk read speed (test): https://github.com/thodnev/MonkeyTest
       - [ ] Server info
          - [ ] Processor and number of cores
          - [ ] Speed
          - [ ] Disk type and size
-         - [ ] Disk write speed (test)         
+         - [ ] Disk write speed (test): https://github.com/thodnev/MonkeyTest         
       - [ ] Forensic Image info (from server)
          - [ ] Type format
          - [ ] Size
