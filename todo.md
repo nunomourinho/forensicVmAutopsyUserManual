@@ -82,10 +82,12 @@
          - [ ] Processor and number or cores
          - [ ] Speed
          - [ ] Disk type and size
+         - [ ] Disk read speed (test)
       - [ ] Server info
          - [ ] Processor and number of cores
          - [ ] Speed
          - [ ] Disk type and size
+         - [ ] Disk write speed (test)         
       - [ ] Forensic Image info (from server)
          - [ ] Type format
          - [ ] Size
