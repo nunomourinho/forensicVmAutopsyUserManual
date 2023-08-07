@@ -89,6 +89,7 @@
       - [ ] Forensic Image info (from server)
          - [ ] Type format
          - [ ] Size
+         - [ ] Operating System
       - [ ] Network
          - [ ] Local network speed
          - [ ] Internet connection speed
