@@ -3,12 +3,13 @@
    - [x] Create a new page per action in usage
       - [ ] Virtualize - Convert to VM
       - [ ] Virtualize - Link to VM
+      - [x] Run the Autopsy Plugin
       - [x] Start VM / web start
       - [x] Open ForensicVM
       - [x] Shutdown VM /web shutdown
       - [x] Reset VM / web reset
       - [x] Stop VM
-      - [ ] Delete VM
+      - [x] Delete VM
       - [x] Screenshot / Web screenshot
       - [x] Save Screenshots
       - [x] Make and Download Memory Dump
