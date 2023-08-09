@@ -35,6 +35,10 @@ When aiming to convert a local forensic image to a remote forensic virtual machi
 
 Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the Server
 ****************************************************************************************
+**Direct Copy to Server**: This approach duplicates the forensic image, creating a new forensic virtual machine on the server. It grants comprehensive access and utility of the forensicVM, making it the ideal choice for collaborative remote investigations.
+
+
+**Conversion steps:**
 
 1. **Begin the Conversion**:
    
@@ -88,6 +92,9 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
 Method 2: Link the local forensic image to a new forensic virtual machine on the server
 ****************************************************************************************
+**Link Creation**: In this method, a link is forged between the local forensic image and a new counterpart on the server. Although it's swifter (given that the image isn't transferred to the remote server), there are limitations. The conversion and previewing are quick, yet initiating the machine locally is mandatory. The investigator must resort to the Autopsy client plugin to start the machine, as the web interface is incompatible due to the dependency on the original forensic image.
+
+**Conversion steps:**
 
    .. figure:: img/2-virtualize_link_0001.jpg
       :alt: Change
