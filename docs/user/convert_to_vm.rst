@@ -33,33 +33,58 @@ When aiming to convert a local forensic image to a remote forensic virtual machi
 .. tip::
    It's crucial to regularly monitor the conversion process to ensure all steps are proceeding as expected and that any necessary adjustments can be made promptly.
 
-Method 1: Copy the local forensic image to a new forensic virtual machine on the server
+Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the Server
 ****************************************************************************************
 
+1. **Begin the Conversion**:
+   
+   Initiate the conversion process by clicking on the button titled "Virtualize - a) Convert to VM". This action sets the process in motion.
 
    .. figure:: img/virtualize_convert_0001.jpg
-      :alt: Change
+      :alt: Screenshot showcasing the "Virtualize - a) Convert to VM" button.
       :align: center
 
-      Change
+      "Virtualize - a) Convert to VM" button
+
+
+2. **Popup Confirmation**:
+
+   Upon clicking the conversion button, a popup alert appears. This alert will display the message: "The conversion will start in a command window. Please do not close it until the conversion is finished...". Click on "OK" to commence the conversion process.
 
    .. figure:: img/virtualize_convert_0002.jpg
-      :alt: Change
+      :alt: Popup alert confirming the start of the conversion.
       :align: center
 
-      Change
+      Conversion Confirmation Popup
+
+
+3. **MS-DOS Command Window Feedback**:
+
+   A MS-DOS command window materializes post confirmation. This window is instrumental in detecting the image format, which will be visibly printed within. Ensure to keep an eye out for messages color-coded in green, indicating successful steps. However, should there be any errors, take note for future reference.
 
    .. figure:: img/virtualize_convert_0003.jpg
-      :alt: Change
+      :alt: MS-DOS command window indicating the progress.
       :align: center
 
-      Change
+      MS-DOS Command Window Progress Display
+
+
+4. **Driver Installation and Conversion Completion**:
+
+   During this phase, the system installs the required KVM drivers. Various messages get displayed in this window. Here's a color code to understand them:
+
+   - **Green**: Success messages.
+   - **Blue**: Warnings.
+   - **Magenta**: Special information messages.
+   - **Red**: Error messages.
+
+   The conversion progression is displayed as a percentage. Once completed, a success message paired with the elapsed time is showcased, signaling the end of the conversion.
 
    .. figure:: img/virtualize_convert_0004.jpg
-      :alt: Change
+      :alt: Final stages of the conversion process.
       :align: center
 
-      Change
+      Conversion Completion Display
 
 Method 2: Link the local forensic image to a new forensic virtual machine on the server
 ****************************************************************************************
