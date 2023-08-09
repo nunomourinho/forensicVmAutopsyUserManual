@@ -1,0 +1,40 @@
+Convert Forensic Image to a Forensic Virtual Machine
+=====================================================
+
+When aiming to convert a local forensic image to a remote forensic virtual machine on a server, two primary methods are prevalent:
+
+1. **Direct Copy to Server**: This approach duplicates the forensic image, creating a new forensic virtual machine on the server. It grants comprehensive access and utility of the forensicVM, making it the ideal choice for collaborative remote investigations.
+   
+2. **Link Creation**: In this method, a link is forged between the local forensic image and a new counterpart on the server. Although it's swifter (given that the image isn't transferred to the remote server), there are limitations. The conversion and previewing are quick, yet initiating the machine locally is mandatory. The investigator must resort to the Autopsy client plugin to start the machine, as the web interface is incompatible due to the dependency on the original forensic image.
+
+**Steps for Both Methods**:
+
+1. **Initiate SSH Connection**: An SSH link is established with the forensicVM server.
+
+2. **Reverse Connection Establishment**: This connection triggers a reverse connection to a read-only samba CIFS share, often known as a Windows share. This maneuver enables the server to access the Windows share containing the forensic image.
+
+3. **Initiate Conversion**: Here, the type of forensic image is identified, followed by the selection of an appropriate tool on the server to mount the image to a virtual raw device. This is especially vital when images span across multiple files.
+
+   .. note:: 
+      This tool selection process ensures that the appropriate software is utilized for optimal conversion.
+
+4. **Snapshot Creation**: An initial forensic image snapshot is generated. Acting as a base snapshot, it retains the state tied to the forensic image's virtual raw. This facilitates the installation of drivers without altering the forensic image's state or information, preserving the sanctity of the evidence.
+
+5. **Image Conversion**: The image undergoes a transformation into the qcow2 format - the favored format for KVM virtualization. It not only supports snapshots but also ensures the image only occupies the space used by the forensic image.
+
+6. **Partition Detection**: The system identifies any partitions present within the image.
+
+7. **Operating System Detection**: The OS inside each partition is discerned. If recognized, KVM-optimized virtual drivers get pre-installed, which will initiate upon the forensic virtual machine's first boot.
+
+8. **Fallback Conversion**: If the OS remains unidentified, the VM undergoes a full conversion without any driver installations. While this could potentially enable booting, post-conversion, manual scrutiny and possible KVM driver installations are essential.
+
+9. **Partition Absence Handling**: In the event no partitions are identified, a virtual partition gets generated alongside a virtual boot device. This procedure aids in converting partition images into complete images. However, the user must invest additional effort to adapt this image for booting. They might need supplementary tools, like a virtual CD-ROM, to rectify and make the VM operational.
+
+.. tip::
+   It's crucial to regularly monitor the conversion process to ensure all steps are proceeding as expected and that any necessary adjustments can be made promptly.
+
+Method 1: Copy the local forensic image to a new forensic virtual machine on the server
+****************************************************************************************
+
+Method 2: Link the local forensic image to a new forensic virtual machine on the server
+****************************************************************************************

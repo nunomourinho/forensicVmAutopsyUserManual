@@ -7,7 +7,11 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
 .. toctree::
    :maxdepth: 3
    :caption: Navegating the forensicVM main and web interface
-   
+
+   Running Autopsy Forensic VM Plugin <add_datasource> 
+
+   Convert a local Forensic Image to a remote Forensic Virtual Machine <convert_to_vm>
+
    Start Forensic Virtual Machine <start_vm>
       Learn how to initiate the forensicVM through various methods, whether from the main plugin interface, web interface, or web remote screen.
 
@@ -28,3 +32,5 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
    Making, Downloading, and Analyzing a Memory Dump <memory_dump_vm>
 
    Recording Video Evidence from the ForensicVM <webrecord_video>
+
+   Deletion of ForensicVM at Investigation Conclusion <delete_vm>
