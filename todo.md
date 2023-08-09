@@ -3,7 +3,7 @@
    - [x] Create a new page per action in usage
       - [x] Run the Autopsy Plugin
       - [x] Virtualize - Convert to VM
-      - [ ] Virtualize - Link to VM
+      - [x] Virtualize - Link to VM
       - [x] Start VM / web start
       - [x] Open ForensicVM
       - [x] Shutdown VM /web shutdown
