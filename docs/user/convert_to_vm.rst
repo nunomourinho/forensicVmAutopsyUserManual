@@ -88,3 +88,43 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
 Method 2: Link the local forensic image to a new forensic virtual machine on the server
 ****************************************************************************************
+
+   .. figure:: img/2-virtualize_link_0001.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+   .. figure:: img/2-virtualize_link_0002.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+
+   .. figure:: img/2-virtualize_link_0003.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+
+   .. figure:: img/2-virtualize_link_0004.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+
+   .. figure:: img/2-virtualize_link_0005.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+
+   .. figure:: img/2-virtualize_link_0006.jpg
+      :alt: Change
+      :align: center
+
+      Change
