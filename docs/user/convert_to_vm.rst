@@ -1,23 +1,37 @@
 Convert Forensic Image to a Forensic Virtual Machine
 =====================================================
-There are two methods to convert a local forensic image to a remote forensic virtual machine on the server. The first method copys the forensic image to a new 
-forensic virtual machine on the server. The second method creates a link between the local forensic image to a new forensic image on the server.
-The first method allows the full functionality of the forensicVM and is the recommended method for remote colaboration. The second method is faster since
-the image does not have to be copied to the remote server. It allows a rapid convertion and preview, but the machine has to be started localy by the 
-investigator - it can only be started in the Autopsy client plugin. It cannot be started on the web interface, since it needs to be linked to the original 
-forensic image.
 
-Both methods to the following steps:
-1. A ssh connection is made to the forensicVM server
-2. This connection makes a reverse connection to a readonly samba cifs share - or windows share. This process makes possible to the server to connect to the windows share where the forensic image is present
-3. The convertion process begins. The forensic image type is detected. The apropriated tool is choosen in the server to mount the forensic image to a virtual raw device, since that same images are spanned in multiple files
-4. A first forensic image snapshot is created. This is the base snapshot that links the state to the forensic image virtual raw. It allows the instalation of drivers without changing the forensic image state or information - this maintains the evidence integrity
-5. The image is converted to a qcow2 format. The qcow2 is the prefered format for kvm virtualization. It allows snapshots and the image only occupies the used forensic image space.
-6. The partitions are detected.
-7. The operating system inside each partition is detected. If it is a knowned operating system, kvm optimized virtual drivers are pré-installed. This drivers will be installed on the forensic virtual machine first boot
-8. If the operating system was not detected, a complete vm conversion is made without installing any drivers. This makes the boot probable possible, but the resulting machine should be checked and possible optimized kvm drivers should be installed manually.
-9. If no partions are detected, a virtual partion is created and a virtual boot device is created. This allows to convert partion images to full images. Extra work is needed by the user to adapt this image to make it bootable. In this case the user should use extra tools like virtual cdrom to try to make the vm work.
+When aiming to convert a local forensic image to a remote forensic virtual machine on a server, two primary methods are prevalent:
 
+1. **Direct Copy to Server**: This approach duplicates the forensic image, creating a new forensic virtual machine on the server. It grants comprehensive access and utility of the forensicVM, making it the ideal choice for collaborative remote investigations.
+   
+2. **Link Creation**: In this method, a link is forged between the local forensic image and a new counterpart on the server. Although it's swifter (given that the image isn't transferred to the remote server), there are limitations. The conversion and previewing are quick, yet initiating the machine locally is mandatory. The investigator must resort to the Autopsy client plugin to start the machine, as the web interface is incompatible due to the dependency on the original forensic image.
+
+**Steps for Both Methods**:
+
+1. **Initiate SSH Connection**: An SSH link is established with the forensicVM server.
+
+2. **Reverse Connection Establishment**: This connection triggers a reverse connection to a read-only samba CIFS share, often known as a Windows share. This maneuver enables the server to access the Windows share containing the forensic image.
+
+3. **Initiate Conversion**: Here, the type of forensic image is identified, followed by the selection of an appropriate tool on the server to mount the image to a virtual raw device. This is especially vital when images span across multiple files.
+
+   .. note:: 
+      This tool selection process ensures that the appropriate software is utilized for optimal conversion.
+
+4. **Snapshot Creation**: An initial forensic image snapshot is generated. Acting as a base snapshot, it retains the state tied to the forensic image's virtual raw. This facilitates the installation of drivers without altering the forensic image's state or information, preserving the sanctity of the evidence.
+
+5. **Image Conversion**: The image undergoes a transformation into the qcow2 format - the favored format for KVM virtualization. It not only supports snapshots but also ensures the image only occupies the space used by the forensic image.
+
+6. **Partition Detection**: The system identifies any partitions present within the image.
+
+7. **Operating System Detection**: The OS inside each partition is discerned. If recognized, KVM-optimized virtual drivers get pre-installed, which will initiate upon the forensic virtual machine's first boot.
+
+8. **Fallback Conversion**: If the OS remains unidentified, the VM undergoes a full conversion without any driver installations. While this could potentially enable booting, post-conversion, manual scrutiny and possible KVM driver installations are essential.
+
+9. **Partition Absence Handling**: In the event no partitions are identified, a virtual partition gets generated alongside a virtual boot device. This procedure aids in converting partition images into complete images. However, the user must invest additional effort to adapt this image for booting. They might need supplementary tools, like a virtual CD-ROM, to rectify and make the VM operational.
+
+.. tip::
+   It's crucial to regularly monitor the conversion process to ensure all steps are proceeding as expected and that any necessary adjustments can be made promptly.
 
 Method 1: Copy the local forensic image to a new forensic virtual machine on the server
 ****************************************************************************************
