@@ -30,3 +30,5 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
    Making, Downloading, and Analyzing a Memory Dump <memory_dump_vm>
 
    Recording Video Evidence from the ForensicVM <webrecord_video>
+
+   Deletion of ForensicVM at Investigation Conclusion <delete_vm>
