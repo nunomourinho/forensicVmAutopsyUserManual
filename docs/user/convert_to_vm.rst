@@ -36,5 +36,30 @@ When aiming to convert a local forensic image to a remote forensic virtual machi
 Method 1: Copy the local forensic image to a new forensic virtual machine on the server
 ****************************************************************************************
 
+
+   .. figure:: img/virtualize_convert_0001.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+   .. figure:: img/virtualize_convert_0002.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+   .. figure:: img/virtualize_convert_0003.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+   .. figure:: img/virtualize_convert_0004.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
 Method 2: Link the local forensic image to a new forensic virtual machine on the server
 ****************************************************************************************
