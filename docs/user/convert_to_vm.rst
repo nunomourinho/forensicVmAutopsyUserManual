@@ -90,48 +90,82 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Conversion Completion Display
 
-Method 2: Link the local forensic image to a new forensic virtual machine on the server
+Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server
 ****************************************************************************************
-**Link Creation**: In this method, a link is forged between the local forensic image and a new counterpart on the server. Although it's swifter (given that the image isn't transferred to the remote server), there are limitations. The conversion and previewing are quick, yet initiating the machine locally is mandatory. The investigator must resort to the Autopsy client plugin to start the machine, as the web interface is incompatible due to the dependency on the original forensic image.
 
-**Conversion steps:**
+**Link Creation**:
+
+In this method, a link is forged between the local forensic image and a new counterpart on the server. This approach is faster because it doesn't involve transferring the entire image to the remote server. However, there are some limitations. The conversion process and preview are swift, but starting the machine locally is a requirement. The investigator needs to use the Autopsy client plugin to initiate the machine since the web interface cannot be used due to its dependency on the original forensic image.
+
+**Conversion Steps**:
+
+1. **Begin the Conversion**:
+   
+   Start the conversion by clicking on the button labeled "Virtualize - b) Link to VM".
 
    .. figure:: img/2-virtualize_link_0001.jpg
-      :alt: Change
+      :alt: Screenshot showcasing the "Virtualize - b) Link to VM" button.
       :align: center
 
-      Change
+      "Virtualize - b) Link to VM" button
+
+2. **Popup Confirmation**:
+   
+   After activating the conversion, a popup will emerge. It will instruct: "The conversion will commence in a command window. Please refrain from shutting it until the process concludes." Press "OK" to proceed.
 
    .. figure:: img/2-virtualize_link_0002.jpg
-      :alt: Change
+      :alt: A popup dialog confirming the start of the linking process.
       :align: center
 
-      Change
+      Linking Confirmation Popup
 
+3. **MS-DOS Command Window Feedback**:
+
+   The MS-DOS command window will surface, and the software will identify the image format, displaying it within the window. Successful actions are highlighted in green. However, be vigilant and record any errors that arise.
 
    .. figure:: img/2-virtualize_link_0003.jpg
-      :alt: Change
+      :alt: MS-DOS command window displaying the progress.
       :align: center
 
-      Change
+      MS-DOS Command Window Feedback
 
+4. **Driver Installation Phase**:
+
+   This step focuses on the installation of required KVM drivers. The messages in this phase are color-coded:
+   
+   - **Green**: Success indicators.
+   - **Blue**: Warnings.
+   - **Magenta**: Special informational messages.
+
+   The linking process's progression is represented in percentage terms.
 
    .. figure:: img/2-virtualize_link_0004.jpg
-      :alt: Change
+      :alt: Phase indicating KVM driver installations and progress.
       :align: center
 
-      Change
+      Driver Installation and Progress Display
 
+5. **Conclusion of Conversion**:
+
+   Upon the conversion's culmination, a success notification will display the elapsed time. Ensure to press any key to close the window.
+   
+   .. WARNING:: 
+
+      Avoid manually shutting this window. Such an action could leave a Linux mount unsealed, leading to potential complications in the future.
 
    .. figure:: img/2-virtualize_link_0005.jpg
-      :alt: Change
+      :alt: Window showcasing the successful completion of the linking process.
       :align: center
 
-      Change
+      Conversion Completed Notification
 
+6. **Success Notification**:
+
+   A concluding popup emerges, affirming that the forensic image was successfully linked to the VM. Click "OK" to exit this dialog.
 
    .. figure:: img/2-virtualize_link_0006.jpg
-      :alt: Change
+      :alt: Popup displaying the successful linking of the forensic image to the VM.
       :align: center
 
-      Change
+      Successful Linking Notification
+
