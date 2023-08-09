@@ -7,7 +7,9 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
 .. toctree::
    :maxdepth: 3
    :caption: Navegating the forensicVM main and web interface
-   
+
+   Running Autopsy Forensic VM Plugin <add_datasource> 
+
    Start Forensic Virtual Machine <start_vm>
       Learn how to initiate the forensicVM through various methods, whether from the main plugin interface, web interface, or web remote screen.
 
