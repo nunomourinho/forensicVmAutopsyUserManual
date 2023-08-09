@@ -26,6 +26,7 @@
          - [ ] Enable network card /Web enable network
          - [ ] Disable network card /web disable network
          - [ ] Download Wireshark pcap files
+         - [ ] Analyse in wireshark
       - [ ] Analyse Forensic VM Performance
       - [ ] Open forensicVM webshell
       - [ ] DEBUG: remote ssh to folder
