@@ -1,9 +1,9 @@
 - [x] Edit first pages
 - [x] Enumerate Autopsy forensicVM actions
    - [x] Create a new page per action in usage
+      - [x] Run the Autopsy Plugin
       - [ ] Virtualize - Convert to VM
       - [ ] Virtualize - Link to VM
-      - [x] Run the Autopsy Plugin
       - [x] Start VM / web start
       - [x] Open ForensicVM
       - [x] Shutdown VM /web shutdown
