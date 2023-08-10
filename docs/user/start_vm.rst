@@ -65,71 +65,67 @@ Another option to start the forensicVM is from the web remote screen. This metho
 
 These three methods ensure that you can initiate the forensicVM from various points in the system. 
 
-
-Special case: Starting the forensicVM in link mode
+Special Case: Starting the ForensicVM in Link Mode
 ***************************************************
 
-**Precautions and considerations**:
+**Precautions and Considerations**:
 
-When a forensic image is converted to a forensic virtual machine using the option "Virtualize b) Link to VM", it can on be started using the Autopsy Plugin. Some precautions must be taken to assure that a smooth virtual machine operation:
+When a forensic image is converted to a forensic virtual machine using the "Virtualize b) Link to VM" option, it can only be started via the Autopsy Plugin. Ensure that you adhere to the following precautions to guarantee a smooth operation of the virtual machine:
 
-   ... Warning:: 
-      1) Only start a linked the forensicVM using the Autopsy Plugin. Do not try to use the forensicVM web interface. It will not work.
-      2) Use a stable internet connection, like fiber óptics. Connection failure will result in machine disk timeouts and possibily virtual machine blue screen of death.
-      3) Do not close the command line window. This window needs to be open all times. Shutdown or stop the forensicVM using the "Stop" or "Shutdown" Autopsy Plugin buttons. Only this assures that there will be no problems resulting of zoombie mount points to your computer.
-
-**Steps to start and stop or shutdown**:
-
-1) Start ForensicVM in the Main Plugin Interface
+.. warning::
    
-   Press "Start" button to start the vm:
+   1. Only initiate the linked forensicVM through the Autopsy Plugin. Avoid using the forensicVM web interface—it will be ineffective.
+   2. Utilize a reliable internet connection, such as fiber optics. Any connection disruptions could lead to machine disk timeouts, and potentially the virtual machine encountering a "blue screen of death."
+   3. Maintain the command line window in an open state. This window must remain open at all times. To power off or stop the forensicVM, use the "Stop" or "Shutdown" options in the Autopsy Plugin. This method ensures the prevention of lingering mount points on your computer, which could cause issues.
+
+**Steps to Start, Stop, or Shutdown**:
+
+1. **Activate ForensicVM in the Main Plugin Interface**:
+   
+   To initiate the VM, click the "Start" button.
 
    .. figure:: img/start_vm_0001.jpg
-      :alt: Change
+      :alt: Screenshot of the "Start" button in the main plugin interface.
       :align: center
 
-      Change
+      The "Start" button in the main plugin interface.
 
-   A popup message will appear indicating that the machine was started in "snap" or link mode:
+   Following this action, a popup will inform you that the machine has launched in "snap" or link mode.
 
    .. figure:: img/start_vm_0005.jpg
-      :alt: Change
+      :alt: Popup indicating the machine's "snap" or link mode status.
       :align: center
 
-      Change
+      Machine's launch mode notification.
 
-   A command line window will open. Minimize this window. DO NOT CLOSE IT! If you want to close the machine, please follow the steps bellow to ether stop or shutdown the forensicVM safely. 
+   Next, a command line window will manifest. While you should minimize it, it's crucial not to close it. If you need to shut down the machine, kindly adhere to the subsequent steps to safely halt or power off the forensicVM.
 
    .. figure:: img/start_vm_0006.jpg
-      :alt: Change
+      :alt: Command line window showing machine's process.
       :align: center
 
-      Change
+      Command line window – important not to close.
 
-   Press the "Open ForensicVM" to open the web screen interface. This will allow you to interact with the machine:
+   To interact with the machine through its graphical interface, hit the "Open ForensicVM" option.
 
    .. figure:: img/start_vm_0007.jpg
-      :alt: Change
+      :alt: "Open ForensicVM" button for graphical interaction.
       :align: center
 
-      Change
+      "Open ForensicVM" button.
 
-   The machine will open in the web interface. Now you can interact with the system normally.
+   This action will lead to the machine's manifestation within a web interface, allowing you to seamlessly interact with the system.
 
    .. figure:: img/start_vm_0008.jpg
-      :alt: Change
+      :alt: Web interface of the forensicVM.
       :align: center
 
-      Change
+      ForensicVM web interface.
 
-   The safe and only way to shutdown or stop the machine is to use the Autopsy Plugin buttons "shutdown" or "stop" 
-
+   It's imperative to note that the solitary and secure method to halt or power off the machine is by utilizing the "Shutdown" or "Stop" buttons available in the Autopsy Plugin.
 
    .. figure:: img/start_vm_0009.jpg
-      :alt: Change
+      :alt: Autopsy Plugin buttons for shutting down or stopping the machine.
       :align: center
 
-      Change
-
-
-
+      Autopsy Plugin's control buttons.
