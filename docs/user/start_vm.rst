@@ -1,6 +1,9 @@
 Starting the Virtual Machine (VM)
 ==================================
 
+Three ways to start the forensicVM
+***********************************
+
 There are three different ways to start the forensic virtual machine (forensicVM). These methods provide flexibility depending on your access level and location within the system interface:
 
 1) Start ForensicVM in the Main Plugin Interface
@@ -61,3 +64,61 @@ Another option to start the forensicVM is from the web remote screen. This metho
    c) Press the start button to initiate the virtual machine.
 
 These three methods ensure that you can initiate the forensicVM from various points in the system. 
+
+
+Special case: Starting the forensicVM in link mode
+***************************************************
+
+**Precautions and considerations**:
+
+When a forensic image is converted to a forensic virtual machine using the option b) Link mode, it can on be started using the Autopsy Plugin. Some precautions must be taken to assure that a smooth virtual machine operation:
+
+   ... Warning:: 
+      1) Only start a linked the forensicVM using the Autopsy Plugin. Do not try to use the forensicVM web interface. It will not work.
+      2) Use a stable internet connection, like fiber óptics. Connection failure will result in machine disk timeouts and possibily virtual machine blue screen of death.
+      3) Do not close the command line window. This window needs to be open all times. Shutdown or stop the forensicVM using the "Stop" or "Shutdown" Autopsy Plugin buttons. Only this assures that there will be no problems resulting of zoombie mount points to your computer.
+
+** Steps to start and stop or shutdown**:
+
+1) Start ForensicVM in the Main Plugin Interface
+   To initiate the forensicVM from the main plugin interface, follow these simple steps:
+
+   .. figure:: img/start_vm_0001.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+
+   .. figure:: img/start_vm_0005.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+   .. figure:: img/start_vm_0006.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+   .. figure:: img/start_vm_0007.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+   .. figure:: img/start_vm_0008.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+   .. figure:: img/start_vm_0009.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+
+
