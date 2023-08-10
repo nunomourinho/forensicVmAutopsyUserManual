@@ -90,6 +90,69 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Conversion Completion Display
 
+
+   Explain
+
+   .. figure:: img/virtualize_convert_0005.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+
+   Explain
+
+   .. figure:: img/virtualize_convert_0006.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+
+   Explain
+
+   .. figure:: img/virtualize_convert_0007.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+
+   Explain
+
+   .. figure:: img/virtualize_convert_0008.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+
+   Explain
+
+   .. figure:: img/virtualize_convert_0009.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+
+   Explain
+
+   .. figure:: img/virtualize_convert_0010.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
+
+   Explain
+
+   .. figure:: img/virtualize_convert_0011.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
 Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server
 ****************************************************************************************
 
