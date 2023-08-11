@@ -82,25 +82,32 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
    - **Magenta**: Special information messages.
    - **Red**: Error messages.
 
-   The conversion progression is displayed as a percentage. Once completed, a success message paired with the elapsed time is showcased, signaling the end of the conversion.
+   The conversion progression is displayed as a percentage. 
 
    .. figure:: img/virtualize_convert_0004.jpg
-      :alt: Final stages of the conversion process.
+      :alt: Conversion process display
+      :align: center
+
+      Conversion Progress Display
+
+
+5. **Conversion completed**: 
+
+   Once completed, a success message paired with the elapsed time is showcased, signaling the end of the conversion.
+
+   .. figure:: img/virtualize_convert_0005.jpg
+      :alt: Conversion Completion Display
       :align: center
 
       Conversion Completion Display
 
+6. **Sucess conversion popup**:
 
-   Explain
+   A sucess popup will appear at the end of the image conversion:
 
-   .. figure:: img/virtualize_convert_0005.jpg
-      :alt: Change
-      :align: center
+7. **ForensicVM first boot**
 
-      Change
-
-
-   Explain
+   Press the "Start" button on the Autopsy ForensicVM Plugin to start the machine for the first time:
 
    .. figure:: img/virtualize_convert_0006.jpg
       :alt: Change
@@ -108,8 +115,9 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Change
 
+8. **Informational popup - Machine started**
 
-   Explain
+   After clicking the "Start" button, an informational popup will appear:
 
    .. figure:: img/virtualize_convert_0007.jpg
       :alt: Change
@@ -117,8 +125,9 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Change
 
+9. **Openning the forensicVM**:
 
-   Explain
+   Click the "Open ForensicVM" button to opwn the web screen interface where you can intercat with the forensicVM.
 
    .. figure:: img/virtualize_convert_0008.jpg
       :alt: Change
@@ -126,8 +135,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Change
 
-
-   Explain
+---
 
    .. figure:: img/virtualize_convert_0009.jpg
       :alt: Change
@@ -135,8 +143,9 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Change
 
+10. **ForensicVM web screen interface**:
 
-   Explain
+   Press the big "Connect / Start" button to connect to the forensicVM e start to see the virtual screen monitor:
 
    .. figure:: img/virtualize_convert_0010.jpg
       :alt: Change
@@ -144,8 +153,9 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Change
 
+11. **Interact with the forensicVM**:
 
-   Explain
+   Now you can interact with the forensicVM:
 
    .. figure:: img/virtualize_convert_0011.jpg
       :alt: Change
