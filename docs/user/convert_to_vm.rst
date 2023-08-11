@@ -82,76 +82,85 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
    - **Magenta**: Special information messages.
    - **Red**: Error messages.
 
-   The conversion progression is displayed as a percentage. Once completed, a success message paired with the elapsed time is showcased, signaling the end of the conversion.
+   The conversion progression is displayed as a percentage. 
 
    .. figure:: img/virtualize_convert_0004.jpg
-      :alt: Final stages of the conversion process.
+      :alt: Conversion process display
+      :align: center
+
+      Conversion Progress Display
+
+
+5. **Conversion completed**: 
+
+   Once completed, a success message paired with the elapsed time is showcased, signaling the end of the conversion.
+
+   .. figure:: img/virtualize_convert_0005.jpg
+      :alt: Conversion Completion Display
       :align: center
 
       Conversion Completion Display
 
+6. **Success Conversion Popup**:
 
-   Explain
-
-   .. figure:: img/virtualize_convert_0005.jpg
-      :alt: Change
-      :align: center
-
-      Change
-
-
-   Explain
+   Once the image conversion completes, a success popup will appear confirming the conversion's successful completion.
 
    .. figure:: img/virtualize_convert_0006.jpg
-      :alt: Change
+      :alt: Success Conversion Popup
       :align: center
 
-      Change
+      Screenshot of the success conversion popup.
 
+7. **ForensicVM First Boot**:
 
-   Explain
+   To boot up the machine for the first time, click the "Start" button available in the Autopsy ForensicVM Plugin.
 
    .. figure:: img/virtualize_convert_0007.jpg
-      :alt: Change
+      :alt: "Start" Button on the Autopsy ForensicVM Plugin
       :align: center
 
-      Change
+      Screenshot of the "Start" button on the Autopsy ForensicVM Plugin.
 
+8. **Informational Popup - Machine Started**:
 
-   Explain
+   Post clicking the "Start" button, an informational popup will appear to inform you about the machine's status.
 
    .. figure:: img/virtualize_convert_0008.jpg
-      :alt: Change
+      :alt: Informational Popup on Machine Start
       :align: center
 
-      Change
+      Screenshot of the informational popup after machine start.
 
+9. **Opening the ForensicVM**:
 
-   Explain
+   To access the ForensicVM's web screen interface, click the "Open ForensicVM" button. This interface will allow you to interact directly with the forensicVM.
 
    .. figure:: img/virtualize_convert_0009.jpg
-      :alt: Change
+      :alt: "Open ForensicVM" Button
       :align: center
 
-      Change
+      Screenshot of the "Open ForensicVM" button.
 
+10. **ForensicVM Web Screen Interface**:
 
-   Explain
+   Once inside the web screen interface, click the prominent "Connect / Start" button to establish a connection with the forensicVM and view its virtual screen monitor.
 
    .. figure:: img/virtualize_convert_0010.jpg
-      :alt: Change
+      :alt: ForensicVM's "Connect / Start" Button
       :align: center
 
-      Change
+      Screenshot of the ForensicVM's "Connect / Start" button.
 
+11. **Interact with the ForensicVM**:
 
-   Explain
+   With the connection established, you can now freely interact with the forensicVM.
 
    .. figure:: img/virtualize_convert_0011.jpg
-      :alt: Change
+      :alt: ForensicVM Interaction Interface
       :align: center
 
-      Change
+      Screenshot showcasing the ForensicVM's interactive interface.
+
 
 Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server
 ****************************************************************************************

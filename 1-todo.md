@@ -18,8 +18,8 @@
          - [x] Recording progress
          - [x] Stop recording
          - [x] Video download
-      - [ ] Evidence Disk
-         - [ ] Creation
+      - [x] Evidence Disk
+         - [x] Creation
          - [ ] Recolect evidence
          - [ ] Recreate evidence disck
          - [ ] Import evidence disk to autopsy

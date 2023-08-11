@@ -33,4 +33,8 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
 
    Recording Video Evidence from the ForensicVM <webrecord_video>
 
+   Gather Evidence Using the Evidence Disk <evidence_disk>
+
    Deletion of ForensicVM at Investigation Conclusion <delete_vm>
+
+
