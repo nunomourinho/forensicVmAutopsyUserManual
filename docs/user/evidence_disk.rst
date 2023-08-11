@@ -10,7 +10,7 @@ In the event that new tags are introduced in Autopsy, corresponding folders for 
 
 
 Evidence Disk Creation
-======================
+-----------------------
 
 The creation of the evidence disk is an automated process. When you transition a forensic image into a ForensicVM, regardless of whether the method employed is virtualization copy or linking to the forensic image, the evidence disk is fashioned during the final phase of this procedure.
 
@@ -20,4 +20,35 @@ The creation of the evidence disk is an automated process. When you transition a
 
    Screenshot depicting the final phase of the ForensicVM conversion, showcasing the creation of the evidence disk.
 
+Collecting Evidence: A Step-by-Step Guide
+========================================
+
+Collecting digital evidence is a meticulous process, demanding precision, patience, and an understanding of the system you are investigating. When using the ForensicVM, this process is facilitated, yet there are still specific steps to follow. Here's a comprehensive guide on how to go about it:
+
+1. **Initiation of the ForensicVM**:
+
+   Before you can begin your evidence collection, ensure that the ForensicVM is up and running. Start the virtual machine and patiently wait for it to boot up completely.
+
+2. **Logging In**:
+
+   Once the ForensicVM has completely loaded, proceed to log in using the credentials provided or set during the initial configuration. Remember, maintaining the security and integrity of the login process is crucial in a forensic investigation.
+
+3. **System Exploration**:
+
+   With access to the ForensicVM, you can now begin your deep dive into the system. Navigate through the directories, files, applications, and logs. Always keep an eye out for suspicious or relevant files, unusual patterns, or any anomalies that might serve as potential evidence.
+
+4. **Copying Relevant Files to the Evidence Disk**:
+
+   As you uncover potential pieces of evidence:
+
+   - **For Windows Users**:
+     
+     The process is quite straightforward. Simply copy the relevant files or data and save them to the evidence disk, which is typically represented as the D: drive. This dedicated drive serves as a safe repository, ensuring that the original data remains uncompromised.
+     
+   - **For Linux Enthusiasts**:
+     
+     Things might be a tad different. Instead of having immediate access to the evidence disk, you might need to locate it first. Once found, proceed to mount the disk manually. After which, you can copy and save the necessary files or data to this disk.
+
+.. note::
+   Remember, while the process might seem technical, the key is to maintain the integrity of the evidence and ensure that all actions are documented and reproducible. It's not just about finding the evidence, but also about ensuring its admissibility in a court of law.
 
