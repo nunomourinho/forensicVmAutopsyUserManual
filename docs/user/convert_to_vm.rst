@@ -105,11 +105,17 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
    A sucess popup will appear at the end of the image conversion:
 
+   .. figure:: img/virtualize_convert_0006.jpg
+      :alt: Change
+      :align: center
+
+      Change
+
 7. **ForensicVM first boot**
 
    Press the "Start" button on the Autopsy ForensicVM Plugin to start the machine for the first time:
 
-   .. figure:: img/virtualize_convert_0006.jpg
+   .. figure:: img/virtualize_convert_0007.jpg
       :alt: Change
       :align: center
 
@@ -119,7 +125,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
    After clicking the "Start" button, an informational popup will appear:
 
-   .. figure:: img/virtualize_convert_0007.jpg
+   .. figure:: img/virtualize_convert_0008.jpg
       :alt: Change
       :align: center
 
@@ -128,14 +134,6 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 9. **Openning the forensicVM**:
 
    Click the "Open ForensicVM" button to opwn the web screen interface where you can intercat with the forensicVM.
-
-   .. figure:: img/virtualize_convert_0008.jpg
-      :alt: Change
-      :align: center
-
-      Change
-
----
 
    .. figure:: img/virtualize_convert_0009.jpg
       :alt: Change
