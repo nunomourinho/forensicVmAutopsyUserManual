@@ -9,12 +9,15 @@ In the event that new tags are introduced in Autopsy, corresponding folders for 
    In order to fabricate any missing tag directories, it's essential to first halt the ForensicVM's operations. It's advised to shut down the ForensicVM, subsequently close the plugin, and then reopen it via the Autopsy ForensicVM Client Plugin. This procedure ensures that the environment is refreshed and ready to incorporate new changes.
 
 
-Evidence disk creation
------------------------
+Evidence Disk Creation
+======================
 
-   .. figure:: img/evidence_disk_0001.jpg
-      :alt: Change
-      :align: center
+The creation of the evidence disk is an automated process. When you transition a forensic image into a ForensicVM, regardless of whether the method employed is virtualization copy or linking to the forensic image, the evidence disk is fashioned during the final phase of this procedure.
 
-      Change
+.. figure:: img/evidence_disk_0001.jpg
+   :alt: Evidence Disk Creation Process
+   :align: center
+
+   Screenshot depicting the final phase of the ForensicVM conversion, showcasing the creation of the evidence disk.
+
 
