@@ -21,7 +21,7 @@ The creation of the evidence disk is an automated process. When you transition a
    Screenshot depicting the final phase of the ForensicVM conversion, showcasing the creation of the evidence disk.
 
 Collecting Evidence: A Step-by-Step Guide
-******************************************
+------------------------------------------
 
 Collecting digital evidence is a meticulous process, demanding precision, patience, and an understanding of the system you are investigating. When using the ForensicVM, this process is facilitated, yet there are still specific steps to follow. Here's a comprehensive guide on how to go about it:
 
