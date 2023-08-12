@@ -45,10 +45,42 @@ Collecting digital evidence is a meticulous process, demanding precision, patien
      
      The process is quite straightforward. Simply copy the relevant files or data and save them to the evidence disk, which is typically represented as the D: drive. This dedicated drive serves as a safe repository, ensuring that the original data remains uncompromised.
      
-   - **For Linux Enthusiasts**:
+   - **For Linux Investigation**:
      
-     Things might be a tad different. Instead of having immediate access to the evidence disk, you might need to locate it first. Once found, proceed to mount the disk manually. After which, you can copy and save the necessary files or data to this disk.
+     Things might be quite different. Instead of having immediate access to the evidence disk, you might need to locate it first. Once found, proceed to mount the disk manually. After which, you can copy and save the necessary files or data to this disk.
 
 .. note::
    Remember, while the process might seem technical, the key is to maintain the integrity of the evidence and ensure that all actions are documented and reproducible. It's not just about finding the evidence, but also about ensuring its admissibility in a court of law.
+
+Collect evidence on windows:
+*****************************
+
+.. figure:: img/evidence_disk_0002.jpg
+   :alt: Change
+   :align: center
+
+   Change.
+
+.. figure:: img/evidence_disk_0003.jpg
+   :alt: Change
+   :align: center
+
+   Change.
+
+.. figure:: img/evidence_disk_0004.jpg
+   :alt: Change
+   :align: center
+
+   Change.
+
+.. figure:: img/evidence_disk_0005.jpg
+   :alt: Change
+   :align: center
+
+   Change.
+
+
+Collect evidence on linux:
+***************************
+
 
