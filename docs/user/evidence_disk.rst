@@ -176,7 +176,7 @@ To safeguard all collected evidence, conclude the procedure by opting for "Power
 
 
 Import Possible Evidence Disk into Autopsy
-********************************************
+-------------------------------------------
 
 Autopsy is a digital forensics platform. To import a ``qcow2`` evidence disk, first convert it to ``vmdk``. Follow the guide below:
 
@@ -344,7 +344,7 @@ Tagged evidence will be highlighted.
 
 
 Update Evidence Disk Tags
-**************************
+---------------------------
 
 During the course of a forensic investigation, there may be instances when you need to append additional tags. Ensuring that the "possible evidence disk" reflects these changes is crucial. The following steps guide you on making sure the tag folders are created on the evidence disk:
 
