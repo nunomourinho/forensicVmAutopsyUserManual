@@ -20,18 +20,14 @@
          - [x] Video download
       - [x] Evidence Disk
          - [x] Creation
-         - [ ] Recolect evidence
-         - [ ] Recreate evidence disck
+         - [ ] Colect evidence
+         - [ ] Recreate evidence disk
          - [ ] Import evidence disk to autopsy
       - [ ] Network card
          - [ ] Enable network card /Web enable network
          - [ ] Disable network card /web disable network
          - [ ] Download Wireshark pcap files
          - [ ] Analyse in wireshark
-      - [ ] Analyse Forensic VM Performance
-      - [ ] Open forensicVM webshell
-      - [ ] DEBUG: remote ssh to folder
-      - [ ] Settings scaling - Local scaling
       - [ ] Media
          - [ ] Select ISO /web select cdrom
          - [ ] List Remote ISO files
@@ -40,6 +36,10 @@
          - [ ] Browse and upload ISO
          - [ ] Delete ISO
          - [ ] Botable Media: How to boot a cdrom
+      - [ ] Analyse Forensic VM Performance
+      - [ ] Open forensicVM webshell
+      - [ ] DEBUG: remote ssh to folder
+      - [ ] Settings scaling - Local scaling
       - [ ] Plugins
         - [ ] Add forensic admin
         - [ ] Reset Windows XP or Windows 2003 Activation
