@@ -67,7 +67,7 @@ The first step is to login into the operating system. If necessary run a plugin 
 
 **Locate evidence and the evidence disk**
 
-After that, locate the evidence disk. This disk is labeled as **possible evidence**, and usually was the drive **D:**. The evidence disk is composed of folders named with all available tags on autopsy. You can created any folders or subfolders that you need for investigation, but the recomended method is to update or create tags in autopsy and the reopen the Autopsy Plugin and the forensicVM. As shown in the figure :numref:`evidence_disk_windows_folders`, we can see the evidence drive within the gree retangle, and the windows explorer locating a possible evidence in the red retangle. You should locate and copy your possible evidences to the "possible evidence" drive, to inside the apropriate Autopsy Folder Tags.
+After that, locate the evidence disk. This disk is labeled as **possible evidence**, and usually was the drive **D:**. The evidence disk is composed of folders named with all available tags on autopsy. You can created any folders or subfolders that you need for investigation, but the recomended method is to update or create tags in autopsy and the reopen the Autopsy Plugin and the forensicVM. As shown in the figure :numref:`evidence-windows`, we can see the evidence drive within the gree retangle, and the windows explorer locating a possible evidence in the red retangle. You should locate and copy your possible evidences to the "possible evidence" drive, to inside the apropriate Autopsy Folder Tags.
 
 .. figure:: img/evidence_disk_0003.jpg
    :alt: Change
@@ -75,7 +75,7 @@ After that, locate the evidence disk. This disk is labeled as **possible evidenc
 
    Change.
 
-.. _evidence_disk_windows_folders:
+.. _evidence-windows:
 
 .. figure:: img/evidence_disk_0004.jpg
    :alt: Change
