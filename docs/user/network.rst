@@ -115,3 +115,27 @@ In Linux, depending on the distribution and the desktop environment, you can man
    Always proceed with caution when enabling the network, especially on systems that are meant for forensic investigations or are potentially compromised. It's vital to ensure systems and network security and to be aware of the risks involved.
 
 
+Disable the Network Card
+-------------------------
+
+To deactivate the network card on the forensicVM, there are two methods available. The first method involves using the Autopsy ForensicVM client plugin interface, and the second requires directly interacting with the web screen interface through the network icon.
+
+Disable network card using the Autopsy ForensicVM Client Plugin Interface
+**************************************************************************
+
+**Deactivate Network Card Button**
+
+
+1. Start the forensicVM machine.
+2. Navigate to the Network Panel within the interface.
+3. Look for the "Disable network card" button and click on it.
+
+.. figure:: img/network_0006.jpg
+   :alt: Disabling the network card through the Autopsy ForensicVM Client interface
+   :align: center
+
+   Disabling the network card through the Autopsy ForensicVM Client interface
+
+
+Disable Network Using the Web Screen Interface
+************************************************
