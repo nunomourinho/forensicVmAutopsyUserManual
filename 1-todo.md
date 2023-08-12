@@ -22,7 +22,7 @@
          - [x] Creation
          - [x] Colect evidence
          - [x] Import evidence disk to autopsy
-         - [ ] Update tags
+         - [x] Update tags
          - [ ] Recreate evidence disk
          
       - [ ] Network card
