@@ -23,7 +23,7 @@
          - [x] Colect evidence
          - [x] Import evidence disk to autopsy
          - [x] Update tags
-         - [ ] Recreate evidence disk         
+         - [x] Recreate evidence disk         
       - [ ] Network card
          - [ ] Enable network card /Web enable network
          - [ ] Disable network card /web disable network
