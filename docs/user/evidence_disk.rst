@@ -105,12 +105,19 @@ Before integrating the possible evidence drive into Autopsy, it's imperative to 
 Collect evidence on linux
 ***************************
 
+**Login into system**
+
+The first step to gather possible evidence is to login to the system. You should know what are the users and passwords. If not, please use a plugin or develop one for the community! The following figure shows an ubuntu 22.10 login process with a full desktop:
+
 .. figure:: img/evidence_disk_0006.jpg
    :alt: Change
    :align: center
 
    Change.
 
+**Locate the possible evidence disk**
+
+Open the file explorer and locate the evidence disk. In this example, open the "Other locations" and then double click the "possible evidence" to mount it:
 
 .. figure:: img/evidence_disk_0007.jpg
    :alt: Change
@@ -118,6 +125,7 @@ Collect evidence on linux
 
    Change.
 
+The evidence drive is mounted. Now you can start searching for possible evidence. In the figure you see all posible Autopsy Tags  folders where you can organize your evidence:
 
 .. figure:: img/evidence_disk_0008.jpg
    :alt: Change
@@ -125,6 +133,7 @@ Collect evidence on linux
 
    Change.
 
+Locate the evidence. In this case it was located a hash dump file and a possible evidence that shows the use of meterpreter:
 
 .. figure:: img/evidence_disk_0009.jpg
    :alt: Change
@@ -132,6 +141,7 @@ Collect evidence on linux
 
    Change.
 
+Copy the possible evidence to the "possible evidence folder":
 
 .. figure:: img/evidence_disk_0010.jpg
    :alt: Change
@@ -139,6 +149,9 @@ Collect evidence on linux
 
    Change.
 
+**Pre-importing Considerations for Autopsy**
+
+Before integrating the possible evidence drive into Autopsy, it's imperative to either shut down or stop the forensicVM. Opting for a shutdown is highly recommended. Choosing to merely stop the virtual machine introduces the risk of data corruption which could compromise the integrity of the evidence or render parts of it unusable. In this example, we will click the power icon, then click the "Power Off/Log Out" in the menu:
 
 .. figure:: img/evidence_disk_0011.jpg
    :alt: Change
@@ -146,6 +159,9 @@ Collect evidence on linux
 
    Change.
 
+**Safely Power Off**
+
+Then, to preserve the evidence, we will click the "Power Off" to start the shutdown process:
 
 .. figure:: img/evidence_disk_0012.jpg
    :alt: Change
