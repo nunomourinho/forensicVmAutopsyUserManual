@@ -176,3 +176,11 @@ To safeguard all collected evidence, conclude the procedure by opting for "Power
    :align: center
 
    Promptly shutting down the system to ensure evidence safety.
+
+
+Import Possible Evidence Disk into Autopsy
+-------------------------------------------
+
+The evidence disk is a qcow2 disk that can be imported to autopsy in a vmdk format. So it must be converted to vmdk and downloaded from the Autopsy forensicVM Server into your computer. Where are the steps to make this happen:
+
+
