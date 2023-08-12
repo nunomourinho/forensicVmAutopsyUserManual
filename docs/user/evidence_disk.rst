@@ -102,72 +102,71 @@ Before integrating the possible evidence drive into Autopsy, it's imperative to 
    Options available for safely preserving the BitLocker drive before importing to Autopsy.
 
 
-Collect evidence on linux
-***************************
+Collecting Evidence on Linux
+============================
 
-**Login into system**
-
-The first step to gather possible evidence is to login to the system. You should know what are the users and passwords. If not, please use a plugin or develop one for the community! The following figure shows an ubuntu 22.10 login process with a full desktop:
+**Accessing the System**
+To embark on evidence collection, the primary step involves gaining access to the Linux system. Knowledge of user credentials is essential. If you find yourself without the necessary credentials, consider utilizing available plugins to assist. Alternatively, developing and sharing a new plugin with the community could be a valuable contribution! The illustration below presents the login process for an Ubuntu 22.10 system featuring a comprehensive desktop environment.
 
 .. figure:: img/evidence_disk_0006.jpg
-   :alt: Change
+   :alt: Ubuntu 22.10 login screen
    :align: center
 
-   Change.
+   Ubuntu 22.10 login screen with a full desktop.
 
-**Locate the possible evidence disk**
-
-Open the file explorer and locate the evidence disk. In this example, open the "Other locations" and then double click the "possible evidence" to mount it:
+**Identifying the Evidence Disk**
+After successfully logging in, launch the file explorer to identify the evidence disk. In the given instance, one would navigate to "Other locations" and subsequently double-click on "possible evidence" to initiate its mounting.
 
 .. figure:: img/evidence_disk_0007.jpg
-   :alt: Change
+   :alt: Navigating to 'Other locations' in file explorer
    :align: center
 
-   Change.
+   Identifying the "possible evidence" disk in the file explorer.
 
-The evidence drive is mounted. Now you can start searching for possible evidence. In the figure you see all posible Autopsy Tags  folders where you can organize your evidence:
+**Plan Evidence Gathering**
+Once the evidence drive is appropriately mounted, you're primed to delve into your evidence search. Displayed in the subsequent figure are folders corresponding to various Autopsy Tags, offering a structured approach to evidence organization.
 
 .. figure:: img/evidence_disk_0008.jpg
-   :alt: Change
+   :alt: Autopsy Tags folders
    :align: center
 
-   Change.
+   Autopsy Tags folders for structured evidence organization.
 
-Locate the evidence. In this case it was located a hash dump file and a possible evidence that shows the use of meterpreter:
+**Explore and find possible evidence**
+Navigating to the designated folder, we discern a hash dump file alongside potential evidence pointing to the deployment of a meterpreter.
 
 .. figure:: img/evidence_disk_0009.jpg
-   :alt: Change
+   :alt: Identifying potential evidence
    :align: center
 
-   Change.
+   Highlighting a hash dump file and indications of meterpreter usage.
 
-Copy the possible evidence to the "possible evidence folder":
+
+**Organize and Transfer Potential Evidence to the Evidence Drive**
+Now, to preserve this crucial data, ensure you copy the identified potential evidence to the designated "possible evidence" folder.
 
 .. figure:: img/evidence_disk_0010.jpg
-   :alt: Change
+   :alt: Transferring evidence to the 'possible evidence' folder
    :align: center
 
-   Change.
+   Transferring discovered evidence to the "possible evidence" folder.
 
-**Pre-importing Considerations for Autopsy**
 
-Before integrating the possible evidence drive into Autopsy, it's imperative to either shut down or stop the forensicVM. Opting for a shutdown is highly recommended. Choosing to merely stop the virtual machine introduces the risk of data corruption which could compromise the integrity of the evidence or render parts of it unusable. In this example, we will click the power icon, then click the "Power Off/Log Out" in the menu:
+**Preparing for Autopsy Integration**
+Before channeling the evidence disk into Autopsy, it's paramount to adopt one of two measures: either halt the forensicVM operations or completely shut it down. Favoring the shutdown route comes strongly advised, as a mere halt could inadvertently introduce data corruption. Such anomalies might jeopardize evidence integrity or entirely nullify certain data segments. In our context, you'd initiate this by selecting the power icon, followed by the "Power Off/Log Out" option from the ensuing menu.
 
 .. figure:: img/evidence_disk_0011.jpg
-   :alt: Change
+   :alt: Navigating to the power options
    :align: center
 
-   Change.
+   Accessing the power options on Ubuntu 22.10.
 
-**Safely Power Off**
+**Concluding the Process**
 
-Then, to preserve the evidence, we will click the "Power Off" to start the shutdown process:
+To safeguard all collected evidence, conclude the procedure by opting for "Power Off", thereby initiating the system's shutdown.
 
 .. figure:: img/evidence_disk_0012.jpg
-   :alt: Change
+   :alt: Powering off the system
    :align: center
 
-   Change.
-
-
-
+   Promptly shutting down the system to ensure evidence safety.
