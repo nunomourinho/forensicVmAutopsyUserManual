@@ -126,7 +126,8 @@ The following figure demonstrates data extraction from OneDrive, a popular onlin
 .. figure:: img/network_0008.jpg
    :alt: Interact with the network and collect cloud evidence from OneDrive
    :align: center
-   :caption: Interact with the network and collect cloud evidence from OneDrive
+
+    Interact with the network and collect cloud evidence from OneDrive
 
 **Gathering Data from Cloud Services - Online Storage Example**
 
@@ -135,7 +136,8 @@ In this next example, an online file storage platform is accessed using cached c
 .. figure:: img/network_0009.jpg
    :alt: Accessing and extracting data from an online storage using cached credentials
    :align: center
-   :caption: Accessing and extracting data from an online storage using cached credentials
+   
+    Accessing and extracting data from an online storage using cached credentials
 
 Disable the Network Card
 -------------------------
