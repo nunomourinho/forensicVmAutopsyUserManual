@@ -114,6 +114,32 @@ In Linux, depending on the distribution and the desktop environment, you can man
 
    Always proceed with caution when enabling the network, especially on systems that are meant for forensic investigations or are potentially compromised. It's vital to ensure systems and network security and to be aware of the risks involved.
 
+Collect Network Evidence
+-------------------------
+
+Enabling the network card is often crucial for forensic investigations, especially when collecting evidence from cloud services. This is particularly relevant when users have not logged out from a service or when session cookies remain in the browser. Such scenarios allow forensic investigators to trace digital breadcrumbs and gather additional evidence that may be inaccessible from offline forensic images. Below are two illustrative examples:
+
+**Gathering Data from Cloud Services - OneDrive Example**
+
+The following figure demonstrates data extraction from OneDrive, a popular online cloud service.
+
+.. figure:: img/network_0008.jpg
+   :alt: Interact with the network and collect cloud evidence from OneDrive
+   :align: center
+
+    Interact with the network and collect cloud evidence from OneDrive
+
+**Gathering Data from Cloud Services - Online Storage Example**
+
+In this next example, an online file storage platform is accessed using cached credentials:
+
+.. figure:: img/network_0009.jpg
+   :alt: Accessing and extracting data from an online storage using cached credentials
+   :align: center
+   
+    Accessing and extracting data from an online storage using cached credentials
+
+
 
 Disable the Network Card
 -------------------------
@@ -154,3 +180,26 @@ The Web Screen Interface offers an alternative approach for users who prefer to 
    :align: center
 
    Process to disable the network card using the Web Screen Interface
+
+
+Download Wireshark pcap files
+------------------------------
+
+To download the Wireshark pcap files clieck the button "Download Wireshark pcap files" on the Autopsy ForensicVM client plugin interface:
+
+.. figure:: img/network_0010.jpg
+   :alt: Change
+   :align: center
+
+A windows explorer window will appear asking where to save the pcap.zip file:
+
+.. figure:: img/network_0011.jpg
+   :alt: Change
+   :align: center
+
+After a few seconds a download progress box will appear. The download will take several minutes depending of the size of the pcap.zip file:
+
+.. figure:: img/network_0012.jpg
+   :alt: Change
+   :align: center
+
