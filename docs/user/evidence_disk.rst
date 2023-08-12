@@ -53,10 +53,9 @@ Collecting digital evidence is a meticulous process, demanding precision, patien
    Remember, while the process might seem technical, the key is to maintain the integrity of the evidence and ensure that all actions are documented and reproducible. It's not just about finding the evidence, but also about ensuring its admissibility in a court of law.
 
 Collect Evidence on Windows
-===========================
+***************************
 
-Log into Windows
-----------------
+**Log into Windows**
 
 Begin by logging into the operating system. Should there be a need, employ a plugin to either craft a **forensicAdministrator** user or reset an existing user's password.
 
@@ -66,12 +65,11 @@ Begin by logging into the operating system. Should there be a need, employ a plu
 
    Windows login screen.
 
-Identify Evidence and the Evidence Disk
----------------------------------------
+**Identify Evidence and the Evidence Disk**
 
 Post login, your next objective is to pinpoint the evidence disk. This specific disk is marked with the label **possible evidence**. Conventionally, it's designated as drive **D:**. The very essence of this disk is a collection of folders; each bearing the name of tags available in Autopsy. Though investigators have the liberty to tailor-make folders or sub-folders as per the requirements of their investigation, a suggested practice is to either refine or instate new tags in Autopsy. Post this step, both the Autopsy Plugin and the ForensicVM should be restarted.
 
-The succeeding image (see `evidence-windows`_) offers a visual guide: The evidence drive is demarcated by a green rectangle, while the Windows Explorer - which is in the process of identifying potential evidence - is enclosed within a red rectangle. The objective here is to locate and transfer the identified evidence into the "possible evidence" drive, ensuring they're nestled under the appropriate Autopsy Folder Tags.
+The succeeding image (see :num-ref:`evidence-windows`_) offers a visual guide: The evidence drive is demarcated by a green rectangle, while the Windows Explorer - which is in the process of identifying potential evidence - is enclosed within a red rectangle. The objective here is to locate and transfer the identified evidence into the "possible evidence" drive, ensuring they're nestled under the appropriate Autopsy Folder Tags.
 
 .. figure:: img/evidence_disk_0003.jpg
    :alt: Locating evidence
@@ -82,17 +80,26 @@ The succeeding image (see `evidence-windows`_) offers a visual guide: The eviden
 .. _evidence-windows: Identification and transfer of evidence
 
 
+
+**Transferring the Entire Encrypted BitLocker Drive**
+
+The illustration below showcases the entirety of an encrypted BitLocker drive being transferred to the Autopsy 'Follow Up' tag. The foundational principle of this process lies in ensuring that the full, unaltered encrypted drive is copied, preserving its integrity for forensic examination. By copying the entire encrypted disk file, forensic analysts can ensure they are working with a complete and untampered set of data.
+
 .. figure:: img/evidence_disk_0004.jpg
-   :alt: Change
+   :alt: Entire encrypted BitLocker drive being transferred
    :align: center
 
-   Change.
+   Transferring the full encrypted BitLocker drive to the Autopsy 'Follow Up' tag.
+
+**Pre-importing Considerations for Autopsy**
+
+Before integrating the BitLocker drive into Autopsy, it's imperative to either shut down or stop the forensicVM. Opting for a shutdown is highly recommended. Choosing to merely stop the virtual machine introduces the risk of data corruption which could compromise the integrity of the evidence or render parts of it unusable.
 
 .. figure:: img/evidence_disk_0005.jpg
-   :alt: Change
+   :alt: Shutdown or stop options
    :align: center
 
-   Change.
+   Options available for safely preserving the BitLocker drive before importing to Autopsy.
 
 
 Collect evidence on linux
