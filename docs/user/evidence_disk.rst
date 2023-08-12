@@ -420,9 +420,16 @@ Click on "Open ForensicVM".
 
 Log into the forensicVM and identify the freshly generated tag folder.
 
+.. figure:: img/evidence_disk_0035.jpg
+   :alt: Identify the New Folder Tag
+   :align: center
+
+   *Identify the New Folder Tag*
+
 .. tip::
 
    For users operating on Windows versions later than 8: If the evidence folder is elusive, ensure Windows is not in hibernation instead of being completely shut down. To bypass this, while shutting down the forensicVM, hold down the [Shift] key on your keyboard. This ensures the hibernation file is removed and the drive is primed to receive instructions. You can then retry the procedure.
+
 
 Recreate Evidence Disk
 -----------------------
@@ -430,3 +437,57 @@ Recreate Evidence Disk
 .. danger::
 
    When you choose this option all data on the evidence disk gets erased! It is not possible to recover this data later! Please first follow the instructions to `Import evidence disk`_
+
+
+**Safely shutdown windows**
+
+Shutdown windows with the [Shift] key pressed to delete the hibernation file and unlock the evidence.vmdk disk.
+
+.. figure:: img/evidence_disk_0036.jpg
+   :alt: Change 
+   :align: center
+
+   *Change*
+
+**Recreate Evidence Disk**
+
+After the machine is sucessfully shutdown, press the "Recreate Evidence Disk" on the Autopsy ForensicVM Client Plugin interface:
+
+.. figure:: img/evidence_disk_0037.jpg
+   :alt: Change 
+   :align: center
+
+   *Change*
+
+.. figure:: img/evidence_disk_0038.jpg
+   :alt: Change 
+   :align: center
+
+   *Change*
+
+.. figure:: img/evidence_disk_0039.jpg
+   :alt: Change 
+   :align: center
+
+   *Change*
+
+.. figure:: img/evidence_disk_0040.jpg
+   :alt: Change 
+   :align: center
+
+   *Change*
+
+.. figure:: img/evidence_disk_0041.jpg
+   :alt: Change 
+   :align: center
+
+   *Change*
+
+.. figure:: img/evidence_disk_0042.jpg
+   :alt: Change 
+   :align: center
+
+   *Change*
+
+
+
