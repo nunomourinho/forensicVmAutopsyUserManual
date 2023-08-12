@@ -37,6 +37,6 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
 
    Deletion of ForensicVM at Investigation Conclusion <delete_vm>
 
-   Managing the Network Card to Capture and Analyse Network Traffic in Wireshark <network>.
+   Managing the Network Card to Capture and Analyse Network Traffic in Wireshark <network>
 
 
