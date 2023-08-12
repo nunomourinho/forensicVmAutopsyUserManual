@@ -24,8 +24,8 @@
          - [x] Import evidence disk to autopsy
          - [x] Update tags
          - [x] Recreate evidence disk         
-      - [ ] Network card
-         - [ ] Enable network card /Web enable network
+      - [x] Network card
+         - [x] Enable network card /Web enable network
          - [ ] Disable network card /web disable network
          - [ ] Download Wireshark pcap files
          - [ ] Analyse in wireshark
