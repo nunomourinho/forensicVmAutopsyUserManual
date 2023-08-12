@@ -135,7 +135,8 @@ Disable Network Card with the Autopsy ForensicVM Client Plugin Interface
 .. figure:: img/network_0006.jpg
    :alt: Disabling the network card through the Autopsy ForensicVM Client interface
    :align: center
-   :caption: Disabling the network card through the Autopsy ForensicVM Client interface
+
+    Disabling the network card through the Autopsy ForensicVM Client interface
 
 Using the Web Screen Interface to Disable the Network Card
 ************************************************************
@@ -151,6 +152,5 @@ The Web Screen Interface offers an alternative approach for users who prefer to 
 .. figure:: img/network_0007.jpg
    :alt: Disabling the network card using the Web Screen Interface
    :align: center
-   :caption: Process to disable the network card using the Web Screen Interface
 
-
+   Process to disable the network card using the Web Screen Interface
