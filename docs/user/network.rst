@@ -12,4 +12,15 @@ inbuilt firewall designed to block access to identified local networks while per
 
    It's paramount to treat the activation of the network card as a method of last    resort. Alternatively, consider using a remotely hosted forensicVM server. The integrity of the firewall isn't foolproof, meaning there's always a risk that malicious software might infiltrate your network. Furthermore, a compromised machine could ping back to an attacker, potentially revealing your external IP address and inadvertently notifying a malicious actor that they are under active investigation!
 
+Enable the network card
+------------------------
+
+There are tow ways to enable the network card. The first is in the Autopsy ForensicVM client plugin interface and the second is by clicking the network icon and enable the network using the "Enable network (caution!)" button.
+
+Enable the network in the Autopsy ForensicVM Client interface
+**************************************************************
+
+With the forensicVM machine started, please click the "Enable network card" button in the Network Panel:
+
+
 
