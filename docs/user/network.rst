@@ -153,3 +153,4 @@ The Web Screen Interface offers an alternative approach for users who prefer to 
    :align: center
    :caption: Process to disable the network card using the Web Screen Interface
 
+
