@@ -78,7 +78,7 @@ Post login, your next objective is to pinpoint the evidence disk. This specific 
 
 The :numref:`Fig. %s <evidence-windows>` offers a visual guide: The evidence drive is demarcated by a green rectangle, while the Windows Explorer - which is in the process of identifying potential evidence - is enclosed within a red rectangle. The objective here is to locate and transfer the identified evidence into the "possible evidence" drive, ensuring they're nestled under the appropriate Autopsy Folder Tags.
 
-**Transferring the Entire Encrypted BitLocker Drive**
+**Example: Transferring the Entire Encrypted BitLocker Drive**
 
 The illustration below showcases the entirety of an encrypted BitLocker drive being transferred to the Autopsy 'Follow Up' tag. The foundational principle of this process lies in ensuring that the full, unaltered encrypted drive is copied, preserving its integrity for forensic examination. By copying the entire encrypted disk file, forensic analysts can ensure they are working with a complete and untampered set of data.
 
