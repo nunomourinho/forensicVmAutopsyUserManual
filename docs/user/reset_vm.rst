@@ -3,7 +3,7 @@ Resetting the Virtual Machine (VM)
 
 Resetting the forensic virtual machine (forensicVM) is akin to an immediate reboot, and there are three different ways to do so. These methods provide flexibility depending on your access level and location within the system interface:
 
-1) Reset ForensicVM in the Main Plugin Interface
+Reset ForensicVM in the Main Plugin Interface
 ------------------------------------------------
 
 To reset the forensicVM from the main plugin interface, follow these simple steps:
@@ -18,7 +18,7 @@ To reset the forensicVM from the main plugin interface, follow these simple step
 
    b) Press the reset button to immediately reboot the virtual machine.
 
-2) Reset ForensicVM after Logging in to the Web Remote Screen
+Reset ForensicVM after Logging in to the Web Remote Screen
 ------------------------------------------------------------
 
 To reset the forensicVM through the web remote screen interface, you need to:
@@ -32,7 +32,7 @@ To reset the forensicVM through the web remote screen interface, you need to:
 
       Reset VM on the web remote screen
 
-3) Reset ForensicVM on the Web Interface
+Reset ForensicVM on the Web Interface
 ----------------------------------------
 
 Another option to reset the forensicVM is from the web interface. This method may be preferred if you are working remotely or through a particular service interface:
