@@ -174,6 +174,7 @@ To safeguard all collected evidence, conclude the procedure by opting for "Power
 
    Promptly shutting down the system to ensure evidence safety.
 
+.. _Import evidence disk:
 
 Import Possible Evidence Disk into Autopsy
 -------------------------------------------
@@ -422,3 +423,10 @@ Log into the forensicVM and identify the freshly generated tag folder.
 .. tip::
 
    For users operating on Windows versions later than 8: If the evidence folder is elusive, ensure Windows is not in hibernation instead of being completely shut down. To bypass this, while shutting down the forensicVM, hold down the [Shift] key on your keyboard. This ensures the hibernation file is removed and the drive is primed to receive instructions. You can then retry the procedure.
+
+Recreate Evidence Disk
+-----------------------
+
+.. danger::
+
+   When you choose this option all data on the evidence disk gets erased! It is not possible to recover this data later! Please first follow the instructions to `Import evidence disk`_
