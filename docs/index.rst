@@ -43,4 +43,4 @@ Check out the :doc:`usage` section for further information, including how to :re
    :maxdepth: 3
    :caption: reStructuredText
 
-   reStructuredText guide <typeset>
+   reStructuredText guide <typset>
