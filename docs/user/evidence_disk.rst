@@ -76,7 +76,7 @@ Post login, your next objective is to pinpoint the evidence disk. This specific 
 
    Identification and transfer of evidence.
 
-The previous figure :numref:`Image of Sphinx (Fig. %s) <evidence-windows>`) offers a visual guide: The evidence drive is demarcated by a green rectangle, while the Windows Explorer - which is in the process of identifying potential evidence - is enclosed within a red rectangle. The objective here is to locate and transfer the identified evidence into the "possible evidence" drive, ensuring they're nestled under the appropriate Autopsy Folder Tags.
+The :numref:`Fig. %s <evidence-windows>` offers a visual guide: The evidence drive is demarcated by a green rectangle, while the Windows Explorer - which is in the process of identifying potential evidence - is enclosed within a red rectangle. The objective here is to locate and transfer the identified evidence into the "possible evidence" drive, ensuring they're nestled under the appropriate Autopsy Folder Tags.
 
 **Transferring the Entire Encrypted BitLocker Drive**
 
