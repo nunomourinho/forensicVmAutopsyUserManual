@@ -52,7 +52,7 @@ Collecting digital evidence is a meticulous process, demanding precision, patien
 .. note::
    Remember, while the process might seem technical, the key is to maintain the integrity of the evidence and ensure that all actions are documented and reproducible. It's not just about finding the evidence, but also about ensuring its admissibility in a court of law.
 
-Collect evidence on windows:
+Collect evidence on windows
 *****************************
 
 .. figure:: img/evidence_disk_0002.jpg
@@ -80,7 +80,56 @@ Collect evidence on windows:
    Change.
 
 
-Collect evidence on linux:
+Collect evidence on linux
 ***************************
+
+.. figure:: img/evidence_disk_0006.jpg
+   :alt: Change
+   :align: center
+
+   Change.
+
+
+.. figure:: img/evidence_disk_0007.jpg
+   :alt: Change
+   :align: center
+
+   Change.
+
+
+.. figure:: img/evidence_disk_0008.jpg
+   :alt: Change
+   :align: center
+
+   Change.
+
+
+.. figure:: img/evidence_disk_0009.jpg
+   :alt: Change
+   :align: center
+
+   Change.
+
+
+.. figure:: img/evidence_disk_0010.jpg
+   :alt: Change
+   :align: center
+
+   Change.
+
+
+.. figure:: img/evidence_disk_0011.jpg
+   :alt: Change
+   :align: center
+
+   Change.
+
+
+.. figure:: img/evidence_disk_0012.jpg
+   :alt: Change
+   :align: center
+
+   Change.
+
 
 
