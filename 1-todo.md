@@ -23,8 +23,7 @@
          - [x] Colect evidence
          - [x] Import evidence disk to autopsy
          - [x] Update tags
-         - [ ] Recreate evidence disk
-         
+         - [ ] Recreate evidence disk         
       - [ ] Network card
          - [ ] Enable network card /Web enable network
          - [ ] Disable network card /web disable network
@@ -38,23 +37,24 @@
          - [ ] Browse and upload ISO
          - [ ] Delete ISO
          - [ ] Botable Media: How to boot a cdrom
-      - [ ] Analyse Forensic VM Performance
-      - [ ] Open forensicVM webshell
-      - [ ] DEBUG: remote ssh to folder
-      - [ ] Settings scaling - Local scaling
-      - [ ] Plugins
-        - [ ] Add forensic admin
-        - [ ] Reset Windows XP or Windows 2003 Activation
-        - [ ] Patch accessibility
-        - [ ] Remove hibernation file
-        - [ ] List remote Plugins
-        - [ ] Run Selected plugin
       - [ ] Snapshots
          - [ ] List remote snapshots
          - [ ] Create new
          - [ ] Rollback
          - [ ] Delete
          - [ ] Select snapshot
+      - [ ] Analyse Forensic VM Performance
+      - [ ] Open forensicVM webshell
+      - [ ] DEBUG: remote ssh to folder
+      - [ ] Settings scaling - Local scaling
+      - [ ] Plugins
+        - [ ] Add forensic admin in windows
+        - [ ] Add forensic admin in linux
+        - [ ] Reset Windows XP or Windows 2003 Activation
+        - [ ] Patch accessibility
+        - [ ] Remove hibernation file
+        - [ ] List remote Plugins
+        - [ ] Run Selected plugin
       - [ ] Finetunning
          - [ ] Change VM memory size
          - [ ] Set datetime
