@@ -176,172 +176,169 @@ To safeguard all collected evidence, conclude the procedure by opting for "Power
 
 
 Import Possible Evidence Disk into Autopsy
--------------------------------------------
+********************************************
 
-The evidence disk is a qcow2 disk that can be imported to autopsy in a vmdk format. So it must be converted to vmdk and downloaded from the Autopsy forensicVM Server into your computer. Where are the steps to make this happen:
+Autopsy is a digital forensics platform. To import a ``qcow2`` evidence disk, first convert it to ``vmdk``. Follow the guide below:
 
-**Run the Autopsy ForensicVM plugin on the pretended datasource**
+**Run the Autopsy ForensicVM plugin on the intended datasource**
 
-- First you must open the Autopsy Case and run the Autopsy ForensicVM plugin on the case datasource to open it on the Autospy ForensicVM client plugin:
+#. Begin by launching the Autopsy Case.
+#. Execute the Autopsy ForensicVM plugin on the case datasource.
 
 .. figure:: img/evidence_disk_0013.jpg
-   :alt: Change
+   :alt: Autopsy ForensicVM Plugin Interface
    :align: center
+   
+   *Autopsy ForensicVM Plugin Interface*
 
-   Change
+**Securely Shutdown the forensicVM**
 
-**Securely shutdown the forensicVM**
-
-- Then you must assure that the forensicVM machine is proper shutdown. If you did't made it by now, please shutdown the machine by pressing the "Shutdown VM" button on the Autopsy ForensicVM Client interface:
+#. Ensure the forensicVM machine is shut down. 
+#. If not, shut down using the "Shutdown VM" button in the Autopsy ForensicVM Client interface.
 
 .. figure:: img/evidence_disk_0014.jpg
-   :alt: Change
+   :alt: Shutdown VM Interface
    :align: center
 
-   Change
+   *Shutdown VM Interface*
 
 **Import evidence disk**
 
-- Now you can import the forensic evidence drive by clicking the "Import Evidence Disk" button:
+Click the "Import Evidence Disk" button.
 
 .. figure:: img/evidence_disk_0015.jpg
-   :alt: Change
+   :alt: Import Evidence Disk Interface
    :align: center
 
-   Change
+   *Import Evidence Disk Interface*
 
 **Save evidence disk to default path**
 
-A windows explorer "Save As" dialog appear. Maintain the proposed path
+A Windows Explorer "Save As" dialog will appear. Retain the suggested path.
 
 .. figure:: img/evidence_disk_0016.jpg
-   :alt: Change
+   :alt: Save As Dialog
    :align: center
 
-   Change
+   *Save As Dialog*
 
-**Download Progress**
+**Monitor the Download Progress**
 
-A download progress will be shown. Please waith until the evidence disk is fully downloaded.
+Wait for the evidence disk download to complete.
 
 .. figure:: img/evidence_disk_0017.jpg
-   :alt: Change
+   :alt: Download Progress Bar
    :align: center
 
-   Change
+   *Download Progress Bar*
 
 **Evidence Disk Informational Popup**
 
-An popup will appear informing the evidence path, and that in the next step, the explorer will open on the evidence.vmdk downloaded path:
+A notification popup will display the evidence path.
 
 .. figure:: img/evidence_disk_0018.jpg
-   :alt: Change
+   :alt: Evidence Disk Popup Notification
    :align: center
 
-   Change
+   *Evidence Disk Popup Notification*
 
-**Explorer in the path**
+**Locate the Evidence in the Path**
 
-The windows explorer will open in the evidence.vmdk path. Now you must copy the evidence.vmdk path:
+Windows Explorer will display the evidence.vmdk path. Copy this path.
 
 .. figure:: img/evidence_disk_0019.jpg
-   :alt: Change
+   :alt: Evidence.vmdk in Windows Explorer
    :align: center
 
-   Change
+   *Evidence.vmdk in Windows Explorer*
 
 **Copy evidence disk path**
 
-With the shift key pressed, right-click over the evidence.vmdk file to open the context menu. Now you can use the option "Copy as path" option
+Hold Shift, right-click on evidence.vmdk, and select "Copy as path".
 
 .. figure:: img/evidence_disk_0020.jpg
-   :alt: Change
+   :alt: Copying evidence.vmdk Path
    :align: center
 
-   Change
+   *Copying evidence.vmdk Path*
 
-**Add a new datasource in Autopsy Software**
+**Integrate a New Data Source in Autopsy Software**
 
-In autopsy software you must add a new datasource. Click the "Add Data Souce" on the main bar:
+Click "Add Data Source" in Autopsy.
 
 .. figure:: img/evidence_disk_0021.jpg
-   :alt: Change
+   :alt: Add Data Source Option in Autopsy
    :align: center
 
-   Change
+   *Add Data Source Option in Autopsy*
 
-**Choose the existing host**
+**Select the Appropriate Host**
 
-You must Select the same host to import the evidence disk, so that you can organize the evidence disk inside the host that you are analysing:
+Select the same host when importing the evidence disk.
 
 .. figure:: img/evidence_disk_0022.jpg
-   :alt: Change
+   :alt: Selecting Host in Autopsy
    :align: center
 
-   Change
+   *Selecting Host in Autopsy*
 
-**Select Data Source Type as VM Image**
+**Specify Data Source Type as VM Image**
 
-You must choose the "Disk Image or VM File" as the datasource type, since the evidence.vmdk is a VM File that is reconized in Autopsy Software.
+Choose "Disk Image or VM File" as the data source type.
 
 .. figure:: img/evidence_disk_0023.jpg
-   :alt: Change
+   :alt: Selecting Data Source Type in Autopsy
    :align: center
 
-   Change
+   *Selecting Data Source Type in Autopsy*
 
-**Paste the previously copied evidence.vmdk path**
+**Enter the previously copied evidence.vmdk path**
 
-Past the previously copied evidence.vmdk path, replacing the predifiened path. Delete any double quotation mark in the path. Fill the "Time zone" fill to assure currect date processing.
+Paste the evidence.vmdk path and set the "Time zone".
 
 .. figure:: img/evidence_disk_0024.jpg
-   :alt: Change
+   :alt: Inputting evidence.vmdk Path in Autopsy
    :align: center
 
-   Change
+   *Inputting evidence.vmdk Path in Autopsy*
 
 **Deselect All Plugins**
 
-There's no need to run plugins on this datasource. Please deselect all plugins and click next:
+Deselect all plugins and click "Next".
 
 .. figure:: img/evidence_disk_0025.jpg
-   :alt: Change
+   :alt: Deselecting Plugins in Autopsy
    :align: center
 
-   Change
+   *Deselecting Plugins in Autopsy*
 
-**Click Finish to finishing Add the Data Source**
+**Conclude the Data Source Addition**
 
-Click finish:
+Click "Finish".
 
 .. figure:: img/evidence_disk_0026.jpg
-   :alt: Change
+   :alt: Finish Button in Autopsy
    :align: center
 
-   Change
+   *Finish Button in Autopsy*
 
-**Locate and Tag all possible evidences**
+**Locate and Label Potential Evidence**
 
-The folder structure was created to simplify the tagging process by suppliing a organization structure. You can enter inside each folder where the possible evidences were collected, select all files and Add the corresponding tag. In this example, the corresponding tag is "Notable Item", that is the same name of the folder:
+Navigate to each folder and assign the "Notable Item" tag.
 
 .. figure:: img/evidence_disk_0027.jpg
-   :alt: Change
+   :alt: Tagging Evidence in Autopsy
    :align: center
 
-   Change
+   *Tagging Evidence in Autopsy*
 
-**Possible Evidence Tagged"
+**Evidence Successfully Tagged**
 
-The evidence tagged will appear on the file listing with a red exclamation mark:
+Tagged evidence will be highlighted.
 
 .. figure:: img/evidence_disk_0028.jpg
-   :alt: Change
+   :alt: Tagged Evidence Display in Autopsy
    :align: center
 
-   Change
-
-
-
-
-
+   *Tagged Evidence Display in Autopsy*
 
