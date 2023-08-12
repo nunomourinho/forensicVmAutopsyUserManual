@@ -346,27 +346,79 @@ Tagged evidence will be highlighted.
 Update Evidence Disk Tags
 **************************
 
-Sometimes in the middle of the forensic investigation it is necessary to add aditional tags. The "possible evidence disk" must get the newly updated folders with the newly created tags. Where's how to assure that the tag folders get created on the evidence disk
+During the course of a forensic investigation, there may be instances when you need to append additional tags. Ensuring that the "possible evidence disk" reflects these changes is crucial. The following steps guide you on making sure the tag folders are created on the evidence disk:
 
-**Add a new tag to Autopsy**
+**Add a New Tag to Autopsy**
 
-Go to a file. Right click the file. Now choose the menu option "Add file tag", and then the last sub-menu option "New tag...":
+1. Navigate to the desired file in Autopsy.
+2. Right-click on the file.
+3. From the context menu, hover over "Add file tag".
+4. Select the last sub-menu option "New tag...".
 
 .. figure:: img/evidence_disk_0029.jpg
-   :alt: Change
+   :alt: Adding New Tag in Autopsy
    :align: center
 
-   *Change*
+   *Adding New Tag in Autopsy*
 
-**Define the new tag name and type**
+**Define the New Tag Name and Type**
 
-Write the "Tag Name" and check the "Tag indicates item is notable" if the new tag is notable:
+1. Input the desired "Tag Name".
+2. If the new tag denotes something significant or noteworthy, ensure to check the box labeled "Tag indicates item is notable".
 
 .. figure:: img/evidence_disk_0030.jpg
-   :alt: Change
+   :alt: Defining New Tag Name and Type in Autopsy
    :align: center
 
-   *Change*
+   *Defining New Tag Name and Type in Autopsy*
 
+**Initiate Ingest Modules**
 
+1. Right-click within Autopsy.
+2. Select "Run Ingest Modules" from the dropdown menu.
 
+.. figure:: img/evidence_disk_0031.jpg
+   :alt: Running Ingest Modules in Autopsy
+   :align: center
+
+   *Running Ingest Modules in Autopsy*
+
+**Activate the ForensicVM Client Python Plugin**
+
+1. Deselect all plugins within Autopsy.
+2. Specifically select the "ForensicVM Client" plugin.
+3. Click on "Finish".
+
+.. figure:: img/evidence_disk_0032.jpg
+   :alt: Selecting the ForensicVM Client Plugin in Autopsy
+   :align: center
+
+   *Selecting the ForensicVM Client Plugin in Autopsy*
+
+**Boot up the ForensicVM**
+
+Start the forensicVM system.
+
+.. figure:: img/evidence_disk_0033.jpg
+   :alt: Starting the ForensicVM System
+   :align: center
+
+   *Starting the ForensicVM System*
+
+**Access the ForensicVM Interface**
+
+Click on "Open ForensicVM".
+
+.. figure:: img/evidence_disk_0034.jpg
+   :alt: Accessing the ForensicVM Interface
+   :align: center
+
+   *Accessing the ForensicVM Interface*
+
+**Identify the New Folder Tag**
+
+Log into the forensicVM and identify the freshly generated tag folder.
+
+.. tip::
+
+   For users operating on Windows versions later than 8: If the evidence folder is elusive, ensure Windows is not in hibernation instead of being completely shut down. To bypass this, while shutting down the forensicVM, hold down the [Shift] key on your keyboard. This ensures the hibernation file is removed and the drive is primed to receive instructions. You can then retry the procedure.
