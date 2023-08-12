@@ -459,11 +459,19 @@ After the machine is sucessfully shutdown, press the "Recreate Evidence Disk" on
 
    *Change*
 
+**First confirmation dialog**
+
+To recreat the evidence disk it is need first to delete it. This is a dangerous action! So there is a first popup asking if you whant to delete it:
+
 .. figure:: img/evidence_disk_0038.jpg
    :alt: Change 
    :align: center
 
    *Change*
+
+**Last confirmation message**
+
+A last confirmation dialog appears. Only press "YES" if you are really sure to delete the present evidence disk.
 
 .. figure:: img/evidence_disk_0039.jpg
    :alt: Change 
@@ -471,17 +479,29 @@ After the machine is sucessfully shutdown, press the "Recreate Evidence Disk" on
 
    *Change*
 
+**Evidence recreation success**
+
+A success popup appears indicating that the evidence disk was sucessfully recreated:
+
 .. figure:: img/evidence_disk_0040.jpg
    :alt: Change 
    :align: center
 
    *Change*
 
+**Start the ForensicVM**
+
+You should now start, open and login into the forensicVM:
+
 .. figure:: img/evidence_disk_0041.jpg
    :alt: Change 
    :align: center
 
    *Change*
+
+**New evidence disk with only folder tags**
+
+A newly evidence disk was created with the existing Autopsy evidence tags as folders. No previously collect evidence will be present, so please `Import evidence disk`_ first.
 
 .. figure:: img/evidence_disk_0042.jpg
    :alt: Change 
