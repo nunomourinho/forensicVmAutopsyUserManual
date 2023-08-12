@@ -93,7 +93,7 @@ The illustration below showcases the entirety of an encrypted BitLocker drive be
 
 **Pre-importing Considerations for Autopsy**
 
-Before integrating the BitLocker drive into Autopsy, it's imperative to either shut down or stop the forensicVM. Opting for a shutdown is highly recommended. Choosing to merely stop the virtual machine introduces the risk of data corruption which could compromise the integrity of the evidence or render parts of it unusable.
+Before integrating the possible evidence drive into Autopsy, it's imperative to either shut down or stop the forensicVM. Opting for a shutdown is highly recommended. Choosing to merely stop the virtual machine introduces the risk of data corruption which could compromise the integrity of the evidence or render parts of it unusable.
 
 .. figure:: img/evidence_disk_0005.jpg
    :alt: Shutdown or stop options
