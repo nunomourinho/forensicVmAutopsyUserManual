@@ -26,7 +26,8 @@
          - [x] Recreate evidence disk         
       - [x] Network card
          - [x] Enable network card /Web enable network
-         - [ ] Disable network card /web disable network
+         - [ ] Collect network evidence
+         - [x] Disable network card /web disable network
          - [ ] Download Wireshark pcap files
          - [ ] Analyse in wireshark
       - [ ] Media
