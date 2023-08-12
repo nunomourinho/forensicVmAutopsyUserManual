@@ -184,10 +184,32 @@ The evidence disk is a qcow2 disk that can be imported to autopsy in a vmdk form
 
 - First you must open the Autopsy Case and run the Autopsy ForensicVM plugin on the case datasource to open it on the Autospy ForensicVM client plugin:
 
-**Securly shutdown the forensicVM**
+.. figure:: img/evidence_disk_0013.jpg
+   :alt: Change
+   :align: center
+
+   Change
+
+**Securely shutdown the forensicVM**
 
 - Then you must assure that the forensicVM machine is proper shutdown. If you did't made it by now, please shutdown the machine:
 
-- 
+.. figure:: img/evidence_disk_0014.jpg
+   :alt: Change
+   :align: center
+
+   Change
+
+**Import evidence disk**
+
+- Now you can import the forensic evidence drive by clicking the "Import" button:
+
+.. figure:: img/evidence_disk_0015.jpg
+   :alt: Change
+   :align: center
+
+   Change
+
+
 
 
