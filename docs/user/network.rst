@@ -17,8 +17,8 @@ Enable the Network Card
 
 To activate the network card on the forensicVM, there are two methods available. The first method involves using the Autopsy ForensicVM client plugin interface, and the second requires directly interacting with the web screen interface through the network icon.
 
-Using the Autopsy ForensicVM Client Plugin Interface
-******************************************************
+Enable network card using the Autopsy ForensicVM Client Plugin Interface
+**************************************************************************
 
 **Activate Network Card Button**
 
@@ -44,7 +44,7 @@ activation of the network card.
    Confirmation popup for network card activation
 
 Enable Network Using the Web Screen Interface
-=============================================
+************************************************
 
 Activating the network card can also be achieved via the Web Screen Interface. This method allows users to manage network settings without diving into the main software interface. Here's how to enable the network card using the Web Screen Interface:
 
