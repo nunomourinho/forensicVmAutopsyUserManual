@@ -342,3 +342,31 @@ Tagged evidence will be highlighted.
 
    *Tagged Evidence Display in Autopsy*
 
+
+Update Evidence Disk Tags
+**************************
+
+Sometimes in the middle of the forensic investigation it is necessary to add aditional tags. The "possible evidence disk" must get the newly updated folders with the newly created tags. Where's how to assure that the tag folders get created on the evidence disk
+
+**Add a new tag to Autopsy**
+
+Go to a file. Right click the file. Now choose the menu option "Add file tag", and then the last sub-menu option "New tag...":
+
+.. figure:: img/evidence_disk_0029.jpg
+   :alt: Change
+   :align: center
+
+   *Change*
+
+**Define the new tag name and type**
+
+Write the "Tag Name" and check the "Tag indicates item is notable" if the new tag is notable:
+
+.. figure:: img/evidence_disk_0030.jpg
+   :alt: Change
+   :align: center
+
+   *Change*
+
+
+
