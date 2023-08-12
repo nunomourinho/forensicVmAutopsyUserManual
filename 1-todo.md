@@ -20,9 +20,11 @@
          - [x] Video download
       - [x] Evidence Disk
          - [x] Creation
-         - [ ] Colect evidence
-         - [ ] Recreate evidence disk
+         - [x] Colect evidence
          - [ ] Import evidence disk to autopsy
+         - [ ] Update tags
+         - [ ] Recreate evidence disk
+         
       - [ ] Network card
          - [ ] Enable network card /Web enable network
          - [ ] Disable network card /web disable network
