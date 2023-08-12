@@ -110,11 +110,6 @@ In Linux, depending on the distribution and the desktop environment, you can man
 
       sudo ifconfig eth0 up
 
-.. note::
-
-   Always ensure you're operating with the correct permissions, especially when making changes on Linux. Misconfigurations can lead to loss of connectivity.
-
-
 .. danger::
 
    Always proceed with caution when enabling the network, especially on systems that are meant for forensic investigations or are potentially compromised. It's vital to ensure systems and network security and to be aware of the risks involved.
