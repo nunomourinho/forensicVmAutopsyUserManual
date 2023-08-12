@@ -21,7 +21,7 @@
       - [x] Evidence Disk
          - [x] Creation
          - [x] Colect evidence
-         - [ ] Import evidence disk to autopsy
+         - [x] Import evidence disk to autopsy
          - [ ] Update tags
          - [ ] Recreate evidence disk
          
