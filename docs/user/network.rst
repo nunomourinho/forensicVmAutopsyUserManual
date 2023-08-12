@@ -118,24 +118,38 @@ In Linux, depending on the distribution and the desktop environment, you can man
 Disable the Network Card
 -------------------------
 
-To deactivate the network card on the forensicVM, there are two methods available. The first method involves using the Autopsy ForensicVM client plugin interface, and the second requires directly interacting with the web screen interface through the network icon.
+There are two primary methods to deactivate the network card on the forensicVM:
 
-Disable network card using the Autopsy ForensicVM Client Plugin Interface
+1. Using the Autopsy ForensicVM client plugin interface.
+2. Directly interacting with the web screen interface.
+
+Disable Network Card with the Autopsy ForensicVM Client Plugin Interface
 **************************************************************************
 
-**Deactivate Network Card Button**
+**Steps to Deactivate Network Card**:
 
-
-1. Start the forensicVM machine.
-2. Navigate to the Network Panel within the interface.
-3. Look for the "Disable network card" button and click on it.
+#. Ensure that the forensicVM machine is running.
+#. Within the interface, go to the Network Panel.
+#. Click on the "Disable network card" button.
 
 .. figure:: img/network_0006.jpg
    :alt: Disabling the network card through the Autopsy ForensicVM Client interface
    :align: center
+   :caption: Disabling the network card through the Autopsy ForensicVM Client interface
 
-   Disabling the network card through the Autopsy ForensicVM Client interface
+Using the Web Screen Interface to Disable the Network Card
+************************************************************
 
+The Web Screen Interface offers an alternative approach for users who prefer to manage network settings without engaging with the main software interface.
 
-Disable Network Using the Web Screen Interface
-************************************************
+**Steps to Disable Network**:
+
+#. Activate the **Panel Opener (1)** to view more options.
+#. Click on the **network icon (2)**.
+#. Press the green **Disable network (3)** button to turn off the network card.
+
+.. figure:: img/network_0007.jpg
+   :alt: Disabling the network card using the Web Screen Interface
+   :align: center
+   :caption: Process to disable the network card using the Web Screen Interface
+
