@@ -500,7 +500,7 @@ Proceed to start, access, and log into the forensicVM.
 
 **Inspect the New Evidence Disk**
 
-A freshly recreated evidence disk will be generated with the current Autopsy evidence tags structured as folders. No previously acquired evidence will be included. As a crucial step, remember to `Import evidence disk`_ before moving forward.
+A freshly recreated evidence disk will be generated with the current Autopsy evidence tags structured as folders. No previously acquired evidence will be included. As a crucial step, remember to `Import evidence disk`_ before recreating the evidence disk.
 
 .. figure:: img/evidence_disk_0042.jpg
    :alt: New Evidence Disk Overview
