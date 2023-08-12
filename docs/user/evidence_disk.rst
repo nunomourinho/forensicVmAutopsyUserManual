@@ -103,9 +103,10 @@ Before integrating the possible evidence drive into Autopsy, it's imperative to 
 
 
 Collecting Evidence on Linux
-============================
+*****************************
 
 **Accessing the System**
+
 To embark on evidence collection, the primary step involves gaining access to the Linux system. Knowledge of user credentials is essential. If you find yourself without the necessary credentials, consider utilizing available plugins to assist. Alternatively, developing and sharing a new plugin with the community could be a valuable contribution! The illustration below presents the login process for an Ubuntu 22.10 system featuring a comprehensive desktop environment.
 
 .. figure:: img/evidence_disk_0006.jpg
@@ -115,6 +116,7 @@ To embark on evidence collection, the primary step involves gaining access to th
    Ubuntu 22.10 login screen with a full desktop.
 
 **Identifying the Evidence Disk**
+
 After successfully logging in, launch the file explorer to identify the evidence disk. In the given instance, one would navigate to "Other locations" and subsequently double-click on "possible evidence" to initiate its mounting.
 
 .. figure:: img/evidence_disk_0007.jpg
@@ -124,6 +126,7 @@ After successfully logging in, launch the file explorer to identify the evidence
    Identifying the "possible evidence" disk in the file explorer.
 
 **Plan Evidence Gathering**
+
 Once the evidence drive is appropriately mounted, you're primed to delve into your evidence search. Displayed in the subsequent figure are folders corresponding to various Autopsy Tags, offering a structured approach to evidence organization.
 
 .. figure:: img/evidence_disk_0008.jpg
@@ -133,6 +136,7 @@ Once the evidence drive is appropriately mounted, you're primed to delve into yo
    Autopsy Tags folders for structured evidence organization.
 
 **Explore and find possible evidence**
+
 Navigating to the designated folder, we discern a hash dump file alongside potential evidence pointing to the deployment of a meterpreter.
 
 .. figure:: img/evidence_disk_0009.jpg
@@ -143,6 +147,7 @@ Navigating to the designated folder, we discern a hash dump file alongside poten
 
 
 **Organize and Transfer Potential Evidence to the Evidence Drive**
+
 Now, to preserve this crucial data, ensure you copy the identified potential evidence to the designated "possible evidence" folder.
 
 .. figure:: img/evidence_disk_0010.jpg
@@ -153,6 +158,7 @@ Now, to preserve this crucial data, ensure you copy the identified potential evi
 
 
 **Preparing for Autopsy Integration**
+
 Before channeling the evidence disk into Autopsy, it's paramount to adopt one of two measures: either halt the forensicVM operations or completely shut it down. Favoring the shutdown route comes strongly advised, as a mere halt could inadvertently introduce data corruption. Such anomalies might jeopardize evidence integrity or entirely nullify certain data segments. In our context, you'd initiate this by selecting the power icon, followed by the "Power Off/Log Out" option from the ensuing menu.
 
 .. figure:: img/evidence_disk_0011.jpg
