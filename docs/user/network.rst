@@ -15,10 +15,7 @@ inbuilt firewall designed to block access to identified local networks while per
 Enable the Network Card
 ------------------------
 
-To activate the network card on the forensicVM, there are two methods available. 
-The first method involves using the Autopsy ForensicVM client plugin interface, 
-and the second requires directly interacting with the system through the network 
-icon.
+To activate the network card on the forensicVM, there are two methods available. The first method involves using the Autopsy ForensicVM client plugin interface, and the second requires directly interacting with the web screen interface through the network icon.
 
 Using the Autopsy ForensicVM Client Plugin Interface
 ******************************************************
@@ -46,6 +43,33 @@ activation of the network card.
 
    Confirmation popup for network card activation
 
+Enable Network Using the Web Screen Interface
+=============================================
+
+Activating the network card can also be achieved via the Web Screen Interface. This method allows users to manage network settings without diving into the main software interface. Here's how to enable the network card using the Web Screen Interface:
+
+**Activating Network through Web Screen Interface Steps**
+
+1. Initiate the **Panel Opener (1)** to reveal the available options.
+2. Locate and click on the **network icon (2)** to access network settings.
+3. Identify and click the red button labeled **Enable network (caution) (3)** to activate the network card.
+
+.. figure:: img/network_0003.jpg
+   :alt: Network Using the Web Screen Interface 
+   :align: center
+
+   Steps to activate the network through the Web Screen Interface 
+
+**Acknowledgement of Successful Activation**
+
+Once the network card is activated, an orange notification will pop up at the top of the screen. This message serves to confirm that the network card has been successfully activated.
+
+.. figure:: img/network_0004.jpg
+   :alt: Notification of Success
+   :align: center
+
+   Notification confirming successful activation of the network card
+
 .. danger::
 
-   Activating the network card carries certain risks, especially on a forensic virtual machine that may be examining potentially compromised data or systems. Always ensure you're aware of the risks before enabling network access.
+   Always proceed with caution when enabling the network, especially on systems that are meant for forensic investigations or are potentially compromised. It's vital to ensure systems and network security and to be aware of the risks involved.
