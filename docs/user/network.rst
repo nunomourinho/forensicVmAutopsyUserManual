@@ -180,3 +180,26 @@ The Web Screen Interface offers an alternative approach for users who prefer to 
    :align: center
 
    Process to disable the network card using the Web Screen Interface
+
+
+Download Wireshark pcap files
+------------------------------
+
+To download the Wireshark pcap files clieck the button "Download Wireshark pcap files" on the Autopsy ForensicVM client plugin interface:
+
+.. figure:: img/network_0010.jpg
+   :alt: Change
+   :align: center
+
+A windows explorer window will appear asking where to save the pcap.zip file:
+
+.. figure:: img/network_0011.jpg
+   :alt: Change
+   :align: center
+
+After a few seconds a download progress box will appear. The download will take several minutes depending of the size of the pcap.zip file:
+
+.. figure:: img/network_0012.jpg
+   :alt: Change
+   :align: center
+
