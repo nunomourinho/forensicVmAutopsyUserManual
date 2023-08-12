@@ -436,78 +436,74 @@ Recreate Evidence Disk
 
 .. danger::
 
-   When you choose this option all data on the evidence disk gets erased! It is not possible to recover this data later! Please first follow the instructions to `Import evidence disk`_
+   Opting for this action will irrevocably erase all data on the evidence disk! Data recovery will not be possible afterward. Prior to initiating this, ensure to follow the guidelines to `Import evidence disk`_.
 
+**Safely Shut Down Windows**
 
-**Safely shutdown windows**
-
-Shutdown windows with the [Shift] key pressed to delete the hibernation file and unlock the evidence.vmdk disk.
+To ensure that the evidence.vmdk disk is unlocked, shut down Windows while pressing and holding the [Shift] key. This action ensures the hibernation file is deleted.
 
 .. figure:: img/evidence_disk_0036.jpg
-   :alt: Change 
+   :alt: Safely Shutting Down Windows
    :align: center
 
-   *Change*
+   *Safely Shutting Down Windows*
 
-**Recreate Evidence Disk**
+**Initiate Evidence Disk Recreation**
 
-After the machine is sucessfully shutdown, press the "Recreate Evidence Disk" on the Autopsy ForensicVM Client Plugin interface:
+Once the machine is completely shut down, press the "Recreate Evidence Disk" button found on the Autopsy ForensicVM Client Plugin interface.
 
 .. figure:: img/evidence_disk_0037.jpg
-   :alt: Change 
+   :alt: Recreate Evidence Disk Button
    :align: center
 
-   *Change*
+   *Recreate Evidence Disk Button*
 
-**First confirmation dialog**
+**First Confirmation Dialog**
 
-To recreat the evidence disk it is need first to delete it. This is a dangerous action! So there is a first popup asking if you whant to delete it:
+Recreating the evidence disk necessitates its deletion—a critical action. A prompt will appear asking for confirmation on this deletion.
 
 .. figure:: img/evidence_disk_0038.jpg
-   :alt: Change 
+   :alt: First Confirmation Dialog
    :align: center
 
-   *Change*
+   *First Confirmation Dialog*
 
-**Last confirmation message**
+**Final Confirmation Message**
 
-A last confirmation dialog appears. Only press "YES" if you are really sure to delete the present evidence disk.
+A subsequent confirmation dialog will be displayed. Click on "YES" only if you are absolutely certain about erasing the current evidence disk.
 
 .. figure:: img/evidence_disk_0039.jpg
-   :alt: Change 
+   :alt: Final Confirmation Message
    :align: center
 
-   *Change*
+   *Final Confirmation Message*
 
-**Evidence recreation success**
+**Confirmation of Successful Recreation**
 
-A success popup appears indicating that the evidence disk was sucessfully recreated:
+Upon successful recreation of the evidence disk, a notification will appear to confirm the action.
 
 .. figure:: img/evidence_disk_0040.jpg
-   :alt: Change 
+   :alt: Successful Recreation Notification
    :align: center
 
-   *Change*
+   *Successful Recreation Notification*
 
-**Start the ForensicVM**
+**Boot Up the ForensicVM**
 
-You should now start, open and login into the forensicVM:
+Proceed to start, access, and log into the forensicVM.
 
 .. figure:: img/evidence_disk_0041.jpg
-   :alt: Change 
+   :alt: Booting Up the ForensicVM
    :align: center
 
-   *Change*
+   *Booting Up the ForensicVM*
 
-**New evidence disk with only folder tags**
+**Inspect the New Evidence Disk**
 
-A newly evidence disk was created with the existing Autopsy evidence tags as folders. No previously collect evidence will be present, so please `Import evidence disk`_ first.
+A freshly recreated evidence disk will be generated with the current Autopsy evidence tags structured as folders. No previously acquired evidence will be included. As a crucial step, remember to `Import evidence disk`_ before moving forward.
 
 .. figure:: img/evidence_disk_0042.jpg
-   :alt: Change 
+   :alt: New Evidence Disk Overview
    :align: center
 
-   *Change*
-
-
-
+   *New Evidence Disk Overview*
