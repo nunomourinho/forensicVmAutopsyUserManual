@@ -52,30 +52,35 @@ Collecting digital evidence is a meticulous process, demanding precision, patien
 .. note::
    Remember, while the process might seem technical, the key is to maintain the integrity of the evidence and ensure that all actions are documented and reproducible. It's not just about finding the evidence, but also about ensuring its admissibility in a court of law.
 
-Collect evidence on windows
-*****************************
+Collect Evidence on Windows
+===========================
 
-**Please login into windows**
+Log into Windows
+----------------
 
-The first step is to login into the operating system. If necessary run a plugin to create a **forensicAdministrator** or to reset a password.
+Begin by logging into the operating system. Should there be a need, employ a plugin to either craft a **forensicAdministrator** user or reset an existing user's password.
 
 .. figure:: img/evidence_disk_0002.jpg
-   :alt: Change
+   :alt: Login screen
    :align: center
 
-   Change.
+   Windows login screen.
 
-**Locate evidence and the evidence disk**
+Identify Evidence and the Evidence Disk
+---------------------------------------
 
-After that, locate the evidence disk. This disk is labeled as **possible evidence**, and usually was the drive **D:**. The evidence disk is composed of folders named with all available tags on autopsy. You can created any folders or subfolders that you need for investigation, but the recomended method is to update or create tags in autopsy and the reopen the Autopsy Plugin and the forensicVM. As shown in the figure :numref:`evidence-windows`, we can see the evidence drive within the gree retangle, and the windows explorer locating a possible evidence in the red retangle. You should locate and copy your possible evidences to the "possible evidence" drive, to inside the apropriate Autopsy Folder Tags.
+Post login, your next objective is to pinpoint the evidence disk. This specific disk is marked with the label **possible evidence**. Conventionally, it's designated as drive **D:**. The very essence of this disk is a collection of folders; each bearing the name of tags available in Autopsy. Though investigators have the liberty to tailor-make folders or sub-folders as per the requirements of their investigation, a suggested practice is to either refine or instate new tags in Autopsy. Post this step, both the Autopsy Plugin and the ForensicVM should be restarted.
+
+The succeeding image (see :numref:`evidence-windows`) offers a visual guide: The evidence drive is demarcated by a green rectangle, while the Windows Explorer - which is in the process of identifying potential evidence - is enclosed within a red rectangle. The objective here is to locate and transfer the identified evidence into the "possible evidence" drive, ensuring they're nestled under the appropriate Autopsy Folder Tags.
 
 .. figure:: img/evidence_disk_0003.jpg
-   :alt: Change
+   :alt: Locating evidence
    :align: center
 
-   Change.
+   Identification and transfer of evidence.
 
 .. _evidence-windows:
+
 
 .. figure:: img/evidence_disk_0004.jpg
    :alt: Change
