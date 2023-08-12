@@ -192,7 +192,7 @@ The evidence disk is a qcow2 disk that can be imported to autopsy in a vmdk form
 
 **Securely shutdown the forensicVM**
 
-- Then you must assure that the forensicVM machine is proper shutdown. If you did't made it by now, please shutdown the machine:
+- Then you must assure that the forensicVM machine is proper shutdown. If you did't made it by now, please shutdown the machine by pressing the "Shutdown VM" button on the Autopsy ForensicVM Client interface:
 
 .. figure:: img/evidence_disk_0014.jpg
    :alt: Change
@@ -202,7 +202,7 @@ The evidence disk is a qcow2 disk that can be imported to autopsy in a vmdk form
 
 **Import evidence disk**
 
-- Now you can import the forensic evidence drive by clicking the "Import" button:
+- Now you can import the forensic evidence drive by clicking the "Import Evidence Disk" button:
 
 .. figure:: img/evidence_disk_0015.jpg
    :alt: Change
@@ -210,11 +210,19 @@ The evidence disk is a qcow2 disk that can be imported to autopsy in a vmdk form
 
    Change
 
+**Save evidence disk to default path**
+
+A windows explorer "Save As" dialog appear. Maintain the proposed path
+
 .. figure:: img/evidence_disk_0016.jpg
    :alt: Change
    :align: center
 
    Change
+
+**Download Progress**
+
+A download progress will be shown. Please waith until the evidence disk is fully downloaded.
 
 .. figure:: img/evidence_disk_0017.jpg
    :alt: Change
@@ -222,11 +230,19 @@ The evidence disk is a qcow2 disk that can be imported to autopsy in a vmdk form
 
    Change
 
+**Evidence Disk Informational Popup**
+
+An popup will appear informing the evidence path, and that in the next step, the explorer will open on the evidence.vmdk downloaded path:
+
 .. figure:: img/evidence_disk_0018.jpg
    :alt: Change
    :align: center
 
    Change
+
+**Explorer in the path**
+
+The windows explorer will open in the evidence.vmdk path. Now you must copy the evidence.vmdk path:
 
 .. figure:: img/evidence_disk_0019.jpg
    :alt: Change
@@ -234,11 +250,19 @@ The evidence disk is a qcow2 disk that can be imported to autopsy in a vmdk form
 
    Change
 
+**Copy evidence disk path**
+
+With the shift key pressed, right-click over the evidence.vmdk file to open the context menu. Now you can use the option "Copy as path" option
+
 .. figure:: img/evidence_disk_0020.jpg
    :alt: Change
    :align: center
 
    Change
+
+**Add a new datasource in Autopsy Software**
+
+In autopsy software you must add a new datasource. Click the "Add Data Souce" on the main bar:
 
 .. figure:: img/evidence_disk_0021.jpg
    :alt: Change
@@ -246,11 +270,19 @@ The evidence disk is a qcow2 disk that can be imported to autopsy in a vmdk form
 
    Change
 
+**Choose the existing host**
+
+You must Select the same host to import the evidence disk, so that you can organize the evidence disk inside the host that you are analysing:
+
 .. figure:: img/evidence_disk_0022.jpg
    :alt: Change
    :align: center
 
    Change
+
+**Select Data Source Type as VM Image**
+
+You must choose the "Disk Image or VM File" as the datasource type, since the evidence.vmdk is a VM File that is reconized in Autopsy Software.
 
 .. figure:: img/evidence_disk_0023.jpg
    :alt: Change
@@ -258,11 +290,19 @@ The evidence disk is a qcow2 disk that can be imported to autopsy in a vmdk form
 
    Change
 
+**Paste the previously copied evidence.vmdk path**
+
+Past the previously copied evidence.vmdk path, replacing the predifiened path. Delete any double quotation mark in the path. Fill the "Time zone" fill to assure currect date processing.
+
 .. figure:: img/evidence_disk_0024.jpg
    :alt: Change
    :align: center
 
    Change
+
+**Deselect All Plugins**
+
+There's no need to run plugins on this datasource. Please deselect all plugins and click next:
 
 .. figure:: img/evidence_disk_0025.jpg
    :alt: Change
@@ -270,17 +310,29 @@ The evidence disk is a qcow2 disk that can be imported to autopsy in a vmdk form
 
    Change
 
+**Click Finish to finishing Add the Data Source**
+
+Click finish:
+
 .. figure:: img/evidence_disk_0026.jpg
    :alt: Change
    :align: center
 
    Change
 
+**Locate and Tag all possible evidences**
+
+The folder structure was created to simplify the tagging process by suppliing a organization structure. You can enter inside each folder where the possible evidences were collected, select all files and Add the corresponding tag. In this example, the corresponding tag is "Notable Item", that is the same name of the folder:
+
 .. figure:: img/evidence_disk_0027.jpg
    :alt: Change
    :align: center
 
    Change
+
+**Possible Evidence Tagged"
+
+The evidence tagged will appear on the file listing with a red exclamation mark:
 
 .. figure:: img/evidence_disk_0028.jpg
    :alt: Change
