@@ -68,8 +68,50 @@ Once the network card is activated, an orange notification will pop up at the to
    :alt: Notification of Success
    :align: center
 
-   Notification confirming successful activation of the network card
+   Notification confirming successful activation of the network card 
+
+Reseting the Operating System Network Card
+*******************************************
+
+From time to time, due to various reasons such as IP conflicts, connectivity issues, or configuration errors, it might be necessary to reset the network card. Resetting can re-establish a proper connection and can often solve common networking problems. Below are methods to reset the network card in Windows and Linux.
+
+**Windows 10**
+
+In Windows 10, the Network Troubleshooter can assist in diagnosing and resolving common network-related problems.
+
+1. Navigate to the system tray located in the bottom right corner of your screen.
+2. Right-click the network icon.
+3. From the context menu, select the "Troubleshoot problems" option. The Network Troubleshooter will now start, and it will attempt to diagnose and resolve any detected issues.
+
+.. figure:: img/network_0005.jpg
+   :alt: Example of network troubleshoot in Windows 10
+   :align: center
+
+   Using the Network Troubleshooter in Windows 10
+
+**Other Windows Versions**
+
+In older versions of Windows, the process might slightly differ. Usually, there's a network troubleshooting tool available but its location or name may vary. Check under "Network and Sharing Center" or within Control Panel for related options.
+
+**Linux**
+
+In Linux, depending on the distribution and the desktop environment, you can manage the network card through the graphical interface. However, for a more universal method:
+
+1. Open a terminal.
+2. To disable the network card (assuming it's named `eth0`), type: 
+   
+   .. code-block:: bash
+
+      sudo ifconfig eth0 down
+
+3. To enable it again, type:
+
+   .. code-block:: bash
+
+      sudo ifconfig eth0 up
 
 .. danger::
 
    Always proceed with caution when enabling the network, especially on systems that are meant for forensic investigations or are potentially compromised. It's vital to ensure systems and network security and to be aware of the risks involved.
+
+
