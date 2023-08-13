@@ -182,112 +182,98 @@ The Web Screen Interface offers an alternative approach for users who prefer to 
    Process to disable the network card using the Web Screen Interface
 
 
-Download Wireshark pcap files
+Download Wireshark pcap Files
 ------------------------------
 
-**Download pcap**
+**Downloading pcap Files**
 
-To download the Wireshark pcap files click the button "Download Wireshark pcap files" on the Autopsy ForensicVM client plugin interface:
+To obtain the Wireshark pcap files, follow the instructions below:
 
-.. figure:: img/network_0010.jpg
-   :alt: Change
-   :align: center
+1. Click the "Download Wireshark pcap files" button located on the Autopsy ForensicVM client plugin interface.
 
-   Change
+   .. figure:: img/network_0010.jpg
+      :alt: Downloading pcap files
+      :align: center
 
-**Save pcap.zip file path**
+      Downloading pcap files
 
-A windows explorer window will appear asking where to save the pcap.zip file. Please mantain the path, as it is, by default saved on the image case folder:
+2. A Windows Explorer window will prompt you to select a save location for the `pcap.zip` file. It's recommended to maintain the default save path, which is typically set to the image case folder.
 
-.. figure:: img/network_0011.jpg
-   :alt: Change
-   :align: center
+   .. figure:: img/network_0011.jpg
+      :alt: Saving pcap.zip file path
+      :align: center
 
-   Change
+      Saving pcap.zip file path
 
-**Download pcap progress**
+3. The download progress will be displayed, indicating the time required to complete the download. This duration can vary depending on the size of the `pcap.zip` file.
 
-After a few seconds a download progress box will appear. The download will take several minutes depending of the size of the pcap.zip file:
+   .. figure:: img/network_0012.jpg
+      :alt: Download progress
+      :align: center
 
-.. figure:: img/network_0012.jpg
-   :alt: Change
-   :align: center
+      Download progress
 
-   Change
+4. Once the download is completed, a confirmation pop-up will appear, indicating the successful download and save location.
 
-**Network pcap download and saved**
+   .. figure:: img/network_0013.jpg
+      :alt: Network pcap downloaded and saved
+      :align: center
 
-A popup will appear stating that the pcap file was download and saved  on the selected path:
+      Network pcap downloaded and saved
 
-.. figure:: img/network_0013.jpg
-   :alt: Change
-   :align: center
+5. The Windows Explorer will automatically open to the default save location of `pcap.zip`.
 
-   Change
+   .. figure:: img/network_0014.jpg
+      :alt: Default pcap.zip path in explorer
+      :align: center
 
-**Default pcap.zip path opened in explorer**
+      Default pcap.zip path in explorer
 
-In windows explorer the default pcap.zip path will be opened. Now is up to the forensic investigator to unzip this zip file:
+6. To decompress the `pcap.zip` file, you can use a program like 7-zip. The extraction can take some time, especially if the pcap files are large.
 
-.. figure:: img/network_0014.jpg
-   :alt: Change
-   :align: center
+   .. figure:: img/network_0015.jpg
+      :alt: Extracting pcap.zip file using 7-zip
+      :align: center
 
-   Change
+      Extracting pcap.zip file using 7-zip
 
-**Unzip pcap.zip file**
+   .. figure:: img/network_0016.jpg
+      :alt: Extraction progress
+      :align: center
 
-In this example it is used the 7-zip program to extract all pcap files to the pcap dierctory. Any unzip program will work:
+      Extraction progress
 
-.. figure:: img/network_0015.jpg
-   :alt: Change
-   :align: center
+Analyze in Wireshark
+--------------------
 
-   Change
+After extracting the pcap files, the next step is to analyze the network traffic captured during the period the network card was active. Here's how to proceed:
 
-**Unzip progress**
+1. Navigate to the extracted pcap directory. If Wireshark isn't installed on your system, visit wireshark.org to download and install it. Once installed, Wireshark-associated icons will appear next to each pcap file.
 
-The pcap files can be very large files. So please wait wile the unzip action is in progress.
+2. Double-click the pcap file you wish to analyze.
 
-.. figure:: img/network_0016.jpg
-   :alt: Change
-   :align: center
+   .. figure:: img/network_0017.jpg
+      :alt: Selecting pcap file for analysis
+      :align: center
 
-   Change
+      Selecting pcap file for analysis
 
-Analyse in wireshark
-------------------------------
+3. The Wireshark interface will open, displaying the captured traffic. Adjust the view settings and apply filters as required based on your forensic goals.
 
-After extracting all pcap files to the folder is up to the investigator to analise the traffic generated when the network card was connected to the network. To do this you will need a program similar to wireshark pre-installed (wireshark.org). So the analysis process envolves the following steps:
+   .. figure:: img/network_0018.jpg
+      :alt: Wireshark interface displaying captured traffic
+      :align: center
 
-**Locate and open the relevant .pcap files*
+       Wireshark interface displaying captured traffic
 
-Delve inside the extracted pcap directory. If you do not have the wireshark program installed on the system, please head to wireshark.org, download it and install it. If you have wireshark already installed on the system you will see the wireshark icons in each pcap files. 
+4. The following is an example of network traffic analysis with a focus on cloud traffic.
 
-So double click the file you need to analise in windows explorer:
+   .. figure:: img/network_0019.jpg
+      :alt: Example of analyzing cloud traffic in Wireshark
+      :align: center
 
-.. figure:: img/network_0017.jpg
-   :alt: Change
-   :align: center
+       Example of analyzing cloud traffic in Wireshark
 
-   Change
+.. note::
 
-**Start analysing traffic**
-
-The wireshark interface will open with all the traffic collected. Please change the visualization and apply the wireshark filters as needed. Giving your forensic agenda, explore and search...:
-
-.. figure:: img/network_0018.jpg
-   :alt: Change
-   :align: center
-
-   Change
-
-**Example of time visualization applied in wireshark**
-
-Example of a network traffic analysis. Cloud traffic is dissected:
-
-.. figure:: img/network_0019.jpg
-   :alt: Change
-   :align: center
-
-   Change
+   Analyzing pcap files requires a sound understanding of network traffic patterns and potential security threats. It's crucial to interpret the data accurately to avoid misleading conclusions.
