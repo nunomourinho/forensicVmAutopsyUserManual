@@ -149,12 +149,67 @@ Using the Web Interface
 
    Viewing Remote ISO Files using the Web Interface
 
-
-
 Insert ISO / Web Insert CD-ROM
 --------------------------------
 
-Learn how to virtually insert an ISO file or CD-ROM for access within the virtualized forensic image,  from the Autopsy ForensicVM Client Plugin or from the web interface.
+Being able to virtually insert an ISO file or CD-ROM into the virtualized forensic image is pivotal during a digital investigation. Different tools and utilities can be loaded on the fly without compromising the integrity of the original image. This flexibility speeds up the forensic workflow and allows investigators to adapt to different scenarios quickly. The following sections guide you on how to accomplish this task using either the Autopsy ForensicVM Client Plugin or the web interface.
+
+Using the Autopsy ForensicVM Client Plugin
+********************************************
+
+**Step 1: Access the Media Panel**
+
+- Launch the Autopsy VM.
+- Within the interface, click on the **Media Panel Tab**.
+
+**Step 2: Select the Desired ISO File**
+
+- In the media panel, browse through the ISO files.
+- Click on the desired ISO file that you wish to insert.
+
+**Step 3: Insert the ISO File**
+
+- Locate and click the **Insert** button. This action will mount the selected ISO file as a virtual CD-ROM within the ForensicVM environment.
+- Upon successful insertion, a success popup will appear, confirming the action.
+
+.. figure:: img/insert_iso_0001.jpg
+   :alt: Inserting ISO using the Autopsy ForensicVM Client Plugin
+   :align: center
+   :width: 600
+
+   Inserting ISO using the Autopsy ForensicVM Client Plugin
+
+Using the Web Interface
+*************************
+
+**Step 1: Access the Tool Panel**
+
+- From the main screen, identify and click on the **Control Bar** icon. This will reveal the tool panel.
+
+**Step 2: Navigate to the Media Control Modal Box**
+
+- Inside the tool panel, find and click on the **Eject** icon. Activating this icon will present the Media Control Modal Box.
+
+**Step 3: Select from the ISO Dropdown**
+
+- Within the Modal Box, locate and click the **ISO Dropdown**.
+- This dropdown will display all ISO files saved on the ForensicVM server.
+- Scroll and click on the desired ISO file or virtual CD-ROM you wish to insert.
+
+**Step 4: Confirm the Insertion**
+
+- After selecting the desired ISO, click the **Insert Media** button.
+- This action mounts the chosen ISO as a virtual CD-ROM.
+- A success notification will appear, signaling that the insertion was successful.
+
+.. figure:: img/insert_iso_0002.jpg
+   :alt: Inserting ISO using the Web Interface
+   :align: center
+   :width: 600
+
+   Inserting ISO using the Web Interface
+
+
 
 
 Run Tools in ISO
