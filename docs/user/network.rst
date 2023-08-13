@@ -203,3 +203,31 @@ After a few seconds a download progress box will appear. The download will take 
    :alt: Change
    :align: center
 
+.. figure:: img/network_0013.jpg
+   :alt: Change
+   :align: center
+
+.. figure:: img/network_0014.jpg
+   :alt: Change
+   :align: center
+
+.. figure:: img/network_0015.jpg
+   :alt: Change
+   :align: center
+
+.. figure:: img/network_0016.jpg
+   :alt: Change
+   :align: center
+
+.. figure:: img/network_0017.jpg
+   :alt: Change
+   :align: center
+
+.. figure:: img/network_0018.jpg
+   :alt: Change
+   :align: center
+
+.. figure:: img/network_0019.jpg
+   :alt: Change
+   :align: center
+
