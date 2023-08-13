@@ -92,57 +92,63 @@ Once uploaded, you should be able to see the ISO file listed in the ISO Manageme
 
    Verifying the Uploaded ISO
 
+
 List Remote ISO Files
-------------------------
+----------------------
 
-Get an overview of all ISO files stored remotely on the ForensicVM server. For that you can use one of two ways:
+When investigating digital evidence, it's crucial to maintain a catalog of tools and resources available for the task. ForensicVM facilitates this by allowing users to store ISO files remotely on its server. This section outlines the procedures to access and view this list of remotely stored ISO files.
 
-List ISO Media using the Autopsy ForensicVM Client Plugin
-**********************************************************
+There are two primary methods to view these files:
 
-**Step 1: **
+Using the Autopsy ForensicVM Client Plugin
+*******************************************
 
-Text
+**Step 1: Access the Media Panel**
 
-**Step 2: **
+- Navigate to the Autopsy VM.
+- Click on the **Media Panel Tab**.
 
-Text
+**Step 2: View Remote ISO Files**
 
-**Step 3: **
+- Once in the media panel, click on the **Remote ISO Files** button.
 
-Text
+**Step 3: Review Available ISO Files**
+
+- The ISO file list will update.
+- Browse through the list to review available tools and resources.
+- If you find any tools missing or outdated, consider downloading or creating the necessary ISO files, and then upload them to the ForensicVM Server.
 
 .. figure:: img/list_remote_iso_0001.jpg
-   :alt: Change
+   :alt: Viewing Remote ISO Files using Autopsy ForensicVM Client Plugin
    :align: center
    :width: 600
 
-   Change
+   Viewing Remote ISO Files using Autopsy ForensicVM Client Plugin
 
 
-List ISO Media using the web screen interface
-**********************************************
+Using the Web Interface
+************************
 
+**Step 1: Access the Tool Panel**
 
-**Step 1: **
+- On the main screen, click on the **Control Bar** icon to reveal the tool panel.
 
-Text
+**Step 2: Open the Media Control Modal Box**
 
-**Step 2: **
+- Within the tool panel, locate and click the **Eject** icon. This action will open the Media Control Modal Box.
 
-Text
+**Step 3: View ISO Dropdown**
 
-**Step 3: **
-
-Text
-
+- Click on the **ISO Dropdown**.
+- This dropdown will display a list of all ISO files stored on the ForensicVM server, which can be utilized as virtual CD-ROMs.
 
 .. figure:: img/list_remote_iso_0002.jpg
-   :alt: Change
+   :alt: Viewing Remote ISO Files using the Web Interface
    :align: center
    :width: 600
 
-   Change
+   Viewing Remote ISO Files using the Web Interface
+
 
 
 Select ISO / Web Select CD-ROM
