@@ -503,10 +503,24 @@ Method 2: Eject using the Web Screen Interface
 
    Ejecting via Web Screen Interface
 
-Delete ISO
-------------
+**Delete ISO Using the Autopsy ForensicVM Client Plugin Interface**
+---------------------------------------------------------------------
 
-Understand how to remove ISO files that are no longer needed, ensuring a clutter-free workspace.
+To delete an ISO file, follow the steps below:
 
+**Step 1:** Navigate to the Media Panel within the Autopsy ForensicVM Client Plugin interface.
 
+**Step 2:** Identify the ISO file you wish to delete.
 
+**Step 3:** Click on the "Delete" button associated with the desired ISO file.
+
+.. figure:: img/delete_iso_0001.jpg
+   :alt: Deleting an ISO Media
+   :align: center
+   :width: 600
+
+   Deleting an ISO Media
+
+.. warning::
+
+   Deleting an ISO file through this method does not prompt any confirmation dialog. Proceed with caution. It's assumed that users have the original ISO file stored elsewhere (e.g., on their local computer) and can re-upload it if necessary.
