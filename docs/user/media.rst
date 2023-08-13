@@ -17,7 +17,6 @@ ForensicVM's adeptness at ISO management not only broadens the forensic toolkit 
 
 In the realm of digital forensics, every tool and capability at an investigator's disposal can be the difference between uncovering critical evidence or hitting a dead end. ISO files, in particular, offer a versatile medium to house a myriad of investigative utilities. With ForensicVM, managing and utilizing these ISO files becomes a straightforward endeavor, optimizing both efficiency and efficacy. Here's an overview of the key operations:
 
-
 - **Browse and Upload ISO**: Discover how to navigate the interface to select and upload essential ISO files to the ForensicVM environment.
 
 - **Select ISO / Web Select CD-ROM**: Instructions on choosing the right ISO file or CD-ROM from the Autopsy ForensicVM Client Plugin or from the web interface.
@@ -33,3 +32,43 @@ In the realm of digital forensics, every tool and capability at an investigator'
 - **Bootable Media**: Dive into the specifics of booting from an ISO or CD-ROM, a critical capability for certain forensic tasks.
 
 Proceed to the relevant subsections for detailed instructions and best practices to make the most of the media management features in ForensicVM.
+
+
+
+Browse and Upload ISO
+------------------------
+
+Discover how to navigate the interface to select and upload essential ISO files to the ForensicVM environment.
+
+Select ISO / Web Select CD-ROM
+---------------------------------
+
+Instructions on choosing the right ISO file or CD-ROM from the Autopsy ForensicVM Client Plugin or from the web interface.
+
+List Remote ISO Files
+------------------------
+
+Get an overview of all ISO files stored remotely on the ForensicVM server.
+
+Insert ISO / Web Insert CD-ROM
+--------------------------------
+
+Learn how to virtually insert an ISO file or CD-ROM for access within the virtualized forensic image,  from the Autopsy ForensicVM Client Plugin or from the web interface.
+
+Eject ISO / Web Eject CD-ROM
+------------------------------
+
+Step-by-step guidance on safely ejecting a mounted ISO file or CD-ROM, from the Autopsy ForensicVM Client Plugin or from the web interface.
+
+Delete ISO
+------------
+
+Understand how to remove ISO files that are no longer needed, ensuring a clutter-free workspace.
+
+Bootable Media
+----------------
+
+Dive into the specifics of booting from an ISO or CD-ROM, a critical capability for certain forensic tasks.
+
+
+
