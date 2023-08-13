@@ -34,62 +34,64 @@ In the realm of digital forensics, every tool and capability at an investigator'
 Proceed to the relevant subsections for detailed instructions and best practices to make the most of the media management features in ForensicVM.
 
 
+Uploading an ISO to the ForensicVM Server
+-----------------------------------------
 
-Browse and Upload ISO
-------------------------
+When conducting a forensic investigation, specialized tools are often required to aid in the extraction or analysis of data. Many of these tools are conveniently bundled into ISO files. With ForensicVM, you can seamlessly upload these ISO files, making them readily accessible for your investigation tasks. Here's a step-by-step guide to doing so:
 
-**Select the Media Panel and click the "Browse and Upload" Button**
+**Step 1: Access the Media Panel**
 
-To Upload and ISO to the ForensicVM Server you should previously had to download or prepare the iso file. So locate this file on your disk and:
-
-1) Click on The Media Panel Separator on the Autopsy VM ForensicVM Client Plugin
-2) Click the "Browse and Upload" Button
+- Navigate to the Autopsy VM and locate the ForensicVM Client Plugin.
+- Click on the Media Panel Separator.
 
 .. figure:: img/upload_iso_0001.jpg
-   :alt: Change
+   :alt: Accessing the Media Panel
    :align: center
    :width: 600
 
-   Change
+   Accessing the Media Panel
 
-**Select the ISO file to upload**
+**Step 2: Initiate the ISO Upload**
 
-Browse your computer and select the ISO file to upload
+- Click the "Browse and Upload" button.
 
 .. figure:: img/upload_iso_0002.jpg
-   :alt: Change
+   :alt: Initiating ISO Upload
    :align: center
    :width: 600
 
-   Change
+   Initiating ISO Upload
 
-**Sucess Message**
+**Step 3: Locate and Select the ISO File**
 
-The upload can take some time. There is no upload progress for ISO files. Please wait until you see this sucess message:
+- Browse your computer's directories and select the desired ISO file to upload.
 
 .. figure:: img/upload_iso_0003.jpg
-   :alt: Change
-   :align: center   
+   :alt: Selecting the ISO file
+   :align: center
+   :width: 200
 
-   Change
+   Selecting the ISO file
 
-.. note:
+**Step 4: Upload Confirmation**
+
+The upload process might take some time, depending on the size of the ISO file. There's no progress bar available currently, so please be patient and wait for a confirmation message to appear, indicating a successful upload.
+
+.. note::
    
-   The Autopsy ForensicVM Client Plugin may become not responsive at this stage. This is normal. Please wait until the upload is finished,
+   During the upload process, the Autopsy ForensicVM Client Plugin might become unresponsive. This is expected behavior. Please wait patiently until the upload completes.
 
+**Step 5: Verify the Uploaded ISO**
 
-**Verify that the uploaded ISO is in the ISO Magement list**
-
-Your uploaded ISO with your investigation tools is now uploaded to the server and is ready to be used:
+Once uploaded, you should be able to see the ISO file listed in the ISO Management section of the ForensicVM server. This ensures your tools are now ready to be utilized in your ongoing investigation.
 
 .. figure:: img/upload_iso_0004.jpg
-   :alt: Change
+   :alt: Verifying the Uploaded ISO
    :align: center
    :width: 600
 
-   Change
+   Verifying the Uploaded ISO
 
-Discover how to navigate the interface to select and upload essential ISO files to the ForensicVM environment.
 
 Select ISO / Web Select CD-ROM
 ---------------------------------
