@@ -156,6 +156,20 @@ Insert ISO / Web Insert CD-ROM
 
 Learn how to virtually insert an ISO file or CD-ROM for access within the virtualized forensic image,  from the Autopsy ForensicVM Client Plugin or from the web interface.
 
+.. figure:: img/upload_iso_0001.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/upload_iso_0002.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
 
 Run Tools in ISO
 ------------------
