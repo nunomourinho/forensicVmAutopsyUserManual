@@ -20,13 +20,13 @@ In the realm of digital forensics, every tool and capability at an investigator'
 
 - **Browse and Upload ISO**: Discover how to navigate the interface to select and upload essential ISO files to the ForensicVM environment.
 
-- **Select ISO / Web Select CD-ROM**: Instructions on choosing the right ISO file or CD-ROM from the web interface.
+- **Select ISO / Web Select CD-ROM**: Instructions on choosing the right ISO file or CD-ROM from the Autopsy ForensicVM Client Plugin or from the web interface.
 
 - **List Remote ISO Files**: Get an overview of all ISO files stored remotely on the ForensicVM server.
 
-- **Insert ISO / Web Insert CD-ROM**: Learn how to virtually insert an ISO file or CD-ROM for access within the virtualized forensic image.
+- **Insert ISO / Web Insert CD-ROM**: Learn how to virtually insert an ISO file or CD-ROM for access within the virtualized forensic image,  from the Autopsy ForensicVM Client Plugin or from the web interface.
 
-- **Eject ISO / Web Eject CD-ROM**: Step-by-step guidance on safely ejecting a mounted ISO file or CD-ROM.
+- **Eject ISO / Web Eject CD-ROM**: Step-by-step guidance on safely ejecting a mounted ISO file or CD-ROM, from the Autopsy ForensicVM Client Plugin or from the web interface.
 
 - **Delete ISO**: Understand how to remove ISO files that are no longer needed, ensuring a clutter-free workspace.
 
