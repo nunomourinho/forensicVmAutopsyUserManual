@@ -258,17 +258,33 @@ The pcap files can be very large files. So please wait wile the unzip action is 
 Analyse in wireshark
 ------------------------------
 
+After extracting all pcap files to the folder is up to the investigator to analise the traffic generated when the network card was connected to the network. To do this you will need a program similar to wireshark pre-installed (wireshark.org). So the analysis process envolves the following steps:
+
+**Locate and open the relevant .pcap files*
+
+Delve inside the extracted pcap directory. If you do not have the wireshark program installed on the system, please head to wireshark.org, download it and install it. If you have wireshark already installed on the system you will see the wireshark icons in each pcap files. 
+
+So double click the file you need to analise in windows explorer:
+
 .. figure:: img/network_0017.jpg
    :alt: Change
    :align: center
 
    Change
 
+**Start analysing traffic**
+
+The wireshark interface will open with all the traffic collected. Please change the visualization and apply the wireshark filters as needed. Giving your forensic agenda, explore and search...:
+
 .. figure:: img/network_0018.jpg
    :alt: Change
    :align: center
 
    Change
+
+**Example of time visualization applied in wireshark**
+
+Example of a network traffic analysis. Cloud traffic is dissected:
 
 .. figure:: img/network_0019.jpg
    :alt: Change
