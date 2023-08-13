@@ -17,7 +17,7 @@ Preserving Evidence Integrity
 Digital evidence, by its very nature, is volatile. A single action, intentional or accidental, can alter the evidence, possibly rendering it inadmissible in court. Snapshots act as safety nets. Should the evidence be unintentionally modified or corrupted, investigators can easily revert to a previous snapshot, ensuring the integrity of the evidence remains uncompromised.
 
 Embracing "What-If" Analysis
----------------------------
+*****************************
 
 Forensic investigation often involves a series of "what-if" scenarios. Investigators may want to test a hypothesis or simulate actions that a suspect might have taken. With snapshots, these simulations can be executed without the risk of permanently altering the evidence. After an analysis, the system can be reverted to its original state using the snapshot, ready for another hypothesis to be tested.
 
@@ -31,6 +31,18 @@ Additional Considerations
 3. **Risk Mitigation**: Especially in complex cases involving malware or unknown data structures, snapshots provide a safety mechanism, allowing investigators to explore without risking the primary evidence source or the investigation platform.
 
 
+
+Create a new snapshot
+-----------------------
+
+List Remote Snapshots
+----------------------
+
+Roll back a snapshot
+----------------------
+
+Delete a snapshot
+-------------------
 
 
 In Conclusion
