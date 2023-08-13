@@ -95,7 +95,54 @@ Once uploaded, you should be able to see the ISO file listed in the ISO Manageme
 List Remote ISO Files
 ------------------------
 
-Get an overview of all ISO files stored remotely on the ForensicVM server.
+Get an overview of all ISO files stored remotely on the ForensicVM server. For that you can use one of two ways:
+
+List ISO Media using the Autopsy ForensicVM Client Plugin
+**********************************************************
+
+**Step 1: **
+
+Text
+
+**Step 2: **
+
+Text
+
+**Step 3: **
+
+Text
+
+.. figure:: img/list_remote_iso_0001.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+
+List ISO Media using the web screen interface
+**********************************************
+
+
+**Step 1: **
+
+Text
+
+**Step 2: **
+
+Text
+
+**Step 3: **
+
+Text
+
+
+.. figure:: img/list_remote_iso_0002.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
 
 
 Select ISO / Web Select CD-ROM
