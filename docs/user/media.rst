@@ -352,6 +352,68 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup
 
    Accessing Tools from Booted ISO
 
+
+Method 2: Boot from Virtual CD-ROM at boot time
+****************************************************
+
+.. figure:: img/boot_iso_0008.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0009.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0010.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0011.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0012.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0013.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0014.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0015.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+On this method we will boot the ForensicVM. We then press ESC to the boot menu
+
 Eject ISO / Web Eject CD-ROM
 ------------------------------
 
