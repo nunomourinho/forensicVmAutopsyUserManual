@@ -126,8 +126,8 @@ Using the Autopsy ForensicVM Client Plugin
    Viewing Remote ISO Files using Autopsy ForensicVM Client Plugin
 
 
-Using the Web Interface
-************************
+Method 1: Using the Web Interface
+**********************************
 
 **Step 1: Access the Tool Panel**
 
@@ -210,8 +210,8 @@ Using the Web Interface
    Inserting ISO using the Web Interface
 
 
-Method 2 from ISO
--------------------
+Run programs and utilities from ISO
+-------------------------------------
 
 After successfully uploading and inserting an ISO into the virtualized forensic environment, the next step is to leverage the tools within. This section will guide you through accessing and utilizing the programs and utilities contained in the ISO.
 
@@ -351,7 +351,7 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup (BIOS showcase)
    Accessing Tools from Booted ISO
 
 Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
-------------------------------------------------------------------
+******************************************************************
 
 **Step 1: Access the UEFI Boot Options**
 
