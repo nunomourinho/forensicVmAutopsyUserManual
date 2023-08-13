@@ -2,6 +2,10 @@
 Getting Started
 =====================
 
+.. warning::
+
+   Author: Please update this! Make an program overview with screenshots with legends that show every function in a infographic
+
 This section provides an overview of the initial steps to start using ForensicVM.
 
 Installing ForensicVM
