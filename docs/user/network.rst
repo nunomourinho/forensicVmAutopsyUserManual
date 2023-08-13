@@ -219,7 +219,9 @@ After a few seconds a download progress box will appear. The download will take 
    :alt: Change
    :align: center
 
-Analise in wireshark
+
+
+Analyse in wireshark
 ------------------------------
 
 .. figure:: img/network_0017.jpg
