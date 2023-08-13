@@ -32,20 +32,21 @@
          - [x] Analyse in wireshark
       - [x] Media
          - [x] Browse and upload ISO
-         - [ ] List Remote ISO files
-         - [ ] Select ISO /web select cdrom         
-         - [ ] Insert ISO / web insert cdrom
-         - [ ] Eject ISO /web enject cdrom                  
-         - [ ] Bootable Media: How to boot a cdrom
-         - [ ] Delete ISO
+         - [x] List Remote ISO files
+         - [x] Select ISO /web select cdrom         
+         - [x] Insert ISO / web insert cdrom
+         - [x] Eject ISO /web enject cdrom                  
+         - [x] Bootable Media: How to boot a cdrom
+         - [x] Delete ISO
       - [ ] Snapshots
-         - [ ] List remote snapshots
          - [ ] Create new
+         - [ ] List remote snapshots
          - [ ] Select snapshot
          - [ ] Rollback
          - [ ] Delete
       - [ ] Plugins
         - [ ] Add forensic admin in windows
+        - [ ] Patch login in windows
         - [ ] Add forensic admin in linux
         - [ ] Reset Windows XP or Windows 2003 Activation
         - [ ] Patch accessibility
