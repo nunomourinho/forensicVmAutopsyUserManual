@@ -31,9 +31,9 @@
          - [x] Download Wireshark pcap files
          - [x] Analyse in wireshark
       - [x] Media
-         - [ ] Browse and upload ISO
-         - [ ] Select ISO /web select cdrom
+         - [x] Browse and upload ISO
          - [ ] List Remote ISO files
+         - [ ] Select ISO /web select cdrom         
          - [ ] Insert ISO / web insert cdrom
          - [ ] Eject ISO /web enject cdrom         
          - [ ] Delete ISO
