@@ -185,7 +185,9 @@ The Web Screen Interface offers an alternative approach for users who prefer to 
 Download Wireshark pcap files
 ------------------------------
 
-To download the Wireshark pcap files clieck the button "Download Wireshark pcap files" on the Autopsy ForensicVM client plugin interface:
+**Download pcap**
+
+To download the Wireshark pcap files click the button "Download Wireshark pcap files" on the Autopsy ForensicVM client plugin interface:
 
 .. figure:: img/network_0010.jpg
    :alt: Change
@@ -193,13 +195,17 @@ To download the Wireshark pcap files clieck the button "Download Wireshark pcap 
 
    Change
 
-A windows explorer window will appear asking where to save the pcap.zip file:
+**Save pcap.zip file path**
+
+A windows explorer window will appear asking where to save the pcap.zip file. Please mantain the path, as it is, by default saved on the image case folder:
 
 .. figure:: img/network_0011.jpg
    :alt: Change
    :align: center
 
    Change
+
+**Download pcap progress**
 
 After a few seconds a download progress box will appear. The download will take several minutes depending of the size of the pcap.zip file:
 
@@ -209,11 +215,19 @@ After a few seconds a download progress box will appear. The download will take 
 
    Change
 
+**Network pcap download and saved**
+
+A popup will appear stating that the pcap file was download and saved  on the selected path:
+
 .. figure:: img/network_0013.jpg
    :alt: Change
    :align: center
 
    Change
+
+**Default pcap.zip path opened in explorer**
+
+In windows explorer the default pcap.zip path will be opened. Now is up to the forensic investigator to unzip this zip file:
 
 .. figure:: img/network_0014.jpg
    :alt: Change
@@ -221,11 +235,19 @@ After a few seconds a download progress box will appear. The download will take 
 
    Change
 
+**Unzip pcap.zip file**
+
+In this example it is used the 7-zip program to extract all pcap files to the pcap dierctory. Any unzip program will work:
+
 .. figure:: img/network_0015.jpg
    :alt: Change
    :align: center
 
    Change
+
+**Unzip progress**
+
+The pcap files can be very large files. So please wait wile the unzip action is in progress.
 
 .. figure:: img/network_0016.jpg
    :alt: Change
