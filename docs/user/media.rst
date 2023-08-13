@@ -268,8 +268,8 @@ The booting process of a CD-ROM involves the following steps:
 4. Access the BIOS or UEFI by pressing the "ESC" key.
 5. Navigate to the boot device selection menu and confirm your choice.
 
-Method 1: Boot from Virtual CD-ROM Post-OS Bootup
-****************************************************
+Method 1: Boot from Virtual CD-ROM Post-OS Bootup (BIOS showcase)
+*****************************************************************
 
 **Step 1: Boot into the Operating System**
 
@@ -353,8 +353,12 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup
    Accessing Tools from Booted ISO
 
 
-Method 2: Boot from Virtual CD-ROM at boot time
-****************************************************
+Method 2: Boot from Virtual CD-ROM at boot time (UEFI showcase)
+*****************************************************************
+
+**Step 1: Boot into UEFI Start boot option**
+
+- Start the ForensicVM. Quickly go to the web interface. Press ESC
 
 .. figure:: img/boot_iso_0008.jpg
    :alt: Change
@@ -363,12 +367,22 @@ Method 2: Boot from Virtual CD-ROM at boot time
 
    Change
 
+**Step 2: Insert media into virtual cdrom**
+
+- Insert your bootable ISO into the virtual cdrom. Follow the previous steps.
+
+
 .. figure:: img/boot_iso_0009.jpg
    :alt: Change
    :align: center
    :width: 600
 
    Change
+
+**Step 3: Check sucess notification**
+
+- A "Insert media sent" is showned in the web console screen stating that the cdrom was inserted into the drive
+
 
 .. figure:: img/boot_iso_0010.jpg
    :alt: Change
@@ -377,12 +391,21 @@ Method 2: Boot from Virtual CD-ROM at boot time
 
    Change
 
+**Step 4: Reset the ForensicVM**
+
+- Send a reset by clicking the "Reset" Button. The ForensicVM will reboot.
+
+
 .. figure:: img/boot_iso_0011.jpg
    :alt: Change
    :align: center
    :width: 600
 
    Change
+
+**Step 5: Press ESC again to go to UEFI**
+
+- Once again press ESC This will take you to the UEFI menu where you now can select the DVDROM boot option.
 
 .. figure:: img/boot_iso_0012.jpg
    :alt: Change
@@ -391,6 +414,21 @@ Method 2: Boot from Virtual CD-ROM at boot time
 
    Change
 
+**Step 6: Select the "Boot Manager" option**
+
+- Select the menu "Boot Manager". Use the arrow keys and press <ENTER>
+
+.. figure:: img/boot_iso_0016.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+**Step 7: Select the UEFI QEMU DVD-ROM**
+
+- Select the menu "UEFI QEMU DVDROM". Use the arrow keys and press <ENTER>
+
 .. figure:: img/boot_iso_0013.jpg
    :alt: Change
    :align: center
@@ -398,12 +436,20 @@ Method 2: Boot from Virtual CD-ROM at boot time
 
    Change
 
+**Step 8: The DVD or CDROM will boot on the virtual CDROM Drive**
+
+- If a menu appear select the pretended option. If not, please wait until the ForensicVM boot the ISO media.
+
 .. figure:: img/boot_iso_0014.jpg
    :alt: Change
    :align: center
    :width: 600
 
    Change
+
+**Step 8: Choose and run yourr tools**
+
+- Choose and run your tools. In this example the Forensic tools of Kali linux are used.
 
 .. figure:: img/boot_iso_0015.jpg
    :alt: Change
