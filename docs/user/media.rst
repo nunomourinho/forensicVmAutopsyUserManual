@@ -114,15 +114,19 @@ Eject ISO / Web Eject CD-ROM
 
 Step-by-step guidance on safely ejecting a mounted ISO file or CD-ROM, from the Autopsy ForensicVM Client Plugin or from the web interface.
 
-Delete ISO
-------------
 
-Understand how to remove ISO files that are no longer needed, ensuring a clutter-free workspace.
 
 Bootable Media
 ----------------
 
 Dive into the specifics of booting from an ISO or CD-ROM, a critical capability for certain forensic tasks.
+
+
+
+Delete ISO
+------------
+
+Understand how to remove ISO files that are no longer needed, ensuring a clutter-free workspace.
 
 
 
