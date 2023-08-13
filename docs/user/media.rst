@@ -151,24 +151,60 @@ Using the Web Interface
 
 
 
-Insert ISO / Web Insert CD-ROM
---------------------------------
+List Remote ISO Files
+----------------------
 
-Learn how to virtually insert an ISO file or CD-ROM for access within the virtualized forensic image,  from the Autopsy ForensicVM Client Plugin or from the web interface.
+When investigating digital evidence, it's crucial to maintain a catalog of tools and resources available for the task. ForensicVM facilitates this by allowing users to store ISO files remotely on its server. This section outlines the procedures to access and view this list of remotely stored ISO files.
 
-.. figure:: img/insert_iso_0001.jpg
-   :alt: Change
+There are two primary methods to view these files:
+
+Using the Autopsy ForensicVM Client Plugin
+********************************************
+
+**Step 1: Access the Media Panel**
+
+- Navigate to the Autopsy VM.
+- Click on the **Media Panel Tab**.
+
+**Step 2: View Remote ISO Files**
+
+- Once in the media panel, click on the **Remote ISO Files** button.
+
+**Step 3: Review Available ISO Files**
+
+- The ISO file list will update.
+- Browse through the list to review available tools and resources.
+- If you find any tools missing or outdated, consider downloading or creating the necessary ISO files, and then upload them to the ForensicVM Server.
+
+.. figure:: img/list_remote_iso_0001.jpg
+   :alt: Viewing Remote ISO Files using Autopsy ForensicVM Client Plugin
    :align: center
    :width: 600
 
-   Change
+   Viewing Remote ISO Files using Autopsy ForensicVM Client Plugin
 
-.. figure:: img/insert_iso_0002.jpg
-   :alt: Change
+Using the Web Interface
+*************************
+
+**Step 1: Access the Tool Panel**
+
+- On the main screen, click on the **Control Bar** icon to reveal the tool panel.
+
+**Step 2: Open the Media Control Modal Box**
+
+- Within the tool panel, locate and click the **Eject** icon. This action will open the Media Control Modal Box.
+
+**Step 3: View ISO Dropdown**
+
+- Click on the **ISO Dropdown**.
+- This dropdown will display a list of all ISO files stored on the ForensicVM server, which can be utilized as virtual CD-ROMs.
+
+.. figure:: img/list_remote_iso_0002.jpg
+   :alt: Viewing Remote ISO Files using the Web Interface
    :align: center
    :width: 600
 
-   Change
+   Viewing Remote ISO Files using the Web Interface
 
 
 Run Tools in ISO
