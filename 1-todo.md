@@ -30,7 +30,7 @@
          - [x] Disable network card /web disable network
          - [x] Download Wireshark pcap files
          - [x] Analyse in wireshark
-      - [ ] Media
+      - [x] Media
          - [ ] Browse and upload ISO
          - [ ] Select ISO /web select cdrom
          - [ ] List Remote ISO files
