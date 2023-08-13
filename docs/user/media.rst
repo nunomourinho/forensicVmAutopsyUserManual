@@ -212,9 +212,48 @@ Using the Web Interface
 
 
 
-Run Tools in ISO
-------------------
-Learn how to run the uploaded tools
+Run Tools from ISO
+===================
+
+After successfully uploading and inserting an ISO into the virtualized forensic environment, the next step is to leverage the tools within. This section will guide you through accessing and utilizing the programs and utilities contained in the ISO.
+
+**Step 1: Locate the Virtual CD-ROM Drive**
+
+- Once you've inserted the ISO as a virtual CD-ROM, navigate to your operating system's file explorer or equivalent.
+- Locate the virtual CD-ROM drive which should appear similar to a physical CD-ROM drive.
+- Open the drive to view its contents.
+
+.. figure:: img/run_iso_0001.jpg
+   :alt: Locating the Virtual CD-ROM Drive
+   :align: center
+   :width: 600
+
+   Locating the Virtual CD-ROM Drive
+
+**Step 2: Identify and Launch the Desired Tool**
+
+- Inside the virtual CD-ROM content, sift through the directories and files to locate the specific program or tool you intend to run.
+- Once found, initiate the program or utility. Depending on the nature of the tool, you might have to run it as an administrator or follow specific launch procedures.
+
+.. figure:: img/run_iso_0002.jpg
+   :alt: Launching Tools from the ISO
+   :align: center
+   :width: 600
+
+   Launching Tools from the ISO
+
+**Step 3: Adhere to the Program's Instructions**
+
+- Each forensic tool or utility will have its set of instructions, either embedded within its interface or provided as a separate README file.
+- Follow these instructions meticulously to ensure accurate and efficient processing.
+- Should your investigation involve extracting or marking potential evidence, utilize the "Possible Evidence" virtual drive. This virtual drive is specially designed within ForensicVM to store and segregate potential pieces of evidence without contaminating the original data.
+
+.. figure:: img/run_iso_0003.jpg
+   :alt: Using the Program within ForensicVM
+   :align: center
+   :width: 600
+
+   Using the Program within ForensicVM
 
 
 Eject ISO / Web Eject CD-ROM
