@@ -510,7 +510,7 @@ To delete an ISO file, follow the steps below:
 
 **Step 1:** Navigate to the Media Panel within the Autopsy ForensicVM Client Plugin interface.
 
-**Step 2:** Identify the ISO file you wish to delete.
+**Step 2:** Identify and select the ISO file you wish to delete.
 
 **Step 3:** Click on the "Delete" button associated with the desired ISO file.
 
