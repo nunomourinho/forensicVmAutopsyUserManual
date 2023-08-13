@@ -501,7 +501,7 @@ Method 2: Eject using the Web Screen Interface
 
    Ejecting via Web Screen Interface
 
-**Delete ISO Using the Autopsy ForensicVM Client Plugin Interface**
+Delete ISO Using the Autopsy ForensicVM Client Plugin Interface
 ---------------------------------------------------------------------
 
 To delete an ISO file, follow the steps below:
