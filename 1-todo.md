@@ -38,7 +38,7 @@
          - [x] Eject ISO /web enject cdrom                  
          - [x] Bootable Media: How to boot a cdrom
          - [x] Delete ISO
-      - [ ] Snapshots
+      - [x] Snapshots
          - [ ] Create new
          - [ ] List remote snapshots
          - [ ] Select snapshot
