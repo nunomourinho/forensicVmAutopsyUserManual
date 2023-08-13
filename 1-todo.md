@@ -28,8 +28,8 @@
          - [x] Enable network card /Web enable network
          - [x] Collect network evidence
          - [x] Disable network card /web disable network
-         - [ ] Download Wireshark pcap files
-         - [ ] Analyse in wireshark
+         - [x] Download Wireshark pcap files
+         - [x] Analyse in wireshark
       - [ ] Media
          - [ ] Select ISO /web select cdrom
          - [ ] List Remote ISO files
