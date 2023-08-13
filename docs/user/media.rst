@@ -44,38 +44,38 @@ When conducting a forensic investigation, specialized tools are often required t
 - Navigate to the Autopsy VM and locate the ForensicVM Client Plugin.
 - Click on the Media Panel Separator.
 
-.. figure:: img/upload_iso_0001.jpg
-   :alt: Accessing the Media Panel
-   :align: center
-   :width: 600
-
-   Accessing the Media Panel
-
 **Step 2: Initiate the ISO Upload**
 
 - Click the "Browse and Upload" button.
 
-.. figure:: img/upload_iso_0002.jpg
-   :alt: Initiating ISO Upload
+.. figure:: img/upload_iso_0001.jpg
+   :alt: Browse and Upload
    :align: center
    :width: 600
 
-   Initiating ISO Upload
+   Browse and Upload
 
 **Step 3: Locate and Select the ISO File**
 
 - Browse your computer's directories and select the desired ISO file to upload.
 
-.. figure:: img/upload_iso_0003.jpg
-   :alt: Selecting the ISO file
+.. figure:: img/upload_iso_0002.jpg
+   :alt: Locate and Select the ISO File
    :align: center
-   :width: 200
+   :width: 600
 
-   Selecting the ISO file
+   Locate and Select the ISO File
 
 **Step 4: Upload Confirmation**
 
 The upload process might take some time, depending on the size of the ISO file. There's no progress bar available currently, so please be patient and wait for a confirmation message to appear, indicating a successful upload.
+
+.. figure:: img/upload_iso_0003.jpg
+   :alt: Upload Confirmation
+   :align: center
+   :width: 200
+
+   Upload Confirmation
 
 .. note::
    
