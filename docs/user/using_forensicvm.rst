@@ -41,4 +41,4 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
 
    Media Management - Use Extra Tools and Boot ISO Files <media>
 
-   Snapshots in ForensicVM - A Crucial Asset for Investigators <snapshot>
+   Snapshots - A Crucial Asset for Investigators <snapshot>
