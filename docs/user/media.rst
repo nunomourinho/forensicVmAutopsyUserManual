@@ -210,10 +210,8 @@ Using the Web Interface
    Inserting ISO using the Web Interface
 
 
-
-
-Run Tools from ISO
-===================
+Method 2 from ISO
+-------------------
 
 After successfully uploading and inserting an ISO into the virtualized forensic environment, the next step is to leverage the tools within. This section will guide you through accessing and utilizing the programs and utilities contained in the ISO.
 
@@ -353,7 +351,7 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup (BIOS showcase)
    Accessing Tools from Booted ISO
 
 Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
-=================================================================
+------------------------------------------------------------------
 
 **Step 1: Access the UEFI Boot Options**
 
