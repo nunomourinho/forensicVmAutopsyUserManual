@@ -191,11 +191,15 @@ To download the Wireshark pcap files clieck the button "Download Wireshark pcap 
    :alt: Change
    :align: center
 
+   Change
+
 A windows explorer window will appear asking where to save the pcap.zip file:
 
 .. figure:: img/network_0011.jpg
    :alt: Change
    :align: center
+
+   Change
 
 After a few seconds a download progress box will appear. The download will take several minutes depending of the size of the pcap.zip file:
 
@@ -203,23 +207,31 @@ After a few seconds a download progress box will appear. The download will take 
    :alt: Change
    :align: center
 
+   Change
+
 .. figure:: img/network_0013.jpg
    :alt: Change
    :align: center
+
+   Change
 
 .. figure:: img/network_0014.jpg
    :alt: Change
    :align: center
 
+   Change
+
 .. figure:: img/network_0015.jpg
    :alt: Change
    :align: center
+
+   Change
 
 .. figure:: img/network_0016.jpg
    :alt: Change
    :align: center
 
-
+   Change
 
 Analyse in wireshark
 ------------------------------
@@ -228,11 +240,16 @@ Analyse in wireshark
    :alt: Change
    :align: center
 
+   Change
+
 .. figure:: img/network_0018.jpg
    :alt: Change
    :align: center
+
+   Change
 
 .. figure:: img/network_0019.jpg
    :alt: Change
    :align: center
 
+   Change
