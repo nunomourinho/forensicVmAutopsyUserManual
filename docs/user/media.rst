@@ -255,19 +255,169 @@ After successfully uploading and inserting an ISO into the virtualized forensic 
 
    Using the Program within ForensicVM
 
+Bootable Media
+---------------
+
+There are instances during a forensic investigation where analysts may need to interact directly with the operating system or leverage specific tools that necessitate booting into a virtual machine (VM). ForensicVM's virtual CD-ROM drive has a unique characteristic: it can only accept CD-ROM insertions when the VM is running.
+
+The booting process of a CD-ROM involves the following steps:
+
+1. Boot into the operating system or access the BIOS/UEFI screen.
+2. Insert the virtual CD-ROM into the drive.
+3. Perform a reboot or reset operation.
+4. Access the BIOS or UEFI by pressing the "ESC" key.
+5. Navigate to the boot device selection menu and confirm your choice.
+
+Method 1: Boot from Virtual CD-ROM Post-OS Bootup
+****************************************************
+
+**Step 1: Boot into the Operating System**
+
+- Initiate a boot sequence and load the operating system.
+
+.. tip::
+   
+   While the example showcases a user login, you don't necessarily need to log in. Simply booting into the operating system is sufficient.
+
+.. figure:: img/boot_iso_0001.jpg
+   :alt: Operating System Boot Screen
+   :align: center
+   :width: 600
+
+   Operating System Boot Screen
+
+**Step 2: Insert the Virtual Bootable CD-ROM**
+
+- Adhere to the previous guidelines to insert the virtual media into the CD-ROM drive.
+
+.. figure:: img/boot_iso_0002.jpg
+   :alt: Inserting Virtual Media
+   :align: center
+   :width: 600
+
+   Inserting Virtual Media
+
+**Step 3: Initiate a System Restart**
+
+- Command the operating system to restart and wait for the BIOS boot screen to emerge.
+
+.. figure:: img/boot_iso_0003.jpg
+   :alt: System Restart
+   :align: center
+   :width: 600
+
+   System Restart
+
+**Step 4: Access Boot Options with "ESC"**
+
+- As the system initializes, press the "ESC" key within a 15-second window to access the boot options.
+
+.. figure:: img/boot_iso_0004.jpg
+   :alt: Boot Options Screen
+   :align: center
+   :width: 600
+
+   Boot Options Screen
+
+**Step 5: Opt for the Virtual CD-ROM Drive**
+
+- From the available boot options, select the corresponding number for the virtual CD-ROM or DVD-ROM drive. For instance, in the example given, you'd press "4".
+
+.. figure:: img/boot_iso_0005.jpg
+   :alt: Selecting Virtual CD-ROM
+   :align: center
+   :width: 600
+
+   Selecting Virtual CD-ROM
+
+**Step 6: Boot into the ISO**
+
+- If the operations proceed without hitches, the virtual media will boot. Depending on the media's nature, it might present a selection menu or lead straight to its primary function.
+
+.. figure:: img/boot_iso_0006.jpg
+   :alt: Booting into ISO
+   :align: center
+   :width: 600
+
+   Booting into ISO
+
+**Step 7: Operate the Booted Tools**
+
+- With the ISO booted, you can now access and employ the forensic tools contained therein, tailoring your investigative approach based on the utilities available.
+
+.. figure:: img/boot_iso_0007.jpg
+   :alt: Accessing Tools from Booted ISO
+   :align: center
+   :width: 600
+
+   Accessing Tools from Booted ISO
+
+
+Method 2: Boot from Virtual CD-ROM at boot time
+****************************************************
+
+.. figure:: img/boot_iso_0008.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0009.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0010.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0011.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0012.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0013.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0014.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0015.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+On this method we will boot the ForensicVM. We then press ESC to the boot menu
 
 Eject ISO / Web Eject CD-ROM
 ------------------------------
 
 Step-by-step guidance on safely ejecting a mounted ISO file or CD-ROM, from the Autopsy ForensicVM Client Plugin or from the web interface.
-
-
-
-Bootable Media
-----------------
-
-Dive into the specifics of booting from an ISO or CD-ROM, a critical capability for certain forensic tasks.
-
 
 
 Delete ISO
