@@ -31,11 +31,11 @@
          - [x] Download Wireshark pcap files
          - [x] Analyse in wireshark
       - [ ] Media
+         - [ ] Browse and upload ISO
          - [ ] Select ISO /web select cdrom
          - [ ] List Remote ISO files
          - [ ] Insert ISO / web insert cdrom
-         - [ ] Eject ISO /web enject cdrom
-         - [ ] Browse and upload ISO
+         - [ ] Eject ISO /web enject cdrom         
          - [ ] Delete ISO
          - [ ] Botable Media: How to boot a cdrom
       - [ ] Snapshots
