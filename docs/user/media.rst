@@ -151,16 +151,16 @@ Using the Web Interface
 
 
 
-Select ISO / Web Select CD-ROM
----------------------------------
-
-Instructions on choosing the right ISO file or CD-ROM from the Autopsy ForensicVM Client Plugin or from the web interface.
-
-
 Insert ISO / Web Insert CD-ROM
 --------------------------------
 
 Learn how to virtually insert an ISO file or CD-ROM for access within the virtualized forensic image,  from the Autopsy ForensicVM Client Plugin or from the web interface.
+
+
+Run Tools in ISO
+------------------
+Learn how to run the uploaded tools
+
 
 Eject ISO / Web Eject CD-ROM
 ------------------------------
