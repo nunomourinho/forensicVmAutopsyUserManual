@@ -31,23 +31,19 @@
          - [x] Download Wireshark pcap files
          - [x] Analyse in wireshark
       - [x] Media
-         - [ ] Browse and upload ISO
-         - [ ] Select ISO /web select cdrom
+         - [x] Browse and upload ISO
          - [ ] List Remote ISO files
+         - [ ] Select ISO /web select cdrom         
          - [ ] Insert ISO / web insert cdrom
-         - [ ] Eject ISO /web enject cdrom         
+         - [ ] Eject ISO /web enject cdrom                  
+         - [ ] Bootable Media: How to boot a cdrom
          - [ ] Delete ISO
-         - [ ] Botable Media: How to boot a cdrom
       - [ ] Snapshots
          - [ ] List remote snapshots
          - [ ] Create new
+         - [ ] Select snapshot
          - [ ] Rollback
          - [ ] Delete
-         - [ ] Select snapshot
-      - [ ] Analyse Forensic VM Performance
-      - [ ] Open forensicVM webshell
-      - [ ] DEBUG: remote ssh to folder
-      - [ ] Settings scaling - Local scaling
       - [ ] Plugins
         - [ ] Add forensic admin in windows
         - [ ] Add forensic admin in linux
@@ -55,7 +51,11 @@
         - [ ] Patch accessibility
         - [ ] Remove hibernation file
         - [ ] List remote Plugins
-        - [ ] Run Selected plugin
+        - [ ] Run Selected plugin         
+      - [ ] Analyse Forensic VM Performance
+      - [ ] Open forensicVM webshell
+      - [ ] DEBUG: remote ssh to folder
+      - [ ] Settings scaling - Local scaling
       - [ ] Finetunning
          - [ ] Change VM memory size
          - [ ] Set datetime
@@ -76,10 +76,7 @@
 - [ ] Create a glossary (https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html)
 - [ ] Compile and join api documentation from forensicVM server in the developer section
 - [ ] Compile and join api documentation from forensicVM client in the developer section
-
-
 - [ ] Create a project site> https://pages.github.com/
-
 
 - [ ] Make metrics:
    - [ ] Run the image conversion
@@ -102,6 +99,3 @@
          - [ ] Internet connection speed
          - [ ] Server internet connection speed
          - [ ] Server transfer speed
-
-
-   
