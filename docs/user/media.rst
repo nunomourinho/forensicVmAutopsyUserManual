@@ -459,8 +459,49 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
 Eject ISO / Web Eject CD-ROM
 ------------------------------
 
-Step-by-step guidance on safely ejecting a mounted ISO file or CD-ROM, from the Autopsy ForensicVM Client Plugin or from the web interface.
+There are two methods to eject an ISO from the virtual CD-ROM drive:
 
+1. Using the Autopsy ForensicVM Client Plugin interface.
+2. Using the web screen interface.
+
+Below are detailed steps for each method:
+
+Method 1: Eject using the Autopsy ForensicVM Client Plugin Interface
+*********************************************************************
+
+**Step 1: Activate the "Eject" Function**
+
+- Click on the "Eject" button. A confirmation will appear, indicating that the media has been successfully ejected.
+
+.. figure:: img/eject_iso_0001.jpg
+   :alt: Ejecting via Autopsy ForensicVM Client Plugin
+   :align: center
+   :width: 600
+
+   Ejecting via Autopsy ForensicVM Client Plugin
+
+
+Method 2: Eject using the Web Screen Interface
+************************************************
+
+**Step 1: Access the Web Toolbar**
+
+- Click on the open bar icon. This action will expand the web toolbar for further options.
+
+**Step 2: Initiate the Eject Process**
+
+- Click on the "Eject" icon (depicted with a "2" in the reference image). This will bring up the Media Control Modal Panel.
+
+**Step 3: Finalize the Ejection**
+
+- Click the "Remove Media" button (marked as "3" in the reference image). The media will subsequently be disengaged from the virtual CD-ROM drive.
+
+.. figure:: img/eject_iso_0002.jpg
+   :alt: Ejecting via Web Screen Interface
+   :align: center
+   :width: 600
+
+   Ejecting via Web Screen Interface
 
 Delete ISO
 ------------
