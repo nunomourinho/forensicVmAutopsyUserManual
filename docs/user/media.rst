@@ -256,18 +256,78 @@ After successfully uploading and inserting an ISO into the virtualized forensic 
    Using the Program within ForensicVM
 
 
-Eject ISO / Web Eject CD-ROM
-------------------------------
-
-Step-by-step guidance on safely ejecting a mounted ISO file or CD-ROM, from the Autopsy ForensicVM Client Plugin or from the web interface.
-
-
 
 Bootable Media
 ----------------
 
-Dive into the specifics of booting from an ISO or CD-ROM, a critical capability for certain forensic tasks.
+Sometimes you need to interact with the operating system and use tools that require to boot on the virtual machine. The virtual cd-rom drive can only accept cd-rom insertions when the ForensicVM is started.
 
+There are two ways to boot a cdrom. Both ways evolve the following steps:
+
+1) Boot into the operating system or into the bios or UEFI screen
+2) Insert the virtual cd-rom drive
+3) Reboot or reset
+4) Enter the BIOS or UEFI using the "ESC" key
+5) Choose the boot device in the menu em press ENTER
+
+Method 1: Insert cd-rom into booted operating system and reboot
+****************************************************************
+
+.. figure:: img/boot_iso_0001.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0002.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0003.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0004.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0005.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0006.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/boot_iso_0007.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+
+
+Eject ISO / Web Eject CD-ROM
+------------------------------
+
+Step-by-step guidance on safely ejecting a mounted ISO file or CD-ROM, from the Autopsy ForensicVM Client Plugin or from the web interface.
 
 
 Delete ISO
