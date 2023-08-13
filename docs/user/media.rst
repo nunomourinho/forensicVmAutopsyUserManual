@@ -38,6 +38,33 @@ Proceed to the relevant subsections for detailed instructions and best practices
 Browse and Upload ISO
 ------------------------
 
+.. figure:: img/upload_iso_0001.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/upload_iso_0002.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
+.. figure:: img/upload_iso_0003.jpg
+   :alt: Change
+   :align: center   
+
+   Change
+
+.. figure:: img/upload_iso_0004.jpg
+   :alt: Change
+   :align: center
+   :width: 600
+
+   Change
+
 Discover how to navigate the interface to select and upload essential ISO files to the ForensicVM environment.
 
 Select ISO / Web Select CD-ROM
