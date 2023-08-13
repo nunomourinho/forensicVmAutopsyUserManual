@@ -255,74 +255,102 @@ After successfully uploading and inserting an ISO into the virtualized forensic 
 
    Using the Program within ForensicVM
 
-
-
 Bootable Media
-----------------
+---------------
 
-Sometimes you need to interact with the operating system and use tools that require to boot on the virtual machine. The virtual cd-rom drive can only accept cd-rom insertions when the ForensicVM is started.
+There are instances during a forensic investigation where analysts may need to interact directly with the operating system or leverage specific tools that necessitate booting into a virtual machine (VM). ForensicVM's virtual CD-ROM drive has a unique characteristic: it can only accept CD-ROM insertions when the VM is running.
 
-There are two ways to boot a cdrom. Both ways evolve the following steps:
+The booting process of a CD-ROM involves the following steps:
 
-1) Boot into the operating system or into the bios or UEFI screen
-2) Insert the virtual cd-rom drive
-3) Reboot or reset
-4) Enter the BIOS or UEFI using the "ESC" key
-5) Choose the boot device in the menu em press ENTER
+1. Boot into the operating system or access the BIOS/UEFI screen.
+2. Insert the virtual CD-ROM into the drive.
+3. Perform a reboot or reset operation.
+4. Access the BIOS or UEFI by pressing the "ESC" key.
+5. Navigate to the boot device selection menu and confirm your choice.
 
-Method 1: Insert cd-rom into booted operating system and reboot
-****************************************************************
+Method 1: Boot from Virtual CD-ROM Post-OS Bootup
+****************************************************
+
+**Step 1: Boot into the Operating System**
+
+- Initiate a boot sequence and load the operating system.
+
+.. tip::
+   
+   While the example showcases a user login, you don't necessarily need to log in. Simply booting into the operating system is sufficient.
 
 .. figure:: img/boot_iso_0001.jpg
-   :alt: Change
+   :alt: Operating System Boot Screen
    :align: center
    :width: 600
 
-   Change
+   Operating System Boot Screen
+
+**Step 2: Insert the Virtual Bootable CD-ROM**
+
+- Adhere to the previous guidelines to insert the virtual media into the CD-ROM drive.
 
 .. figure:: img/boot_iso_0002.jpg
-   :alt: Change
+   :alt: Inserting Virtual Media
    :align: center
    :width: 600
 
-   Change
+   Inserting Virtual Media
+
+**Step 3: Initiate a System Restart**
+
+- Command the operating system to restart and wait for the BIOS boot screen to emerge.
 
 .. figure:: img/boot_iso_0003.jpg
-   :alt: Change
+   :alt: System Restart
    :align: center
    :width: 600
 
-   Change
+   System Restart
+
+**Step 4: Access Boot Options with "ESC"**
+
+- As the system initializes, press the "ESC" key within a 15-second window to access the boot options.
 
 .. figure:: img/boot_iso_0004.jpg
-   :alt: Change
+   :alt: Boot Options Screen
    :align: center
    :width: 600
 
-   Change
+   Boot Options Screen
+
+**Step 5: Opt for the Virtual CD-ROM Drive**
+
+- From the available boot options, select the corresponding number for the virtual CD-ROM or DVD-ROM drive. For instance, in the example given, you'd press "4".
 
 .. figure:: img/boot_iso_0005.jpg
-   :alt: Change
+   :alt: Selecting Virtual CD-ROM
    :align: center
    :width: 600
 
-   Change
+   Selecting Virtual CD-ROM
+
+**Step 6: Boot into the ISO**
+
+- If the operations proceed without hitches, the virtual media will boot. Depending on the media's nature, it might present a selection menu or lead straight to its primary function.
 
 .. figure:: img/boot_iso_0006.jpg
-   :alt: Change
+   :alt: Booting into ISO
    :align: center
    :width: 600
 
-   Change
+   Booting into ISO
+
+**Step 7: Operate the Booted Tools**
+
+- With the ISO booted, you can now access and employ the forensic tools contained therein, tailoring your investigative approach based on the utilities available.
 
 .. figure:: img/boot_iso_0007.jpg
-   :alt: Change
+   :alt: Accessing Tools from Booted ISO
    :align: center
    :width: 600
 
-   Change
-
-
+   Accessing Tools from Booted ISO
 
 Eject ISO / Web Eject CD-ROM
 ------------------------------
