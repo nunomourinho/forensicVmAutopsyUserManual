@@ -92,16 +92,17 @@ Once uploaded, you should be able to see the ISO file listed in the ISO Manageme
 
    Verifying the Uploaded ISO
 
+List Remote ISO Files
+------------------------
+
+Get an overview of all ISO files stored remotely on the ForensicVM server.
+
 
 Select ISO / Web Select CD-ROM
 ---------------------------------
 
 Instructions on choosing the right ISO file or CD-ROM from the Autopsy ForensicVM Client Plugin or from the web interface.
 
-List Remote ISO Files
-------------------------
-
-Get an overview of all ISO files stored remotely on the ForensicVM server.
 
 Insert ISO / Web Insert CD-ROM
 --------------------------------
