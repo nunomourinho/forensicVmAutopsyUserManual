@@ -1,5 +1,6 @@
 - [x] Edit first pages
 - [x] Enumerate Autopsy forensicVM actions
+- [ ] Getting Started - Make one or several infographic
    - [x] Create a new page per action in usage
       - [x] Run the Autopsy Plugin
       - [x] Virtualize - Convert to VM
