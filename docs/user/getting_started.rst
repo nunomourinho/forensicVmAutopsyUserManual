@@ -11,7 +11,7 @@ This section provides an overview of the initial steps to start using ForensicVM
 Installing ForensicVM
 =========================
 
-Before you can use ForensicVM, you must first install the software on your system. To do this, follow the steps outlined in the :ref:`<user/installation_and_setup>`.
+Before you can use ForensicVM, you must first install the software on your system. To do this, follow the steps outlined in the `Installation and Setup`_.
 
 Navigating the Interface
 ============================
