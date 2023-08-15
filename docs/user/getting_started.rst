@@ -16,7 +16,12 @@ Before you can use ForensicVM, you must first install the software on your syste
 Navigating the Interface
 ============================
 
-Once logged in, you will see the main interface of ForensicVM. This is where you can manage forensic images, view system information, and access various features and tools.
+.. figure:: 
+   :name: Change-me
+   :alt: Change-me
+
+   Change-me
+
 
 Loading a Forensic Image
 ============================
