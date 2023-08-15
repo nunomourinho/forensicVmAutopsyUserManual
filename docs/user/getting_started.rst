@@ -30,28 +30,39 @@ Autopsy ForensicVM Client Plugin: A Comprehensive Interface Guide
 The Autopsy ForensicVM Client Plugin serves as a pivotal hub for forensic analysts. This interface is designed for interactive engagement with forensic images, subsequently allowing users to transform these images into a forensic virtual machine (ForensicVM). Here's a breakdown of its primary functionalities:
 
 Main Interface Toolbar Overview (1)
-*************************************
+===================================
 
 1. **Configuration**:
     
-    - Before diving into the main features, it's crucial to establish the configuration settings for the plugin. This initial setup typically takes place during the :ref:`Installation and Setup`.
+    - Prior to exploring the main functionalities, it's paramount to configure the plugin's settings. This preliminary setup is generally executed during the :ref:`Installation and Setup`.
 
 2. **Virtualize Tab**:
     
-    The core functionalities reside within this tab. Specifically, you can:
+    This tab houses the primary operations. Specifically, users can:
 
-    - **Start, Stop, Shutdown, Reset, and Delete** the ForensicVM.
-    - **Manage Media**: Organize and access various media pertinent to your investigations.
-    - **Manage Plugins**: Tweak, activate, or deactivate specific plugins.
-    - **Handle Snapshots**: Capture and revert to different states of the ForensicVM.
-    - **Capture Screenshots**: Document specific frames or moments within the ForensicVM for further analysis.
-    - **Memory Management**: Craft and download memory dumps which can be instrumental in tracking real-time activities within the ForensicVM.
-    - **Virtual Evidence Disk Management**: Import and recreate the virtual evidence disk, consolidating all potential evidence.
-    - **Network Management**: Enable or disable network cards, and procure pcap (network packet capture files) for deeper network-based investigations.
-    - **ForensicVM Customization**: Adjust the ForensicVM's start date and time, tweak memory size, and more.
-    - **Performance Analysis**: Utilize Netdata for an in-depth performance metric evaluation of the ForensicVM.
-    - **Troubleshooting**: Access the ForensicVM machine's configuration via SSH, directly connecting to the remote ForensicVM folder. Additionally, launch an equivalent webshell for an SSH-based interaction with the server over the internet.
+    - **Control the ForensicVM**: Start, Stop, Shutdown, Reset, or Delete.
+    - **Manage Media**: Organize manage media relevant to forensic analysis.
+    - **Manage Plugins**: Run individual plugins.
+    - **Handle Snapshots**: Capture and revert the ForensicVM to various states.
+    - **Capture Screenshots**: Record specific instances or frames within the ForensicVM.
+    - **Memory Management**: Generate and retrieve memory dumps, vital for observing real-time operations within the ForensicVM.
+    - **Virtual Evidence Disk Management**: Import and regenerate the virtual evidence disk, accumulating all potential pieces of evidence.
+    - **Network Management**: Toggle network cards on or off, and capture pcap (packet capture) files for granular network investigations.
+    - **ForensicVM Customization**: Modify the starting date/time, reallocate memory, among other settings.
+    - **Performance Analysis**: Employ Netdata for comprehensive metric analysis of the ForensicVM's operations.
+    - **Troubleshooting**: Secure an SSH connection to the ForensicVM machine, connecting directly to its remote directory. Additionally, avail an equivalent webshell for an internet-based SSH interaction with the server.
 
+3. **Autopsy Case**:
+    
+    - This tab displays the Autopsy case details, including the extant case tags (utilized for case folder creation) and the generated UUID. This UUID is unique and becomes the name for the foundational directory of the forensic virtual machine.
+
+4. **Output Console**:
+    
+    - This console captures all system messages. It's a valuable tool for debugging or ascertaining the final state of operations.
+
+5. **About**:
+
+    - Contains copyright details pertaining to the ForensicVM Client.
 
 .. figure:: img/infographics_0001.jpg
    :name: Change-me
