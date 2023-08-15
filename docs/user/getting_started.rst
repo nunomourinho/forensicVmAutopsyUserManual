@@ -29,8 +29,8 @@ Autopsy ForensicVM Client Plugin: A Comprehensive Interface Guide
 
 The Autopsy ForensicVM Client Plugin serves as a pivotal hub for forensic analysts. This interface is designed for interactive engagement with forensic images, subsequently allowing users to transform these images into a forensic virtual machine (ForensicVM). Here's a breakdown of its primary functionalities:
 
-Main Interface Toolbar Overview (1)
-===================================
+Main Toolbar Overview (1)
+===========================
 
 1. **Configuration**:
     
@@ -63,6 +63,18 @@ Main Interface Toolbar Overview (1)
 5. **About**:
 
     - Contains copyright details pertaining to the ForensicVM Client.
+
+Secondary Toolbar Overview (2)
+===============================
+
+1. **Media Management**:
+
+    This tab gives access to the auxiliar virtualization functions:
+
+    - **Media** - Manage media. Upload ISO files to the server, insert, eject and delete media.
+    - **Plugins** - Select and run a plugin. Add new forensic administrators, bypass password, reset activation, bypass security protections to investigate user profiles.
+    - **Snapshots** - Capture and revert the ForensicVM to various states.
+    - **Finetuning** - Change memory size and set initial run date.
 
 .. figure:: img/infographics_0001.jpg
    :name: Change-me
