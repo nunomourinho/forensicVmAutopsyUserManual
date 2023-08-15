@@ -24,20 +24,40 @@ Your first step is run the ForensicVM Client Plugin in Autopsy Software. The mai
 
    Change-me
 
+Autopsy ForensicVM Client Plugin: A Comprehensive Interface Guide
+------------------------------------------------------------------
 
+The Autopsy ForensicVM Client Plugin serves as a pivotal hub for forensic analysts. This interface is designed for interactive engagement with forensic images, subsequently allowing users to transform these images into a forensic virtual machine (ForensicVM). Here's a breakdown of its primary functionalities:
 
-**The Forensic Client Plugin main program interface**
+Main Interface Toolbar Overview
+*********************************
+
+1. **Configuration**:
+    
+    - Before diving into the main features, it's crucial to establish the configuration settings for the plugin. This initial setup typically takes place during the :ref:`Installation and Setup`.
+
+2. **Virtualize Tab**:
+    
+    The core functionalities reside within this tab. Specifically, you can:
+
+    - **Start, Stop, Shutdown, Reset, and Delete** the ForensicVM.
+    - **Manage Media**: Organize and access various media pertinent to your investigations.
+    - **Manage Plugins**: Tweak, activate, or deactivate specific plugins.
+    - **Handle Snapshots**: Capture and revert to different states of the ForensicVM.
+    - **Capture Screenshots**: Document specific frames or moments within the ForensicVM for further analysis.
+    - **Memory Management**: Craft and download memory dumps which can be instrumental in tracking real-time activities within the ForensicVM.
+    - **Virtual Evidence Disk Management**: Import and recreate the virtual evidence disk, consolidating all potential evidence.
+    - **Network Management**: Enable or disable network cards, and procure pcap (network packet capture files) for deeper network-based investigations.
+    - **ForensicVM Customization**: Adjust the ForensicVM's start date and time, tweak memory size, and more.
+    - **Performance Analysis**: Utilize Netdata for an in-depth performance metric evaluation of the ForensicVM.
+    - **Troubleshooting**: Access the ForensicVM machine's configuration via SSH, directly connecting to the remote ForensicVM folder. Additionally, launch an equivalent webshell for an SSH-based interaction with the server over the internet.
+
 
 .. figure:: img/infographics_0001.jpg
    :name: Change-me
    :alt: Change-me
 
    Change-me
-
-**1 - Main interface toolbar.**
-
-#. The first step that you should have done is the "Configuration" to setup the plugin. This is normaly done at the :ref:`Installation and Setup`.
-#.  Virtualize tab: Give access to all main program funtionality. Here you can 
 
 
 .. figure:: img/infographics_0002.jpg
