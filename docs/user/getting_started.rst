@@ -16,12 +16,41 @@ Before you can use ForensicVM, you must first install the software on your syste
 Navigating the Interface
 ============================
 
-.. figure:: 
+.. figure:: img/infographics_0000.jpg
    :name: Change-me
    :alt: Change-me
 
    Change-me
 
+.. figure:: img/infographics_0000.jpg
+   :name: Change-me
+   :alt: Change-me
+
+   Change-me
+
+.. figure:: img/infographics_0001.jpg
+   :name: Change-me
+   :alt: Change-me
+
+   Change-me
+
+.. figure:: img/infographics_0002.jpg
+   :name: Change-me
+   :alt: Change-me
+
+   Change-me
+
+.. figure:: img/infographics_0003.jpg
+   :name: Change-me
+   :alt: Change-me
+
+   Change-me
+
+.. figure:: img/infographics_0004.jpg
+   :name: Change-me
+   :alt: Change-me
+
+   Change-me
 
 Loading a Forensic Image
 ============================
