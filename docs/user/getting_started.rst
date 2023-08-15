@@ -16,6 +16,8 @@ Before you can use ForensicVM, you must first install the software on your syste
 Navigating the Interface
 ============================
 
+Your first step is run the ForensicVM Client Plugin in Autopsy Software. The main interface will open. From here is recomended to :ref:`Convert Forensic Image to a Forensic Virtual Machine`.
+
 .. figure:: img/infographics_0000.jpg
    :name: Change-me
    :alt: Change-me
