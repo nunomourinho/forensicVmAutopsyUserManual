@@ -16,7 +16,7 @@ Before you can use ForensicVM, you must first install the software on your syste
 Navigating the Interface
 ============================
 
-Your first step is run the ForensicVM Client Plugin in Autopsy Software. The main interface will open. From here is recomended to :ref:`Convert Forensic Image to a Forensic Virtual Machine`.
+Your first step is run the ForensicVM Client Plugin in Autopsy Software. The main interface will open. You manage this by reight clicking the datasource and choosing "Run Ingest Modules". After this it will open the main the Forensic Client Plugin main program interface.
 
 .. figure:: img/infographics_0000.jpg
    :name: Change-me
@@ -24,17 +24,21 @@ Your first step is run the ForensicVM Client Plugin in Autopsy Software. The mai
 
    Change-me
 
-.. figure:: img/infographics_0000.jpg
-   :name: Change-me
-   :alt: Change-me
 
-   Change-me
+
+**The Forensic Client Plugin main program interface**
 
 .. figure:: img/infographics_0001.jpg
    :name: Change-me
    :alt: Change-me
 
    Change-me
+
+**1 - Main interface toolbar.**
+
+#. The first step that you should have done is the "Configuration" to setup the plugin. This is normaly done at the :ref:`Installation and Setup`.
+#.  Virtualize tab: Give access to all main program funtionality. Here you can 
+
 
 .. figure:: img/infographics_0002.jpg
    :name: Change-me
@@ -54,17 +58,7 @@ Your first step is run the ForensicVM Client Plugin in Autopsy Software. The mai
 
    Change-me
 
-Loading a Forensic Image
-============================
-
-To load a forensic image into ForensicVM, navigate to the "Load Image" option in the menu, then follow the prompts to select and load your forensic image.
-
-Exploring the Features
-=========================
-
-ForensicVM has a variety of features designed to help with forensic analysis. These include virtualization of forensic images, managing the lifecycle of images, and a plugin architecture that allows for the addition of new features and tools. You can access these features through the main interface.
-
 Next Steps
 ============
 
-After familiarizing yourself with ForensicVM, you may want to explore more advanced topics such as managing and developing plugins, advanced analysis techniques, or optimizing your ForensicVM setup. Refer to the respective sections in this documentation for more information.
+After familiarizing yourself with ForensicVM, you may want to explore more advanced topic. Refer to the respective sections in this documentation for more information.
