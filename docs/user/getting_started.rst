@@ -29,8 +29,8 @@ Autopsy ForensicVM Client Plugin: A Comprehensive Interface Guide
 
 The Autopsy ForensicVM Client Plugin serves as a pivotal hub for forensic analysts. This interface is designed for interactive engagement with forensic images, subsequently allowing users to transform these images into a forensic virtual machine (ForensicVM). Here's a breakdown of its primary functionalities:
 
-Main Interface Toolbar Overview
-*********************************
+Main Interface Toolbar Overview (1)
+*************************************
 
 1. **Configuration**:
     
