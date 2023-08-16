@@ -2,11 +2,13 @@
 Getting Started
 =====================
 
-.. warning::
 
-   Author: Please update this! Make an program overview with screenshots with legends that show every function in a infographic
 
-This section provides an overview of the initial steps to start using ForensicVM.
+.. warning:: Author Reminder
+   :name: reminder-update-infographic
+
+   **Author**: Kindly update the content to provide a comprehensive program overview. This should be complemented by illustrative screenshots, each labeled accurately to depict every function, amalgamated into an informative infographic.
+
 
 Installing ForensicVM
 =========================
@@ -145,6 +147,23 @@ Engage with the active memory data of the forensic virtual machine:
   - Rekall: Another powerful framework for memory forensics.
   - MemProcFS: Useful for live RAM analysis and incident response.
   - Redline: Offers a user-friendly interface for in-depth memory and file analysis.
+
+
+Tools (9)
+***********
+
+    Use auxiliar tools to:
+
+    - **Import evidence disk into autopsy**: Import a virtual disk where you, as a forensic investigator, can colect and gather probable evidence. Disk option allows you to import disk disk as a vmdk disk tinto Autopsy for reporting purpuses.
+    - **Recreate evidence disk**: Delete and recreate a evidence this. Note: This is a destructive actions. Import the current evidence disk into autopsy if it contains gather evidence.
+    - **Analyse ForensicVM performance**: Use netdata software to detect server botlenecks and to optimise server performance. Find and detect the root cause of ForensicVM server issues.
+    - **Open ForensicVM Webshell**: Open an ssh-over-internet webshell connection to the server
+    - **DEBUG: remote ssh to the folder**: Open an ssh shell inside the forensicVM image folder. Here you can edit and test the forensicVM start script. Used only for debug purpuses.
+
+
+Network (10)
+*************
+
 
 
 .. figure:: img/infographics_0002.jpg
