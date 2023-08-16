@@ -27,7 +27,15 @@ Your first step is run the ForensicVM Client Plugin in Autopsy Software. The mai
 Autopsy ForensicVM Client Plugin: A Comprehensive Interface Guide
 ------------------------------------------------------------------
 
-The Autopsy ForensicVM Client Plugin serves as a pivotal hub for forensic analysts. This interface is designed for interactive engagement with forensic images, subsequently allowing users to transform these images into a forensic virtual machine (ForensicVM). Here's a breakdown of its primary functionalities:
+The Autopsy ForensicVM Client Plugin serves as a pivotal hub for forensic analysts. This interface is designed for interactive engagement with forensic images, subsequently allowing users to transform these images into a forensic virtual machine (ForensicVM). Here's a breakdown of its primary functionalities on the Autopsy ForensicVM Client Plugin main interface:
+
+
+.. figure:: img/infographics_0001.jpg
+   :name: Autopsy ForensicVM Client Plugin
+   :alt: Autopsy ForensicVM Client Plugin
+
+   Autopsy ForensicVM Client Plugin Main
+
 
 Main Toolbar Overview (1)
 ===========================
@@ -75,12 +83,6 @@ Secondary Toolbar Overview (2)
     - **Plugins** - Select and run a plugin. Add new forensic administrators, bypass password, reset activation, bypass security protections to investigate user profiles.
     - **Snapshots** - Capture and revert the ForensicVM to various states.
     - **Finetuning** - Change memory size and set initial run date.
-
-.. figure:: img/infographics_0001.jpg
-   :name: Change-me
-   :alt: Change-me
-
-   Change-me
 
 
 .. figure:: img/infographics_0002.jpg
