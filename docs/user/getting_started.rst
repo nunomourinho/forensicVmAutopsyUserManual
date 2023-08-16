@@ -73,16 +73,16 @@ Main Toolbar Overview (1)
     - Contains copyright details pertaining to the ForensicVM Client.
 
 Secondary Toolbar Overview (2)
-===============================
+==============================
 
 1. **Media Management**:
 
-    This tab gives access to the auxiliar virtualization functions:
+    This tab facilitates access to auxiliary virtualization functions:
 
-    - **Media** - Manage media. Upload ISO files to the server, insert, eject and delete media.
-    - **Plugins** - Select and run a plugin. Add new forensic administrators, bypass password, reset activation, bypass security protections to investigate user profiles.
-    - **Snapshots** - Capture and revert the ForensicVM to various states.
-    - **Finetuning** - Change memory size and set initial run date.
+    - **Media** - Oversee media operations. Upload ISO files to the server and manage actions such as insert, eject, and delete.
+    - **Plugins** - Choose and execute a specific plugin. Introduce new forensic administrators, bypass passwords, reset activations, and navigate security protocols to delve into user profiles.
+    - **Snapshots** - Take and revert the ForensicVM to various points in time.
+    - **Finetuning** - Adjust memory capacity and define the initial start date.
 
 
 .. figure:: img/infographics_0002.jpg
