@@ -210,11 +210,30 @@ The following figure elucidates the available options:
 - **(3) Main screen**: Serving as the primary interface of the webscreen, during the boot sequence, users can hit the ESC key to dive into the BIOS or UEFI. This permits modifications to pivotal settings, with a prime focus on the boot device, especially when initiating a boot from an ISO.
 
 
-.. figure:: img/infographics_0003.jpg
-   :name: Change-me
-   :alt: Change-me
+ForensicVM Webscreen Console Control Toolbar
+---------------------------------------------
 
-   Change-me
+Upon clicking the control bar open icon, users are presented with the Control Toolbar, illustrated below:
+
+.. figure:: img/infographics_0003.jpg
+   :name: control-toolbar-overview
+   :alt: Overview of the Control Toolbar in ForensicVM Webscreen Console
+
+   Overview of the Control Toolbar in ForensicVM Webscreen Console
+
+The Control Toolbar facilitates the following actions:
+
+- **Show Extra Keys**: Displays icons representing frequently-used key combinations such as Ctrl+Alt+Del and the Windows key. Clicking these icons sends the corresponding key inputs to the ForensicVM.
+- **Clipboard**: Enables basic data transfer between the user's environment and the ForensicVM, provided the QEMU agent is installed on the virtual machine.
+- **Fullscreen**: Expands the ForensicVM webscreen to occupy the entire display area.
+- **Take a Screenshot**: Captures the current view of the remote ForensicVM.
+- **Enable or Disable the Network Card**: This function is self-explanatory.
+- **Insert or Eject Media**: Facilitates the selection, insertion, and ejection of CD-ROMs or DVDs containing additional forensic tools.
+- **Video Recording**: Initiates, terminates, and downloads video recordings at a rate of 30 frames per minute.
+- **Settings**: Provides access to several webscreen console preferences. Notably, users can adjust the scaling mode. Setting it to "Local Scaling" ensures the remote display fits the browser window perfectly.
+- **Power**: Offers control over the ForensicVM's power states, including shutdown, stop, and reset actions.
+- **Disconnect**: Ends the current webscreen session.
+- **Logout**: Signs the user out of the ForensicVM server.
 
 .. figure:: img/infographics_0004.jpg
    :name: Change-me
