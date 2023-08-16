@@ -38,7 +38,7 @@ The Autopsy ForensicVM Client Plugin serves as a pivotal hub for forensic analys
 
 
 Main Toolbar Overview (1)
-===========================
+**************************
 
 1. **Configuration**:
     
@@ -73,7 +73,7 @@ Main Toolbar Overview (1)
     - Contains copyright details pertaining to the ForensicVM Client.
 
 Secondary Toolbar Overview (2)
-==============================
+********************************
 
 1. **Media Management**:
 
@@ -86,18 +86,18 @@ Secondary Toolbar Overview (2)
 
 
 Main Panel Overview (3)
-=======================
+*************************
 
     Based on the selected tab option, the main panel showcases different functionalities. For instance, when the **Media** tab is chosen, the corresponding list or form materializes in this space. Action buttons are located at the bottom. Among these, enabled buttons signify available actions, while disabled ones represent currently unavailable actions. These buttons toggle between enabled and disabled based on the ForensicVM machine's status or existence.
 
 Notification Area (4)
-=====================
+**********************
 
     The notification area serves as the designated space for displaying notifications, warnings, and error pop-ups, tailored to specific events. Whenever there's a need to apprise the user or when the system requires user interaction, a pop-up emerges in this area, seeking the user's attention or input.
 
 
 Convert Forensic Image to VM (5)
-===============================
+**********************************
 
 These two buttons facilitate the transformation of the forensic image into a forensic virtual machine:
 
@@ -109,6 +109,17 @@ These two buttons facilitate the transformation of the forensic image into a for
 
 For both methods, the remote forensicVM integrates an overlay of information. This includes additional drivers and outcomes from the execution of security plugins or actions taken by forensic investigators on the machine. Importantly, this approach ensures the preservation of the original forensic image's integrity.
 
+
+VM Control (6)
+***************
+
+Manage essential actions for the forensic virtual machine:
+
+- **Start**: Power on the forensic virtual machine.
+- **Stop**: Cease the operation of the forensic virtual machine.
+- **Shutdown**: Gracefully power down the forensic virtual machine.
+- **Reset**: Restart the forensic virtual machine.
+- **Delete**: Remove the forensic virtual machine entirely.
 
 .. figure:: img/infographics_0002.jpg
    :name: Change-me
