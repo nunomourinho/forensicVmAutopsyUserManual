@@ -88,12 +88,26 @@ Secondary Toolbar Overview (2)
 Main Panel Overview (3)
 =======================
 
-Based on the selected tab option, the main panel showcases different functionalities. For instance, when the **Media** tab is chosen, the corresponding list or form materializes in this space. Action buttons are located at the bottom. Among these, enabled buttons signify available actions, while disabled ones represent currently unavailable actions. These buttons toggle between enabled and disabled based on the ForensicVM machine's status or existence.
+    Based on the selected tab option, the main panel showcases different functionalities. For instance, when the **Media** tab is chosen, the corresponding list or form materializes in this space. Action buttons are located at the bottom. Among these, enabled buttons signify available actions, while disabled ones represent currently unavailable actions. These buttons toggle between enabled and disabled based on the ForensicVM machine's status or existence.
 
 Notification Area (4)
 =====================
 
-The notification area serves as the designated space for displaying notifications, warnings, and error pop-ups, tailored to specific events. Whenever there's a need to apprise the user or when the system requires user interaction, a pop-up emerges in this area, seeking the user's attention or input.
+    The notification area serves as the designated space for displaying notifications, warnings, and error pop-ups, tailored to specific events. Whenever there's a need to apprise the user or when the system requires user interaction, a pop-up emerges in this area, seeking the user's attention or input.
+
+
+Convert Forensic Image to VM (5)
+===============================
+
+These two buttons facilitate the transformation of the forensic image into a forensic virtual machine:
+
+- **Virtualize - a) Convert to VM**: 
+    This option converts the forensic image into a forensic virtual machine by copying it onto the forensicVM hypervisor server.
+    
+- **Virtualize - b) Link to VM**: 
+    This option establishes a link between the remote forensic virtual machine and the local forensic image.
+
+For both methods, the remote forensicVM integrates an overlay of information. This includes additional drivers and outcomes from the execution of security plugins or actions taken by forensic investigators on the machine. Importantly, this approach ensures the preservation of the original forensic image's integrity.
 
 
 .. figure:: img/infographics_0002.jpg
