@@ -61,18 +61,18 @@
       - [ ] Finetunning
          - [ ] Change VM memory size
          - [ ] Set datetime
-      - [ ] Output console
-      - [ ] Colaboration framework - web interface
-         - [ ] Start
-         - [ ] Stop
-         - [ ] Shutdown
-         - [ ] Reset
-         - [ ] Browse
-         - [ ] List VM
-         - [ ] Server Status
-         - [ ] Shell
-         - [ ] Logout
-         - [ ] Login
+      - [x] Output console
+      - [x] Colaboration framework - web interface
+         - [x] Start
+         - [x] Stop
+         - [x] Shutdown
+         - [x] Reset
+         - [x] Browse
+         - [x] List VM
+         - [x] Server Status
+         - [x] Shell
+         - [x] Logout
+         - [x] Login
 - [ ] Create a figure index
 - [ ] Create a table index
 - [ ] Create a glossary (https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html)
