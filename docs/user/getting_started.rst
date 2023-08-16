@@ -2,14 +2,6 @@
 Getting Started
 =====================
 
-
-
-.. warning:: Author Reminder
-   :name: reminder-update-infographic
-
-   **Author**: Kindly update the content to provide a comprehensive program overview. This should be complemented by illustrative screenshots, each labeled accurately to depict every function, amalgamated into an informative infographic.
-
-
 Installing ForensicVM
 =========================
 
