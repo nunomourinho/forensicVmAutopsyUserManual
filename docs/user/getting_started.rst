@@ -203,7 +203,7 @@ The following figure elucidates the available options:
 
 
 ForensicVM Webscreen Console Control Toolbar
----------------------------------------------
+**********************************************
 
 Upon clicking the control bar open icon, users are presented with the Control Toolbar, illustrated below:
 
