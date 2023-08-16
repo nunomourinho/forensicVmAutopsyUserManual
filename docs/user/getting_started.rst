@@ -158,8 +158,10 @@ Use auxiliary tools for various forensic operations:
 
 - **Recreate evidence disk**:
     Delete and recreate the evidence disk. 
-    .. warning:: 
-       This is a destructive action. Ensure to import the current evidence disk into Autopsy if it contains gathered evidence.
+
+.. warning:: 
+
+   This is a destructive action. Ensure to import the current evidence disk into Autopsy if it contains gathered evidence.
 
 - **Analyze ForensicVM performance**:
     Utilize the Netdata software to pinpoint server bottlenecks, optimize server performance, and determine the root cause of any ForensicVM server issues.
@@ -169,8 +171,10 @@ Use auxiliary tools for various forensic operations:
 
 - **DEBUG: remote ssh to the folder**:
     Access an SSH shell inside the ForensicVM image folder, allowing edits and testing of the ForensicVM start script. 
-    .. note:: 
-       This is primarily used for debugging purposes.
+
+.. note:: 
+
+  This is primarily used for debugging purposes.
 
 Network (10)
 *************
