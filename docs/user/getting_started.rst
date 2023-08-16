@@ -85,6 +85,12 @@ Secondary Toolbar Overview (2)
     - **Finetuning** - Adjust memory capacity and define the initial start date.
 
 
+Main Panel Overview (3)
+=======================
+
+Based on the selected tab option, the main panel showcases different functionalities. For instance, when the **Media** tab is chosen, the corresponding list or form materializes in this space. Action buttons are located at the bottom. Among these, enabled buttons signify available actions, while disabled ones represent currently unavailable actions. These buttons toggle between enabled and disabled based on the ForensicVM machine's status or existence.
+
+
 .. figure:: img/infographics_0002.jpg
    :name: Change-me
    :alt: Change-me
