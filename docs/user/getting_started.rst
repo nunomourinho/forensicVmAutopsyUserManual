@@ -190,17 +190,25 @@ Manage network settings and operations:
 - **Download Wireshark pcap files**:
     Download all generated pcap files as a zip file, enabling investigators to analyze captured network traffic using tools like Wireshark or other network traffic analysis software.
 
+ForensicVM Webscreen Console
+-----------------------------
 
-ForensicVM webscreen console
-------------------------------
+The webscreen console, developed on the HTML5 VNC technology known as NoVNC, provides a visual and interactive gateway to the virtual screen of the remote ForensicVM. Alongside basic interactions, it also offers an array of ForensicVM control options to augment the forensic investigation process. To access this feature-rich console, select the **Open ForensicVM** option. Delve deeper for more details:
 
-The webscreen console allows is a vnc based html5 console named novnc that allows you to see the virtual screen of the remote forensicVM and interact with mouse and keyboard. Several adicional forensicVM control options are also available to facilitate the forenisc investigation.
+Webscreen Console Main Area
+****************************
+
+The following figure elucidates the available options:
 
 .. figure:: img/infographics_0002.jpg
-   :name: Change-me
-   :alt: Change-me
+   :alt: Overview of the ForensicVM Webscreen Console
 
-   Change-me
+   Overview of the ForensicVM Webscreen Console functionalities.
+
+- **(1) Control bar open icon**: By clicking on this icon, users can unveil the auto-hiding control bar that seamlessly overlays the main screen, bestowing access to an assortment of functionalities.
+- **(2) Notification area**: Strategically positioned at the top, this zone is dedicated to presenting error, notification, and warning messages.
+- **(3) Main screen**: Serving as the primary interface of the webscreen, during the boot sequence, users can hit the ESC key to dive into the BIOS or UEFI. This permits modifications to pivotal settings, with a prime focus on the boot device, especially when initiating a boot from an ISO.
+
 
 .. figure:: img/infographics_0003.jpg
    :name: Change-me
