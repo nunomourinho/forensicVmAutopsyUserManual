@@ -121,6 +121,32 @@ Manage essential actions for the forensic virtual machine:
 - **Reset**: Restart the forensic virtual machine.
 - **Delete**: Remove the forensic virtual machine entirely.
 
+
+Screenshot Management (7)
+**************************
+
+    Manage the screenshots taken during your forensic investigations:
+
+    - **Screenshot**: Capture the current view of the forensic virtual machine, providing a visual record of its state at that moment.
+  
+    - **Save Screenshots**: Compile and download all captured screenshots into a single ZIP file, allowing for easy storage and transfer.
+
+Make and Download a Memory Dump (8)
+************************************
+
+Engage with the active memory data of the forensic virtual machine:
+
+- **Make Memory Dump**: Generate a snapshot of the forensicVM's current memory state, capturing active processes, and other runtime details.
+
+- **Download Memory Dump**: Retrieve the created memory dump for further analysis, facilitating deeper investigations using tools such as:
+  
+  - The Volatility plugin within the Autopsy software.
+  - External utilities like Volatility 3.0.
+  - Rekall: Another powerful framework for memory forensics.
+  - MemProcFS: Useful for live RAM analysis and incident response.
+  - Redline: Offers a user-friendly interface for in-depth memory and file analysis.
+
+
 .. figure:: img/infographics_0002.jpg
    :name: Change-me
    :alt: Change-me
