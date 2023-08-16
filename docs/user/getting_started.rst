@@ -236,22 +236,32 @@ The Control Toolbar facilitates the following actions:
 - **Logout**: Signs the user out of the ForensicVM server.
 
 
-ForensicVM Server web control interface
------------------------------------------
+ForensicVM Server Web Control Interface
+----------------------------------------
 
-Remote forensic investigators can login in a web interface. This interface allow to colaborate by controling the remote web interface. This allows that more than one forensic investigator access the same forensicVM, take screenshots, collect probable evidences to the evidence disk or make video recordings:
+For enhanced collaboration, remote forensic investigators have the capability to log into a dedicated web interface. This platform not only facilitates shared control of the remote web interface but also empowers multiple investigators to access the same ForensicVM simultaneously. This multi-user functionality enables diverse investigative actions such as capturing screenshots, collecting potential evidences onto the evidence disk, and initiating video recordings.
 
 .. figure:: img/infographics_0004.jpg
-   :name: Change-me
-   :alt: Change-me
+   :alt: A visual representation of the ForensicVM Server Web Control Interface
 
-   Change-me
+   A visual representation of the ForensicVM Server Web Control Interface
 
-Interface description:
+Interface Breakdown:
 
-    - **(1) Start, Stop, Shutdown, Reset and Browse (Open the forensicVM webconsole)**
-    - **(2) Notification area**: Where messages, warnings and errors appear.
-    - **(3) Server Status by using Netdata, Shell (webshell), List VM (refresh existing VM), and Logout web interface**
+- **(1) VM Control Options**: 
+    * **Start**: Power on the ForensicVM.
+    * **Stop**: Power off the ForensicVM.
+    * **Shutdown**: Properly shut down the ForensicVM, ensuring all processes are terminated correctly.
+    * **Reset**: Reboot the ForensicVM.
+    * **Browse**: Launch the ForensicVM's web console, offering a visual interface to the VM.
+
+- **(2) Notification Area**: A dedicated space where various system communications such as messages, warnings, and error alerts are displayed.
+
+- **(3) Server Management and Utilities**:
+    * **Server Status (Netdata)**: Provides real-time performance metrics and monitoring using Netdata.
+    * **Shell (webshell)**: Access to an SSH-over-web interface, allowing for direct server interactions.
+    * **List VM**: Refresh and display the list of existing virtual machines on the server.
+    * **Logout**: Facilitates logging out of the web interface, ensuring secure closure of sessions.
 
 Next Steps
 ============
