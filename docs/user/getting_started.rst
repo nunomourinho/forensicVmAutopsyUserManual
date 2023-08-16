@@ -235,11 +235,23 @@ The Control Toolbar facilitates the following actions:
 - **Disconnect**: Ends the current webscreen session.
 - **Logout**: Signs the user out of the ForensicVM server.
 
+
+ForensicVM Server web control interface
+-----------------------------------------
+
+Remote forensic investigators can login in a web interface. This interface allow to colaborate by controling the remote web interface. This allows that more than one forensic investigator access the same forensicVM, take screenshots, collect probable evidences to the evidence disk or make video recordings:
+
 .. figure:: img/infographics_0004.jpg
    :name: Change-me
    :alt: Change-me
 
    Change-me
+
+Interface description:
+
+    - **(1) Start, Stop, Shutdown, Reset and Browse (Open the forensicVM webconsole)**
+    - **(2) Notification area**: Where messages, warnings and errors appear.
+    - **(3) Server Status by using Netdata, Shell (webshell), List VM (refresh existing VM), and Logout web interface**
 
 Next Steps
 ============
