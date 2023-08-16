@@ -50,7 +50,7 @@ Main Toolbar Overview (1)
     
     This tab houses the primary operations. Specifically, users can:
 
-    - **Control the ForensicVM**: Start, Stop, Shutdown, Reset, or Delete.
+    - **Control the ForensicVM**: Open webscreen console, Start, Stop, Shutdown, Reset, or Delete.
     - **Manage Media**: Organize manage media relevant to forensic analysis.
     - **Manage Plugins**: Run individual plugins.
     - **Handle Snapshots**: Capture and revert the ForensicVM to various states.
@@ -148,23 +148,49 @@ Engage with the active memory data of the forensic virtual machine:
   - MemProcFS: Useful for live RAM analysis and incident response.
   - Redline: Offers a user-friendly interface for in-depth memory and file analysis.
 
-
 Tools (9)
 ***********
 
-    Use auxiliar tools to:
+Use auxiliary tools for various forensic operations:
 
-    - **Import evidence disk into autopsy**: Import a virtual disk where you, as a forensic investigator, can colect and gather probable evidence. Disk option allows you to import disk disk as a vmdk disk tinto Autopsy for reporting purpuses.
-    - **Recreate evidence disk**: Delete and recreate a evidence this. Note: This is a destructive actions. Import the current evidence disk into autopsy if it contains gather evidence.
-    - **Analyse ForensicVM performance**: Use netdata software to detect server botlenecks and to optimise server performance. Find and detect the root cause of ForensicVM server issues.
-    - **Open ForensicVM Webshell**: Open an ssh-over-internet webshell connection to the server
-    - **DEBUG: remote ssh to the folder**: Open an ssh shell inside the forensicVM image folder. Here you can edit and test the forensicVM start script. Used only for debug purpuses.
+- **Import evidence disk into autopsy**:
+    Import a virtual disk allowing forensic investigators to collect and gather potential evidence. This option lets you import the disk as a vmdk disk into Autopsy for reporting purposes.
 
+- **Recreate evidence disk**:
+    Delete and recreate the evidence disk. 
+    .. warning:: 
+       This is a destructive action. Ensure to import the current evidence disk into Autopsy if it contains gathered evidence.
+
+- **Analyze ForensicVM performance**:
+    Utilize the Netdata software to pinpoint server bottlenecks, optimize server performance, and determine the root cause of any ForensicVM server issues.
+
+- **Open ForensicVM Webshell**:
+    Initiate an SSH-over-internet webshell connection to the server.
+
+- **DEBUG: remote ssh to the folder**:
+    Access an SSH shell inside the ForensicVM image folder, allowing edits and testing of the ForensicVM start script. 
+    .. note:: 
+       This is primarily used for debugging purposes.
 
 Network (10)
 *************
 
+Manage network settings and operations:
 
+- **Enable network card**:
+    For security reasons, the network is disabled by default. Given that a machine could be compromised by malware, use this option with caution. When enabled, an internet firewall activates, blocking traffic to the local network but permitting internet access. Additionally, all traffic is recorded in the pcap (packet capture) file format.
+
+- **Disable network card**:
+    Deactivates the network card and saves a pcap file with all captured traffic to the server.
+
+- **Download Wireshark pcap files**:
+    Download all generated pcap files as a zip file, enabling investigators to analyze captured network traffic using tools like Wireshark or other network traffic analysis software.
+
+
+ForensicVM webscreen console
+------------------------------
+
+The webscreen console allows is a vnc based html5 console named novnc that allows you to see the virtual screen of the remote forensicVM and interact with mouse and keyboard. Several adicional forensicVM control options are also available to facilitate the forenisc investigation.
 
 .. figure:: img/infographics_0002.jpg
    :name: Change-me
