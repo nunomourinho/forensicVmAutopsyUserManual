@@ -82,11 +82,11 @@
 
 - [ ] Make metrics:
    - [ ] Run the image conversion
-      - [ ] Get client Info
-         - [ ] Processor and number or cores
-         - [ ] Speed
-         - [ ] Disk type and size
-         - [ ] Disk read speed (test): https://github.com/thodnev/MonkeyTest
+      - [x] Get client Info
+         - [x] Processor and number or cores
+         - [x] Speed
+         - [x] Disk type and size
+         - [x] Disk read speed (test): https://github.com/thodnev/MonkeyTest
       - [ ] Server info
          - [ ] Processor and number of cores
          - [ ] Speed
@@ -96,8 +96,8 @@
          - [ ] Type format
          - [ ] Size
          - [ ] Operating System
-      - [ ] Network
-         - [ ] Local network speed
-         - [ ] Internet connection speed
-         - [ ] Server internet connection speed
-         - [ ] Server transfer speed
+      - [x] Network
+         - [x] Local network speed
+         - [x] Internet connection speed
+         - [x] Server internet connection speed
+         - [x] Server transfer speed
