@@ -58,8 +58,21 @@ Once you've successfully created a snapshot, it will be saved and listed in the 
 List Remote Snapshots
 ----------------------
 
-Roll back a snapshot
-----------------------
+To list
+
+**List snapshots**
+  
+    - Click on the "List Remote Snapshots" button located within the Snapshot management area.
+
+    .. figure:: img/list_snapshot_0001.jpg
+       :alt: List snapshots
+       :align: center
+
+    List snapshots
+
+Select and Roll back a snapshot
+--------------------------------
+
 
 Delete a snapshot
 -------------------
