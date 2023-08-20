@@ -35,17 +35,25 @@ Additional Considerations
 Create a new snapshot
 -----------------------
 
-You should create your first snapshot as soon as the machine starts booting. Here's how:
+It is highly recommended to create your first snapshot immediately after the machine begins its booting process. Doing so preserves the initial state of the ForensicVM, making it easier to revert back to a clean state at any time during your investigation. Snapshots can be invaluable during forensic investigations, especially when you need to return to a specific point in time or recover from potential mistakes.
 
 **Create a snapshot**
 
-   Click the "Create new" button on the Snapshot management on the Autopsy ForensicVM Client interface.
+    1. **Open the Autopsy ForensicVM Client**: Ensure you have the Autopsy ForensicVM Client interface launched and ready.
 
-   .. figure:: img/create_snapshot_0001.jpg
-      :alt: Create snapshot
-      :align: center
+    2. **Navigate to Snapshot Management**: This section is dedicated to creating, viewing, and managing snapshots of your ForensicVM.
 
-      Create snapshot
+    3. **Initiate Snapshot Creation**:
+   
+    - Click on the "Create new" button located within the Snapshot management area.
+
+    .. figure:: img/create_snapshot_0001.jpg
+       :alt: Screenshot showcasing the 'Create new' button in the Snapshot management section.
+       :align: center
+
+       A visual representation of the 'Create new' button used for initiating a snapshot creation in the Autopsy ForensicVM Client interface.
+
+Once you've successfully created a snapshot, it will be saved and listed in the Snapshot management section. You can then access this snapshot whenever needed to revert your ForensicVM to that particular state.
 
 List Remote Snapshots
 ----------------------
