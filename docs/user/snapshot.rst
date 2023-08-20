@@ -35,6 +35,18 @@ Additional Considerations
 Create a new snapshot
 -----------------------
 
+You should create your first snapshot as soon as the machine starts booting. Here's how:
+
+**Create a snapshot**
+
+   Click the "Create new" button on the Snapshot management on the Autopsy ForensicVM Client interface.
+
+   .. figure:: img/create_snapshot_0001.jpg
+      :alt: Create snapshot
+      :align: center
+
+      Create snapshot
+
 List Remote Snapshots
 ----------------------
 
