@@ -1,65 +1,82 @@
 Troubleshooting
-================
+===============
 
 Booting without signed drivers
--------------------------------
+------------------------------
 
-.. figure:: user/img/troubleshoot_0001.jpg
-   :name: Change me
-   :alt: Change me
-   :width: 600
+If your machine cannot boot due to the virtio drivers installed during the automatic driver installation in the virtualization phase being unsigned or having an invalid signature for your operating system, the machine may enter a recovery boot loop. To address this issue, follow these steps:
 
-   Change me
+- **1. Advanced options in the Automatic Repair boot screen**:
+  Press the "Advanced options" button.
 
+  .. figure:: user/img/troubleshoot_0001.jpg
+     :name: advanced-options
+     :alt: Advanced options in the Automatic Repair boot screen
+     :width: 600
 
+     Advanced options in the Automatic Repair boot screen
 
-.. figure:: user/img/troubleshoot_0002.jpg
-   :name: Change me
-   :alt: Change me
-   :width: 600
+- **2. Troubleshoot**:
+  Select the "Troubleshoot" option.
 
-   Change me
+  .. figure:: user/img/troubleshoot_0002.jpg
+     :name: troubleshoot
+     :alt: Troubleshoot option
+     :width: 600
 
+     Troubleshoot option
 
-.. figure:: user/img/troubleshoot_0003.jpg
-   :name: Change me
-   :alt: Change me
-   :width: 600
+- **3. Advanced options**:
+  Choose the "Advanced options".
 
-   Change me
+  .. figure:: user/img/troubleshoot_0003.jpg
+     :name: advanced-options-selection
+     :alt: Choosing Advanced options
+     :width: 600
 
+     Choosing Advanced options
 
+- **4. Startup Settings**:
+  Within the Advanced options, select the "Startup Settings" to change Windows startup behavior.
 
-.. figure:: user/img/troubleshoot_0004.jpg
-   :name: Change me
-   :alt: Change me
-   :width: 600
+  .. figure:: user/img/troubleshoot_0004.jpg
+     :name: startup-settings
+     :alt: Startup Settings option
+     :width: 600
 
-   Change me
+     Startup Settings option
 
+- **5. Restart**:
+  Press the "Restart" button and await the system restart.
 
+  .. figure:: user/img/troubleshoot_0005.jpg
+     :name: restart-option
+     :alt: Restart option
+     :width: 600
 
-.. figure:: user/img/troubleshoot_0005.jpg
-   :name: Change me
-   :alt: Change me
-   :width: 600
+     Restart option
 
-   Change me
+- **6. Press F7**:
+  Once the system restarts, press the **F7** key to choose "Disable driver signature enforcement".
 
+  .. figure:: user/img/troubleshoot_0006.jpg
+     :name: disable-driver-signature-enforcement
+     :alt: Pressing F7 for Disable driver signature enforcement
+     :width: 600
 
+     Pressing F7 for Disable driver signature enforcement
 
-.. figure:: user/img/troubleshoot_0006.jpg
-   :name: Change me
-   :alt: Change me
-   :width: 600
+- **7. Windows normal boot**:
+  Your Windows should now boot normally.
 
-   Change me
+  .. figure:: user/img/troubleshoot_0007.jpg
+     :name: windows-normal-boot
+     :alt: Windows booting normally
+     :width: 600
 
+     Windows booting normally
 
+.. note::
 
-.. figure:: user/img/troubleshoot_0007.jpg
-   :name: Change me
-   :alt: Change me
-   :width: 600
-
-   Change me
+   This behavior has been observed in older Windows versions, such as Windows 8.1. Mismatches or odd dates in the driver certificate can lead to this issue.
+ 
