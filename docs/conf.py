@@ -19,7 +19,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',	
     'sphinx.ext.autosectionlabel',
-    'sphinx.ext.numfig',
+    #'sphinx.ext.numfig',
     #'sphinx_autodoc_typehints',
     #'sphinxcontrib.autodocsumm',
 ]
