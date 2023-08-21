@@ -38,6 +38,7 @@ Check out the :doc:`usage` section for further information, including how to :re
    Getting Started <user/getting_started>
    Product Overview <user/product_overview/product_overview>     
    Using ForensicVM <user/using_forensicvm>
+   Troubleshooting Guide <troubleshooting>
 
 .. toctree::
    :maxdepth: 3
