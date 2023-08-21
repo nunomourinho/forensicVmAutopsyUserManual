@@ -1,6 +1,12 @@
-=======
+========
 Typset
-=======
+========
+
+.. raw::
+
+   =======
+   Typset
+   =======
 
 The following typeset is used in this document, based on:
    1) https://docutils.sourceforge.io/docs/ref/rst/directives.html#topic
@@ -11,30 +17,76 @@ The following typeset is used in this document, based on:
 .. DANGER::
    Denotes actions that could result in serious harm or damage.
 
+.. raw::
+
+   .. DANGER::
+      Denotes actions that could result in serious harm or damage.
+
 .. CAUTION::
    Signifies a potential hazard or cautionary advice.
+
+.. raw::
+
+   .. CAUTION::
+      Signifies a potential hazard or cautionary advice.
 
 .. ERROR::
    Marks an error in the system that needs rectification.
 
+.. raw::
+
+   .. ERROR::
+      Marks an error in the system that needs rectification.
+
 .. HINT::
    Highlights key information that requires special attention.
+
+.. raw::
+
+   .. HINT::
+      Highlights key information that requires special attention.
 
 .. IMPORTANT::
    Something important to notice!
 
+.. raw::
+
+   .. IMPORTANT::
+      Something important to notice!
+
 .. NOTE::
    Offers additional, auxiliary information that may be useful to the reader.
+
+.. raw::
+
+   .. NOTE::
+      Offers additional, auxiliary information that may be useful to the reader.
 
 .. TIP::
    Presents a smart or strategic suggestion to achieve a task more effectively.
 
+.. raw::
+
+   .. TIP::
+      Presents a smart or strategic suggestion to achieve a task more effectively.
+
 .. WARNING::
    Warns about a potential pitfall or danger that must be avoided.
+
+.. raw::
+
+   .. WARNING::
+      Warns about a potential pitfall or danger that must be avoided.
 
 .. admonition:: Additional Information
 
    Provides an extra piece of related, explanatory information.
+
+.. raw::
+
+   .. admonition:: Additional Information
+
+      Provides an extra piece of related, explanatory information.
 
 .. topic:: Topic Title
 
