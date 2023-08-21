@@ -58,7 +58,7 @@
       - [ ] Open forensicVM webshell
       - [ ] DEBUG: remote ssh to folder
       - [x] Settings scaling - Local scaling
-      - [ ] Finetunning
+      - [x] Finetunning
          - [x] Change VM memory size
          - [x] Set datetime
       - [x] Output console
