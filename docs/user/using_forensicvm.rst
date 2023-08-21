@@ -44,3 +44,13 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
    Snapshots - A Crucial Asset for Investigators <snapshot>
 
    Plugins - Security Bypass Utilities <plugin_management>
+
+.. list-table:: List of Figures
+   :widths: 10 90
+   :header-rows: 1
+   
+   * - Figure Number
+     - Description
+   * - :numref:`label-name`
+     - Description or caption of the figure
+
