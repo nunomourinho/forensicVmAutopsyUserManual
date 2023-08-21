@@ -60,3 +60,43 @@ Apart from authentication bypass, there are plugins designed to circumvent other
 .. note::
 
    While these plugins provide powerful capabilities, they should be used responsibly and ethically. Misuse could lead to unintended consequences or legal issues.
+
+
+Listing plugins
+----------------
+
+
+Executing Plugins
+------------------
+
+The capability to execute plugins enhances the versatility of the ForensicVM, allowing for specialized tasks and bypassing certain security measures. However, prior to running any plugin, precautions are necessary to ensure the integrity of the investigation and to minimize potential issues.
+
+.. important::
+   
+   **Pre-plugin Execution Recommendation**: 
+   Before initiating any plugin, it is imperative to capture the current state of the machine using a snapshot. This provision safeguards against any unintended or adverse actions by the plugin, facilitating a revert to the original state if necessary. Start the machine, create a snapshot, and then proceed to shut down the ForensicVM.
+
+**Procedure to Execute a Plugin:**
+
+
+1. **Ensure ForensicVM is Stopped**:
+   Before running any plugins, verify in the VM control area that the forensic virtual machine is in a stopped state.
+
+2. **Select the Desired Plugin**:
+   Navigate to the plugin management area and designate the specific plugin you intend to run.
+
+3. **Execute the Selected Plugin**:
+   Initiate the plugin execution by pressing the **Run Selected Plugin** button.
+
+4. **Review the Plugin Output**:
+   Post execution, it's vital to inspect the results and logs. These can be found within the **Output Console** tab.
+
+    .. figure:: img/run_plugin_0001.jpg
+       :alt: Running a plugin
+       :align: center
+
+       Running a plugin
+
+.. warning::
+
+   For the integrity of the process, always ensure a complete shutdown of the ForensicVM before executing any plugins. In the context of Windows, pressing the shift key while initiating the shutdown ensures the machine isn't placed in hibernation and undergoes a full shutdown. This step is crucial as hibernation can interfere with the functionality of certain plugins and the snapshot reverting process.
