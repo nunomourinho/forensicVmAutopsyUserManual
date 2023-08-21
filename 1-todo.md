@@ -59,8 +59,8 @@
       - [ ] DEBUG: remote ssh to folder
       - [x] Settings scaling - Local scaling
       - [ ] Finetunning
-         - [ ] Change VM memory size
-         - [ ] Set datetime
+         - [x] Change VM memory size
+         - [x] Set datetime
       - [x] Output console
       - [x] Colaboration framework - web interface
          - [x] Start
