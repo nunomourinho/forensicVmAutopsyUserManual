@@ -1,5 +1,5 @@
-Plugin Management
-=================
+Plugins - Security Bypass Utilities
+=====================================
 
 Plugins serve as a vital component of the forensicVM, offering an array of capabilities that can greatly assist forensic investigators. Often, forensic investigators encounter forensicVM machines that are locked or protected by certain security measures, making it difficult to access them. One common scenario is where the forensicVM is locked behind a user account, with the suspect not revealing the password. Plugins provide methods to bypass these protections.
 
