@@ -80,3 +80,47 @@ If your machine cannot boot due to the virtio drivers installed during the autom
 
    This behavior has been observed in older Windows versions, such as Windows 8.1. Mismatches or odd dates in the driver certificate can lead to this issue.
  
+
+DEBUG: Remote ssh to folder
+------------------------------
+
+If you need to troubleshoot the forensicVM you can edit in lowlevel the configuration files, and start and stop the vm. Here is a step by step on how to do it:
+
+1) Click the **DEBUG: Remote ssh to folder** in the Autopsy ForensicVM Client Plugin:
+
+  .. figure:: user/img/troubleshoot_0008.jpg
+     :name: change me
+     :alt: Change me
+     :width: 600
+
+     Change me
+
+2) Su to root: Run the su command and enter the root password
+
+
+  .. figure:: user/img/troubleshoot_0009.jpg
+     :name: change me
+     :alt: Change me
+     :width: 600
+
+     Change me
+
+3) Enter the command: 
+   nano `ls *vnc*`
+
+  .. figure:: user/img/troubleshoot_0010.jpg
+     :name: change me
+     :alt: Change me
+     :width: 600
+
+     Change me
+
+4) Edit the configuration file and change the relevant parameters
+
+  .. figure:: user/img/troubleshoot_0011.jpg
+     :name: change me
+     :alt: Change me
+     :width: 600
+
+     Change me
+
