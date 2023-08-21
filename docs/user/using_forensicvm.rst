@@ -42,3 +42,5 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
    Media Management - Use Extra Tools and Boot ISO Files <media>
 
    Snapshots - A Crucial Asset for Investigators <snapshot>
+
+   Plugins - Security Bypass Utilities <plugin_management>
