@@ -115,3 +115,39 @@ The capability to execute plugins enhances the versatility of the ForensicVM, al
 .. warning::
 
    For the integrity of the process, always ensure a complete shutdown of the ForensicVM before executing any plugins. In the context of Windows, pressing the shift key while initiating the shutdown ensures the machine isn't placed in hibernation and undergoes a full shutdown. This step is crucial as hibernation can interfere with the functionality of certain plugins and the snapshot reverting process.
+
+Join the Community Plugins Project and Shape ForensicVM's Future!
+------------------------------------------------------------------
+
+The **Community Plugins Project** for AutoPsy ForensicVM is an open initiative aimed at driving innovation and enhancing the functionalities of the ForensicVM tool. As a community-driven platform, we invite individuals from all backgrounds to contribute. Whether you're a seasoned developer, a forensic investigator with a penchant for coding, or a user with an innovative idea, your input can make a difference!
+
+Here's how you can get involved:
+
+Access the Project Repository
+*******************************
+
+The entire project is hosted on GitHub. You can view, clone, or fork the repository by visiting:
+
+`ForensicVM Plugins on GitHub <https://github.com/nunomourinho/forensicVM-Plugins>`_
+
+Contributing Code
+******************
+
+If you've developed a new plugin or made improvements to existing ones, follow these steps to contribute:
+
+1. **Fork the Project**: Fork the main repository to create a personal copy you can work on.
+2. **Commit Your Changes**: Make your changes, ensuring they adhere to the project's coding standards and best practices.
+3. **Suggest a Merge**: Once ready, submit a pull request. Our team will review your code, and if it meets our quality standards, it will be merged into the next release.
+
+Feature Suggestions and Plugin Requests
+*****************************************
+
+If you have ideas for new plugins, features, or improvements, but aren't looking to code them yourself, you can still contribute:
+
+1. **Open an Issue**: Navigate to the `Issues section <https://github.com/nunomourinho/forensicVM-Plugins/issues>`_ on our GitHub page.
+2. **Describe Your Idea**: Provide as much detail as possible. This helps in understanding and potentially implementing your suggestion.
+3. **Engage with the Community**: Once your issue is posted, community members might join the discussion, providing feedback, insights, or offering to develop your idea.
+
+.. note::
+
+   Collaboration is the backbone of open-source projects. By sharing ideas, providing feedback, or contributing code, you're not just enhancing a tool; you're building a community.
