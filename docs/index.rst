@@ -43,9 +43,4 @@ Check out the :doc:`usage` section for further information, including how to :re
    :maxdepth: 3
    :caption: reStructuredText
 
-   reStructuredText guide <typset>
-
-.. toctree::
-   :glob:
-
-   *
+   reStructuredText used typset <typset>
