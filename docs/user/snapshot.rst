@@ -58,17 +58,26 @@ Once you've successfully created a snapshot, it will be saved and listed in the 
 List Remote Snapshots
 ----------------------
 
-To list
+While the Autopsy ForensicVM Client interface typically auto-updates to display all available snapshots, there may be occasions where the list isn't refreshed in real-time. In such scenarios, it's beneficial to use the "List Remote Snapshots" feature to manually fetch and view the list of all remote snapshots associated with the current ForensicVM.
 
 **List snapshots**
-  
-    - Click on the "List Remote Snapshots" button located within the Snapshot management area.
+1. **Open the Autopsy ForensicVM Client**: If not already open, launch the Autopsy ForensicVM Client interface to access the snapshot management features.
+
+2. **Navigate to the Snapshot Management Area**: This section provides tools and options related to creating, viewing, and managing snapshots of your ForensicVM.
+
+3. **Manually List Remote Snapshots**:
+   
+   - Look for the "List Remote Snapshots" button. This button is specifically designed to fetch the list of snapshots from the remote server and display them within the interface.
+   - Click on the "List Remote Snapshots" button to initiate the listing process.
 
     .. figure:: img/list_snapshot_0001.jpg
-       :alt: List snapshots
+       :alt: Screenshot showcasing the 'List Remote Snapshots' button in the Snapshot management section.
        :align: center
 
-    List snapshots
+       A visual guide highlighting the 'List Remote Snapshots' button within the Autopsy ForensicVM Client interface.
+
+Once clicked, the interface should update and display all the remote snapshots associated with the current ForensicVM. If any issues persist, ensure that the ForensicVM Client has proper network access and permissions to communicate with the remote server.
+I've expanded on the process by offering a bit more context and breaking down the steps in a detailed manner.
 
 Select and Roll back a snapshot
 --------------------------------
