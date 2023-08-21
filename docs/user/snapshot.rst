@@ -120,7 +120,7 @@ If you ever find yourself needing to undo changes and revert the forensicVM to a
 
 .. warning::
 
-   Potential Issues & Solutions:
+   **Potential Issues & Solutions:**
    
    At times, the rollback process might not go as smoothly as intended. Here's what to do if you encounter issues:
    
@@ -136,9 +136,33 @@ If you ever find yourself needing to undo changes and revert the forensicVM to a
    
    Remember, handling snapshots requires care, as they represent specific points in time of the ForensicVM's state. Always ensure that you've selected the correct snapshot before initiating a rollback.
 
-Delete a snapshot
--------------------
+Delete a Snapshot
+-----------------
 
+Snapshots can become redundant or unnecessary over time, and you might want to reclaim some storage space. Deleting a snapshot will free up this space without affecting the current state of your forensicVM. Here's a step-by-step guide:
+
+1. **Select the Snapshot**:
+
+   - In the list of snapshots, click on the one you wish to delete. The selected snapshot will be highlighted, indicating your selection.
+
+2. **Navigate to the *Danger Zone!* Section**:
+
+   - Once you have the desired snapshot selected, move to the section labeled "Danger Zone!".
+
+3. **Initiate the Deletion**:
+
+   - Find and click on the button labeled *Delete ???*.
+   - A confirmation popup will appear to ensure that you truly want to delete the selected snapshot. If certain, proceed by pressing the "OK" button.
+
+    .. figure:: img/delete_snapshot_0001.jpg
+       :alt: Deleting a snapshot from the interface.
+       :align: center
+
+    Snapshot Deletion Interface
+
+.. warning::
+
+   Always double-check the snapshot you are deleting. Once deleted, it cannot be recovered. It's a good habit to ensure you have backups or other necessary snapshots before deleting any.
 
 In Conclusion
 -------------
