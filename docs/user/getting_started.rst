@@ -1,34 +1,34 @@
-=====================
+==================
 Getting Started
-=====================
+==================
 
 Installing ForensicVM
-=========================
+---------------------
 
 Before you can use ForensicVM, you must first install the software on your system. To do this, follow the steps outlined in the :ref:`Installation and Setup`.
 
 Navigating the Interface
-============================
+------------------------
 
-Your first step is run the ForensicVM Client Plugin in Autopsy Software. The main interface will open. You manage this by reight clicking the datasource and choosing "Run Ingest Modules". After this it will open the main the Forensic Client Plugin main program interface.
+Your first step is to run the ForensicVM Client Plugin in Autopsy Software. The main interface will open. Manage this by right-clicking the datasource and choosing "Run Ingest Modules". After this, the Forensic Client Plugin main program interface will open.
 
 .. figure:: img/infographics_0000.jpg
-   :name: Change-me
-   :alt: Change-me
+   :name: interface-overview
+   :alt: Overview of ForensicVM Interface
 
-   Change-me
+   Overview of ForensicVM Interface
 
 Autopsy ForensicVM Client Plugin: A Comprehensive Interface Guide
-------------------------------------------------------------------
+---------------------------------------------------------------
 
 The Autopsy ForensicVM Client Plugin serves as a pivotal hub for forensic analysts. This interface is designed for interactive engagement with forensic images, subsequently allowing users to transform these images into a forensic virtual machine (ForensicVM). Here's a breakdown of its primary functionalities on the Autopsy ForensicVM Client Plugin main interface:
 
-
 .. figure:: img/infographics_0001.jpg
-   :name: Autopsy ForensicVM Client Plugin
+   :name: Autopsy-ForensicVM-Plugin
    :alt: Autopsy ForensicVM Client Plugin
 
    Autopsy ForensicVM Client Plugin Main
+
 
 
 Main Toolbar Overview (1)
@@ -228,7 +228,7 @@ The Control Toolbar facilitates the following actions:
 - **Logout**: Signs the user out of the ForensicVM server.
 
 Adjusting Screen Scaling: Local Scaling
-----------------------------------------
+****************************************
 
 If you find that the screen appears cropped or that certain parts of the interface aren't fully visible, you can adjust the scaling settings for a more optimal viewing experience. Here's a comprehensive guide to making those adjustments:
 
