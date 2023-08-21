@@ -97,9 +97,44 @@ I've expanded on the process by offering a bit more context and breaking down th
 
 
 
-Select and Roll back a snapshot
---------------------------------
+Select and Rollback a Snapshot
+------------------------------
 
+If you ever find yourself needing to undo changes and revert the forensicVM to a previous state, the snapshot functionality is a powerful tool that allows you to do so. Here's a step-by-step guide to help you navigate the rollback process.
+
+**Steps to Reverse to a Snapshot**
+
+1. **Locate the Desired Snapshot**: 
+
+   - Snapshots are typically named in the format `snap-YYYY-MM-DD_HHMMSS`.
+   - Browse through the list and find the snapshot that represents the state you wish to revert to.
+   - Click on the intended snapshot. Once selected, it will be highlighted with a blue background and a white foreground, indicating your selection.
+
+2. **Initiate the Rollback**: 
+
+   - With the desired snapshot selected, locate and click the *rollback* button.
+
+    .. figure:: img/rollback_snapshot_0001.jpg
+       :alt: Screenshot showcasing the rollback process in the Snapshot management section.
+       :align: center
+
+.. warning::
+
+   Potential Issues & Solutions:
+   
+   At times, the rollback process might not go as smoothly as intended. Here's what to do if you encounter issues:
+   
+   - **Stalled ForensicVM**: If the forensicVM doesn't return to its previous state or appears to be stalled:
+     1. Use the **Reset VM** option to reset the virtual machine.
+     2. Once reset, attempt the **Rollback** action again to revert to the desired state.
+
+   - **Undoing the Rollback**: Regrettably, once a rollback has been executed, it is irreversible. This means that the state of the forensicVM just prior to the rollback will be permanently lost. 
+
+   **Best Practice Recommendation:**
+
+   Before initiating a rollback, it's highly recommended to create a new snapshot of the current state. This way, if you later decide you want to revert to the state that existed just before the rollback, you'll have that option available. Simply rollback to the snapshot you took immediately before executing the rollback.
+   
+   Remember, handling snapshots requires care, as they represent specific points in time of the ForensicVM's state. Always ensure that you've selected the correct snapshot before initiating a rollback.
 
 Delete a snapshot
 -------------------
