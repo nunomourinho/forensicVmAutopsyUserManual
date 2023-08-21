@@ -39,7 +39,7 @@ Check out the :doc:`usage` section for further information, including how to :re
    Product Overview <user/product_overview/product_overview>     
    Using ForensicVM <user/using_forensicvm>
    Troubleshooting Guide <troubleshooting>
-   List of Figures <figures>
+   List of Figures <user/figures>
 
 .. toctree::
    :maxdepth: 3
