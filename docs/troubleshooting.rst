@@ -80,47 +80,57 @@ If your machine cannot boot due to the virtio drivers installed during the autom
 
    This behavior has been observed in older Windows versions, such as Windows 8.1. Mismatches or odd dates in the driver certificate can lead to this issue.
  
-
 DEBUG: Remote ssh to folder
 ------------------------------
 
-If you need to troubleshoot the forensicVM you can edit in lowlevel the configuration files, and start and stop the vm. Here is a step by step on how to do it:
+If you encounter issues with the forensicVM, you might need to directly edit its configuration files or control its state (start/stop). Below is a step-by-step guide on how to perform these actions:
 
-1) Click the **DEBUG: Remote ssh to folder** in the Autopsy ForensicVM Client Plugin:
+1. In the Autopsy ForensicVM Client Plugin, select **DEBUG: Remote ssh to folder**.
 
-  .. figure:: user/img/troubleshoot_0008.jpg
-     :name: change me
-     :alt: Change me
-     :width: 600
+   .. figure:: user/img/troubleshoot_0008.jpg
+      :name: debug_remote_ssh
+      :alt: DEBUG: Remote ssh to folder option in the Autopsy ForensicVM Client Plugin.
+      :width: 600
 
-     Change me
+      DEBUG: Remote ssh to folder option in the Autopsy ForensicVM Client Plugin.
 
-2) Su to root: Run the su command and enter the root password
+2. Elevate to root permissions. Enter the `su` command and provide the root password when prompted.
 
+   .. figure:: user/img/troubleshoot_0009.jpg
+      :name: su_command
+      :alt: Elevating to root using the su command.
+      :width: 600
 
-  .. figure:: user/img/troubleshoot_0009.jpg
-     :name: change me
-     :alt: Change me
-     :width: 600
+      Elevating to root using the su command.
 
-     Change me
+3. Input the following command to edit the configuration file associated with the forensicVM: 
 
-3) Enter the command: 
+.. code-block:: bash
+
    nano `ls *vnc*`
 
-  .. figure:: user/img/troubleshoot_0010.jpg
-     :name: change me
-     :alt: Change me
-     :width: 600
+.. figure:: user/img/troubleshoot_0010.jpg
+   :name: nano_edit
+   :alt: Editing the VNC configuration file with the forensicVM.
+   :width: 600
 
-     Change me
+   Editing the forensicVM configuration file with nano.
 
-4) Edit the configuration file and change the relevant parameters
+4. Inside the editor, modify the configuration file as needed. Adjust the relevant parameters to your requirements.
 
-  .. figure:: user/img/troubleshoot_0011.jpg
-     :name: change me
-     :alt: Change me
-     :width: 600
+.. figure:: user/img/troubleshoot_0011.jpg
+   :name: config_edit
+   :alt: The configuration file open in nano.
+   :width: 600
 
-     Change me
+   The configuration file open in nano for editing.
 
+5. Once done, exit the remote shell. Now, you can start the forensicVM as you typically would.
+
+.. note::
+
+   It's essential to ensure that the configurations are correct to prevent any unexpected behaviors.
+
+.. tip::
+
+For advanced techniques and in-depth configurations for the forensicVM, consider referring to the official QEMU documentation: `QEMU Documentation <https://qemu.readthedocs.io/en/latest/index.html>`_.
