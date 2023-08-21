@@ -1,6 +1,12 @@
-=======
+========
 Typset
-=======
+========
+
+.. raw:: html
+
+   =======
+   Typset
+   =======
 
 The following typeset is used in this document, based on:
    1) https://docutils.sourceforge.io/docs/ref/rst/directives.html#topic
@@ -11,30 +17,76 @@ The following typeset is used in this document, based on:
 .. DANGER::
    Denotes actions that could result in serious harm or damage.
 
+.. raw:: html
+
+   .. DANGER::
+      Denotes actions that could result in serious harm or damage.
+
 .. CAUTION::
    Signifies a potential hazard or cautionary advice.
+
+.. raw:: html
+
+   .. CAUTION::
+      Signifies a potential hazard or cautionary advice.
 
 .. ERROR::
    Marks an error in the system that needs rectification.
 
+.. raw:: html
+
+   .. ERROR::
+      Marks an error in the system that needs rectification.
+
 .. HINT::
    Highlights key information that requires special attention.
+
+.. raw:: html
+
+   .. HINT::
+      Highlights key information that requires special attention.
 
 .. IMPORTANT::
    Something important to notice!
 
+.. raw:: html
+
+   .. IMPORTANT::
+      Something important to notice!
+
 .. NOTE::
    Offers additional, auxiliary information that may be useful to the reader.
+
+.. raw:: html
+
+   .. NOTE::
+      Offers additional, auxiliary information that may be useful to the reader.
 
 .. TIP::
    Presents a smart or strategic suggestion to achieve a task more effectively.
 
+.. raw:: html
+
+   .. TIP::
+      Presents a smart or strategic suggestion to achieve a task more effectively.
+
 .. WARNING::
    Warns about a potential pitfall or danger that must be avoided.
+
+.. raw:: html
+
+   .. WARNING::
+      Warns about a potential pitfall or danger that must be avoided.
 
 .. admonition:: Additional Information
 
    Provides an extra piece of related, explanatory information.
+
+.. raw:: html
+
+   .. admonition:: Additional Information
+
+      Provides an extra piece of related, explanatory information.
 
 .. topic:: Topic Title
 
@@ -42,12 +94,29 @@ The following typeset is used in this document, based on:
     the body of the topic, and are
     interpreted as body elements.
 
+.. raw:: html
+
+   .. topic:: Topic Title
+
+      Subsequent indented lines comprise
+      the body of the topic, and are
+      interpreted as body elements.
+
 .. sidebar:: Optional Sidebar Title
    :subtitle: Optional Sidebar Subtitle
 
    Subsequent indented lines comprise
    the body of the sidebar, and are
    interpreted as body elements.
+
+.. raw:: html
+
+   .. sidebar:: Optional Sidebar Title
+      :subtitle: Optional Sidebar Subtitle
+
+      Subsequent indented lines comprise
+      the body of the sidebar, and are
+      interpreted as body elements.
 
 "To Ma Own Beloved Lassie: A Poem on her 17th Birthday", by
 Ewan McTeagle (for Lassie O'Shea):
@@ -60,6 +129,19 @@ Ewan McTeagle (for Lassie O'Shea):
             as soon as it comes.
         Love, Ewan.
 
+.. raw:: html
+
+   "To Ma Own Beloved Lassie: A Poem on her 17th Birthday", by
+   Ewan McTeagle (for Lassie O'Shea):
+
+       .. line-block::
+
+           Lend us a couple of bob till Thursday.
+           I'm absolutely skint.
+           But I'm expecting a postal order and I can pay you back
+               as soon as it comes.
+           Love, Ewan.
+
 .. parsed-literal::
 
    ( (title_, subtitle_?)?,
@@ -67,6 +149,14 @@ Ewan McTeagle (for Lassie O'Shea):
      (docinfo_, transition_?)?,
      `%structure.model;`_ )
 
+.. raw:: html
+
+   .. parsed-literal::
+
+      ( (title_, subtitle_?)?,
+        decoration_?,
+        (docinfo_, transition_?)?,
+        `%structure.model;`_ )
 
 .. code:: python
 
@@ -74,16 +164,37 @@ Ewan McTeagle (for Lassie O'Shea):
       "just a test"
       print 8/2
 
+.. raw:: html
+
+   .. code:: python
+
+     def my_function():
+         "just a test"
+         print 8/2
+
 .. math::
 
   α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)
 
+.. raw:: html
+
+   .. math::
+
+     α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)
 
 .. epigraph::
 
    No matter where you go, there you are.
 
    -- Buckaroo Banzai
+
+.. raw:: html
+
+   .. epigraph::
+
+      No matter where you go, there you are.
+
+      -- Buckaroo Banzai
 
 .. compound::
 
@@ -99,34 +210,27 @@ Ewan McTeagle (for Lassie O'Shea):
 
    This paragraph might be rendered in a custom way.
 
-.. header:: This space for rent.
+.. raw:: html
 
+   .. compound::
 
-.. |reST| replace:: reStructuredText
+      The 'rm' command is very dangerous.  If you are logged
+      in as root and enter ::
 
-Yes, |reST| is a long word, so I can't blame anyone for wanting to
-abbreviate it.
+          cd /
+          rm -rf *
 
-I recommend you try |Python|_.
+      you will erase the entire contents of your file system.
 
-.. |Python| replace:: Python, *the* best language around
-.. _Python: https://www.python.org/
+      .. container:: custom
 
-Copyright |copy| 2023, |ForensicVM (c)| |---|
-all rights reserved.
+      This paragraph might be rendered in a custom way.
 
-.. |copy| unicode:: 0xA9 .. copyright sign
-.. |ForensicVM (c)| unicode:: ForensicVM U+2122
-   .. with trademark sign
-.. |---| unicode:: U+02014 .. em dash
-   :trim:
+.. header:: This space is in the header
 
-.. |date| date:: "%Y/%m/%d"
-.. |time| date:: %H:%M
+.. raw:: html
 
-Today's date is |date|.
-
-This document was generated on |date| at |time|.
+   .. header:: This space is in the header.
 
 .. raw:: html
 

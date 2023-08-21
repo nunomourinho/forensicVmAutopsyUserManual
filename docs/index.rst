@@ -39,9 +39,5 @@ Check out the :doc:`usage` section for further information, including how to :re
    Product Overview <user/product_overview/product_overview>     
    Using ForensicVM <user/using_forensicvm>
    Troubleshooting Guide <troubleshooting>
+   List of Figures <figures>
 
-.. toctree::
-   :maxdepth: 3
-   :caption: reStructuredText
-
-   reStructuredText used typset <typset>
