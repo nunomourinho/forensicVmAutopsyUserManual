@@ -75,7 +75,7 @@ Forensic investigations often require an adaptable approach, and the ability to 
 2. **Refresh the Plugin List**:
    To get the most recent list of plugins, simply click on the **List Remote Plugins** button. This action fetches and displays all available plugins from the remote repository, ensuring you're working with the latest toolset.
 
-    .. figure:: img/list_plugin_0001.jpg
+    .. figure:: img/list_plugins_0001.jpg
        :alt: Interface displaying the 'List Remote Plugins' button for updating and viewing available plugins.
        :align: center
 
