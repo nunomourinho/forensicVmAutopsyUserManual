@@ -2,7 +2,7 @@
 Typset
 ========
 
-.. raw::
+.. raw:: html
 
    =======
    Typset
@@ -17,7 +17,7 @@ The following typeset is used in this document, based on:
 .. DANGER::
    Denotes actions that could result in serious harm or damage.
 
-.. raw::
+.. raw:: html
 
    .. DANGER::
       Denotes actions that could result in serious harm or damage.
@@ -25,7 +25,7 @@ The following typeset is used in this document, based on:
 .. CAUTION::
    Signifies a potential hazard or cautionary advice.
 
-.. raw::
+.. raw:: html
 
    .. CAUTION::
       Signifies a potential hazard or cautionary advice.
@@ -33,7 +33,7 @@ The following typeset is used in this document, based on:
 .. ERROR::
    Marks an error in the system that needs rectification.
 
-.. raw::
+.. raw:: html
 
    .. ERROR::
       Marks an error in the system that needs rectification.
@@ -41,7 +41,7 @@ The following typeset is used in this document, based on:
 .. HINT::
    Highlights key information that requires special attention.
 
-.. raw::
+.. raw:: html
 
    .. HINT::
       Highlights key information that requires special attention.
@@ -49,7 +49,7 @@ The following typeset is used in this document, based on:
 .. IMPORTANT::
    Something important to notice!
 
-.. raw::
+.. raw:: html
 
    .. IMPORTANT::
       Something important to notice!
@@ -57,7 +57,7 @@ The following typeset is used in this document, based on:
 .. NOTE::
    Offers additional, auxiliary information that may be useful to the reader.
 
-.. raw::
+.. raw:: html
 
    .. NOTE::
       Offers additional, auxiliary information that may be useful to the reader.
@@ -65,7 +65,7 @@ The following typeset is used in this document, based on:
 .. TIP::
    Presents a smart or strategic suggestion to achieve a task more effectively.
 
-.. raw::
+.. raw:: html
 
    .. TIP::
       Presents a smart or strategic suggestion to achieve a task more effectively.
@@ -73,7 +73,7 @@ The following typeset is used in this document, based on:
 .. WARNING::
    Warns about a potential pitfall or danger that must be avoided.
 
-.. raw::
+.. raw:: html
 
    .. WARNING::
       Warns about a potential pitfall or danger that must be avoided.
@@ -82,7 +82,7 @@ The following typeset is used in this document, based on:
 
    Provides an extra piece of related, explanatory information.
 
-.. raw::
+.. raw:: html
 
    .. admonition:: Additional Information
 
@@ -94,7 +94,7 @@ The following typeset is used in this document, based on:
     the body of the topic, and are
     interpreted as body elements.
 
-.. raw::
+.. raw:: html
 
    .. topic:: Topic Title
 
@@ -109,7 +109,7 @@ The following typeset is used in this document, based on:
    the body of the sidebar, and are
    interpreted as body elements.
 
-.. raw::
+.. raw:: html
 
    .. sidebar:: Optional Sidebar Title
       :subtitle: Optional Sidebar Subtitle
@@ -129,7 +129,7 @@ Ewan McTeagle (for Lassie O'Shea):
             as soon as it comes.
         Love, Ewan.
 
-.. raw::
+.. raw:: html
 
    "To Ma Own Beloved Lassie: A Poem on her 17th Birthday", by
    Ewan McTeagle (for Lassie O'Shea):
@@ -149,7 +149,7 @@ Ewan McTeagle (for Lassie O'Shea):
      (docinfo_, transition_?)?,
      `%structure.model;`_ )
 
-.. raw::
+.. raw:: html
 
    .. parsed-literal::
 
@@ -164,7 +164,7 @@ Ewan McTeagle (for Lassie O'Shea):
       "just a test"
       print 8/2
 
-.. raw::
+.. raw:: html
 
    .. code:: python
 
@@ -176,7 +176,7 @@ Ewan McTeagle (for Lassie O'Shea):
 
   α_t(i) = P(O_1, O_2, … O_t, q_t = S_i λ)
 
-.. raw::
+.. raw:: html
 
    .. math::
 
@@ -188,7 +188,7 @@ Ewan McTeagle (for Lassie O'Shea):
 
    -- Buckaroo Banzai
 
-.. raw::
+.. raw:: html
 
    .. epigraph::
 
@@ -210,7 +210,7 @@ Ewan McTeagle (for Lassie O'Shea):
 
    This paragraph might be rendered in a custom way.
 
-.. raw::
+.. raw:: html
 
    .. compound::
 
@@ -228,7 +228,7 @@ Ewan McTeagle (for Lassie O'Shea):
 
 .. header:: This space for rent.
 
-.. raw::
+.. raw:: html
 
    .. header:: This space for rent.
 
