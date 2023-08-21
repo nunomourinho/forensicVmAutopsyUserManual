@@ -226,11 +226,11 @@ Ewan McTeagle (for Lassie O'Shea):
 
       This paragraph might be rendered in a custom way.
 
-.. header:: This space for rent.
+.. header:: This space is in the header
 
 .. raw:: html
 
-   .. header:: This space for rent.
+   .. header:: This space is in the header.
 
 .. raw:: html
 
