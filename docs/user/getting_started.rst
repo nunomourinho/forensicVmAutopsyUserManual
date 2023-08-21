@@ -227,6 +227,28 @@ The Control Toolbar facilitates the following actions:
 - **Disconnect**: Ends the current webscreen session.
 - **Logout**: Signs the user out of the ForensicVM server.
 
+Adjusting Screen Scaling: Local Scaling
+----------------------------------------
+
+If you find that the screen appears cropped or that certain parts of the interface aren't fully visible, you can adjust the scaling settings for a more optimal viewing experience. Here's a comprehensive guide to making those adjustments:
+
+**Steps to Adjust Screen Scaling:**
+
+1. **Reveal the Control Bar**:
+   - **Control Bar Open Icon**: The control bar is typically hidden to provide a cleaner viewing area. By clicking on this icon, you'll reveal a set of controls that overlay the main screen. These controls grant access to various functionalities.
+
+2. **Access Scaling Settings**:
+   - **Definitions Icon**: Once the control bar is visible, locate and click on the definitions icon. This action will lead you into the settings or preferences area, where you can manage various aspects of the ForensicVM interface.
+
+3. **Modify Scaling Mode**:
+   - **Scaling Mode Adjustment**: Inside the settings, find the option labeled **"Scaling mode."** From the available choices, select **"Local Scaling."** This adjustment ensures the interface perfectly fits within your screen, displaying all elements in their entirety.
+
+.. figure:: img/infographics_0005.jpg
+   :alt: Altering webscreen scaling to local scaling for complete visibility.
+   :align: center
+
+   A visual representation showcasing the process of adjusting the webscreen scaling to "Local Scaling" for an optimized, full-screen experience.
+
 
 ForensicVM Server Web Control Interface
 ----------------------------------------
