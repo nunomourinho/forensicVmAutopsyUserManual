@@ -22,7 +22,7 @@ If your machine cannot boot due to the virtio drivers installed during the autom
   .. figure:: user/img/troubleshoot_0002.jpg
      :name: troubleshoot
      :alt: Troubleshoot option
-     :width: 600
+     :width: 300
 
      Troubleshoot option
 
@@ -32,7 +32,7 @@ If your machine cannot boot due to the virtio drivers installed during the autom
   .. figure:: user/img/troubleshoot_0003.jpg
      :name: advanced-options-selection
      :alt: Choosing Advanced options
-     :width: 600
+     :width: 300
 
      Choosing Advanced options
 
@@ -42,7 +42,7 @@ If your machine cannot boot due to the virtio drivers installed during the autom
   .. figure:: user/img/troubleshoot_0004.jpg
      :name: startup-settings
      :alt: Startup Settings option
-     :width: 600
+     :width: 500
 
      Startup Settings option
 
@@ -52,7 +52,7 @@ If your machine cannot boot due to the virtio drivers installed during the autom
   .. figure:: user/img/troubleshoot_0005.jpg
      :name: restart-option
      :alt: Restart option
-     :width: 600
+     :width: 500
 
      Restart option
 
@@ -62,7 +62,7 @@ If your machine cannot boot due to the virtio drivers installed during the autom
   .. figure:: user/img/troubleshoot_0006.jpg
      :name: disable-driver-signature-enforcement
      :alt: Pressing F7 for Disable driver signature enforcement
-     :width: 600
+     :width: 300
 
      Pressing F7 for Disable driver signature enforcement
 
