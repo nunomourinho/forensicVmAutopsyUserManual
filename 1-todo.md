@@ -56,7 +56,7 @@
         - [x] Run Selected plugin         
       - [ ] Analyse Forensic VM Performance
       - [ ] Open forensicVM webshell
-      - [ ] DEBUG: remote ssh to folder
+      - [x] DEBUG: remote ssh to folder
       - [x] Settings scaling - Local scaling
       - [x] Finetunning
          - [x] Change VM memory size
@@ -73,7 +73,7 @@
          - [x] Shell
          - [x] Logout
          - [x] Login
-- [ ] Create a figure index
+- [x] Create a figure index
 - [ ] Create a table index
 - [ ] Create a glossary (https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html)
 - [ ] Compile and join api documentation from forensicVM server in the developer section
@@ -101,3 +101,5 @@
          - [x] Internet connection speed
          - [x] Server internet connection speed
          - [x] Server transfer speed
+   - [ ] Make a webservice server that collects and analysis the statistics
+   - [ ] Make a webservice client that sends the statistics to the server
