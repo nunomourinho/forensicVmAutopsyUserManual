@@ -31,6 +31,22 @@ Additional Considerations
 3. **Risk Mitigation**: Especially in complex cases involving malware or unknown data structures, snapshots provide a safety mechanism, allowing investigators to explore without risking the primary evidence source or the investigation platform.
 
 
+.. note::
+
+   **Working with Snapshots and ForensicVM**
+
+   Before diving into the functionalities associated with snapshots, it's crucial to understand a fundamental prerequisite: the ForensicVM needs to be up and running. Snapshots essentially capture the state of a virtual machine at a specific point in time. As such, to make the snapshot meaningful and functional, the ForensicVM has to be in an operational state.
+
+   If you haven't started your ForensicVM yet, please do so by following these steps:
+
+   1. **Open the Autopsy ForensicVM Client**: Ensure that you have the client interface open and accessible.
+   
+   2. **Locate the 'Start' Option**: Within the interface, navigate to the main control panel where you have options to 'Start', 'Stop', 'Shutdown', etc., for the ForensicVM.
+
+   3. **Initiate the ForensicVM**: Click on the 'Start' option to boot up the ForensicVM. It might take a few moments for the virtual machine to initialize and be fully operational.
+
+   Once the ForensicVM is running, you can proceed with snapshot-related tasks, ensuring accurate capture and representation of the virtual machine's state.
+
 
 Create a new snapshot
 -----------------------
@@ -78,6 +94,8 @@ While the Autopsy ForensicVM Client interface typically auto-updates to display 
 
 Once clicked, the interface should update and display all the remote snapshots associated with the current ForensicVM. If any issues persist, ensure that the ForensicVM Client has proper network access and permissions to communicate with the remote server.
 I've expanded on the process by offering a bit more context and breaking down the steps in a detailed manner.
+
+
 
 Select and Roll back a snapshot
 --------------------------------
