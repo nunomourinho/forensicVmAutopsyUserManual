@@ -40,11 +40,11 @@
          - [x] Bootable Media: How to boot a cdrom
          - [x] Delete ISO
       - [x] Snapshots
-         - [ ] Create new
-         - [ ] List remote snapshots
-         - [ ] Select snapshot
-         - [ ] Rollback
-         - [ ] Delete
+         - [x] Create new
+         - [x] List remote snapshots
+         - [x] Select snapshot
+         - [x] Rollback
+         - [x] Delete
       - [ ] Plugins
         - [ ] Add forensic admin in windows
         - [ ] Patch login in windows
