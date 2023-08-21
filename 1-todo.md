@@ -45,15 +45,15 @@
          - [x] Select snapshot
          - [x] Rollback
          - [x] Delete
-      - [ ] Plugins
-        - [ ] Add forensic admin in windows
-        - [ ] Patch login in windows
-        - [ ] Add forensic admin in linux
-        - [ ] Reset Windows XP or Windows 2003 Activation
-        - [ ] Patch accessibility
-        - [ ] Remove hibernation file
-        - [ ] List remote Plugins
-        - [ ] Run Selected plugin         
+      - [x] Plugins
+        - [x] Add forensic admin in windows
+        - [x] Patch login in windows
+        - [x] Add forensic admin in linux
+        - [x] Reset Windows XP or Windows 2003 Activation
+        - [x] Patch accessibility
+        - [x] Remove hibernation file
+        - [x] List remote Plugins
+        - [x] Run Selected plugin         
       - [ ] Analyse Forensic VM Performance
       - [ ] Open forensicVM webshell
       - [ ] DEBUG: remote ssh to folder
