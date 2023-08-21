@@ -47,6 +47,16 @@ Apart from authentication bypass, there are plugins designed to circumvent other
 
   - This is required for instances where a forensic investigator needs to access machines that are awaiting activation, like Windows 2003 or XP. The plugin resets the activation to allow unobstructed login.
 
+- **BOOTFIX: Disable Driver Enforcement**:
+
+  - When working with older systems or in scenarios where you've converted a forensic image, you might encounter certain constraints related to driver signatures. The "Disable Driver Enforcement" utility addresses these challenges:
+
+      - **Allow Unsigned Drivers**: By default, many operating systems, especially modern ones, enforce driver signing for security reasons. Disabling this enforcement lets you run unsigned drivers. This can be particularly handy for running drivers like `virtio` on older systems.
+
+      - **Support for Programs Using Unsigned Drivers**: Some utilities or programs require the use of unsigned drivers. Disabling the driver enforcement provides flexibility to run these applications without any hitches.
+
+      - **Blue Screen Issue Resolution**: After converting a forensic image, systems may sometimes experience the infamous 'Blue Screen of Death' (BSOD) due to driver issues. This tool can assist in resolving those problems by ensuring that all drivers, even the unsigned ones, can run without any enforcement barriers.
+
 .. note::
 
    While these plugins provide powerful capabilities, they should be used responsibly and ethically. Misuse could lead to unintended consequences or legal issues.
