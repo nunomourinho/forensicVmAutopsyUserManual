@@ -1,7 +1,8 @@
 Troubleshooting
 ================
 
-Booting with signed drivers:
+Booting without signed drivers
+-------------------------------
 
 .. figure:: user/img/troubleshoot_0001.jpg
    :name: Change me
