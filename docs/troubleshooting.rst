@@ -1,61 +1,64 @@
 Troubleshooting
 ================
 
-.. figure:: user/img/throubleshoot_0001.jpg
+Booting with signed drivers:
+
+.. figure:: user/img/troubleshoot_0001.jpg
    :name: Change me
    :alt: Change me
+   :width: 600
 
    Change me
 
 
 
-.. figure:: user/img/throubleshoot_0002.jpg
+.. figure:: user/img/troubleshoot_0002.jpg
    :name: Change me
    :alt: Change me
+   :width: 600
 
    Change me
 
 
-.. figure:: user/img/throubleshoot_0003.jpg
+.. figure:: user/img/troubleshoot_0003.jpg
    :name: Change me
    :alt: Change me
-
-   Change me
-
-
-
-.. figure:: user/img/throubleshoot_0004.jpg
-   :name: Change me
-   :alt: Change me
+   :width: 600
 
    Change me
 
 
 
-.. figure:: user/img/throubleshoot_0005.jpg
+.. figure:: user/img/troubleshoot_0004.jpg
    :name: Change me
    :alt: Change me
+   :width: 600
 
    Change me
 
 
 
-.. figure:: user/img/throubleshoot_0006.jpg
+.. figure:: user/img/troubleshoot_0005.jpg
    :name: Change me
    :alt: Change me
+   :width: 600
 
    Change me
 
 
 
-.. figure:: user/img/throubleshoot_0007.jpg
+.. figure:: user/img/troubleshoot_0006.jpg
    :name: Change me
    :alt: Change me
+   :width: 600
 
    Change me
 
-.. figure:: user/img/throubleshoot_0008.jpg
+
+
+.. figure:: user/img/troubleshoot_0007.jpg
    :name: Change me
    :alt: Change me
+   :width: 600
 
    Change me
