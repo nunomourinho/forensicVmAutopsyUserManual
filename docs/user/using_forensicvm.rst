@@ -46,3 +46,5 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
    Plugins - Security Bypass Utilities <plugin_management>
 
    Fine-Tuning ForensicVM <finetunning>
+
+   WebShell for Remote Administration <webshell>
