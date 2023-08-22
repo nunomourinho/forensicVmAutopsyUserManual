@@ -1,6 +1,6 @@
 # Welcome to ForensicVM Documentation!
 
-Github User Manual project site status: [![Documentation Status](https://readthedocs.org/projects/forensicvm-autopsy-plugin-user-manual/badge/?version=latest)](https://forensicvm-autopsy-plugin-user-manual.readthedocs.io/en/latest/?badge=latest)
+Github User Manual project site status: [![Documentation Status](https://readthedocs.org/projects/forensicvm-autopsy-plugin-user-manual/badge/?version=latest)](https://forensicvm-autopsy-plugin-user-manual.readthedocs.io/en/latest/?badge=latest) [![DOI](https://zenodo.org/badge/675339901.svg)](https://zenodo.org/badge/latestdoi/675339901)
 
 
 ![ForensicVM Logo](docs/ForensicVM.jpg)
@@ -21,3 +21,4 @@ I would like to emphasize that ForensicVM is an actively developed project. We'r
 
 Thank you for choosing ForensicVM. We are confident that it will greatly streamline your forensic investigations and contribute to the success of your work.
 
+[![DOI](https://zenodo.org/badge/675339901.svg)](https://zenodo.org/badge/latestdoi/675339901)
