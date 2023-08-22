@@ -56,7 +56,7 @@
         - [x] List remote Plugins
         - [x] Run Selected plugin         
       - [ ] Analyse Forensic VM Performance
-      - [ ] Open forensicVM webshell
+      - [x] Open forensicVM webshell
       - [x] DEBUG: remote ssh to folder
       - [x] Settings scaling - Local scaling
       - [x] Finetunning
