@@ -1,5 +1,6 @@
 - [x] Edit first pages
 - [x] Enumerate Autopsy forensicVM actions
+- [ ] Make a feature comparation table between Autopsy ForensicVM Client plugin and ForensicVM web interface
 - [x] Getting Started - Make one or several infographic
    - [x] Create a new page per action in usage
       - [x] Run the Autopsy Plugin
