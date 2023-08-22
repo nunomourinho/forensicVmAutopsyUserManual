@@ -24,4 +24,26 @@ Thank you for choosing ForensicVM. We are confident that it will greatly streaml
 [![DOI](https://zenodo.org/badge/675339901.svg)](https://zenodo.org/badge/latestdoi/675339901)
 
 
-@misc{https://doi.org/10.5281/zenodo.8274587, doi = {10.5281/ZENODO.8274587}, url = {https://zenodo.org/record/8274587}, author = {Mourinho, Nuno}, language = {en}, title = {nunomourinho/forensicVmAutopsyUserManual: v1.0.0}, publisher = {Zenodo}, year = {2023}, copyright = {European Union Public License 1.2}}
+## 📖 Citation
+
+Reference to cite if you use AutopsyForensicVM in a paper:
+```
+@misc{Mourinho_forensicVmAutopsyUserManual_2023,
+doi = {10.5281/ZENODO.8274587},
+url = {https://zenodo.org/record/8274587},
+author = {Mourinho, Nuno},
+language = {en},
+title = {nunomourinho/forensicVmAutopsyUserManual: v1.0.0},
+publisher = {Zenodo},
+year = {2023},
+copyright = {European Union Public License 1.2}
+}
+
+@software{Mourinho_AutopsyForensicVM_2023,
+author = {Mourinho, Nuno},
+doi = {10.5281/zenodo.8153316},
+month = {07},
+title = {{Autopsy ForensicVM Client}},
+url = {https://github.com/nunomourinho/AutopsyForensicVM},
+year = {2023}
+}
