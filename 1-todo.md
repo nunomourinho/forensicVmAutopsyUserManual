@@ -55,7 +55,7 @@
         - [x] Remove hibernation file
         - [x] List remote Plugins
         - [x] Run Selected plugin         
-      - [ ] Analyse Forensic VM Performance
+      - [x] Analyse Forensic VM Performance
       - [x] Open forensicVM webshell
       - [x] DEBUG: remote ssh to folder
       - [x] Settings scaling - Local scaling
@@ -77,9 +77,7 @@
 - [x] Create a figure index
 - [ ] Create a table index
 - [ ] Create a glossary (https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html)
-- [ ] Compile and join api documentation from forensicVM server in the developer section
-- [ ] Compile and join api documentation from forensicVM client in the developer section
-- [ ] Create a project site> https://pages.github.com/
+
 
 - [ ] Make metrics:
    - [ ] Run the image conversion
@@ -104,3 +102,8 @@
          - [x] Server transfer speed (calc)
    - [ ] Make a webservice server that collects and analysis the statistics
    - [ ] Make a webservice client that sends the statistics to the server
+
+Other manuals:
+- [ ] Compile and join api documentation from forensicVM server in the developer section
+- [ ] Compile and join api documentation from forensicVM client in the developer section
+- [ ] Create a project site> https://pages.github.com/
