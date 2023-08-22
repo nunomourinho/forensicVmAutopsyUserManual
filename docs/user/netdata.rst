@@ -22,16 +22,14 @@ Getting Started with Netdata on ForensicVM Server
 
 **Installation**:
 
-Netdata comes pre-installed with ForensicVM Server. If for any reason it's not installed:
-
-.. code-block:: bash
-
-   sudo apt-get install netdata
+Netdata comes pre-installed with ForensicVM Server. 
 
 **Accessing Netdata Dashboard**:
 
-1. Open your browser.
-2. Navigate to `http://your_forensic_vm_server_ip:19999/`.
+.. todo::
+
+   Enter the figures here
+
 
 Usage in ForensicVM Server Context
 -----------------------------------
