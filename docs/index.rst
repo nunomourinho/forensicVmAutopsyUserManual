@@ -31,6 +31,9 @@ The first step is to install the server. Head to :ref:`installation`
 
 Check out the :doc:`usage` section for further information, including how to :ref:`installation` the project.
 
+.. image:: https://zenodo.org/badge/675339901.svg
+   :target: https://zenodo.org/badge/latestdoi/675339901
+
 .. toctree::
    :maxdepth: 3
    :caption: ForensicVM Plugin Manual
