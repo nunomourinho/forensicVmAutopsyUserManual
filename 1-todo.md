@@ -83,23 +83,23 @@
 - [ ] Make metrics:
    - [ ] Run the image conversion
       - [x] Get client Info
-         - [x] Processor and number or cores
-         - [x] Speed
-         - [x] Disk type and size
-         - [x] Disk read speed (test): https://github.com/thodnev/MonkeyTest
+         - [x] Processor and number or cores (info)
+         - [x] Speed (info)
+         - [x] Disk type and size (info)
+         - [x] Disk read speed (test): https://github.com/thodnev/MonkeyTest (calc)
       - [ ] Server info
-         - [ ] Processor and number of cores
-         - [ ] Speed
-         - [ ] Disk type and size
-         - [ ] Disk write speed (test): https://github.com/thodnev/MonkeyTest         
-      - [ ] Forensic Image info (from server)
-         - [ ] Type format
-         - [ ] Size
-         - [ ] Operating System
+         - [ ] Processor and number of cores (info)
+         - [ ] Speed (info)
+         - [ ] Disk type and size (info)
+         - [ ] Disk write speed (test): https://github.com/thodnev/MonkeyTest (calc)
+      - [ ] Forensic Image info (from server) (info)
+         - [ ] Type format (info)
+         - [ ] Size (calc)
+         - [ ] Operating System (info)
       - [x] Network
-         - [x] Local network speed
-         - [x] Internet connection speed
-         - [x] Server internet connection speed
-         - [x] Server transfer speed
+         - [x] Local network speed (calc)
+         - [x] Internet connection speed (calc)
+         - [x] Server internet connection speed (calc)
+         - [x] Server transfer speed (calc)
    - [ ] Make a webservice server that collects and analysis the statistics
    - [ ] Make a webservice client that sends the statistics to the server
