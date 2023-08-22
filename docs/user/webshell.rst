@@ -1,35 +1,46 @@
-webshell
-=========
+WebShell for Remote Administration
+==================================
 
-asd
+For enhanced remote server administration, a webshell has been crafted based on the `shellinabox` project which has been adapted into a Django application. This allows secure root access to the server, making it an invaluable tool for troubleshooting and remote server management tasks.
 
-2. **Press the video recording icon. This icon will open a modal box.**
+**Accessing the WebShell**:
 
-   .. figure:: img/webrecord_video_0002.jpg
-      :alt: Press the video recording icon
-      :align: center
+There are two primary methods to access the WebShell:
 
-      Press the video recording icon
+1. **Through the Autopsy ForensicVM Client Plugin**:
 
-   .. figure:: img/webshell_0001.jpg
-      :alt: Change
-      :align: center
-      :width:600
+   - Within the plugin interface, click on the *Open ForensicVM WebShell* button. This action will open the WebShell in your default browser.
 
-      Change
+     .. figure:: img/webshell_0001.jpg
+        :alt: WebShell accessed via Autopsy ForensicVM Client Plugin
+        :align: center
+        :width: 600
 
+        WebShell accessed via Autopsy ForensicVM Client Plugin
 
-.. figure:: img/webshell_0002.jpg
-   :alt: Change
-   :align: center
-   :width:600
+2. **Via the ForensicVM Main Web Interface**:
 
-   Change
+   - Navigate to the main interface and click on the *Shell* link to access the WebShell.
 
+     .. figure:: img/webshell_0002.jpg
+        :alt: WebShell accessed via ForensicVM Main Web Interface
+        :align: center
+        :width: 600
+
+        WebShell accessed via ForensicVM Main Web Interface
+
+**WebShell Interface**:
+
+Upon accessing the WebShell, users will encounter an interface resembling the following:
 
 .. figure:: img/webshell_0003.jpg
-   :alt: Change
+   :alt: ForensicVM WebShell Interface
    :align: center
-   :width:600
+   :width: 600
 
-   Change
+   ForensicVM WebShell Interface
+
+.. note::
+
+   The WebShell provides a direct and secure interface to the server. However, ensure to logout after your session to maintain security.
+
