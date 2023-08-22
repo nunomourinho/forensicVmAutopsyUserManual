@@ -1,5 +1,8 @@
 Welcome to ForensicVM documentation!
 ===================================
+.. image:: https://zenodo.org/badge/675339901.svg
+   :target: https://zenodo.org/badge/latestdoi/675339901
+
 .. figure:: ForensicVM.jpg
    :alt: ForensicVM logo
    :width: 100%
