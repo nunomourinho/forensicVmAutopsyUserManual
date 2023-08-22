@@ -48,3 +48,5 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
    Fine-Tuning ForensicVM <finetunning>
 
    WebShell for Remote Administration <webshell>
+
+   Netdata on ForensicVM Server <netdata>
