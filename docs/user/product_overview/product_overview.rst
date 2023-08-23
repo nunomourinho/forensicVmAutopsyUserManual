@@ -32,7 +32,7 @@ In the table below, the distribution of features across the different zones of t
      - A
      - AS
      - E
-   * - :ref:`Convert Forensic Image to a Forensic Virtual Machine`
+   * - **:ref:`Convert Forensic Image to a Forensic Virtual Machine`**
      - .
      - .
      - ✅
@@ -44,13 +44,13 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - :   ref:`Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server`
+   * -    :ref:`Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server`
      - .
      - .
      - ✅
      - .
      - .
-   * - :ref:`Gather Evidence Using the Evidence Disk`
+   * - **:ref:`Gather Evidence Using the Evidence Disk`**
      - .
      - .
      - ✅
@@ -80,19 +80,19 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - :ref:`Deletion of ForensicVM at Investigation Conclusion`
+   * - **:ref:`Deletion of ForensicVM at Investigation Conclusion`**
      - .
      - .
      - ✅
      - .
      - .
-   * - :ref:`Fine-Tuning ForensicVM`
+   * - **:ref:`Fine-Tuning ForensicVM`**
      - .
      - .
      - ✅
      - .
      - .
-   * - :ref:`Media Management in ForensicVM: Leveraging ISOs for Enhanced Forensic Investigations`
+   * - **:ref:`Media Management in ForensicVM: Leveraging ISOs for Enhanced Forensic Investigations`**
      - .
      - .
      - ✅
@@ -128,7 +128,7 @@ In the table below, the distribution of features across the different zones of t
      - .
      - .
      - .
-   * - :ref:`Making, Downloading, and Analyzing a Memory Dump (memory_dump_vm)`
+   * - **:ref:`Making, Downloading, and Analyzing a Memory Dump (memory_dump_vm)`**
      - .
      - .
      - ✅
@@ -146,13 +146,13 @@ In the table below, the distribution of features across the different zones of t
      - .
      - ✅
      - ✅
-   * - :ref:`Netdata on ForensicVM Server`
+   * - **:ref:`Netdata on ForensicVM Server`**
      - ✅
      - .
      - ✅
      - .
      - .
-   * - :ref:`Managing the Network Card to Capture and Analyse Network Traffic`
+   * - **:ref:`Managing the Network Card to Capture and Analyse Network Traffic`**
      - .
      - ✅
      - ✅
@@ -182,13 +182,13 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - :ref:`Open or Browse the Forensic Virtual Machine (VM)`
+   * - **:ref:`Open or Browse the Forensic Virtual Machine (VM)`**
      - ✅
      - ✅
      - ✅
      - .
      - .
-   * - :ref:`Plugins - Security Bypass Utilities`
+   * - **:ref:`Plugins - Security Bypass Utilities`**
      - .
      - .
      - ✅
@@ -206,13 +206,13 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - :ref:`Resetting the Virtual Machine (VM)`
+   * - **:ref:`Resetting the Virtual Machine (VM)`**
      - ✅
      - ✅
      - ✅
      - .
      - .
-   * - :ref:`Making and importing Screenshots`
+   * - **:ref:`Making and importing Screenshots`**
      - .
      - ✅
      - ✅
@@ -236,13 +236,13 @@ In the table below, the distribution of features across the different zones of t
      - .
      - ✅
      - .
-   * - :ref:`Shutting Down the Virtual Machine (VM)`
+   * - **:ref:`Shutting Down the Virtual Machine (VM)`**
      - ✅
      - ✅
      - ✅
      - .
      - .
-   * - :ref:`Snapshots in ForensicVM: A Crucial Asset for Investigators`
+   * - **:ref:`Snapshots in ForensicVM: A Crucial Asset for Investigators`**
      - .
      - .
      - ✅
@@ -272,31 +272,31 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - :ref:`Starting the Virtual Machine (VM)`
+   * - **:ref:`Starting the Virtual Machine (VM)`**
      - ✅
      - ✅
      - ✅
      - .
      - .
-   * - :ref:`Stopping the Virtual Machine (VM)`
+   * - **:ref:`Stopping the Virtual Machine (VM)`**
      - ✅
      - ✅
      - ✅
      - .
      - .
-   * - :ref:`Recording Video from a Forensic Virtual Machine`
+   * - **:ref:`Recording Video from a Forensic Virtual Machine`**
      - .
      - ✅
      - .
      - .
      - .
-   * - :ref:`WebShell for Remote Administration`
+   * - **:ref:`WebShell for Remote Administration`**
      - ✅
      - .
      - ✅
      - .
      - .
-   * - :ref:`DEBUG: Remote ssh to folder`
+   * - **:ref:`DEBUG: Remote ssh to folder`**
      - .
      - .
      - ✅
