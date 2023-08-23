@@ -32,19 +32,19 @@ In the table below, the distribution of features across the different zones of t
      - A
      - AS
      - E
-   * - **( :ref:`Convert Forensic Image to a Forensic Virtual Machine` )**
+   * - :ref:`Convert Forensic Image to a Forensic Virtual Machine`
      - .
      - .
      - ✅
      - .
      - .
-   * -    :ref:`Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the Server`
+   * - - :ref:`Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the Server`
      - .
      - .
      - ✅
      - .
      - .
-   * -    :ref:`Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server`
+   * - - :ref:`Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server`
      - .
      - .
      - ✅
@@ -56,25 +56,25 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * -    :ref:`Evidence Disk Creation`
+   * - - :ref:`Evidence Disk Creation`
      - .
      - .
      - ✅
      - .
      - .
-   * -    :ref:`Collecting Evidence: A Step-by-Step Guide`
+   * - - :ref:`Collecting Evidence: A Step-by-Step Guide`
      - .
      - ✅
      - .
      - .
      - .
-   * -    :ref:`Recreate Evidence Disk`
+   * - - :ref:`Recreate Evidence Disk`
      - .
      - .
      - ✅
      - .
      - .
-   * -    :ref:`Import Possible Evidence Disk into Autopsy`
+   * - - :ref:`Import Possible Evidence Disk into Autopsy`
      - .
      - .
      - ✅
@@ -98,205 +98,205 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * -    :ref:`Uploading an ISO to the ForensicVM Server`
+   * - - :ref:`Uploading an ISO to the ForensicVM Server`
      - .
      - .
      - ✅
      - .
      - .
-   * -    :ref:`List Remote ISO Files`
+   * - - :ref:`List Remote ISO Files`
      - .
      - ✅
      - ✅
      - .
      - .
-   * -    :ref:`Insert ISO / Web Insert CD-ROM`
+   * - - :ref:`Insert ISO / Web Insert CD-ROM`
      - .
      - ✅
      - ✅
      - .
      - .
-   * -    :ref:`Run programs and utilities from ISO`
+   * - - :ref:`Run programs and utilities from ISO`
      - .
      - ✅
      - .
      - .
      - .
-   * -    :ref:`Bootable Media`
+   * - - :ref:`Bootable Media`
      - .
      - ✅
      - .
      - .
      - .
-   * - **:ref:`Making, Downloading, and Analyzing a Memory Dump (memory_dump_vm)`**
+   * - :ref:`Making, Downloading, and Analyzing a Memory Dump (memory_dump_vm)`
      - .
      - .
      - ✅
      - ✅
      - ✅
-   * -    :ref:`Making and download a Memory Dump`
+   * - - :ref:`Making and download a Memory Dump`
      - .
      - .
      - ✅
      - .
      - .
-   * -    :ref:`Importing and Analyzing a Memory Dump in Autopsy`
+   * - - :ref:`Importing and Analyzing a Memory Dump in Autopsy`
      - .
      - .
      - .
      - ✅
      - ✅
-   * - **:ref:`Netdata on ForensicVM Server`**
+   * - :ref:`Netdata on ForensicVM Server`
      - ✅
      - .
      - ✅
      - .
      - .
-   * - **:ref:`Managing the Network Card to Capture and Analyse Network Traffic`**
+   * - :ref:`Managing the Network Card to Capture and Analyse Network Traffic`
      - .
      - ✅
      - ✅
      - .
      - .
-   * -    :ref:`Enable the Network Card`
+   * - - :ref:`Enable the Network Card`
      - .
      - ✅
      - ✅
      - .
      - .
-   * -    :ref:`Reseting the Operating System Network Card`
+   * - - :ref:`Reseting the Operating System Network Card`
      - .
      - ✅
      - .
      - .
      - .
-   * -    :ref:`Disable the Network Card`
+   * - - :ref:`Disable the Network Card`
      - .
      - ✅
      - ✅
      - .
      - .
-   * -    :ref:`Download Wireshark pcap Files`
+   * - - :ref:`Download Wireshark pcap Files`
      - .
      - .
      - ✅
      - .
      - .
-   * - **:ref:`Open or Browse the Forensic Virtual Machine (VM)`**
+   * - :ref:`Open or Browse the Forensic Virtual Machine (VM)`
      - ✅
      - ✅
      - ✅
      - .
      - .
-   * - **:ref:`Plugins - Security Bypass Utilities`**
+   * - :ref:`Plugins - Security Bypass Utilities`
      - .
      - .
      - ✅
      - .
      - .
-   * -    :ref:`Browsing Available Plugins`
+   * - - :ref:`Browsing Available Plugins`
      - .
      - .
      - ✅
      - .
      - .
-   * -    :ref:`Executing Plugins`
+   * - - :ref:`Executing Plugins`
      - .
      - .
      - ✅
      - .
      - .
-   * - **:ref:`Resetting the Virtual Machine (VM)`**
+   * - :ref:`Resetting the Virtual Machine (VM)`
      - ✅
      - ✅
      - ✅
      - .
      - .
-   * - **:ref:`Making and importing Screenshots`**
+   * - :ref:`Making and importing Screenshots`
      - .
      - ✅
      - ✅
      - .
      - .
-   * -    :ref:`Making screenshots`
+   * - - :ref:`Making screenshots`
      - .
      - ✅
      - ✅
      - .
      - .
-   * -    :ref:`Downloading Screenshots as a ZIP File`
+   * - - :ref:`Downloading Screenshots as a ZIP File`
      - .
      - .
      - ✅
      - .
      - .
-   * -    :ref:`Importing Screenshots to Autopsy Software`
+   * - - :ref:`Importing Screenshots to Autopsy Software`
      - .
      - .
      - .
      - ✅
      - .
-   * - **:ref:`Shutting Down the Virtual Machine (VM)`**
+   * - :ref:`Shutting Down the Virtual Machine (VM)`
      - ✅
      - ✅
      - ✅
      - .
      - .
-   * - **:ref:`Snapshots in ForensicVM: A Crucial Asset for Investigators`**
+   * - :ref:`Snapshots in ForensicVM: A Crucial Asset for Investigators`
      - .
      - .
      - ✅
      - .
      - .
-   * -    :ref:`Create a new snapshot`
+   * - - :ref:`Create a new snapshot`
      - .
      - .
      - ✅
      - .
      - .
-   * -    :ref:`List Remote Snapshots`
+   * - - :ref:`List Remote Snapshots`
      - .
      - .
      - ✅
      - .
      - .
-   * -    :ref:`Select and Rollback a Snapshot`
+   * - - :ref:`Select and Rollback a Snapshot`
      - .
      - .
      - ✅
      - .
      - .
-   * -    :ref:`Delete a Snapshot`
+   * - - :ref:`Delete a Snapshot`
      - .
      - .
      - ✅
      - .
      - .
-   * - **:ref:`Starting the Virtual Machine (VM)`**
+   * - :ref:`Starting the Virtual Machine (VM)`
      - ✅
      - ✅
      - ✅
      - .
      - .
-   * - **:ref:`Stopping the Virtual Machine (VM)`**
+   * - :ref:`Stopping the Virtual Machine (VM)`
      - ✅
      - ✅
      - ✅
      - .
      - .
-   * - **:ref:`Recording Video from a Forensic Virtual Machine`**
+   * - :ref:`Recording Video from a Forensic Virtual Machine`
      - .
      - ✅
      - .
      - .
      - .
-   * - **:ref:`WebShell for Remote Administration`**
+   * - :ref:`WebShell for Remote Administration`
      - ✅
      - .
      - ✅
      - .
      - .
-   * - **:ref:`DEBUG: Remote ssh to folder`**
+   * - :ref:`DEBUG: Remote ssh to folder`
      - .
      - .
      - ✅
