@@ -7,15 +7,30 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    
    Initiate the Autopsy application and from the wizard interface, choose the option to add a new case. This is the first step in creating a structured environment for your forensic analysis.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
+
    .. figure:: img/autopsy_add_data_source_0001.jpg
       :alt: Add a New Case to Autopsy
       :align: center
 
       Add a New Case to Autopsy
 
+   .. raw:: latex
+
+      \FloatBarrier
+
+
 2) **Fill in Case Name in Case Information**
    
    Once the case addition window pops up, provide a unique and descriptive name for your case. This helps in distinguishing it from other cases in the future.
+
+   .. raw:: latex
+
+      \FloatBarrier
+
 
    .. figure:: img/autopsy_add_data_source_0002.jpg
       :alt: Fill in Case Name in Case Information
@@ -23,15 +38,31 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
       Fill in Case Name in Case Information
 
+   .. raw:: latex
+
+      \FloatBarrier
+
+
 3) **Fill Optional Information**
 
    Here, you can include additional details about the case. While this is optional, it's recommended to fill in as much information as possible for thorough documentation.
+
+   .. raw:: latex
+
+      \FloatBarrier
+
 
    .. figure:: img/autopsy_add_data_source_0003.jpg
       :alt: Fill Optional Information
       :align: center
 
       Fill Optional Information
+
+   .. raw:: latex
+
+      \FloatBarrier
+
+
 
 4) **Choose Host Options**
    
@@ -40,15 +71,31 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    - Specify a new host name manually.
    - Or, utilize an existing host from a previous case or configuration.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
+
    .. figure:: img/autopsy_add_data_source_0004.jpg
       :alt: Choose Host Options
       :align: center
 
       Choose Host Options
 
+   .. raw:: latex
+
+      \FloatBarrier
+
+
 5) **Select Data Source Type as "Disk Image or VM File"**
 
    Choose the type of data source you're incorporating. For this procedure, select "Disk Image or VM File", which allows Autopsy to process VM images and disk snapshots.
+
+   .. raw:: latex
+
+      \FloatBarrier
+
+
 
    .. figure:: img/autopsy_add_data_source_0005.jpg
       :alt: Select Data Source Type
@@ -56,9 +103,21 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
       Select Data Source Type
 
+   .. raw:: latex
+
+      \FloatBarrier
+
+
+
 6) **Browse and Choose Your Forensic Image**
 
    Navigate through your file system and pick the appropriate forensic image or VM file. Ensure that the chosen file is compatible and accessible.
+
+   .. raw:: latex
+
+      \FloatBarrier
+
+
 
    .. figure:: img/autopsy_add_data_source_0006.jpg
       :alt: Choose Your Forensic Image
@@ -66,9 +125,20 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
       Choose Your Forensic Image
 
+   .. raw:: latex
+
+      \FloatBarrier
+
+
+
 7) **Select Extra Parameters Like Time Zone and Sector Size**
 
    Fine-tune your forensic analysis by selecting the relevant time zone and determining the sector size. These parameters help in accurate data extraction and interpretation.
+
+   .. raw:: latex
+
+      \FloatBarrier
+
 
    .. figure:: img/autopsy_add_data_source_0007.jpg
       :alt: Select Extra Parameters
@@ -76,9 +146,21 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
       Select Extra Parameters
 
+   .. raw:: latex
+
+      \FloatBarrier
+
+
+
 8) **Configure the Python Ingest Plugin to Run and Select the ForensicVM Client Plugin**
 
    Activate the Python Ingest Plugin for automated data ingestion. Also, ensure to select the ForensicVM Client plugin, which is pivotal for the VM forensic analysis.
+
+   .. raw:: latex
+
+      \FloatBarrier
+
+
 
    .. figure:: img/autopsy_add_data_source_0008.jpg
       :alt: Configure the Python Ingest Plugin
@@ -86,9 +168,21 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
       Configure the Python Ingest Plugin
 
+   .. raw:: latex
+
+      \FloatBarrier
+
+
+
 9) **Monitor the Data Source Processing Progress**
 
    As the data gets processed, an intuitive progress bar displays the ongoing activities and the completion percentage. Keep an eye on this to gauge the processing speed and potential completion time.
+
+   .. raw:: latex
+
+      \FloatBarrier
+
+
 
    .. figure:: img/autopsy_add_data_source_0009.jpg
       :alt: Data Source Processing Progress
@@ -96,9 +190,19 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
       Data Source Processing Progress
 
+   .. raw:: latex
+
+      \FloatBarrier
+
+
+
 10) **Await the ForensicVM Loader's Initialization**
 
    The ForensicVM Loader will make a brief appearance. This indicates that the plugin is gearing up for execution. It will automatically close once the plugin is fully initialized.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/autopsy_add_data_source_0010.jpg
       :alt: ForensicVM Loader Initialization
@@ -106,9 +210,21 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
       ForensicVM Loader Initialization
 
+   .. raw:: latex
+
+      \FloatBarrier
+
+
+
 11) **Complete the Procedure and Minimize Autopsy Window**
 
    Click on the "Finish" button to round off the 'Add Data Source' wizard. For better visibility and multitasking, it's advisable to minimize the main Autopsy window at this juncture.
+
+   .. raw:: latex
+
+      \FloatBarrier
+
+
 
    .. figure:: img/autopsy_add_data_source_0011.jpg
       :alt: Finish Data Source Wizard
@@ -116,12 +232,28 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
       Finish Data Source Wizard
 
+   .. raw:: latex
+
+      \FloatBarrier
+
+
+
 12) **Engage with the Autopsy ForensicVM Client Plugin Interface**
 
    Post the previous steps, the dedicated window for the Autopsy ForensicVM Client plugin will emerge. Here, you can conduct in-depth VM forensics using the myriad features offered by the plugin.
+
+   .. raw:: latex
+
+      \FloatBarrier
+
+
 
    .. figure:: img/autopsy_add_data_source_0012.jpg
       :alt: ForensicVM Client Plugin Interface
       :align: center
 
       ForensicVM Client Plugin Interface
+
+   .. raw:: latex
+
+      \FloatBarrier
