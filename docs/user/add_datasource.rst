@@ -7,29 +7,29 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    
    Initiate the Autopsy application and from the wizard interface, choose the option to add a new case. This is the first step in creating a structured environment for your forensic analysis.
 
-   .. raw:: latex
+.. raw:: latex
 
-      \FloatBarrier
-
+   \FloatBarrier
 
    .. figure:: img/autopsy_add_data_source_0001.jpg
       :alt: Add a New Case to Autopsy
       :align: center
+      :width: 400px
 
       Add a New Case to Autopsy
 
-   .. raw:: latex
+.. raw:: latex
 
-      \FloatBarrier
+   \FloatBarrier
 
 
 2) **Fill in Case Name in Case Information**
    
    Once the case addition window pops up, provide a unique and descriptive name for your case. This helps in distinguishing it from other cases in the future.
 
-   .. raw:: latex
+.. raw:: latex
 
-      \FloatBarrier
+   \FloatBarrier
 
 
    .. figure:: img/autopsy_add_data_source_0002.jpg
