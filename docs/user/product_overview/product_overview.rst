@@ -17,6 +17,8 @@ Understanding the Interface
 ==============================
 
 ForensicVM's interface is designed with usability in mind. It provides a clear view of the current state of your forensic images, including active instances, and the status of any ongoing analysis tasks. It also provides easy access to ForensicVM's suite of analysis tools, making it simple to start investigating a forensic image.
+
+
 .. list-table:: Features vs Compatibility
    :widths: 70 5 5 5 5 5
    :header-rows: 1
