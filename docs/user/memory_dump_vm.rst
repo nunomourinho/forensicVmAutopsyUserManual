@@ -249,13 +249,11 @@ Analyzing memory dumps is a vital task in computer forensics, malware analysis, 
 
 7. **Redline**: Provided by FireEye, `Redline <https://fireeye.market/apps?query=memory>`_ offers advanced memory and file analysis capabilities.
 
-8. **MemGator**: A lightweight tool for memory acquisition (information might be found in various forensics forums or specialized sites).
+8. **GRR (Google Rapid Response)**: `GRR <https://github.com/google/grr>`_ an incident response framework that includes memory analysis capabilities. `Documentation <https://grr-doc.readthedocs.io/en/latest/>`_.
 
-9. **GRR (Google Rapid Response)**: `GRR <https://github.com/google/grr>`_ an incident response framework that includes memory analysis capabilities. `Documentation <https://grr-doc.readthedocs.io/en/latest/>`_.
+9. **Belkasoft Evidence Center**: `Belkasoft Evidence Center <https://belkasoft.com/x>`_ includes the ability to analyze computer memory.
 
-10. **Belkasoft Evidence Center**: `Belkasoft Evidence Center <https://belkasoft.com/x>`_ includes the ability to analyze computer memory.
-
-11. **X-Ways Forensics**: `X-Ways Forensics <https://www.x-ways.net/forensics/index-m.html>`_ a commercial product with strong memory analysis features.
+10. **X-Ways Forensics**: `X-Ways Forensics <https://www.x-ways.net/forensics/index-m.html>`_ a commercial product with strong memory analysis features.
 
 These tools offer a wide range of capabilities, from capturing memory images to detailed analysis. Depending on the specific requirements of the analysis, an investigator might choose one or several of these tools.
 
