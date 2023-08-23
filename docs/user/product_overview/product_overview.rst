@@ -32,7 +32,7 @@ In the table below, the distribution of features across the different zones of t
      - A
      - AS
      - E
-   * - :ref:**`Convert Forensic Image to a Forensic Virtual Machine`**
+   * - **( :ref:`Convert Forensic Image to a Forensic Virtual Machine` )**
      - .
      - .
      - ✅
@@ -50,7 +50,7 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - **:ref:`Gather Evidence Using the Evidence Disk`**
+   * - :ref:`Gather Evidence Using the Evidence Disk`
      - .
      - .
      - ✅
@@ -80,19 +80,19 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - **:ref:`Deletion of ForensicVM at Investigation Conclusion`**
+   * - :ref:`Deletion of ForensicVM at Investigation Conclusion`
      - .
      - .
      - ✅
      - .
      - .
-   * - **:ref:`Fine-Tuning ForensicVM`**
+   * - :ref:`Fine-Tuning ForensicVM`
      - .
      - .
      - ✅
      - .
      - .
-   * - **:ref:`Media Management in ForensicVM: Leveraging ISOs for Enhanced Forensic Investigations`**
+   * - :ref:`Media Management in ForensicVM: Leveraging ISOs for Enhanced Forensic Investigations`
      - .
      - .
      - ✅
