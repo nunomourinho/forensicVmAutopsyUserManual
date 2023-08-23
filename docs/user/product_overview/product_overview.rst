@@ -21,7 +21,7 @@ ForensicVM's interface is designed with usability in mind. It provides a clear v
 +---------------------------------------------------------------------------------------------------------+-------+-------+-------+-------+-------+
 | Feature                                                                                                 | M     | W     | A     | AS    | E     |
 +---------------------------------------------------------------------------------------------------------+-------+-------+-------+-------+-------+
-| `Convert Forensic Image to a Forensic Virtual Machine`_                                                    |   -   |   -   |   X   |   -   |   -   |
+| `Convert Forensic Image to a Forensic Virtual Machine`_                                                 |   -   |   -   |   X   |   -   |   -   |
 |   Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the Server               |   -   |   -   |   X   |   -   |   -   |
 |   Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server               |   -   |   -   |   X   |   -   |   -   |
 | Gather Evidence Using the Evidence Disk                                                                 |   -   |   -   |   X   |   -   |   -   |
