@@ -81,6 +81,7 @@
 
 - [ ] Make metrics:
    - [ ] Run the image conversion
+   - [ ] Make the workflow of client-server statistics collection
       - [x] Get client Info
          - [x] Processor and number or cores (info)
          - [x] Speed (info)
