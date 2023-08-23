@@ -32,7 +32,7 @@ In the table below, the distribution of features across the different zones of t
      - A
      - AS
      - E
-   * - **:ref:`Convert Forensic Image to a Forensic Virtual Machine`**
+   * - :ref:**`Convert Forensic Image to a Forensic Virtual Machine`**
      - .
      - .
      - ✅
