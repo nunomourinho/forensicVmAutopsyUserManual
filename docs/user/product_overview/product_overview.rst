@@ -38,13 +38,13 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - :ref:`Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the Server`
+   * -    :ref:`Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the Server`
      - .
      - .
      - ✅
      - .
      - .
-   * - :ref:`Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server`
+   * - :   ref:`Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server`
      - .
      - .
      - ✅
@@ -56,25 +56,25 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - :ref:`Evidence Disk Creation`
+   * -    :ref:`Evidence Disk Creation`
      - .
      - .
      - ✅
      - .
      - .
-   * - :ref:`Collecting Evidence: A Step-by-Step Guide`
+   * -    :ref:`Collecting Evidence: A Step-by-Step Guide`
      - .
      - ✅
      - .
      - .
      - .
-   * - :ref:`Recreate Evidence Disk`
+   * -    :ref:`Recreate Evidence Disk`
      - .
      - .
      - ✅
      - .
      - .
-   * - :ref:`Import Possible Evidence Disk into Autopsy`
+   * -    :ref:`Import Possible Evidence Disk into Autopsy`
      - .
      - .
      - ✅
@@ -98,31 +98,31 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - :ref:`Uploading an ISO to the ForensicVM Server`
+   * -    :ref:`Uploading an ISO to the ForensicVM Server`
      - .
      - .
      - ✅
      - .
      - .
-   * - :ref:`List Remote ISO Files`
+   * -    :ref:`List Remote ISO Files`
      - .
      - ✅
      - ✅
      - .
      - .
-   * - :ref:`Insert ISO / Web Insert CD-ROM`
+   * -    :ref:`Insert ISO / Web Insert CD-ROM`
      - .
      - ✅
      - ✅
      - .
      - .
-   * - :ref:`Run programs and utilities from ISO`
+   * -    :ref:`Run programs and utilities from ISO`
      - .
      - ✅
      - .
      - .
      - .
-   * - :ref:`Bootable Media`
+   * -    :ref:`Bootable Media`
      - .
      - ✅
      - .
@@ -134,13 +134,13 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - ✅
      - ✅
-   * - :ref:`Making and download a Memory Dump`
+   * -    :ref:`Making and download a Memory Dump`
      - .
      - .
      - ✅
      - .
      - .
-   * - :ref:`Importing and Analyzing a Memory Dump in Autopsy`
+   * -    :ref:`Importing and Analyzing a Memory Dump in Autopsy`
      - .
      - .
      - .
@@ -158,25 +158,25 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - :ref:`Enable the Network Card`
+   * -    :ref:`Enable the Network Card`
      - .
      - ✅
      - ✅
      - .
      - .
-   * - :ref:`Reseting the Operating System Network Card`
+   * -    :ref:`Reseting the Operating System Network Card`
      - .
      - ✅
      - .
      - .
      - .
-   * - :ref:`Disable the Network Card`
+   * -    :ref:`Disable the Network Card`
      - .
      - ✅
      - ✅
      - .
      - .
-   * - :ref:`Download Wireshark pcap Files`
+   * -    :ref:`Download Wireshark pcap Files`
      - .
      - .
      - ✅
@@ -194,13 +194,13 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - :ref:`Browsing Available Plugins`
+   * -    :ref:`Browsing Available Plugins`
      - .
      - .
      - ✅
      - .
      - .
-   * - :ref:`Executing Plugins`
+   * -    :ref:`Executing Plugins`
      - .
      - .
      - ✅
@@ -218,19 +218,19 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - :ref:`Making screenshots`
+   * -    :ref:`Making screenshots`
      - .
      - ✅
      - ✅
      - .
      - .
-   * - :ref:`Downloading Screenshots as a ZIP File`
+   * -    :ref:`Downloading Screenshots as a ZIP File`
      - .
      - .
      - ✅
      - .
      - .
-   * - :ref:`Importing Screenshots to Autopsy Software`
+   * -    :ref:`Importing Screenshots to Autopsy Software`
      - .
      - .
      - .
@@ -248,25 +248,25 @@ In the table below, the distribution of features across the different zones of t
      - ✅
      - .
      - .
-   * - :ref:`Create a new snapshot`
+   * -    :ref:`Create a new snapshot`
      - .
      - .
      - ✅
      - .
      - .
-   * - :ref:`List Remote Snapshots`
+   * -    :ref:`List Remote Snapshots`
      - .
      - .
      - ✅
      - .
      - .
-   * - :ref:`Select and Rollback a Snapshot`
+   * -    :ref:`Select and Rollback a Snapshot`
      - .
      - .
      - ✅
      - .
      - .
-   * - :ref:`Delete a Snapshot`
+   * -    :ref:`Delete a Snapshot`
      - .
      - .
      - ✅
