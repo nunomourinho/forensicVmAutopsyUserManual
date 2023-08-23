@@ -20,7 +20,7 @@ ForensicVM's interface is designed with usability in mind. It provides a clear v
 
 
 .. list-table:: Features vs Compatibility
-   :widths: 70 5 5 5 5 5
+   :widths: 40 5 5 5 5 5
    :header-rows: 1
 
    * - Feature
