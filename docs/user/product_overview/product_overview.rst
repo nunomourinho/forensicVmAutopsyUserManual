@@ -21,51 +21,51 @@ ForensicVM's interface is designed with usability in mind. It provides a clear v
 +---------------------------------------------------------------------------------------------------------+-------+-------+-------+-------+-------+
 | Feature                                                                                                 |   M   |   W   |   A   |  AS   |   E   |
 +---------------------------------------------------------------------------------------------------------+-------+-------+-------+-------+-------+
-| :ref:`Convert Forensic Image to a Forensic Virtual Machine`                                             |   -   |   -   |   X   |   -   |   -   |
-|   :ref:Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the Server`         |   -   |   -   |   X   |   -   |   -   |
-|   :ref:Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server`         |   -   |   -   |   X   |   -   |   -   |
-| :ref:Gather Evidence Using the Evidence Disk`                                                           |   -   |   -   |   X   |   -   |   -   |
-|   :ref:Evidence Disk Creation`                                                                          |   -   |   -   |   X   |   -   |   -   |
-|   :ref:Collecting Evidence: A Step-by-Step Guide`                                                       |   -   |   X   |   -   |   -   |   -   |
-|   :ref:Recreate Evidence Disk`                                                                          |   -   |   -   |   X   |   -   |   -   |
-|   :ref:Import Possible Evidence Disk into Autopsy`                                                      |   -   |   -   |   X   |   -   |   -   |
-| :ref:Deletion of ForensicVM at Investigation Conclusion`                                                |   -   |   -   |   X   |   -   |   -   |
-| :ref:Fine-Tuning ForensicVM`                                                                            |   -   |   -   |   X   |   -   |   -   |
-| :ref:Media Management in ForensicVM: Leveraging ISOs for Enhanced Forensic Investigations`              |   -   |   -   |   X   |   -   |   -   |
-|   :ref:Uploading an ISO to the ForensicVM Server`                                                       |   -   |   -   |   X   |   -   |   -   |
-|   :ref:List Remote ISO Files`                                                                           |   -   |   X   |   X   |   -   |   -   |
-|   :ref:Insert ISO / Web Insert CD-ROM`                                                                  |   -   |   X   |   X   |   -   |   -   |
-|   :ref:Run programs and utilities from ISO`                                                             |   -   |   X   |   -   |   -   |   -   |
-|   :ref:Bootable Media`                                                                                  |   -   |   X   |   -   |   -   |   -   |
-| :ref:Making, Downloading, and Analyzing a Memory Dump (memory_dump_vm)`                                 |   -   |   -   |   X   |   X   |   X   |
-|   :ref:Making and download a Memory Dump`                                                               |   -   |   -   |   X   |   -   |   -   |
-|   :ref:Importing and Analyzing a Memory Dump in Autopsy`                                                |   -   |   -   |   -   |   X   |   X   |
-| :ref:Netdata on ForensicVM Server`                                                                      |   X   |   -   |   X   |   -   |   -   |
-| :ref:Managing the Network Card to Capture and Analyse Network Traffic`                                  |   -   |   X   |   X   |   -   |   -   |
-|   :ref:Enable the Network Card`                                                                         |   -   |   X   |   X   |   -   |   -   |
-|   :ref:Reseting the Operating System Network Card`                                                      |   -   |   X   |   -   |   -   |   -   |
-|   :ref:Disable the Network Card`                                                                        |   -   |   X   |   X   |   -   |   -   |
-|   :ref:Download Wireshark pcap Files`                                                                   |   -   |   -   |   X   |   -   |   -   |
-| :ref:Open or Browse the Forensic Virtual Machine (VM)`                                                  |   X   |   X   |   X   |   -   |   -   |
-| :ref:Plugins - Security Bypass Utilities`                                                               |   -   |   -   |   X   |   -   |   -   |
-|   :ref:Browsing Available Plugins`                                                                      |   -   |   -   |   X   |   -   |   -   |
-|   :ref:Executing Plugins`                                                                               |   -   |   -   |   X   |   -   |   -   |
-| :ref:Resetting the Virtual Machine (VM)`                                                                |   X   |   X   |   X   |   -   |   -   |
-| :ref:Making and importing Screenshots`                                                                  |   -   |   X   |   X   |   -   |   -   |
-|   :ref:Making screenshots`                                                                              |   -   |   X   |   X   |   -   |   -   |
-|   :ref:Downloading Screenshots as a ZIP File`                                                           |   -   |   -   |   X   |   -   |   -   |
-|   :ref:Importing Screenshots to Autopsy Software`                                                       |   -   |   -   |   -   |   X   |   -   |
-| :ref:Shutting Down the Virtual Machine (VM)`                                                            |   X   |   X   |   X   |   -   |   -   |
-| :ref:Snapshots in ForensicVM: A Crucial Asset for Investigators`                                        |   -   |   -   |   X   |   -   |   -   |
-|   :ref:Create a new snapshot`                                                                           |   -   |   -   |   X   |   -   |   -   |
-|   :ref:List Remote Snapshots`                                                                           |   -   |   -   |   X   |   -   |   -   |
-|   :ref:Select and Rollback a Snapshot`                                                                  |   -   |   -   |   X   |   -   |   -   |
-|   :ref:Delete a Snapshot`                                                                               |   -   |   -   |   X   |   -   |   -   |
-| :ref:Starting the Virtual Machine (VM)`                                                                 |   X   |   X   |   X   |   -   |   -   |
-| :ref:Stopping the Virtual Machine (VM)`                                                                 |   X   |   X   |   X   |   -   |   -   |
-| :ref:Recording Video from a Forensic Virtual Machine`                                                   |   -   |   X   |   -   |   -   |   -   |
-| :ref:WebShell for Remote Administration`                                                                |   X   |   -   |   X   |   -   |   -   |
-| :ref:DEBUG: Remote ssh to folder`                                                                       |   -   |   -   |   X   |   -   |   -   |
+| ::ref:`Convert Forensic Image to a Forensic Virtual Machine`                                            |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the Server`        |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server`        |   -   |   -   |   X   |   -   |   -   |
+| ::ref:Gather Evidence Using the Evidence Disk`                                                          |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:Evidence Disk Creation`                                                                         |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:Collecting Evidence: A Step-by-Step Guide`                                                      |   -   |   X   |   -   |   -   |   -   |
+|   ::ref:Recreate Evidence Disk`                                                                         |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:Import Possible Evidence Disk into Autopsy`                                                     |   -   |   -   |   X   |   -   |   -   |
+| ::ref:Deletion of ForensicVM at Investigation Conclusion`                                               |   -   |   -   |   X   |   -   |   -   |
+| ::ref:Fine-Tuning ForensicVM`                                                                           |   -   |   -   |   X   |   -   |   -   |
+| ::ref:Media Management in ForensicVM: Leveraging ISOs for Enhanced Forensic Investigations`             |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:Uploading an ISO to the ForensicVM Server`                                                      |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:List Remote ISO Files`                                                                          |   -   |   X   |   X   |   -   |   -   |
+|   ::ref:Insert ISO / Web Insert CD-ROM`                                                                 |   -   |   X   |   X   |   -   |   -   |
+|   ::ref:Run programs and utilities from ISO`                                                            |   -   |   X   |   -   |   -   |   -   |
+|   ::ref:Bootable Media`                                                                                 |   -   |   X   |   -   |   -   |   -   |
+| ::ref:Making, Downloading, and Analyzing a Memory Dump (memory_dump_vm)`                                |   -   |   -   |   X   |   X   |   X   |
+|   ::ref:Making and download a Memory Dump`                                                              |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:Importing and Analyzing a Memory Dump in Autopsy`                                               |   -   |   -   |   -   |   X   |   X   |
+| ::ref:Netdata on ForensicVM Server`                                                                     |   X   |   -   |   X   |   -   |   -   |
+| ::ref:Managing the Network Card to Capture and Analyse Network Traffic`                                 |   -   |   X   |   X   |   -   |   -   |
+|   ::ref:Enable the Network Card`                                                                        |   -   |   X   |   X   |   -   |   -   |
+|   ::ref:Reseting the Operating System Network Card`                                                     |   -   |   X   |   -   |   -   |   -   |
+|   ::ref:Disable the Network Card`                                                                       |   -   |   X   |   X   |   -   |   -   |
+|   ::ref:Download Wireshark pcap Files`                                                                  |   -   |   -   |   X   |   -   |   -   |
+| ::ref:Open or Browse the Forensic Virtual Machine (VM)`                                                 |   X   |   X   |   X   |   -   |   -   |
+| ::ref:Plugins - Security Bypass Utilities`                                                              |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:Browsing Available Plugins`                                                                     |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:Executing Plugins`                                                                              |   -   |   -   |   X   |   -   |   -   |
+| ::ref:Resetting the Virtual Machine (VM)`                                                               |   X   |   X   |   X   |   -   |   -   |
+| ::ref:Making and importing Screenshots`                                                                 |   -   |   X   |   X   |   -   |   -   |
+|   ::ref:Making screenshots`                                                                             |   -   |   X   |   X   |   -   |   -   |
+|   ::ref:Downloading Screenshots as a ZIP File`                                                          |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:Importing Screenshots to Autopsy Software`                                                      |   -   |   -   |   -   |   X   |   -   |
+| ::ref:Shutting Down the Virtual Machine (VM)`                                                           |   X   |   X   |   X   |   -   |   -   |
+| ::ref:Snapshots in ForensicVM: A Crucial Asset for Investigators`                                       |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:Create a new snapshot`                                                                          |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:List Remote Snapshots`                                                                          |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:Select and Rollback a Snapshot`                                                                 |   -   |   -   |   X   |   -   |   -   |
+|   ::ref:Delete a Snapshot`                                                                              |   -   |   -   |   X   |   -   |   -   |
+| ::ref:Starting the Virtual Machine (VM)`                                                                |   X   |   X   |   X   |   -   |   -   |
+| ::ref:Stopping the Virtual Machine (VM)`                                                                |   X   |   X   |   X   |   -   |   -   |
+| ::ref:Recording Video from a Forensic Virtual Machine`                                                  |   -   |   X   |   -   |   -   |   -   |
+| ::ref:WebShell for Remote Administration`                                                               |   X   |   -   |   X   |   -   |   -   |
+| ::ref:DEBUG: Remote ssh to folder`                                                                      |   -   |   -   |   X   |   -   |   -   |
 +---------------------------------------------------------------------------------------------------------+-------+-------+-------+-------+-------+
 
 
