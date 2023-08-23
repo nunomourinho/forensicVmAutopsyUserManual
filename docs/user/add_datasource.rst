@@ -3,8 +3,6 @@ Running Autopsy Forensic VM Plugin
 
 To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a new case within the Autopsy framework and then seamlessly integrate a new data source. Below, the comprehensive procedure is outlined:
 
-&#9989;
-
 1) **Add a New Case to Autopsy**
    
    Initiate the Autopsy application and from the wizard interface, choose the option to add a new case. This is the first step in creating a structured environment for your forensic analysis.
