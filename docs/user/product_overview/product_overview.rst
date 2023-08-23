@@ -19,9 +19,9 @@ Understanding the Interface
 ForensicVM's interface is designed with usability in mind. It provides a clear view of the current state of your forensic images, including active instances, and the status of any ongoing analysis tasks. It also provides easy access to ForensicVM's suite of analysis tools, making it simple to start investigating a forensic image.
 
 +---------------------------------------------------------------------------------------------------------+-------+-------+-------+-------+-------+
-| Feature                                                                                                 | M     | W     | A     | AS    | E     |
+| Feature                                                                                                 |   M   |   W   |   A   |  AS   |   E   |
 +---------------------------------------------------------------------------------------------------------+-------+-------+-------+-------+-------+
-| `Convert Forensic Image to a Forensic Virtual Machine`_                                                 |   -   |   -   |   X   |   -   |   -   |
+| ::ref:`Convert Forensic Image to a Forensic Virtual Machine`                                            |   -   |   -   |   X   |   -   |   -   |
 |   Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the Server               |   -   |   -   |   X   |   -   |   -   |
 |   Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server               |   -   |   -   |   X   |   -   |   -   |
 | Gather Evidence Using the Evidence Disk                                                                 |   -   |   -   |   X   |   -   |   -   |
