@@ -18,8 +18,11 @@ Understanding the Interface
 
 ForensicVM's interface is designed with usability in mind. It provides a clear view of the current state of your forensic images, including active instances, and the status of any ongoing analysis tasks. It also provides easy access to ForensicVM's suite of analysis tools, making it simple to start investigating a forensic image.
 
+The Forensic Virtual Machine offers a plethora of features tailored to aid forensic analysts during their investigations. These features are systematically organized and can be accessed from various zones of the Autopsy interface. Each zone provides specific tools and functionalities, ensuring a seamless and comprehensive analysis experience. 
 
-.. list-table:: Features vs Compatibility
+In the table below, the distribution of features across the different zones of the interface is highlighted. This is to help users quickly identify where to locate and how to use each feature, maximizing efficiency and precision in their forensic operations.
+
+.. list-table:: Features and Location
    :widths: 40 5 5 5 5 5
    :header-rows: 1
 
