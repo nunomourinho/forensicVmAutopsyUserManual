@@ -63,6 +63,7 @@ Begin by logging into the operating system. Should there be a need, employ a plu
 .. figure:: img/evidence_disk_0002.jpg
    :alt: Login screen
    :align: center
+   :width: 600px
 
    Windows login screen.
 
@@ -87,6 +88,7 @@ The illustration below showcases the entirety of an encrypted BitLocker drive be
 .. figure:: img/evidence_disk_0004.jpg
    :alt: Entire encrypted BitLocker drive being transferred
    :align: center
+   :width: 600px
 
    Transferring the full encrypted BitLocker drive to the Autopsy 'Follow Up' tag.
 
@@ -486,6 +488,7 @@ Once the machine is completely shut down, press the "Recreate Evidence Disk" but
 .. figure:: img/evidence_disk_0037.jpg
    :alt: Recreate Evidence Disk Button
    :align: center
+   :width: 600px
 
    *Recreate Evidence Disk Button*
 
@@ -496,7 +499,6 @@ Recreating the evidence disk necessitates its deletion—a critical action. A pr
 .. figure:: img/evidence_disk_0038.jpg
    :alt: First Confirmation Dialog
    :align: center
-   :width: 600px
 
    *First Confirmation Dialog*
 
