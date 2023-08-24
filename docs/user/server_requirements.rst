@@ -7,24 +7,24 @@ To ensure that ForensicVM operates efficiently on your system, our server must m
 Server Requirements
 ###################
 
-**Operating System**
+Operating System
 ********************
 
 ForensicVM has been tested and supports the following operating systems:
 
 - Debian 11 (Bullseye)
 
-**Processor**
+Processor
 ********************
 
 - A 64-bit multi-core processor is recommended for optimal performance. This will facilitate smoother operation, particularly when managing complex tasks.
 
-**Memory**
+Memory
 ********************
 
 - A minimum of 16 GB RAM is required. However, 16 GB or more is recommended to handle the simultaneous virtualization of forensic images. This ensures that multiple tasks can be performed concurrently without a loss in performance.
 
-**Storage**
+Storage
 ********************
 
 - A minimum of 2 GB of free disk space is needed for the ForensicVM installation itself.
@@ -34,18 +34,18 @@ ForensicVM has been tested and supports the following operating systems:
 .. IMPORTANT::
    Remember to account for the extra space needed for virtual :term:`ISO` CD-ROM or DVD with your own tools. These might require additional storage depending on your specific requirements.
 
-**Networking**
-********************
+Networking
+****************
 
 - A network connection is necessary, with at least a gigabit connection recommended. The conversion of forensic images to a virtual machine, the downloading of Wireshark files, videos, or evidence disks all exert significant pressure on the network. Therefore, utilizing a reliable internet service hosting with robust upload and download rates is crucial.
 
-**Display**
-********************
+Display
+*************
 
 - No specific display requirements exist for the server. You only need SSH access or HP ILO or similar for server administration.
 
-**Software Dependencies**
-**************************
+Software Dependencies
+************************
 
 - The installation will handle dependencies automatically. A dedicated server with Debian Bullseye as bare metal is necessary. Dedicated hardware with virtualization support is essential. The installation will create a new forensic hypervisor server based on QEMU.
 
