@@ -41,6 +41,22 @@ html_theme_options = {
     ],
 }
 
+latex_engine = 'xelatex'
+
+latex_elements = {
+    'fontpkg': r'''
+        \setmainfont{FreeSerif}
+        \setsansfont{FreeSans}
+        \setmonofont{FreeMono}
+    '''
+}
+
+latex_elements = {
+    'preamble': r'''
+        \usepackage{fontspec}
+    '''
+}
+
 html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
