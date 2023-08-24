@@ -35,6 +35,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    .. figure:: img/autopsy_add_data_source_0002.jpg
       :alt: Fill in Case Name in Case Information
       :align: center
+      :width: 600px
 
       Fill in Case Name in Case Information
 
@@ -55,6 +56,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    .. figure:: img/autopsy_add_data_source_0003.jpg
       :alt: Fill Optional Information
       :align: center
+      :width: 600px
 
       Fill Optional Information
 
@@ -79,6 +81,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    .. figure:: img/autopsy_add_data_source_0004.jpg
       :alt: Choose Host Options
       :align: center
+      :width: 600px
 
       Choose Host Options
 
@@ -100,6 +103,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    .. figure:: img/autopsy_add_data_source_0005.jpg
       :alt: Select Data Source Type
       :align: center
+      :width: 600px
 
       Select Data Source Type
 
@@ -122,6 +126,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    .. figure:: img/autopsy_add_data_source_0006.jpg
       :alt: Choose Your Forensic Image
       :align: center
+      :width: 600px
 
       Choose Your Forensic Image
 
@@ -143,6 +148,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    .. figure:: img/autopsy_add_data_source_0007.jpg
       :alt: Select Extra Parameters
       :align: center
+      :width: 600px
 
       Select Extra Parameters
 
@@ -165,6 +171,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    .. figure:: img/autopsy_add_data_source_0008.jpg
       :alt: Configure the Python Ingest Plugin
       :align: center
+      :width: 600px
 
       Configure the Python Ingest Plugin
 
@@ -187,6 +194,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    .. figure:: img/autopsy_add_data_source_0009.jpg
       :alt: Data Source Processing Progress
       :align: center
+      :width: 600px
 
       Data Source Processing Progress
 
@@ -207,6 +215,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    .. figure:: img/autopsy_add_data_source_0010.jpg
       :alt: ForensicVM Loader Initialization
       :align: center
+      :width: 600px
 
       ForensicVM Loader Initialization
 
@@ -229,6 +238,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    .. figure:: img/autopsy_add_data_source_0011.jpg
       :alt: Finish Data Source Wizard
       :align: center
+      :width: 600px
 
       Finish Data Source Wizard
 
@@ -251,6 +261,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
    .. figure:: img/autopsy_add_data_source_0012.jpg
       :alt: ForensicVM Client Plugin Interface
       :align: center
+      :width: 600px
 
       ForensicVM Client Plugin Interface
 
