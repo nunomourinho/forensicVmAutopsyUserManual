@@ -41,23 +41,11 @@ html_theme_options = {
     ],
 }
 
-#latex_engine = 'lualatex'
-
-
-#latex_elements = {
-#    'fontpkg': r'''
-#        \setmainfont{FreeSerif}
-#        \setsansfont{FreeSans}
-#        \setmonofont{FreeMono}
-#    '''
-#}
-
-#latex_elements = {
-#    'preamble': r'''
-#        \usepackage{fontspec}
-#    '''
-#}
-
+latex_elements = {
+    'preamble': r'''
+    \usepackage{placeins}
+    '''
+}
 
 html_theme = 'sphinx_rtd_theme'
 
