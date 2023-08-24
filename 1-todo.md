@@ -74,6 +74,7 @@
          - [x] Shell
          - [x] Logout
          - [x] Login
+- [ ] Create the dataset page
 - [x] Create a figure index
 - [ ] Create a table index
 - [ ] Create a glossary (https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html)
