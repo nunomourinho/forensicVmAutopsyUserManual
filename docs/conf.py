@@ -49,11 +49,14 @@ latex_elements = {
         \setsansfont{FreeSans}
         \setmonofont{FreeMono}
     '''
+}
 
+latex_elements = {
     'preamble': r'''
         \usepackage{fontspec}
-    '''    
+    '''
 }
+
 
 html_theme = 'sphinx_rtd_theme'
 
