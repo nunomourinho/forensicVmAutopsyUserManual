@@ -10,6 +10,8 @@ Once your forensic investigation comes to an end, it's a best practice to elimin
    .. figure:: img/delete_vm_0001.jpg
       :alt: Clicking the "Delete VM" button
       :align: center
+      :width: 600px
+
 
       Clicking the "Delete VM" button
 
