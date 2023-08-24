@@ -47,6 +47,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
    .. figure:: img/virtualize_convert_0001.jpg
       :alt: Screenshot showcasing the "Virtualize - a) Convert to VM" button.
       :align: center
+      :width: 600px
 
       "Virtualize - a) Convert to VM" button
 
@@ -69,6 +70,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
    .. figure:: img/virtualize_convert_0003.jpg
       :alt: MS-DOS command window indicating the progress.
       :align: center
+      :width: 600px
 
       MS-DOS Command Window Progress Display
 
@@ -87,6 +89,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
    .. figure:: img/virtualize_convert_0004.jpg
       :alt: Conversion process display
       :align: center
+      :width: 600px
 
       Conversion Progress Display
 
@@ -98,6 +101,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
    .. figure:: img/virtualize_convert_0005.jpg
       :alt: Conversion Completion Display
       :align: center
+      :width: 600px
 
       Conversion Completion Display
 
@@ -118,6 +122,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
    .. figure:: img/virtualize_convert_0007.jpg
       :alt: "Start" Button on the Autopsy ForensicVM Plugin
       :align: center
+      :width: 600px
 
       Screenshot of the "Start" button on the Autopsy ForensicVM Plugin.
 
@@ -138,6 +143,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
    .. figure:: img/virtualize_convert_0009.jpg
       :alt: "Open ForensicVM" Button
       :align: center
+      :width: 600px
 
       Screenshot of the "Open ForensicVM" button.
 
@@ -148,6 +154,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
    .. figure:: img/virtualize_convert_0010.jpg
       :alt: ForensicVM's "Connect / Start" Button
       :align: center
+      :width: 600px
 
       Screenshot of the ForensicVM's "Connect / Start" button.
 
@@ -158,6 +165,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
    .. figure:: img/virtualize_convert_0011.jpg
       :alt: ForensicVM Interaction Interface
       :align: center
+      :width: 600px
 
       Screenshot showcasing the ForensicVM's interactive interface.
 
@@ -178,6 +186,7 @@ In this method, a link is forged between the local forensic image and a new coun
    .. figure:: img/2-virtualize_link_0001.jpg
       :alt: Screenshot showcasing the "Virtualize - b) Link to VM" button.
       :align: center
+      :width: 600px
 
       "Virtualize - b) Link to VM" button
 
@@ -198,6 +207,7 @@ In this method, a link is forged between the local forensic image and a new coun
    .. figure:: img/2-virtualize_link_0003.jpg
       :alt: MS-DOS command window displaying the progress.
       :align: center
+      :width: 600px
 
       MS-DOS Command Window Feedback
 
@@ -214,6 +224,7 @@ In this method, a link is forged between the local forensic image and a new coun
    .. figure:: img/2-virtualize_link_0004.jpg
       :alt: Phase indicating KVM driver installations and progress.
       :align: center
+      :width: 600px
 
       Driver Installation and Progress Display
 
@@ -228,6 +239,7 @@ In this method, a link is forged between the local forensic image and a new coun
    .. figure:: img/2-virtualize_link_0005.jpg
       :alt: Window showcasing the successful completion of the linking process.
       :align: center
+      :width: 600px
 
       Conversion Completed Notification
 
