@@ -17,6 +17,7 @@ The creation of the evidence disk is an automated process. When you transition a
 .. figure:: img/evidence_disk_0001.jpg
    :alt: Evidence Disk Creation Process
    :align: center
+   :width: 600px
 
    Screenshot depicting the final phase of the ForensicVM conversion, showcasing the creation of the evidence disk.
 
@@ -73,6 +74,7 @@ Post login, your next objective is to pinpoint the evidence disk. This specific 
    :alt: Locating evidence
    :align: center
    :name: evidence-windows
+   :width: 600px
 
    Identification and transfer of evidence.
 
@@ -95,6 +97,7 @@ Before integrating the possible evidence drive into Autopsy, it's imperative to 
 .. figure:: img/evidence_disk_0005.jpg
    :alt: Shutdown or stop options
    :align: center
+   :width: 600px
 
    Options available for safely preserving the BitLocker drive before importing to Autopsy.
 
@@ -109,6 +112,7 @@ To embark on evidence collection, the primary step involves gaining access to th
 .. figure:: img/evidence_disk_0006.jpg
    :alt: Ubuntu 22.10 login screen
    :align: center
+   :width: 600px
 
    Ubuntu 22.10 login screen with a full desktop.
 
@@ -119,6 +123,7 @@ After successfully logging in, launch the file explorer to identify the evidence
 .. figure:: img/evidence_disk_0007.jpg
    :alt: Navigating to 'Other locations' in file explorer
    :align: center
+   :width: 600px
 
    Identifying the "possible evidence" disk in the file explorer.
 
@@ -129,6 +134,7 @@ Once the evidence drive is appropriately mounted, you're primed to delve into yo
 .. figure:: img/evidence_disk_0008.jpg
    :alt: Autopsy Tags folders
    :align: center
+   :width: 600px
 
    Autopsy Tags folders for structured evidence organization.
 
@@ -139,6 +145,7 @@ Navigating to the designated folder, we discern a hash dump file alongside poten
 .. figure:: img/evidence_disk_0009.jpg
    :alt: Identifying potential evidence
    :align: center
+   :width: 600px
 
    Highlighting a hash dump file and indications of meterpreter usage.
 
@@ -150,6 +157,7 @@ Now, to preserve this crucial data, ensure you copy the identified potential evi
 .. figure:: img/evidence_disk_0010.jpg
    :alt: Transferring evidence to the 'possible evidence' folder
    :align: center
+   :width: 600px
 
    Transferring discovered evidence to the "possible evidence" folder.
 
@@ -161,6 +169,7 @@ Before channeling the evidence disk into Autopsy, it's paramount to adopt one of
 .. figure:: img/evidence_disk_0011.jpg
    :alt: Navigating to the power options
    :align: center
+   :width: 600px
 
    Accessing the power options on Ubuntu 22.10.
 
@@ -171,6 +180,7 @@ To safeguard all collected evidence, conclude the procedure by opting for "Power
 .. figure:: img/evidence_disk_0012.jpg
    :alt: Powering off the system
    :align: center
+   :width: 600px
 
    Promptly shutting down the system to ensure evidence safety.
 
@@ -189,6 +199,7 @@ Autopsy is a digital forensics platform. To import a ``qcow2`` evidence disk, fi
 .. figure:: img/evidence_disk_0013.jpg
    :alt: Autopsy ForensicVM Plugin Interface
    :align: center
+   :width: 600px
    
    *Autopsy ForensicVM Plugin Interface*
 
@@ -200,6 +211,7 @@ Autopsy is a digital forensics platform. To import a ``qcow2`` evidence disk, fi
 .. figure:: img/evidence_disk_0014.jpg
    :alt: Shutdown VM Interface
    :align: center
+   :width: 600px
 
    *Shutdown VM Interface*
 
@@ -210,6 +222,7 @@ Click the "Import Evidence Disk" button.
 .. figure:: img/evidence_disk_0015.jpg
    :alt: Import Evidence Disk Interface
    :align: center
+   :width: 600px
 
    *Import Evidence Disk Interface*
 
@@ -220,6 +233,7 @@ A Windows Explorer "Save As" dialog will appear. Retain the suggested path.
 .. figure:: img/evidence_disk_0016.jpg
    :alt: Save As Dialog
    :align: center
+   :width: 600px
 
    *Save As Dialog*
 
@@ -240,6 +254,7 @@ A notification popup will display the evidence path.
 .. figure:: img/evidence_disk_0018.jpg
    :alt: Evidence Disk Popup Notification
    :align: center
+   :width: 600px
 
    *Evidence Disk Popup Notification*
 
@@ -250,6 +265,7 @@ Windows Explorer will display the evidence.vmdk path. Copy this path.
 .. figure:: img/evidence_disk_0019.jpg
    :alt: Evidence.vmdk in Windows Explorer
    :align: center
+   :width: 600px
 
    *Evidence.vmdk in Windows Explorer*
 
@@ -260,6 +276,7 @@ Hold Shift, right-click on evidence.vmdk, and select "Copy as path".
 .. figure:: img/evidence_disk_0020.jpg
    :alt: Copying evidence.vmdk Path
    :align: center
+   :width: 600px
 
    *Copying evidence.vmdk Path*
 
@@ -270,6 +287,7 @@ Click "Add Data Source" in Autopsy.
 .. figure:: img/evidence_disk_0021.jpg
    :alt: Add Data Source Option in Autopsy
    :align: center
+   :width: 600px
 
    *Add Data Source Option in Autopsy*
 
@@ -280,6 +298,7 @@ Select the same host when importing the evidence disk.
 .. figure:: img/evidence_disk_0022.jpg
    :alt: Selecting Host in Autopsy
    :align: center
+   :width: 600px
 
    *Selecting Host in Autopsy*
 
@@ -290,6 +309,7 @@ Choose "Disk Image or VM File" as the data source type.
 .. figure:: img/evidence_disk_0023.jpg
    :alt: Selecting Data Source Type in Autopsy
    :align: center
+   :width: 600px
 
    *Selecting Data Source Type in Autopsy*
 
@@ -300,6 +320,7 @@ Paste the evidence.vmdk path and set the "Time zone".
 .. figure:: img/evidence_disk_0024.jpg
    :alt: Inputting evidence.vmdk Path in Autopsy
    :align: center
+   :width: 600px
 
    *Inputting evidence.vmdk Path in Autopsy*
 
@@ -310,6 +331,7 @@ Deselect all plugins and click "Next".
 .. figure:: img/evidence_disk_0025.jpg
    :alt: Deselecting Plugins in Autopsy
    :align: center
+   :width: 600px
 
    *Deselecting Plugins in Autopsy*
 
@@ -320,6 +342,7 @@ Click "Finish".
 .. figure:: img/evidence_disk_0026.jpg
    :alt: Finish Button in Autopsy
    :align: center
+   :width: 600px
 
    *Finish Button in Autopsy*
 
@@ -330,6 +353,7 @@ Navigate to each folder and assign the "Notable Item" tag.
 .. figure:: img/evidence_disk_0027.jpg
    :alt: Tagging Evidence in Autopsy
    :align: center
+   :width: 600px
 
    *Tagging Evidence in Autopsy*
 
@@ -340,6 +364,7 @@ Tagged evidence will be highlighted.
 .. figure:: img/evidence_disk_0028.jpg
    :alt: Tagged Evidence Display in Autopsy
    :align: center
+   :width: 600px
 
    *Tagged Evidence Display in Autopsy*
 
@@ -359,6 +384,7 @@ During the course of a forensic investigation, there may be instances when you n
 .. figure:: img/evidence_disk_0029.jpg
    :alt: Adding New Tag in Autopsy
    :align: center
+   :width: 600px
 
    *Adding New Tag in Autopsy*
 
@@ -393,6 +419,7 @@ During the course of a forensic investigation, there may be instances when you n
 .. figure:: img/evidence_disk_0032.jpg
    :alt: Selecting the ForensicVM Client Plugin in Autopsy
    :align: center
+   :width: 600px
 
    *Selecting the ForensicVM Client Plugin in Autopsy*
 
@@ -403,6 +430,7 @@ Start the forensicVM system.
 .. figure:: img/evidence_disk_0033.jpg
    :alt: Starting the ForensicVM System
    :align: center
+   :width: 600px
 
    *Starting the ForensicVM System*
 
@@ -413,6 +441,7 @@ Click on "Open ForensicVM".
 .. figure:: img/evidence_disk_0034.jpg
    :alt: Accessing the ForensicVM Interface
    :align: center
+   :width: 600px
 
    *Accessing the ForensicVM Interface*
 
@@ -423,6 +452,7 @@ Log into the forensicVM and identify the freshly generated tag folder.
 .. figure:: img/evidence_disk_0035.jpg
    :alt: Identify the New Folder Tag
    :align: center
+   :width: 600px
 
    *Identify the New Folder Tag*
 
@@ -445,6 +475,7 @@ To ensure that the evidence.vmdk disk is unlocked, shut down Windows while press
 .. figure:: img/evidence_disk_0036.jpg
    :alt: Safely Shutting Down Windows
    :align: center
+   :width: 600px
 
    *Safely Shutting Down Windows*
 
@@ -465,6 +496,7 @@ Recreating the evidence disk necessitates its deletion—a critical action. A pr
 .. figure:: img/evidence_disk_0038.jpg
    :alt: First Confirmation Dialog
    :align: center
+   :width: 600px
 
    *First Confirmation Dialog*
 
@@ -495,6 +527,7 @@ Proceed to start, access, and log into the forensicVM.
 .. figure:: img/evidence_disk_0041.jpg
    :alt: Booting Up the ForensicVM
    :align: center
+   :width: 600px
 
    *Booting Up the ForensicVM*
 
@@ -505,5 +538,6 @@ A freshly recreated evidence disk will be generated with the current Autopsy evi
 .. figure:: img/evidence_disk_0042.jpg
    :alt: New Evidence Disk Overview
    :align: center
+   :width: 600px
 
    *New Evidence Disk Overview*
