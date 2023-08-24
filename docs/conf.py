@@ -41,7 +41,8 @@ html_theme_options = {
     ],
 }
 
-latex_engine = 'xelatex'
+latex_engine = 'lualatex'
+
 
 latex_elements = {
     'fontpkg': r'''
