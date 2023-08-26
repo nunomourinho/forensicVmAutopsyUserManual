@@ -320,7 +320,7 @@ In the table below, the distribution of features across the different zones of t
      - .
      - X
      - .
-* - :ref:`WebShell for Remote Administration`
+   * - :ref:`WebShell for Remote Administration`
      - X
      - .
      - X
