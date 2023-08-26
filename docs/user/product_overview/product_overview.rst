@@ -27,11 +27,11 @@ In the table below, the distribution of features across the different zones of t
    :header-rows: 1
 
    * - Feature
-     - W
-     - S
-     - P
-     - A
-     - E
+     - Web
+     - Screen
+     - Plugin
+     - Autopsy
+     - External
    * - :ref:`Convert Forensic Image to a Forensic Virtual Machine`
      - .
      - .
