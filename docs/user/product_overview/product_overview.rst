@@ -58,7 +58,7 @@ In the table below, the distribution of features across the different zones of t
      - .
    * - - :ref:`Evidence Disk Creation`
      - .
-     - .
+     - X
      - X
      - .
      - .
@@ -94,7 +94,7 @@ In the table below, the distribution of features across the different zones of t
      - .
    * - :ref:`Media Management in ForensicVM: Leveraging ISOs for Enhanced Forensic Investigations`
      - .
-     - .
+     - X
      - X
      - .
      - .
@@ -157,7 +157,7 @@ In the table below, the distribution of features across the different zones of t
      - X
      - X
      - .
-     - .
+     - X
    * - - :ref:`Enable the Network Card`
      - .
      - X
@@ -182,6 +182,12 @@ In the table below, the distribution of features across the different zones of t
      - X
      - .
      - .
+   * - - :ref:`Analyze network traffic in Wireshark`
+     - .
+     - .
+     - .
+     - .
+     - X
    * - :ref:`Open or Browse the Forensic Virtual Machine (VM)`
      - X
      - X
@@ -216,7 +222,7 @@ In the table below, the distribution of features across the different zones of t
      - .
      - X
      - X
-     - .
+     - X
      - .
    * - - :ref:`Making screenshots`
      - .
@@ -290,7 +296,31 @@ In the table below, the distribution of features across the different zones of t
      - .
      - .
      - .
-   * - :ref:`WebShell for Remote Administration`
+   * - : - ref:`Record a video from the forensicVM`
+     - .
+     - X
+     - .
+     - .
+     - .
+   * - : - ref:`Stop the video recording`
+     - .
+     - X
+     - .
+     - .
+     - .
+   * - : - ref:`Download video recording`
+     - .
+     - X
+     - .
+     - .
+     - .
+   * - : - ref:`Import video recording for analysis in Autopsy Software`
+     - .
+     - .
+     - .
+     - X
+     - .
+* - :ref:`WebShell for Remote Administration`
      - X
      - .
      - X
