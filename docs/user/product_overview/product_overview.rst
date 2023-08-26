@@ -294,7 +294,7 @@ In the table below, the distribution of features across the different zones of t
      - .
      - X
      - .
-     - .
+     - X
      - .
    * - - :ref:`Record a video from the forensicVM`
      - .
