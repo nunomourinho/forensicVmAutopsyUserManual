@@ -1,5 +1,6 @@
 - [ ] Create the dataset page
-- [ ] 
+- [ ] fix images size
+- [ ] fix image float in pdf
 - [ ] Create a glossary (https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html)
 - [x] Edit first pages
 - [x] Enumerate Autopsy forensicVM actions
