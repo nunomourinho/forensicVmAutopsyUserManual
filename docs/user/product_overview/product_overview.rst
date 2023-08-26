@@ -334,12 +334,13 @@ In the table below, the distribution of features across the different zones of t
      - .
 
 
-.. note::
-   - W = ForensicVM Main Web Interface
-   - S = ForensicVM Web Remote Screen
-   - P = ForensicVM Autopsy Client Plugin Interface
-   - A = Basis Technology Autopsy Software
-   - E = External Software: Volatility, wireshark, etc...
+.. admonition:: Table caption meaning:
+
+   - **Web** = ForensicVM Main Web Interface
+   - **Screen** = ForensicVM Web Remote Screen
+   - **Plugin** = ForensicVM Autopsy Client Plugin Interface
+   - **Autopsy** = Basis Technology Autopsy Software
+   - **External** = External Software: Volatility, wireshark, etc...
 
 Plugin Architecture
 ======================
