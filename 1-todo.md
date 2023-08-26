@@ -1,6 +1,9 @@
+- [ ] Create the dataset page
+- [ ] 
+- [ ] Create a glossary (https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html)
 - [x] Edit first pages
 - [x] Enumerate Autopsy forensicVM actions
-   - [ ] Fix legend and options in titles
+   - [x] Fix legend and options in titles
 - [x] Make a feature comparation table between Autopsy ForensicVM Client plugin and ForensicVM web interface
 - [x] Getting Started - Make one or several infographic
    - [x] Create a new page per action in usage
@@ -75,10 +78,9 @@
          - [x] Shell
          - [x] Logout
          - [x] Login
-- [ ] Create the dataset page
 - [x] Create a figure index
 - [ ] Create a table index
-- [ ] Create a glossary (https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html)
+
 
 
 - [ ] Make metrics:
