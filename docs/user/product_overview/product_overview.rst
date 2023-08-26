@@ -27,10 +27,10 @@ In the table below, the distribution of features across the different zones of t
    :header-rows: 1
 
    * - Feature
-     - M
      - W
+     - S
+     - P
      - A
-     - AS
      - E
    * - :ref:`Convert Forensic Image to a Forensic Virtual Machine`
      - .
@@ -303,11 +303,12 @@ In the table below, the distribution of features across the different zones of t
      - .
      - .
 
+
 .. note::
-   - M = ForensicVM Main Web Interface
-   - W = ForensicVM Web Remote Screen
-   - A = ForensicVM Autopsy Client Plugin Interface
-   - AS = Basis Technology Autopsy Software
+   - W = ForensicVM Main Web Interface
+   - S = ForensicVM Web Remote Screen
+   - P = ForensicVM Autopsy Client Plugin Interface
+   - A = Basis Technology Autopsy Software
    - E = External Software: Volatility, wireshark, etc...
 
 Plugin Architecture
