@@ -296,25 +296,25 @@ In the table below, the distribution of features across the different zones of t
      - .
      - .
      - .
-   * - : - ref:`Record a video from the forensicVM`
+   * - - :ref:`Record a video from the forensicVM`
      - .
      - X
      - .
      - .
      - .
-   * - : - ref:`Stop the video recording`
+   * - - :ref:`Stop the video recording`
      - .
      - X
      - .
      - .
      - .
-   * - : - ref:`Download video recording`
+   * - - :ref:`Download video recording`
      - .
      - X
      - .
      - .
      - .
-   * - : - ref:`Import video recording for analysis in Autopsy Software`
+   * - - :ref:`Import video recording for analysis in Autopsy Software`
      - .
      - .
      - .
