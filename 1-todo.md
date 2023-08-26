@@ -1,5 +1,6 @@
 - [x] Edit first pages
 - [x] Enumerate Autopsy forensicVM actions
+   - [ ] Fix legend and options in titles
 - [x] Make a feature comparation table between Autopsy ForensicVM Client plugin and ForensicVM web interface
 - [x] Getting Started - Make one or several infographic
    - [x] Create a new page per action in usage
