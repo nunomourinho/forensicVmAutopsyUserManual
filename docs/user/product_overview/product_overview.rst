@@ -314,7 +314,7 @@ In the table below, the distribution of features across the different zones of t
 Plugin Architecture
 ======================
 
-One of the key features of ForensicVM is its plugin architecture, which enables the community to extend its functionality and interact with forensic images in innovative ways. This open architecture fosters the development of new software that can interact with forensic images, providing flexibility and promoting active community involvement.
+One of the key features of ForensicVM is its plugin architecture, which enables the community to extend its functionality and interact with forensic images in innovative ways. This open architecture fosters the development of new software that can interact with forensic virtual images, providing flexibility and promoting active community involvement.
 
 Through the plugin architecture, developers can create tools to perform a variety of tasks, including but not limited to:
 
