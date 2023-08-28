@@ -16,6 +16,7 @@ To initiate the forensicVM from the main plugin interface, follow these simple s
    .. figure:: img/start_vm_0001.jpg
       :alt: Start VM on the main interface
       :align: center
+      :width: 500
 
       Start VM on the main interface
 
@@ -33,6 +34,7 @@ To start the forensicVM through the web interface after login, you need to:
    .. figure:: img/start_vm_0002.jpg
       :alt: Login on the main web interface
       :align: center
+      :width: 500
 
       Login on the main web interface
 
@@ -43,6 +45,7 @@ To start the forensicVM through the web interface after login, you need to:
    .. figure:: img/start_vm_0003.jpg
       :alt: Start VM on the main web interface
       :align: center
+      :width: 500
 
       Start VM on the main web interface
 
@@ -58,6 +61,7 @@ Another option to start the forensicVM is from the web remote screen. This metho
    .. figure:: img/start_vm_0004.jpg
       :alt: Start VM on web remote screen
       :align: center
+      :width: 500
 
       Start VM on the web remote screen
 
@@ -87,6 +91,7 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
    .. figure:: img/start_vm_0001.jpg
       :alt: Screenshot of the "Start" button in the main plugin interface.
       :align: center
+      :width: 500
 
       The "Start" button in the main plugin interface.
 
@@ -95,6 +100,7 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
    .. figure:: img/start_vm_0005.jpg
       :alt: Popup indicating the machine's "snap" or link mode status.
       :align: center
+      :width: 500
 
       Machine's launch mode notification.
 
@@ -103,6 +109,7 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
    .. figure:: img/start_vm_0006.jpg
       :alt: Command line window showing machine's process.
       :align: center
+      :width: 500
 
       Command line window – important not to close.
 
@@ -111,6 +118,7 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
    .. figure:: img/start_vm_0007.jpg
       :alt: "Open ForensicVM" button for graphical interaction.
       :align: center
+      :width: 500
 
       "Open ForensicVM" button.
 
@@ -119,6 +127,7 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
    .. figure:: img/start_vm_0008.jpg
       :alt: Web interface of the forensicVM.
       :align: center
+      :width: 500
 
       ForensicVM web interface.
 
@@ -127,5 +136,6 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
    .. figure:: img/start_vm_0009.jpg
       :alt: Autopsy Plugin buttons for shutting down or stopping the machine.
       :align: center
+      :width: 500
 
       Autopsy Plugin's control buttons.
