@@ -14,6 +14,7 @@ To take a screenshot of the forensicVM from the main Autopsy plugin interface, p
    .. figure:: img/screenshot_vm_0001.jpg
       :alt: Screenshot VM on the main Autopsy plugin interface
       :align: center
+      :width: 500
 
       Screenshot VM on the main Autopsy plugin interface
 
@@ -31,6 +32,7 @@ Capturing a screenshot from the web screen interface is similarly straightforwar
    .. figure:: img/screenshot_vm_0002.jpg
       :alt: Screenshot VM on the web screen interface
       :align: center
+      :width: 500
 
       Screenshot VM on the web screen interface
 
@@ -51,6 +53,7 @@ After capturing the necessary screenshots of the forensic virtual machine (foren
    .. figure:: img/screenshot_vm_0003.jpg
       :alt: Save screenshots button on the plugin interface
       :align: center
+      :width: 500
 
       Save screenshots button on the plugin interface
      
@@ -66,6 +69,7 @@ After capturing the necessary screenshots of the forensic virtual machine (foren
    .. figure:: img/screenshot_vm_0004.jpg
       :alt: Save As dialog with default path
       :align: center
+      :width: 500
 
       Save As dialog with default path
 
@@ -99,6 +103,7 @@ After capturing the necessary screenshots of the forensic virtual machine (foren
    .. figure:: img/screenshot_vm_0006.jpg
       :alt: Windows path with screenshots.zip
       :align: center
+      :width: 500
 
       Windows path with screenshots.zip
 
@@ -114,6 +119,7 @@ Importing Screenshots to Autopsy Software
    .. figure:: img/screenshot_vm_0007.jpg
       :alt: Unzip screenshots using 7-Zip
       :align: center
+      :width: 500
 
       Unzip screenshots using 7-Zip
 
@@ -124,6 +130,7 @@ Importing Screenshots to Autopsy Software
    .. figure:: img/screenshot_vm_0008.jpg
       :alt: Copy screenshot path in Explorer
       :align: center
+      :width: 500
 
       Copy screenshot path in Explorer
 
@@ -134,6 +141,7 @@ Importing Screenshots to Autopsy Software
    .. figure:: img/screenshot_vm_0009.jpg
       :alt: Add a new data source
       :align: center
+      :width: 500
 
       Add a new data source
 
@@ -144,6 +152,7 @@ Importing Screenshots to Autopsy Software
    .. figure:: img/screenshot_vm_0010.jpg
       :alt: Select the host
       :align: center
+      :width: 500
 
       Select the host
 
@@ -154,6 +163,7 @@ Importing Screenshots to Autopsy Software
    .. figure:: img/screenshot_vm_0011.jpg
       :alt: Select Logical Files as the data source
       :align: center
+      :width: 500
 
       Select Logical Files as the data source
 
@@ -164,6 +174,7 @@ Importing Screenshots to Autopsy Software
    .. figure:: img/screenshot_vm_0012.jpg
       :alt: Click "Add" button
       :align: center
+      :width: 500
 
       Click "Add" button
 
@@ -174,6 +185,7 @@ Importing Screenshots to Autopsy Software
    .. figure:: img/screenshot_vm_0013.jpg
       :alt: Paste the path and press "Select"
       :align: center
+      :width: 500
 
       Paste the path and press "Select"
 
@@ -184,6 +196,7 @@ Importing Screenshots to Autopsy Software
    .. figure:: img/screenshot_vm_0014.jpg
       :alt: Press "Next"
       :align: center
+      :width: 500
 
       Press "Next"
 
@@ -194,6 +207,7 @@ Importing Screenshots to Autopsy Software
    .. figure:: img/screenshot_vm_0015.jpg
       :alt: Select "Picture Analyser" plugin
       :align: center
+      :width: 500
 
       Select "Picture Analyser" plugin
 
@@ -204,6 +218,7 @@ Importing Screenshots to Autopsy Software
    .. figure:: img/screenshot_vm_0016.jpg
       :alt: Press "Finish"
       :align: center
+      :width: 500
 
       Press "Finish"
 
@@ -214,6 +229,7 @@ Importing Screenshots to Autopsy Software
    .. figure:: img/screenshot_vm_0017.jpg
       :alt: Browse into LogicalFileSet
       :align: center
+      :width: 500
 
       Browse into LogicalFileSet
 
@@ -224,6 +240,7 @@ Importing Screenshots to Autopsy Software
    .. figure:: img/screenshot_vm_0018.jpg
       :alt: Open in External Viewer
       :align: center
+      :width: 500
 
       Open in External Viewer
 
@@ -234,6 +251,7 @@ Importing Screenshots to Autopsy Software
    .. figure:: img/screenshot_vm_0019.jpg
       :alt: Image displayed
       :align: center
+      :width: 500
 
       Image displayed
 
