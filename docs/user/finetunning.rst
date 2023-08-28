@@ -22,6 +22,10 @@ The conversion of a forensic image into a ForensicVM generates a configuration f
 
 Below is an illustration showcasing both the memory size adjustment slider and the VM date & time setting option:
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/finetunning.jpg
    :name: finetuning-options
    :alt: Fine-Tuning memory size and setting ForensicVM start date & time
@@ -29,3 +33,6 @@ Below is an illustration showcasing both the memory size adjustment slider and t
 
    Fine-Tuning memory size and setting ForensicVM start date & time
 
+.. raw:: latex
+
+   \FloatBarrier
