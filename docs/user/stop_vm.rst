@@ -10,12 +10,20 @@ To stop the forensicVM from the main plugin interface, follow these simple steps
 
    a) Locate the stop button on the main interface as depicted in the figure below.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/stop_vm_0001.jpg
       :alt: Stop VM on the main interface
       :align: center
       :width: 500
 
       Stop VM on the main interface
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    b) Press the stop button to halt the virtual machine.
 
@@ -26,6 +34,10 @@ To stop the forensicVM through the web remote screen interface, you need to:
 
    1) Locate the stop icon.
    2) Press the stop button to halt the virtual machine.
+
+   .. raw:: latex
+
+      \FloatBarrier
    
    .. figure:: img/stop_vm_0002.jpg
       :alt: Stop VM on the web remote screen
@@ -33,6 +45,10 @@ To stop the forensicVM through the web remote screen interface, you need to:
       :width: 500
 
       Stop VM on the web remote screen
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 3) Stop ForensicVM on the Web Interface
 ---------------------------------------
@@ -45,11 +61,19 @@ Another option to stop the forensicVM is from the web interface. This method may
 
    c) Locate and click the stop button, as shown in the figure below.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/stop_vm_0003.jpg
       :alt: Stop VM on web interface
       :align: center
       :width: 500
 
       Stop VM on the web interface
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 These three methods ensure that you can stop the forensicVM from various points in the system, allowing for seamless control depending on your needs and preferences. 
