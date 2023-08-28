@@ -13,6 +13,7 @@ To stop the forensicVM from the main plugin interface, follow these simple steps
    .. figure:: img/stop_vm_0001.jpg
       :alt: Stop VM on the main interface
       :align: center
+      :width: 500
 
       Stop VM on the main interface
 
@@ -29,6 +30,7 @@ To stop the forensicVM through the web remote screen interface, you need to:
    .. figure:: img/stop_vm_0002.jpg
       :alt: Stop VM on the web remote screen
       :align: center
+      :width: 500
 
       Stop VM on the web remote screen
 
@@ -46,6 +48,7 @@ Another option to stop the forensicVM is from the web interface. This method may
    .. figure:: img/stop_vm_0003.jpg
       :alt: Stop VM on web interface
       :align: center
+      :width: 500
 
       Stop VM on the web interface
 
