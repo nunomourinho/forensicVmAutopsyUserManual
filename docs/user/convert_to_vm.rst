@@ -44,6 +44,10 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
    
    Initiate the conversion process by clicking on the button titled "Virtualize - a) Convert to VM". This action sets the process in motion.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/virtualize_convert_0001.jpg
       :alt: Screenshot showcasing the "Virtualize - a) Convert to VM" button.
       :align: center
@@ -51,10 +55,18 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       "Virtualize - a) Convert to VM" button
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 
 2. **Popup Confirmation**:
 
    Upon clicking the conversion button, a popup alert appears. This alert will display the message: "The conversion will start in a command window. Please do not close it until the conversion is finished...". Click on "OK" to commence the conversion process.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/virtualize_convert_0002.jpg
       :alt: Popup alert confirming the start of the conversion.
@@ -62,10 +74,17 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Conversion Confirmation Popup
 
+   .. raw:: latex
+
+      \FloatBarrier
 
 3. **MS-DOS Command Window Feedback**:
 
    A MS-DOS command window materializes post confirmation. This window is instrumental in detecting the image format, which will be visibly printed within. Ensure to keep an eye out for messages color-coded in green, indicating successful steps. However, should there be any errors, take note for future reference.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/virtualize_convert_0003.jpg
       :alt: MS-DOS command window indicating the progress.
@@ -74,6 +93,9 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       MS-DOS Command Window Progress Display
 
+   .. raw:: latex
+
+      \FloatBarrier
 
 4. **Driver Installation and Conversion Completion**:
 
@@ -86,6 +108,10 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
    The conversion progression is displayed as a percentage. 
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/virtualize_convert_0004.jpg
       :alt: Conversion process display
       :align: center
@@ -93,10 +119,18 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Conversion Progress Display
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 
 5. **Conversion completed**: 
 
    Once completed, a success message paired with the elapsed time is showcased, signaling the end of the conversion.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/virtualize_convert_0005.jpg
       :alt: Conversion Completion Display
@@ -105,9 +139,17 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Conversion Completion Display
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 6. **Success Conversion Popup**:
 
    Once the image conversion completes, a success popup will appear confirming the conversion's successful completion.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/virtualize_convert_0006.jpg
       :alt: Success Conversion Popup
@@ -115,9 +157,17 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Screenshot of the success conversion popup.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 7. **ForensicVM First Boot**:
 
    To boot up the machine for the first time, click the "Start" button available in the Autopsy ForensicVM Plugin.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/virtualize_convert_0007.jpg
       :alt: "Start" Button on the Autopsy ForensicVM Plugin
@@ -126,9 +176,17 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Screenshot of the "Start" button on the Autopsy ForensicVM Plugin.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 8. **Informational Popup - Machine Started**:
 
    Post clicking the "Start" button, an informational popup will appear to inform you about the machine's status.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/virtualize_convert_0008.jpg
       :alt: Informational Popup on Machine Start
@@ -136,9 +194,17 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Screenshot of the informational popup after machine start.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 9. **Opening the ForensicVM**:
 
    To access the ForensicVM's web screen interface, click the "Open ForensicVM" button. This interface will allow you to interact directly with the forensicVM.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/virtualize_convert_0009.jpg
       :alt: "Open ForensicVM" Button
@@ -147,9 +213,17 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Screenshot of the "Open ForensicVM" button.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 10. **ForensicVM Web Screen Interface**:
 
    Once inside the web screen interface, click the prominent "Connect / Start" button to establish a connection with the forensicVM and view its virtual screen monitor.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/virtualize_convert_0010.jpg
       :alt: ForensicVM's "Connect / Start" Button
@@ -158,9 +232,17 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Screenshot of the ForensicVM's "Connect / Start" button.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 11. **Interact with the ForensicVM**:
 
    With the connection established, you can now freely interact with the forensicVM.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/virtualize_convert_0011.jpg
       :alt: ForensicVM Interaction Interface
@@ -169,6 +251,9 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       Screenshot showcasing the ForensicVM's interactive interface.
 
+   .. raw:: latex
+
+      \FloatBarrier
 
 Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server
 ****************************************************************************************
@@ -183,6 +268,10 @@ In this method, a link is forged between the local forensic image and a new coun
    
    Start the conversion by clicking on the button labeled "Virtualize - b) Link to VM".
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/2-virtualize_link_0001.jpg
       :alt: Screenshot showcasing the "Virtualize - b) Link to VM" button.
       :align: center
@@ -190,9 +279,17 @@ In this method, a link is forged between the local forensic image and a new coun
 
       "Virtualize - b) Link to VM" button
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 2. **Popup Confirmation**:
    
    After activating the conversion, a popup will emerge. It will instruct: "The conversion will commence in a command window. Please refrain from shutting it until the process concludes." Press "OK" to proceed.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/2-virtualize_link_0002.jpg
       :alt: A popup dialog confirming the start of the linking process.
@@ -200,9 +297,17 @@ In this method, a link is forged between the local forensic image and a new coun
 
       Linking Confirmation Popup
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 3. **MS-DOS Command Window Feedback**:
 
    The MS-DOS command window will surface, and the software will identify the image format, displaying it within the window. Successful actions are highlighted in green. However, be vigilant and record any errors that arise.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/2-virtualize_link_0003.jpg
       :alt: MS-DOS command window displaying the progress.
@@ -210,6 +315,10 @@ In this method, a link is forged between the local forensic image and a new coun
       :width: 600px
 
       MS-DOS Command Window Feedback
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 4. **Driver Installation Phase**:
 
@@ -221,12 +330,20 @@ In this method, a link is forged between the local forensic image and a new coun
 
    The linking process's progression is represented in percentage terms.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/2-virtualize_link_0004.jpg
       :alt: Phase indicating KVM driver installations and progress.
       :align: center
       :width: 600px
 
       Driver Installation and Progress Display
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 5. **Conclusion of Conversion**:
 
@@ -236,6 +353,10 @@ In this method, a link is forged between the local forensic image and a new coun
 
       Avoid manually shutting this window. Such an action could leave a Linux mount unsealed, leading to potential complications in the future.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/2-virtualize_link_0005.jpg
       :alt: Window showcasing the successful completion of the linking process.
       :align: center
@@ -243,9 +364,17 @@ In this method, a link is forged between the local forensic image and a new coun
 
       Conversion Completed Notification
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 6. **Success Notification**:
 
    A concluding popup emerges, affirming that the forensic image was successfully linked to the VM. Click "OK" to exit this dialog.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/2-virtualize_link_0006.jpg
       :alt: Popup displaying the successful linking of the forensic image to the VM.
@@ -253,3 +382,7 @@ In this method, a link is forged between the local forensic image and a new coun
 
       Successful Linking Notification
 
+
+   .. raw:: latex
+
+      \FloatBarrier
