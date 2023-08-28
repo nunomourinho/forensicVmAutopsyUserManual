@@ -11,6 +11,10 @@ There are two primary methods to access the WebShell:
 
    - Within the plugin interface, click on the *Open ForensicVM WebShell* button. This action will open the WebShell in your default browser.
 
+     .. raw:: latex
+
+        \FloatBarrier
+
      .. figure:: img/webshell_0001.jpg
         :alt: WebShell accessed via Autopsy ForensicVM Client Plugin
         :align: center
@@ -18,9 +22,17 @@ There are two primary methods to access the WebShell:
 
         WebShell accessed via Autopsy ForensicVM Client Plugin
 
+     .. raw:: latex
+
+        \FloatBarrier
+
 2. **Via the ForensicVM Main Web Interface**:
 
    - Navigate to the main interface and click on the *Shell* link to access the WebShell.
+
+     .. raw:: latex
+
+        \FloatBarrier
 
      .. figure:: img/webshell_0002.jpg
         :alt: WebShell accessed via ForensicVM Main Web Interface
@@ -29,14 +41,26 @@ There are two primary methods to access the WebShell:
 
         WebShell accessed via ForensicVM Main Web Interface
 
+     .. raw:: latex
+
+        \FloatBarrier
+
 **WebShell Interface**:
 
 Upon accessing the WebShell, users will encounter an interface resembling the following:
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/webshell_0003.jpg
    :alt: ForensicVM WebShell Interface
    :align: center
    :width: 600
+
+.. raw:: latex
+
+   \FloatBarrier
 
    ForensicVM WebShell Interface
 
