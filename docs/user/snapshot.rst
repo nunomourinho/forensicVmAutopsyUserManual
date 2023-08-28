@@ -66,6 +66,7 @@ It is highly recommended to create your first snapshot immediately after the mac
     .. figure:: img/create_snapshot_0001.jpg
        :alt: Screenshot showcasing the 'Create new' button in the Snapshot management section.
        :align: center
+       :width: 500
 
        A visual representation of the 'Create new' button used for initiating a snapshot creation in the Autopsy ForensicVM Client interface.
 
@@ -89,6 +90,7 @@ While the Autopsy ForensicVM Client interface typically auto-updates to display 
     .. figure:: img/list_snapshot_0001.jpg
        :alt: Screenshot showcasing the 'List Remote Snapshots' button in the Snapshot management section.
        :align: center
+       :width: 500
 
        A visual guide highlighting the 'List Remote Snapshots' button within the Autopsy ForensicVM Client interface.
 
@@ -117,6 +119,7 @@ If you ever find yourself needing to undo changes and revert the forensicVM to a
     .. figure:: img/rollback_snapshot_0001.jpg
        :alt: Screenshot showcasing the rollback process in the Snapshot management section.
        :align: center
+       :width: 500
 
 .. warning::
 
@@ -157,6 +160,7 @@ Snapshots can become redundant or unnecessary over time, and you might want to r
     .. figure:: img/delete_snapshot_0001.jpg
        :alt: Deleting a snapshot from the interface.
        :align: center
+       :width: 500
 
     Snapshot Deletion Interface
 
