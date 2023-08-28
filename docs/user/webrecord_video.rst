@@ -36,6 +36,7 @@ Record a video from the forensicVM
    .. figure:: img/webrecord_video_0001.jpg
       :alt: Show the control bar
       :align: center
+      :width: 500
 
       Show the control bar
 
@@ -44,6 +45,7 @@ Record a video from the forensicVM
    .. figure:: img/webrecord_video_0002.jpg
       :alt: Press the video recording icon
       :align: center
+      :width: 500
 
       Press the video recording icon
 
@@ -52,6 +54,7 @@ Record a video from the forensicVM
    .. figure:: img/webrecord_video_0003.jpg
       :alt: Press "Record Video" button
       :align: center
+      :width: 500
 
       Press "Record Video" button
 
@@ -60,6 +63,7 @@ Record a video from the forensicVM
    .. figure:: img/webrecord_video_0004.jpg
       :alt: Recording in progress
       :align: center
+      :width: 500
 
       Recording in progress
 
@@ -71,6 +75,7 @@ Stop the video recording
    .. figure:: img/webrecord_video_0005.jpg
       :alt: Stop recording
       :align: center
+      :width: 500
 
       Stop recording
 
@@ -79,6 +84,7 @@ Stop the video recording
    .. figure:: img/webrecord_video_0006.jpg
       :alt: Stop recording button
       :align: center
+      :width: 500
 
       Stop recording button
 
@@ -87,6 +93,7 @@ Stop the video recording
    .. figure:: img/webrecord_video_0007.jpg
       :alt: Notifications
       :align: center
+      :width: 500
 
       Notifications
 
@@ -98,6 +105,7 @@ Download video recording
    .. figure:: img/webrecord_video_0008.jpg
       :alt: Download icon
       :align: center
+      :width: 500
 
       Download icon
 
@@ -106,6 +114,7 @@ Download video recording
    .. figure:: img/webrecord_video_0009.jpg
       :alt: Press "Download" button
       :align: center
+      :width: 500
 
       Press "Download" button
 
@@ -114,6 +123,7 @@ Download video recording
    .. figure:: img/webrecord_video_0010.jpg
       :alt: Download started message
       :align: center
+      :width: 500
 
       Download started message
 
@@ -122,6 +132,7 @@ Download video recording
    .. figure:: img/webrecord_video_0011.jpg
       :alt: Locate downloaded file
       :align: center
+      :width: 500
 
       Locate downloaded file
 
@@ -133,6 +144,7 @@ Import video recording for analysis in Autopsy Software
    .. figure:: img/webrecord_video_0012.jpg
       :alt: Copy as path
       :align: center
+      :width: 500
 
       Copy as path
 
@@ -141,6 +153,7 @@ Import video recording for analysis in Autopsy Software
    .. figure:: img/webrecord_video_0013.jpg
       :alt: Open Autopsy
       :align: center
+      :width: 500
 
       Open Autopsy
 
@@ -149,6 +162,7 @@ Import video recording for analysis in Autopsy Software
    .. figure:: img/webrecord_video_0014.jpg
       :alt: Select host
       :align: center
+      :width: 500
 
       Select host
 
@@ -157,6 +171,7 @@ Import video recording for analysis in Autopsy Software
    .. figure:: img/webrecord_video_0015.jpg
       :alt: Select Logical Files
       :align: center
+      :width: 500
 
       Select Logical Files
 
@@ -165,6 +180,7 @@ Import video recording for analysis in Autopsy Software
    .. figure:: img/webrecord_video_0016.jpg
       :alt: Click Add to select video
       :align: center
+      :width: 500
 
       Click Add to select video
 
@@ -173,6 +189,7 @@ Import video recording for analysis in Autopsy Software
    .. figure:: img/webrecord_video_0017.jpg
       :alt: Select video
       :align: center
+      :width: 500
 
       Select video to import
 
@@ -181,6 +198,7 @@ Import video recording for analysis in Autopsy Software
    .. figure:: img/webrecord_video_0018.jpg
       :alt: Click Next
       :align: center
+      :width: 500
 
       Click Next
 
@@ -189,6 +207,7 @@ Import video recording for analysis in Autopsy Software
    .. figure:: img/webrecord_video_0019.jpg
       :alt: Deselect plugins
       :align: center
+      :width: 500
 
       Deselect plugins
 
@@ -197,6 +216,7 @@ Import video recording for analysis in Autopsy Software
    .. figure:: img/webrecord_video_0020.jpg
       :alt: Click Finish
       :align: center
+      :width: 500
 
       Click Finish
 
@@ -205,6 +225,7 @@ Import video recording for analysis in Autopsy Software
    .. figure:: img/webrecord_video_0021.jpg
       :alt: Tagging video
       :align: center
+      :width: 500
 
       Tagging video
 
