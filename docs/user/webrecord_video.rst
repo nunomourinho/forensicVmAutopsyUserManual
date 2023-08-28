@@ -32,6 +32,10 @@ Record a video from the forensicVM
 -----------------------------------
 
 1. **Show the control bar on the forensicVM web screen web interface by clicking the arrow button.**
+
+   .. raw:: latex
+
+      \FloatBarrier
    
    .. figure:: img/webrecord_video_0001.jpg
       :alt: Show the control bar
@@ -40,7 +44,15 @@ Record a video from the forensicVM
 
       Show the control bar
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 2. **Press the video recording icon. This icon will open a modal box.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0002.jpg
       :alt: Press the video recording icon
@@ -49,7 +61,15 @@ Record a video from the forensicVM
 
       Press the video recording icon
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 3. **Press the red "Record Video" button.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0003.jpg
       :alt: Press "Record Video" button
@@ -58,7 +78,15 @@ Record a video from the forensicVM
 
       Press "Record Video" button
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 4. **The recording is in progress; it can be up to 3 hours of recording before the video stops. The "rec" animation on the top right will show that the recording is in progress on the server.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0004.jpg
       :alt: Recording in progress
@@ -67,10 +95,18 @@ Record a video from the forensicVM
 
       Recording in progress
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 Stop the video recording
 -------------------------
 
 1. **To stop the recording, first press the record icon on the control bar.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0005.jpg
       :alt: Stop recording
@@ -79,7 +115,15 @@ Stop the video recording
 
       Stop recording
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 2. **On the modal box, please press the "Stop recording button".**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0006.jpg
       :alt: Stop recording button
@@ -88,7 +132,15 @@ Stop the video recording
 
       Stop recording button
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 3. **You will see two notification messages. The first one says, "Sent stop video recording," to indicate that the video has stopped recording. The video has to be processed on the server to download. When the video is completed on the server, you will see a second notification message stating, "Video saved (Video recorder with the name videoNNNN.mp4)", where NNNN is the video number. Please note down this number.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0007.jpg
       :alt: Notifications
@@ -97,10 +149,18 @@ Stop the video recording
 
       Notifications
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 
 Download video recording
 -------------------------
 1. **To download, please press the record video icon again on the control bar.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0008.jpg
       :alt: Download icon
@@ -109,7 +169,15 @@ Download video recording
 
       Download icon
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 2. **Now, press the "Download" button. You should now wait until the download is ready. It will start download automatically, so please do not close the webpage. The video preparation time and the download time will directly depend on the video size.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0009.jpg
       :alt: Press "Download" button
@@ -118,7 +186,15 @@ Download video recording
 
       Press "Download" button
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 3. **Download started message**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0010.jpg
       :alt: Download started message
@@ -127,7 +203,15 @@ Download video recording
 
       Download started message
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 4. **After the video is downloaded, in the web browser, please open the download folder where the video file is.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0011.jpg
       :alt: Locate downloaded file
@@ -136,10 +220,18 @@ Download video recording
 
       Locate downloaded file
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 Import video recording for analysis in Autopsy Software
 --------------------------------------------------------
 
 1. **With the shift key pressed, press the right-click on the mouse over the video file. Then select the "Copy as path" option on the menu.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0012.jpg
       :alt: Copy as path
@@ -148,7 +240,15 @@ Import video recording for analysis in Autopsy Software
 
       Copy as path
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 2. **Open Autopsy software. On the menu bar, please click the "Add Data Source" button.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0013.jpg
       :alt: Open Autopsy
@@ -157,7 +257,15 @@ Import video recording for analysis in Autopsy Software
 
       Open Autopsy
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 3. **Select the host and click next.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0014.jpg
       :alt: Select host
@@ -166,7 +274,15 @@ Import video recording for analysis in Autopsy Software
 
       Select host
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 4. **Select Logical Files and click next.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0015.jpg
       :alt: Select Logical Files
@@ -175,7 +291,15 @@ Import video recording for analysis in Autopsy Software
 
       Select Logical Files
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 5. **Click Add to select the video.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0016.jpg
       :alt: Click Add to select video
@@ -184,7 +308,15 @@ Import video recording for analysis in Autopsy Software
 
       Click Add to select video
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 6. **Paste the path in the "File name:" field and click the "Select" button.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0017.jpg
       :alt: Select video
@@ -193,7 +325,15 @@ Import video recording for analysis in Autopsy Software
 
       Select video to import
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 7. **Click Next.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0018.jpg
       :alt: Click Next
@@ -202,7 +342,15 @@ Import video recording for analysis in Autopsy Software
 
       Click Next
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 8. **Deselect all ingest plugins and click next.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0019.jpg
       :alt: Deselect plugins
@@ -211,7 +359,15 @@ Import video recording for analysis in Autopsy Software
 
       Deselect plugins
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 9. **Click Finish.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0020.jpg
       :alt: Click Finish
@@ -220,7 +376,15 @@ Import video recording for analysis in Autopsy Software
 
       Click Finish
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 10. **1. Select the video file, 2. With the mouse right-click, "Add a File Tag", 3. Select the tag that is relevant to the forensic investigation.**
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/webrecord_video_0021.jpg
       :alt: Tagging video
@@ -228,6 +392,10 @@ Import video recording for analysis in Autopsy Software
       :width: 500
 
       Tagging video
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 
 .. note:: **Video Recording Sound**
