@@ -13,6 +13,7 @@ To shut down the forensicVM from the main plugin interface, follow these simple 
    .. figure:: img/shutdown_vm_0001.jpg
       :alt: Shut down VM on the main interface
       :align: center
+      :width: 500
 
       Shut down VM on the main interface
 
@@ -29,6 +30,7 @@ To shut down the forensicVM through the web remote screen interface, you need to
    .. figure:: img/shutdown_vm_0002.jpg
       :alt: Login on the main web interface
       :align: center
+      :width: 500
 
       Login on the main web interface
 
@@ -47,6 +49,7 @@ Another option to shut down the forensicVM is from the web remote screen. This m
    .. figure:: img/shutdown_vm_0003.jpg
       :alt: Shut down VM on web interface
       :align: center
+      :width: 500
 
       Shut down VM on the web interface
 
