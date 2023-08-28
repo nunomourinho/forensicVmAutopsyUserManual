@@ -26,6 +26,10 @@ Enable network card using the Autopsy ForensicVM Client Plugin Interface
 2. Navigate to the Network Panel within the interface.
 3. Look for the "Enable network card" button and click on it.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/network_0001.jpg
    :alt: Enabling the network card through the Autopsy ForensicVM Client interface
    :align: center
@@ -33,16 +37,28 @@ Enable network card using the Autopsy ForensicVM Client Plugin Interface
 
    Enabling the network card through the Autopsy ForensicVM Client interface
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Confirmation of Network Card Activation**
 
 After clicking the button, a popup window will appear to confirm the successful 
 activation of the network card.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/network_0002.jpg
    :alt: Confirmation popup for network card activation
    :align: center   
 
    Confirmation popup for network card activation
+
+.. raw:: latex
+
+   \FloatBarrier
 
 Enable Network Using the Web Screen Interface
 ************************************************
@@ -55,6 +71,10 @@ Activating the network card can also be achieved via the Web Screen Interface. T
 2. Locate and click on the **network icon (2)** to access network settings.
 3. Identify and click the red button labeled **Enable network (caution) (3)** to activate the network card.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/network_0003.jpg
    :alt: Network Using the Web Screen Interface 
    :align: center
@@ -62,9 +82,17 @@ Activating the network card can also be achieved via the Web Screen Interface. T
 
    Steps to activate the network through the Web Screen Interface 
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Acknowledgement of Successful Activation**
 
 Once the network card is activated, an orange notification will pop up at the top of the screen. This message serves to confirm that the network card has been successfully activated.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/network_0004.jpg
    :alt: Notification of Success
@@ -72,6 +100,10 @@ Once the network card is activated, an orange notification will pop up at the to
    :width: 500
 
    Notification confirming successful activation of the network card 
+
+.. raw:: latex
+
+   \FloatBarrier
 
 Reseting the Operating System Network Card
 *******************************************
@@ -86,12 +118,20 @@ In Windows 10, the Network Troubleshooter can assist in diagnosing and resolving
 2. Right-click the network icon.
 3. From the context menu, select the "Troubleshoot problems" option. The Network Troubleshooter will now start, and it will attempt to diagnose and resolve any detected issues.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/network_0005.jpg
    :alt: Example of network troubleshoot in Windows 10
    :align: center
    :width: 500
 
    Using the Network Troubleshooter in Windows 10
+
+.. raw:: latex
+
+   \FloatBarrier
 
 **Other Windows Versions**
 
@@ -127,6 +167,10 @@ Enabling the network card is often crucial for forensic investigations, especial
 
 The following figure demonstrates data extraction from OneDrive, a popular online cloud service.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/network_0008.jpg
    :alt: Interact with the network and collect cloud evidence from OneDrive
    :align: center
@@ -134,9 +178,17 @@ The following figure demonstrates data extraction from OneDrive, a popular onlin
 
     Interact with the network and collect cloud evidence from OneDrive
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Gathering Data from Cloud Services - Online Storage Example**
 
 In this next example, an online file storage platform is accessed using cached credentials:
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/network_0009.jpg
    :alt: Accessing and extracting data from an online storage using cached credentials
@@ -144,6 +196,10 @@ In this next example, an online file storage platform is accessed using cached c
    :width: 500
    
     Accessing and extracting data from an online storage using cached credentials
+
+.. raw:: latex
+
+   \FloatBarrier
 
 
 
@@ -164,12 +220,20 @@ Disable Network Card with the Autopsy ForensicVM Client Plugin Interface
 #. Within the interface, go to the Network Panel.
 #. Click on the "Disable network card" button.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/network_0006.jpg
    :alt: Disabling the network card through the Autopsy ForensicVM Client interface
    :align: center
    :width: 500
 
     Disabling the network card through the Autopsy ForensicVM Client interface
+
+.. raw:: latex
+
+   \FloatBarrier
 
 Using the Web Screen Interface to Disable the Network Card
 ************************************************************
@@ -182,12 +246,20 @@ The Web Screen Interface offers an alternative approach for users who prefer to 
 #. Click on the **network icon (2)**.
 #. Press the green **Disable network (3)** button to turn off the network card.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/network_0007.jpg
    :alt: Disabling the network card using the Web Screen Interface
    :align: center
    :width: 500
 
    Process to disable the network card using the Web Screen Interface
+
+.. raw:: latex
+
+   \FloatBarrier
 
 
 Download Wireshark pcap Files
@@ -199,6 +271,10 @@ To obtain the Wireshark pcap files, follow the instructions below:
 
 1. Click the "Download Wireshark pcap files" button located on the Autopsy ForensicVM client plugin interface.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/network_0010.jpg
       :alt: Downloading pcap files
       :align: center
@@ -206,7 +282,15 @@ To obtain the Wireshark pcap files, follow the instructions below:
 
       Downloading pcap files
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 2. A Windows Explorer window will prompt you to select a save location for the `pcap.zip` file. It's recommended to maintain the default save path, which is typically set to the image case folder.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/network_0011.jpg
       :alt: Saving pcap.zip file path
@@ -215,7 +299,15 @@ To obtain the Wireshark pcap files, follow the instructions below:
 
       Saving pcap.zip file path
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 3. The download progress will be displayed, indicating the time required to complete the download. This duration can vary depending on the size of the `pcap.zip` file.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/network_0012.jpg
       :alt: Download progress
@@ -223,7 +315,15 @@ To obtain the Wireshark pcap files, follow the instructions below:
 
       Download progress
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 4. Once the download is completed, a confirmation pop-up will appear, indicating the successful download and save location.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/network_0013.jpg
       :alt: Network pcap downloaded and saved
@@ -231,7 +331,15 @@ To obtain the Wireshark pcap files, follow the instructions below:
 
       Network pcap downloaded and saved
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 5. The Windows Explorer will automatically open to the default save location of `pcap.zip`.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/network_0014.jpg
       :alt: Default pcap.zip path in explorer
@@ -240,7 +348,15 @@ To obtain the Wireshark pcap files, follow the instructions below:
 
       Default pcap.zip path in explorer
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 6. To decompress the `pcap.zip` file, you can use a program like 7-zip. The extraction can take some time, especially if the pcap files are large.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/network_0015.jpg
       :alt: Extracting pcap.zip file using 7-zip
@@ -249,12 +365,24 @@ To obtain the Wireshark pcap files, follow the instructions below:
 
       Extracting pcap.zip file using 7-zip
 
+   .. raw:: latex
+
+      \FloatBarrier
+
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/network_0016.jpg
       :alt: Extraction progress
       :align: center
       :width: 500
 
       Extraction progress
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 Analyze network traffic in Wireshark
 --------------------------------------
@@ -295,6 +423,10 @@ After extracting the pcap files, the next step is to analyze the network traffic
 
 2. Double-click the pcap file you wish to analyze.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/network_0017.jpg
       :alt: Selecting pcap file for analysis
       :align: center
@@ -302,7 +434,14 @@ After extracting the pcap files, the next step is to analyze the network traffic
 
       Selecting pcap file for analysis
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 3. The Wireshark interface will open, displaying the captured traffic. Adjust the view settings and apply filters as required based on your forensic goals.
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/network_0018.jpg
       :alt: Wireshark interface displaying captured traffic
@@ -311,7 +450,15 @@ After extracting the pcap files, the next step is to analyze the network traffic
 
        Wireshark interface displaying captured traffic
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 4. The following is an example of network traffic analysis with a focus on cloud traffic.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/network_0019.jpg
       :alt: Example of analyzing cloud traffic in Wireshark
@@ -319,6 +466,10 @@ After extracting the pcap files, the next step is to analyze the network traffic
       :width: 500
 
       Example of analyzing cloud traffic in Wireshark
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 .. note::
 
