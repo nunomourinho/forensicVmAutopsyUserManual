@@ -13,12 +13,20 @@ To initiate the forensicVM from the main plugin interface, follow these simple s
 
    a) Locate the start button on the main interface as depicted in the figure below.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/start_vm_0001.jpg
       :alt: Start VM on the main interface
       :align: center
       :width: 500
 
       Start VM on the main interface
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    b) Press the start button to activate the virtual machine.
 
@@ -31,6 +39,10 @@ To start the forensicVM through the web interface after login, you need to:
 
    b) Enter your username and password, and then click on the login button.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/start_vm_0002.jpg
       :alt: Login on the main web interface
       :align: center
@@ -38,9 +50,17 @@ To start the forensicVM through the web interface after login, you need to:
 
       Login on the main web interface
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    c) Once logged in, locate the start button for the selected forensicVM you wish to initiate.
 
    d) Press the start button to activate the virtual machine.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/start_vm_0003.jpg
       :alt: Start VM on the main web interface
@@ -48,6 +68,10 @@ To start the forensicVM through the web interface after login, you need to:
       :width: 500
 
       Start VM on the main web interface
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 3) Start ForensicVM on the Web Remote Screen
 ---------------------------------------------
@@ -58,12 +82,20 @@ Another option to start the forensicVM is from the web remote screen. This metho
 
    b) Locate the start button, as shown in the figure below.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/start_vm_0004.jpg
       :alt: Start VM on web remote screen
       :align: center
       :width: 500
 
       Start VM on the web remote screen
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    c) Press the start button to initiate the virtual machine.
 
@@ -88,6 +120,10 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
    
    To initiate the VM, click the "Start" button.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/start_vm_0001.jpg
       :alt: Screenshot of the "Start" button in the main plugin interface.
       :align: center
@@ -95,7 +131,15 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
 
       The "Start" button in the main plugin interface.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    Following this action, a popup will inform you that the machine has launched in "snap" or link mode.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/start_vm_0005.jpg
       :alt: Popup indicating the machine's "snap" or link mode status.
@@ -103,7 +147,15 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
 
       Machine's launch mode notification.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    Next, a command line window will manifest. While you should minimize it, it's crucial not to close it. If you need to shut down the machine, kindly adhere to the subsequent steps to safely halt or power off the forensicVM.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/start_vm_0006.jpg
       :alt: Command line window showing machine's process.
@@ -112,7 +164,15 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
 
       Command line window – important not to close.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    To interact with the machine through its graphical interface, hit the "Open ForensicVM" option.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/start_vm_0007.jpg
       :alt: "Open ForensicVM" button for graphical interaction.
@@ -121,7 +181,15 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
 
       "Open ForensicVM" button.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    This action will lead to the machine's manifestation within a web interface, allowing you to seamlessly interact with the system.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/start_vm_0008.jpg
       :alt: Web interface of the forensicVM.
@@ -130,7 +198,15 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
 
       ForensicVM web interface.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    It's imperative to note that the solitary and secure method to halt or power off the machine is by utilizing the "Shutdown" or "Stop" buttons available in the Autopsy Plugin.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/start_vm_0009.jpg
       :alt: Autopsy Plugin buttons for shutting down or stopping the machine.
@@ -138,3 +214,7 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
       :width: 500
 
       Autopsy Plugin's control buttons.
+
+   .. raw:: latex
+
+      \FloatBarrier
