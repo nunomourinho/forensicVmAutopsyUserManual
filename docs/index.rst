@@ -3,12 +3,20 @@ Welcome to ForensicVM documentation!
 .. image:: https://zenodo.org/badge/675339901.svg
    :target: https://zenodo.org/badge/latestdoi/675339901
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: ForensicVM.jpg
    :alt: ForensicVM logo
    :width: 600
    :align: center
 
    Forensic VM logo
+
+.. raw:: latex
+
+   \FloatBarrier
 
 **ForensicVM** is a comprehensive project designed to assist forensic investigators in the virtualization of forensic images. By utilizing advanced technologies and tools, ForensicVM simplifies the process of analyzing and examining digital evidence in a virtualized environment.
 
