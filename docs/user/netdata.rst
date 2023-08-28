@@ -28,6 +28,10 @@ Netdata is already installed on ForensicVM Server.
 
 You can open it from the Autopsy ForensicVM Client Plugin:
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/netdata_0001.jpg
    :alt: Opening Netdata through Autopsy
    :align: center
@@ -35,7 +39,15 @@ You can open it from the Autopsy ForensicVM Client Plugin:
 
    Opening Netdata through Autopsy
 
+.. raw:: latex
+
+   \FloatBarrier
+
 Or, use the ForensicVM main web page:
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/netdata_0002.jpg
    :alt: Opening Netdata from the main page
@@ -44,10 +56,18 @@ Or, use the ForensicVM main web page:
 
    Opening Netdata from the main page
 
+.. raw:: latex
+
+   \FloatBarrier
+
 How Netdata Helps with ForensicVM Server
 ----------------------------------------
 
 Example of what you see:
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/netdata_0003.jpg
    :alt: Netdata Dashboard view
@@ -55,6 +75,10 @@ Example of what you see:
    :width: 500
 
    Netdata Dashboard view
+
+.. raw:: latex
+
+   \FloatBarrier
 
 - **CPU**: See how much CPU is being used. If it's too much, maybe add more resources.
 
