@@ -36,6 +36,10 @@ In the context of legal proceedings, memory dumps might provide crucial evidence
 ---------------------------------------------------
 Press the button labeled "Make and Download Memory Dump" to initiate the process.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/memory_dump_0001.jpg
    :alt: Press "Make and Download Memory Dump" button
    :align: center
@@ -43,9 +47,17 @@ Press the button labeled "Make and Download Memory Dump" to initiate the process
 
    Press "Make and Download Memory Dump" button
 
+.. raw:: latex
+
+   \FloatBarrier
+
 2) Save the Memory Dump on the Default ForensicVM Image Case Path
 -----------------------------------------------------------------
 Choose the default forensicVM image case path to save the memory dump.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0002.jpg
    :alt: Save the memory dump
@@ -54,9 +66,17 @@ Choose the default forensicVM image case path to save the memory dump.
 
    Save the memory dump
 
+.. raw:: latex
+
+   \FloatBarrier
+
 3) Monitor Memory Download Progress with Time Estimation
 -------------------------------------------------------
 Keep track of the download progress, including an estimated time remaining for the download to complete.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0003.jpg
    :alt: Memory Download progress
@@ -65,9 +85,17 @@ Keep track of the download progress, including an estimated time remaining for t
 
    Memory Download progress
 
+.. raw:: latex
+
+   \FloatBarrier
+
 4) Success Message Stating that the Memory was Saved as "memory.dump"
 --------------------------------------------------------------------
 A success message will appear, stating that the memory was saved as "memory.dump." The explorer will automatically open afterward.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0005.jpg
    :alt: Success message
@@ -76,9 +104,17 @@ A success message will appear, stating that the memory was saved as "memory.dump
 
    Success message
 
+.. raw:: latex
+
+   \FloatBarrier
+
 5) Windows Explorer Open on the Memory Dump Folder
 --------------------------------------------------
 The Windows explorer will open automatically, displaying the folder containing the memory dump.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0006.jpg
    :alt: Windows explorer open on the memory dump folder
@@ -86,6 +122,10 @@ The Windows explorer will open automatically, displaying the folder containing t
    :width: 500
 
    Windows explorer open on the memory dump folder
+
+.. raw:: latex
+
+   \FloatBarrier
 
 
 Importing and Analyzing a Memory Dump in Autopsy
@@ -129,6 +169,10 @@ As you proceed with your analysis, make sure to tag any interesting findings. Au
 --------------------------------------------------------
 Start by locating the memory dump file on your system. Open Windows Explorer, navigate to the directory containing the memory dump, right-click on the path, and select "Copy" This action will copy the path's location to your clipboard, allowing you to easily paste it later in the Autopsy software.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/memory_dump_0007.jpg
    :alt: Copy the path of the memory dump
    :align: center
@@ -136,9 +180,17 @@ Start by locating the memory dump file on your system. Open Windows Explorer, na
 
    Copy the path of the memory dump
 
+.. raw:: latex
+
+   \FloatBarrier
+
 2) Press the "Add Data Source" Button on the Autopsy Software
 -------------------------------------------------------------
 Open Autopsy and initiate the process of adding a new data source by pressing the "Add Data Source" button. This button typically resides in the main toolbar.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0008.jpg
    :alt: Press "Add Data Source"
@@ -147,9 +199,17 @@ Open Autopsy and initiate the process of adding a new data source by pressing th
 
    Press "Add Data Source"
 
+.. raw:: latex
+
+   \FloatBarrier
+
 3) Select the Host to Where the Memory Dump Should be Made and Press Next
 -------------------------------------------------------------------------
 You will be prompted to select a host, which is the computer or device where the memory dump will be analyzed. Choose the appropriate host from the list provided, and then press "Next" to continue.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0009.jpg
    :alt: Select the host
@@ -158,9 +218,17 @@ You will be prompted to select a host, which is the computer or device where the
 
    Select the host
 
+.. raw:: latex
+
+   \FloatBarrier
+
 4) Select as Data Source Type the "Memory Image File (Volatility)" and Press Next
 --------------------------------------------------------------------------------
 In this step, you will specify the type of data you are importing. Select "Memory Image File (Volatility)" from the list of data source types, as this is the appropriate option for memory dumps. Once selected, click "Next."
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0010.jpg
    :alt: Select Memory Image File (Volatility)
@@ -169,9 +237,17 @@ In this step, you will specify the type of data you are importing. Select "Memor
 
    Select Memory Image File (Volatility)
 
+.. raw:: latex
+
+   \FloatBarrier
+
 5) Click the "Browse" Button to Select the Path Where the Memory Dump Is
 ------------------------------------------------------------------------
 A file browser window will appear. Click the "Browse" button, navigate to the location where the memory dump is stored, and select the file. If you copied the path earlier, you could paste it into the file path field to quickly locate the file.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0011.jpg
    :alt: Click "Browse" button
@@ -180,9 +256,17 @@ A file browser window will appear. Click the "Browse" button, navigate to the lo
 
    Click "Browse" button
 
+.. raw:: latex
+
+   \FloatBarrier
+
 6) Paste the "memory.dump" Path, Select the memory.dump File, and Press Open
 --------------------------------------------------------------------------
 Once you have located the "memory.dump" file, select it by clicking on it, then press the "Open" button to confirm your selection.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0012.jpg
    :alt: Paste and select the memory.dump file
@@ -191,9 +275,17 @@ Once you have located the "memory.dump" file, select it by clicking on it, then 
 
    Paste and select the memory.dump file
 
+.. raw:: latex
+
+   \FloatBarrier
+
 7) Configure Timezone, Memory Profile, and Plugins to Run. Press Next
 ----------------------------------------------------------------------
 You will now be asked to configure several settings specific to your analysis. Set the appropriate timezone to match the original system's time setting. Choose the correct memory profile, which should match the operating system of the analyzed machine. Optionally, select any plugins you want to run during the analysis. Click "Next" to proceed.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0013.jpg
    :alt: Configure settings
@@ -202,9 +294,17 @@ You will now be asked to configure several settings specific to your analysis. S
 
    Configure settings
 
+.. raw:: latex
+
+   \FloatBarrier
+
 8) Deselect All Plugins and Press Next
 --------------------------------------
 Deselect all plugins in this step. Then, press "Next."
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0014.jpg
    :alt: Deselect plugins
@@ -213,9 +313,17 @@ Deselect all plugins in this step. Then, press "Next."
 
    Deselect plugins
 
+.. raw:: latex
+
+   \FloatBarrier
+
 9) Wait Until the Memory Ingest Module is Finished
 --------------------------------------------------
 This step may take some time, as Autopsy processes the memory dump. Depending on the size of the file and your computer's capabilities, this could take several minutes or even hours. A progress bar or other indicator may be available to monitor the process. Please be patient.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0015.jpg
    :alt: Ingesting memory
@@ -224,9 +332,17 @@ This step may take some time, as Autopsy processes the memory dump. Depending on
 
    Ingesting memory
 
+.. raw:: latex
+
+   \FloatBarrier
+
 10) Check for Errors and Press "Finish"
 --------------------------------------
 Upon completion, a dialog will appear, summarizing the process and any issues encountered. Press the "View Log" button to inspect any errors or warnings in detail. Finally, press the "Finish" button to conclude the process and close the dialog.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0016.jpg
    :alt: Press "Finish"
@@ -235,9 +351,17 @@ Upon completion, a dialog will appear, summarizing the process and any issues en
 
    Press "Finish"
 
+.. raw:: latex
+
+   \FloatBarrier
+
 11) Locate the Memory Dump on the Interface and Browse the Results
 -------------------------------------------------------------------
 With the import process complete, you can now find the imported memory dump within Autopsy's interface. Browse through the results, and use Autopsy's various tools to examine the data. Remember to tag any findings that may be of interest, as these can be critical to your investigation.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/memory_dump_0017.jpg
    :alt: Locate and browse the memory dump
@@ -245,6 +369,10 @@ With the import process complete, you can now find the imported memory dump with
    :width: 500
 
    Locate and browse the memory dump
+
+.. raw:: latex
+
+   \FloatBarrier
 
 
 Aditional Tools to analyse memory dumps
