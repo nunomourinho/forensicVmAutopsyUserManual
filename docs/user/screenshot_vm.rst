@@ -11,12 +11,20 @@ It is often necessary to take screenshots of the forensic virtual machine (foren
 
 To take a screenshot of the forensicVM from the main Autopsy plugin interface, please press the Screenshot button on the screenshot panel:
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/screenshot_vm_0001.jpg
       :alt: Screenshot VM on the main Autopsy plugin interface
       :align: center
       :width: 500
 
       Screenshot VM on the main Autopsy plugin interface
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 2) Capture Screenshot in the Web Screen Interface
 -------------------------------------------------
@@ -29,12 +37,20 @@ Capturing a screenshot from the web screen interface is similarly straightforwar
 
    c) Press the camera icon to take a screenshot.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/screenshot_vm_0002.jpg
       :alt: Screenshot VM on the web screen interface
       :align: center
       :width: 500
 
       Screenshot VM on the web screen interface
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 These methods enable you to capture visual records of the forensicVM from different points within the system, providing flexibility for various operational needs.
 
@@ -50,12 +66,20 @@ After capturing the necessary screenshots of the forensic virtual machine (foren
 
    b) Locate and press the "Save Screenshots" button.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/screenshot_vm_0003.jpg
       :alt: Save screenshots button on the plugin interface
       :align: center
       :width: 500
 
       Save screenshots button on the plugin interface
+
+   .. raw:: latex
+
+      \FloatBarrier
      
 2) Save As Dialogue with Default Path
 -------------------------------------
@@ -66,6 +90,10 @@ After capturing the necessary screenshots of the forensic virtual machine (foren
 
    c) Confirm the save location and proceed.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/screenshot_vm_0004.jpg
       :alt: Save As dialog with default path
       :align: center
@@ -73,11 +101,19 @@ After capturing the necessary screenshots of the forensic virtual machine (foren
 
       Save As dialog with default path
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 
 3) Download Progress and Success Alert
 --------------------------------------
 
    a) A download progress bar will appear, showing the status of the download.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0005_1.jpg
       :alt: Download progress
@@ -85,13 +121,25 @@ After capturing the necessary screenshots of the forensic virtual machine (foren
 
       Download progress
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    b) Once the download is complete, an alert box will appear, saying that the screenshots were successfully downloaded.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0005.jpg
       :alt: Success alert
       :align: center
 
       Success alert
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 4) Open Windows Path with Screenshots.zip
 -----------------------------------------
@@ -100,12 +148,20 @@ After capturing the necessary screenshots of the forensic virtual machine (foren
 
    b) You can then access the ZIP file containing all the screenshots.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/screenshot_vm_0006.jpg
       :alt: Windows path with screenshots.zip
       :align: center
       :width: 500
 
       Windows path with screenshots.zip
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 These steps ensure an efficient and organized process for downloading the captured screenshots of the forensicVM, making it convenient for further use or analysis.
 
@@ -116,6 +172,10 @@ Importing Screenshots to Autopsy Software
 -----------------------------------------------------------------------
    Start by extracting the ZIP file containing your screenshots. Using a tool like 7-Zip, right-click the ZIP file and choose the extraction option.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/screenshot_vm_0007.jpg
       :alt: Unzip screenshots using 7-Zip
       :align: center
@@ -123,9 +183,17 @@ Importing Screenshots to Autopsy Software
 
       Unzip screenshots using 7-Zip
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 2) Copy Screenshot Path in Explorer
 -----------------------------------
    Navigate to the folder where the screenshots were extracted and copy the full path from the address bar in Explorer.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0008.jpg
       :alt: Copy screenshot path in Explorer
@@ -134,9 +202,17 @@ Importing Screenshots to Autopsy Software
 
       Copy screenshot path in Explorer
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 3) Add a New Data Source
 ------------------------
    Open Autopsy and initiate the process of adding a new data source by selecting the relevant option in the interface.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0009.jpg
       :alt: Add a new data source
@@ -145,9 +221,17 @@ Importing Screenshots to Autopsy Software
 
       Add a new data source
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 4) Select the Host for Which You Have to Import the Screenshots
 ---------------------------------------------------------------
    Choose the appropriate host for which you want to import the screenshots.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0010.jpg
       :alt: Select the host
@@ -156,9 +240,17 @@ Importing Screenshots to Autopsy Software
 
       Select the host
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 5) Select Logical Files as the Data Source
 ------------------------------------------
    Select "Logical Files" as the type of data source for importing the screenshots.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0011.jpg
       :alt: Select Logical Files as the data source
@@ -167,9 +259,17 @@ Importing Screenshots to Autopsy Software
 
       Select Logical Files as the data source
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 6) Click the Button "Add" to Add a New Logical Data Source Folder
 ----------------------------------------------------------------
    Click the "Add" button to create a new folder for the logical data source where the screenshots are stored.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0012.jpg
       :alt: Click "Add" button
@@ -178,9 +278,17 @@ Importing Screenshots to Autopsy Software
 
       Click "Add" button
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 7) Paste the Path of the Screenshots and Press "Select"
 ------------------------------------------------------
    Paste the previously copied path of the screenshots into the designated field and press the "Select" button.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0013.jpg
       :alt: Paste the path and press "Select"
@@ -189,9 +297,17 @@ Importing Screenshots to Autopsy Software
 
       Paste the path and press "Select"
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 8) Press "Next"
 ---------------
    Press the "Next" button to proceed to the following step of the configuration.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0014.jpg
       :alt: Press "Next"
@@ -200,9 +316,17 @@ Importing Screenshots to Autopsy Software
 
       Press "Next"
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 9) Deselect All Plugins. Select the Ingest Plugin "Picture Analyser." Press "Next"
 ---------------------------------------------------------------------------------
    Deselect any unnecessary plugins and select only the "Picture Analyser" plugin, then press "Next."
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0015.jpg
       :alt: Select "Picture Analyser" plugin
@@ -211,9 +335,17 @@ Importing Screenshots to Autopsy Software
 
       Select "Picture Analyser" plugin
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 10) Press "Finish"
 ------------------
    Press the "Finish" button to complete the configuration and begin the import process.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0016.jpg
       :alt: Press "Finish"
@@ -222,9 +354,17 @@ Importing Screenshots to Autopsy Software
 
       Press "Finish"
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 11) Browse into the Imported LogicalFileSet Inside the Data Source. Right-click the Mouse
 ----------------------------------------------------------------------------------------
    Browse the imported LogicalFileSet inside the data source, and right-click on the specific file you want to view.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0017.jpg
       :alt: Browse into LogicalFileSet
@@ -233,9 +373,17 @@ Importing Screenshots to Autopsy Software
 
       Browse into LogicalFileSet
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 12) Select "Open in External Viewer" or Press CTRL+E
 ----------------------------------------------------
    Select the "Open in External Viewer" option from the context menu, or simply press CTRL+E on your keyboard.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0018.jpg
       :alt: Open in External Viewer
@@ -244,9 +392,17 @@ Importing Screenshots to Autopsy Software
 
       Open in External Viewer
 
+   .. raw:: latex
+
+      \FloatBarrier
+
 13) The Image is Displayed
 --------------------------
    The selected image is now displayed, allowing you to view and analyze it as needed.
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    .. figure:: img/screenshot_vm_0019.jpg
       :alt: Image displayed
@@ -254,6 +410,10 @@ Importing Screenshots to Autopsy Software
       :width: 500
 
       Image displayed
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 This step-by-step guide helps you efficiently import the screenshots from the forensic virtual machine into Autopsy software for in-depth analysis, enabling a streamlined workflow and enhancing your investigation process.
 
