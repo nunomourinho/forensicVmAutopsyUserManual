@@ -100,7 +100,6 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
    .. figure:: img/start_vm_0005.jpg
       :alt: Popup indicating the machine's "snap" or link mode status.
       :align: center
-      :width: 500
 
       Machine's launch mode notification.
 
