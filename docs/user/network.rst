@@ -29,6 +29,7 @@ Enable network card using the Autopsy ForensicVM Client Plugin Interface
 .. figure:: img/network_0001.jpg
    :alt: Enabling the network card through the Autopsy ForensicVM Client interface
    :align: center
+   :width: 500
 
    Enabling the network card through the Autopsy ForensicVM Client interface
 
@@ -39,7 +40,7 @@ activation of the network card.
 
 .. figure:: img/network_0002.jpg
    :alt: Confirmation popup for network card activation
-   :align: center
+   :align: center   
 
    Confirmation popup for network card activation
 
@@ -57,6 +58,7 @@ Activating the network card can also be achieved via the Web Screen Interface. T
 .. figure:: img/network_0003.jpg
    :alt: Network Using the Web Screen Interface 
    :align: center
+   :width: 500
 
    Steps to activate the network through the Web Screen Interface 
 
@@ -67,6 +69,7 @@ Once the network card is activated, an orange notification will pop up at the to
 .. figure:: img/network_0004.jpg
    :alt: Notification of Success
    :align: center
+   :width: 500
 
    Notification confirming successful activation of the network card 
 
@@ -86,6 +89,7 @@ In Windows 10, the Network Troubleshooter can assist in diagnosing and resolving
 .. figure:: img/network_0005.jpg
    :alt: Example of network troubleshoot in Windows 10
    :align: center
+   :width: 500
 
    Using the Network Troubleshooter in Windows 10
 
@@ -126,6 +130,7 @@ The following figure demonstrates data extraction from OneDrive, a popular onlin
 .. figure:: img/network_0008.jpg
    :alt: Interact with the network and collect cloud evidence from OneDrive
    :align: center
+   :width: 500
 
     Interact with the network and collect cloud evidence from OneDrive
 
@@ -136,6 +141,7 @@ In this next example, an online file storage platform is accessed using cached c
 .. figure:: img/network_0009.jpg
    :alt: Accessing and extracting data from an online storage using cached credentials
    :align: center
+   :width: 500
    
     Accessing and extracting data from an online storage using cached credentials
 
@@ -161,6 +167,7 @@ Disable Network Card with the Autopsy ForensicVM Client Plugin Interface
 .. figure:: img/network_0006.jpg
    :alt: Disabling the network card through the Autopsy ForensicVM Client interface
    :align: center
+   :width: 500
 
     Disabling the network card through the Autopsy ForensicVM Client interface
 
@@ -178,6 +185,7 @@ The Web Screen Interface offers an alternative approach for users who prefer to 
 .. figure:: img/network_0007.jpg
    :alt: Disabling the network card using the Web Screen Interface
    :align: center
+   :width: 500
 
    Process to disable the network card using the Web Screen Interface
 
@@ -194,6 +202,7 @@ To obtain the Wireshark pcap files, follow the instructions below:
    .. figure:: img/network_0010.jpg
       :alt: Downloading pcap files
       :align: center
+      :width: 500
 
       Downloading pcap files
 
@@ -202,6 +211,7 @@ To obtain the Wireshark pcap files, follow the instructions below:
    .. figure:: img/network_0011.jpg
       :alt: Saving pcap.zip file path
       :align: center
+      :width: 500
 
       Saving pcap.zip file path
 
@@ -226,6 +236,7 @@ To obtain the Wireshark pcap files, follow the instructions below:
    .. figure:: img/network_0014.jpg
       :alt: Default pcap.zip path in explorer
       :align: center
+      :width: 500
 
       Default pcap.zip path in explorer
 
@@ -234,12 +245,14 @@ To obtain the Wireshark pcap files, follow the instructions below:
    .. figure:: img/network_0015.jpg
       :alt: Extracting pcap.zip file using 7-zip
       :align: center
+      :width: 500
 
       Extracting pcap.zip file using 7-zip
 
    .. figure:: img/network_0016.jpg
       :alt: Extraction progress
       :align: center
+      :width: 500
 
       Extraction progress
 
@@ -285,6 +298,7 @@ After extracting the pcap files, the next step is to analyze the network traffic
    .. figure:: img/network_0017.jpg
       :alt: Selecting pcap file for analysis
       :align: center
+      :width: 500
 
       Selecting pcap file for analysis
 
@@ -293,6 +307,7 @@ After extracting the pcap files, the next step is to analyze the network traffic
    .. figure:: img/network_0018.jpg
       :alt: Wireshark interface displaying captured traffic
       :align: center
+      :width: 500
 
        Wireshark interface displaying captured traffic
 
@@ -301,8 +316,9 @@ After extracting the pcap files, the next step is to analyze the network traffic
    .. figure:: img/network_0019.jpg
       :alt: Example of analyzing cloud traffic in Wireshark
       :align: center
+      :width: 500
 
-       Example of analyzing cloud traffic in Wireshark
+      Example of analyzing cloud traffic in Wireshark
 
 .. note::
 
