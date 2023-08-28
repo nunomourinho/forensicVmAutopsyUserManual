@@ -13,6 +13,7 @@ To reset the forensicVM from the main plugin interface, follow these simple step
    .. figure:: img/reset_vm_0001.jpg
       :alt: Reset VM on the main interface
       :align: center
+      :width: 500
 
       Reset VM on the main interface
 
@@ -29,6 +30,7 @@ To reset the forensicVM through the web remote screen interface, you need to:
    .. figure:: img/reset_vm_0002.jpg
       :alt: Reset VM on the web remote screen
       :align: center
+      :width: 500
 
       Reset VM on the web remote screen
 
@@ -46,6 +48,7 @@ Another option to reset the forensicVM is from the web interface. This method ma
    .. figure:: img/reset_vm_0003.jpg
       :alt: Reset VM on web interface
       :align: center
+      :width: 500
 
       Reset VM on the web interface
 
