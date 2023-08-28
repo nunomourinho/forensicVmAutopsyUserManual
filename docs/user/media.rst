@@ -48,6 +48,10 @@ When conducting a forensic investigation, specialized tools are often required t
 
 - Click the "Browse and Upload" button.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/upload_iso_0001.jpg
    :alt: Browse and Upload
    :align: center
@@ -55,9 +59,17 @@ When conducting a forensic investigation, specialized tools are often required t
 
    Browse and Upload
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 3: Locate and Select the ISO File**
 
 - Browse your computer's directories and select the desired ISO file to upload.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/upload_iso_0002.jpg
    :alt: Locate and Select the ISO File
@@ -66,9 +78,17 @@ When conducting a forensic investigation, specialized tools are often required t
 
    Locate and Select the ISO File
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 4: Upload Confirmation**
 
 The upload process might take some time, depending on the size of the ISO file. There's no progress bar available currently, so please be patient and wait for a confirmation message to appear, indicating a successful upload.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/upload_iso_0003.jpg
    :alt: Upload Confirmation
@@ -76,6 +96,10 @@ The upload process might take some time, depending on the size of the ISO file. 
    :width: 200
 
    Upload Confirmation
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. note::
    
@@ -85,6 +109,10 @@ The upload process might take some time, depending on the size of the ISO file. 
 
 Once uploaded, you should be able to see the ISO file listed in the ISO Management section of the ForensicVM server. This ensures your tools are now ready to be utilized in your ongoing investigation.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/upload_iso_0004.jpg
    :alt: Verifying the Uploaded ISO
    :align: center
@@ -92,6 +120,9 @@ Once uploaded, you should be able to see the ISO file listed in the ISO Manageme
 
    Verifying the Uploaded ISO
 
+.. raw:: latex
+
+   \FloatBarrier
 
 List Remote ISO Files
 ----------------------
@@ -118,10 +149,18 @@ Using the Autopsy ForensicVM Client Plugin
 - Browse through the list to review available tools and resources.
 - If you find any tools missing or outdated, consider downloading or creating the necessary ISO files, and then upload them to the ForensicVM Server.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/list_remote_iso_0001.jpg
    :alt: Viewing Remote ISO Files using Autopsy ForensicVM Client Plugin
    :align: center
    :width: 600
+
+.. raw:: latex
+
+   \FloatBarrier
 
    Viewing Remote ISO Files using Autopsy ForensicVM Client Plugin
 
@@ -142,12 +181,20 @@ Method 1: Using the Web Interface
 - Click on the **ISO Dropdown**.
 - This dropdown will display a list of all ISO files stored on the ForensicVM server, which can be utilized as virtual CD-ROMs.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/list_remote_iso_0002.jpg
    :alt: Viewing Remote ISO Files using the Web Interface
    :align: center
    :width: 600
 
    Viewing Remote ISO Files using the Web Interface
+
+.. raw:: latex
+
+   \FloatBarrier
 
 Insert ISO / Web Insert CD-ROM
 --------------------------------
@@ -172,12 +219,20 @@ Using the Autopsy ForensicVM Client Plugin
 - Locate and click the **Insert** button. This action will mount the selected ISO file as a virtual CD-ROM within the ForensicVM environment.
 - Upon successful insertion, a success popup will appear, confirming the action.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/insert_iso_0001.jpg
    :alt: Inserting ISO using the Autopsy ForensicVM Client Plugin
    :align: center
    :width: 600
 
    Inserting ISO using the Autopsy ForensicVM Client Plugin
+
+.. raw:: latex
+
+   \FloatBarrier
 
 Using the Web Interface
 *************************
@@ -202,12 +257,20 @@ Using the Web Interface
 - This action mounts the chosen ISO as a virtual CD-ROM.
 - A success notification will appear, signaling that the insertion was successful.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/insert_iso_0002.jpg
    :alt: Inserting ISO using the Web Interface
    :align: center
    :width: 600
 
    Inserting ISO using the Web Interface
+
+.. raw:: latex
+
+   \FloatBarrier
 
 
 Run programs and utilities from ISO
@@ -221,6 +284,10 @@ After successfully uploading and inserting an ISO into the virtualized forensic 
 - Locate the virtual CD-ROM drive which should appear similar to a physical CD-ROM drive.
 - Open the drive to view its contents.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/run_iso_0001.jpg
    :alt: Locating the Virtual CD-ROM Drive
    :align: center
@@ -228,10 +295,18 @@ After successfully uploading and inserting an ISO into the virtualized forensic 
 
    Locating the Virtual CD-ROM Drive
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 2: Identify and Launch the Desired Tool**
 
 - Inside the virtual CD-ROM content, sift through the directories and files to locate the specific program or tool you intend to run.
 - Once found, initiate the program or utility. Depending on the nature of the tool, you might have to run it as an administrator or follow specific launch procedures.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/run_iso_0002.jpg
    :alt: Launching Tools from the ISO
@@ -240,11 +315,19 @@ After successfully uploading and inserting an ISO into the virtualized forensic 
 
    Launching Tools from the ISO
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 3: Adhere to the Program's Instructions**
 
 - Each forensic tool or utility will have its set of instructions, either embedded within its interface or provided as a separate README file.
 - Follow these instructions meticulously to ensure accurate and efficient processing.
 - Should your investigation involve extracting or marking potential evidence, utilize the "Possible Evidence" virtual drive. This virtual drive is specially designed within ForensicVM to store and segregate potential pieces of evidence without contaminating the original data.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/run_iso_0003.jpg
    :alt: Using the Program within ForensicVM
@@ -252,6 +335,10 @@ After successfully uploading and inserting an ISO into the virtualized forensic 
    :width: 600
 
    Using the Program within ForensicVM
+
+.. raw:: latex
+
+   \FloatBarrier
 
 Bootable Media
 ---------------
@@ -277,6 +364,10 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup (BIOS showcase)
    
    While the example showcases a user login, you don't necessarily need to log in. Simply booting into the operating system is sufficient.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/boot_iso_0001.jpg
    :alt: Operating System Boot Screen
    :align: center
@@ -284,9 +375,17 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup (BIOS showcase)
 
    Operating System Boot Screen
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 2: Insert the Virtual Bootable CD-ROM**
 
 - Adhere to the previous guidelines to insert the virtual media into the CD-ROM drive.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0002.jpg
    :alt: Inserting Virtual Media
@@ -295,9 +394,17 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup (BIOS showcase)
 
    Inserting Virtual Media
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 3: Initiate a System Restart**
 
 - Command the operating system to restart and wait for the BIOS boot screen to emerge.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0003.jpg
    :alt: System Restart
@@ -306,9 +413,17 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup (BIOS showcase)
 
    System Restart
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 4: Access Boot Options with "ESC"**
 
 - As the system initializes, press the "ESC" key within a 15-second window to access the boot options.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0004.jpg
    :alt: Boot Options Screen
@@ -317,9 +432,17 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup (BIOS showcase)
 
    Boot Options Screen
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 5: Opt for the Virtual CD-ROM Drive**
 
 - From the available boot options, select the corresponding number for the virtual CD-ROM or DVD-ROM drive. For instance, in the example given, you'd press "4".
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0005.jpg
    :alt: Selecting Virtual CD-ROM
@@ -328,9 +451,17 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup (BIOS showcase)
 
    Selecting Virtual CD-ROM
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 6: Boot into the ISO**
 
 - If the operations proceed without hitches, the virtual media will boot. Depending on the media's nature, it might present a selection menu or lead straight to its primary function.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0006.jpg
    :alt: Booting into ISO
@@ -339,9 +470,17 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup (BIOS showcase)
 
    Booting into ISO
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 7: Operate the Booted Tools**
 
 - With the ISO booted, you can now access and employ the forensic tools contained therein, tailoring your investigative approach based on the utilities available.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0007.jpg
    :alt: Accessing Tools from Booted ISO
@@ -349,6 +488,10 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup (BIOS showcase)
    :width: 600
 
    Accessing Tools from Booted ISO
+
+.. raw:: latex
+
+   \FloatBarrier
 
 Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
 ******************************************************************
@@ -358,6 +501,10 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
 - Power on the ForensicVM.
 - Rapidly access the web interface and press the "ESC" key to intercept the boot sequence.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/boot_iso_0008.jpg
    :alt: Accessing UEFI Boot Options
    :align: center
@@ -365,9 +512,17 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
 
    Accessing UEFI Boot Options
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 2: Insert the Bootable ISO into Virtual CD-ROM**
 
 - Load your desired bootable ISO into the virtual CD-ROM. Refer to the previously provided steps if needed.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0009.jpg
    :alt: Inserting Bootable ISO
@@ -376,9 +531,17 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
 
    Inserting Bootable ISO
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 3: Acknowledge the Successful Insertion Notification**
 
 - The web console screen should display a "Insert media sent" message, confirming the ISO's successful insertion into the drive.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0010.jpg
    :alt: Successful Insertion Notification
@@ -387,9 +550,17 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
 
    Successful Insertion Notification
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 4: Command a Reset of ForensicVM**
 
 - Trigger a system reset by clicking the "Reset" button. The ForensicVM will undergo a reboot process.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0011.jpg
    :alt: Resetting ForensicVM
@@ -398,9 +569,17 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
 
    Resetting ForensicVM
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 5: Navigate to UEFI Menu**
 
 - Upon reboot, press the "ESC" key once more. This will usher you into the UEFI menu.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0012.jpg
    :alt: Accessing UEFI Menu
@@ -409,9 +588,17 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
 
    Accessing UEFI Menu
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 6: Opt for "Boot Manager"**
 
 - In the UEFI menu, navigate to the "Boot Manager" using arrow keys and confirm your selection with the <ENTER> key.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0016.jpg
    :alt: Selecting Boot Manager
@@ -420,9 +607,17 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
 
    Selecting Boot Manager
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 7: Choose "UEFI QEMU DVD-ROM"**
 
 - From the available options, locate and select "UEFI QEMU DVD-ROM". Use the arrow keys for navigation and confirm with <ENTER>.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0013.jpg
    :alt: UEFI QEMU DVD-ROM Option
@@ -431,9 +626,17 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
 
    UEFI QEMU DVD-ROM Option
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 8: Await the Virtual CD-ROM Boot Sequence**
 
 - If a selection menu is presented, choose the appropriate option. If not, patiently wait as the ForensicVM initializes the ISO media.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0014.jpg
    :alt: Virtual CD-ROM Booting
@@ -442,9 +645,17 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
 
    Virtual CD-ROM Booting
 
+.. raw:: latex
+
+   \FloatBarrier
+
 **Step 9: Access and Execute Forensic Tools**
 
 - Once booted, you can now select and run your preferred forensic tools. This example demonstrates utilizing forensic tools from Kali Linux.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/boot_iso_0015.jpg
    :alt: Kali Linux Forensic Tools
@@ -452,6 +663,10 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
    :width: 600
 
    Kali Linux Forensic Tools
+
+.. raw:: latex
+
+   \FloatBarrier
 
 
 Eject ISO / Web Eject CD-ROM
@@ -471,12 +686,20 @@ Method 1: Eject using the Autopsy ForensicVM Client Plugin Interface
 
 - Click on the "Eject" button. A confirmation will appear, indicating that the media has been successfully ejected.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/eject_iso_0001.jpg
    :alt: Ejecting via Autopsy ForensicVM Client Plugin
    :align: center
    :width: 600
 
    Ejecting via Autopsy ForensicVM Client Plugin
+
+.. raw:: latex
+
+   \FloatBarrier
 
 
 Method 2: Eject using the Web Screen Interface
@@ -494,12 +717,20 @@ Method 2: Eject using the Web Screen Interface
 
 - Click the "Remove Media" button (marked as "3" in the reference image). The media will subsequently be disengaged from the virtual CD-ROM drive.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/eject_iso_0002.jpg
    :alt: Ejecting via Web Screen Interface
    :align: center
    :width: 600
 
    Ejecting via Web Screen Interface
+
+.. raw:: latex
+
+   \FloatBarrier
 
 Delete ISO Using the Autopsy ForensicVM Client Plugin Interface
 ---------------------------------------------------------------------
@@ -512,12 +743,20 @@ To delete an ISO file, follow the steps below:
 
 **Step 3:** Click on the "Delete" button associated with the desired ISO file.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/delete_iso_0001.jpg
    :alt: Deleting an ISO Media
    :align: center
    :width: 600
 
    Deleting an ISO Media
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. warning::
 
