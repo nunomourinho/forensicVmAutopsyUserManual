@@ -63,12 +63,20 @@ It is highly recommended to create your first snapshot immediately after the mac
    
     - Click on the "Create new" button located within the Snapshot management area.
 
+    .. raw:: latex
+
+       \FloatBarrier
+
     .. figure:: img/create_snapshot_0001.jpg
        :alt: Screenshot showcasing the 'Create new' button in the Snapshot management section.
        :align: center
        :width: 500
 
        A visual representation of the 'Create new' button used for initiating a snapshot creation in the Autopsy ForensicVM Client interface.
+
+    .. raw:: latex
+
+       \FloatBarrier
 
 Once you've successfully created a snapshot, it will be saved and listed in the Snapshot management section. You can then access this snapshot whenever needed to revert your ForensicVM to that particular state.
 
@@ -87,12 +95,20 @@ While the Autopsy ForensicVM Client interface typically auto-updates to display 
    - Look for the "List Remote Snapshots" button. This button is specifically designed to fetch the list of snapshots from the remote server and display them within the interface.
    - Click on the "List Remote Snapshots" button to initiate the listing process.
 
+    .. raw:: latex
+
+       \FloatBarrier
+
     .. figure:: img/list_snapshot_0001.jpg
        :alt: Screenshot showcasing the 'List Remote Snapshots' button in the Snapshot management section.
        :align: center
        :width: 500
 
        A visual guide highlighting the 'List Remote Snapshots' button within the Autopsy ForensicVM Client interface.
+
+    .. raw:: latex
+
+       \FloatBarrier
 
 Once clicked, the interface should update and display all the remote snapshots associated with the current ForensicVM. If any issues persist, ensure that the ForensicVM Client has proper network access and permissions to communicate with the remote server.
 I've expanded on the process by offering a bit more context and breaking down the steps in a detailed manner.
@@ -116,10 +132,18 @@ If you ever find yourself needing to undo changes and revert the forensicVM to a
 
    - With the desired snapshot selected, locate and click the *rollback* button.
 
+    .. raw:: latex
+
+       \FloatBarrier
+
     .. figure:: img/rollback_snapshot_0001.jpg
        :alt: Screenshot showcasing the rollback process in the Snapshot management section.
        :align: center
        :width: 500
+
+    .. raw:: latex
+
+       \FloatBarrier
 
 .. warning::
 
@@ -157,12 +181,20 @@ Snapshots can become redundant or unnecessary over time, and you might want to r
    - Find and click on the button labeled *Delete ???*.
    - A confirmation popup will appear to ensure that you truly want to delete the selected snapshot. If certain, proceed by pressing the "OK" button.
 
+    .. raw:: latex
+
+       \FloatBarrier
+
     .. figure:: img/delete_snapshot_0001.jpg
        :alt: Deleting a snapshot from the interface.
        :align: center
        :width: 500
 
     Snapshot Deletion Interface
+
+    .. raw:: latex
+
+       \FloatBarrier
 
 .. warning::
 
