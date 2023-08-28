@@ -78,6 +78,7 @@ Forensic investigations often require an adaptable approach, and the ability to 
     .. figure:: img/list_plugins_0001.jpg
        :alt: Interface displaying the 'List Remote Plugins' button for updating and viewing available plugins.
        :align: center
+       :width: 500
 
        Browsing and refreshing the available plugins
 
@@ -109,6 +110,7 @@ The capability to execute plugins enhances the versatility of the ForensicVM, al
     .. figure:: img/run_plugin_0001.jpg
        :alt: Running a plugin
        :align: center
+       :width: 500
 
        Running a plugin
 
