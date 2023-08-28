@@ -10,6 +10,7 @@ There are two main ways to access the started forensicVM, each catering to diffe
    .. figure:: img/open_vm_0001.jpg
       :alt: Open forensicVM on the main interface
       :align: center
+      :width: 500
 
       Open forensicVM on the main interface   
 
@@ -20,6 +21,7 @@ There are two main ways to access the started forensicVM, each catering to diffe
    .. figure:: img/open_vm_0002.jpg
       :alt: Open forensicVM on the web interface
       :align: center
+      :width: 500
 
       Open forensicVM on the web interface
 
@@ -37,6 +39,7 @@ There are two main ways to access the started forensicVM, each catering to diffe
    .. figure:: img/open_vm_0003.jpg
       :alt: Open forensicVM main screen
       :align: center
+      :width: 500
 
       Open forensicVM main screen on the web interface
 
