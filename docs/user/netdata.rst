@@ -31,6 +31,7 @@ You can open it from the Autopsy ForensicVM Client Plugin:
 .. figure:: img/netdata_0001.jpg
    :alt: Opening Netdata through Autopsy
    :align: center
+   :width: 500
 
    Opening Netdata through Autopsy
 
@@ -39,6 +40,7 @@ Or, use the ForensicVM main web page:
 .. figure:: img/netdata_0002.jpg
    :alt: Opening Netdata from the main page
    :align: center
+   :width: 500
 
    Opening Netdata from the main page
 
@@ -50,6 +52,7 @@ Example of what you see:
 .. figure:: img/netdata_0003.jpg
    :alt: Netdata Dashboard view
    :align: center
+   :width: 500
 
    Netdata Dashboard view
 
