@@ -75,12 +75,20 @@ Forensic investigations often require an adaptable approach, and the ability to 
 2. **Refresh the Plugin List**:
    To get the most recent list of plugins, simply click on the **List Remote Plugins** button. This action fetches and displays all available plugins from the remote repository, ensuring you're working with the latest toolset.
 
+    .. raw:: latex
+
+       \FloatBarrier
+
     .. figure:: img/list_plugins_0001.jpg
        :alt: Interface displaying the 'List Remote Plugins' button for updating and viewing available plugins.
        :align: center
        :width: 500
 
        Browsing and refreshing the available plugins
+
+    .. raw:: latex
+
+       \FloatBarrier
 
 Executing Plugins
 ------------------
@@ -107,12 +115,20 @@ The capability to execute plugins enhances the versatility of the ForensicVM, al
 4. **Review the Plugin Output**:
    Post execution, it's vital to inspect the results and logs. These can be found within the **Output Console** tab.
 
+    .. raw:: latex
+
+       \FloatBarrier
+
     .. figure:: img/run_plugin_0001.jpg
        :alt: Running a plugin
        :align: center
        :width: 500
 
        Running a plugin
+
+    .. raw:: latex
+
+       \FloatBarrier
 
 .. warning::
 
