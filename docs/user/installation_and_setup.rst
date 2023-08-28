@@ -81,6 +81,7 @@ Step 1: In Autopsy: Add a new data source to Autopsy. This new data source is th
  .. figure:: img/setup_0001.jpg
     :alt: Add data source
     :align: center
+    :width: 500
 
     Add a new data source to Autopsy
 
@@ -92,6 +93,7 @@ Step 2: Select your Disk Image
 .. figure:: img/setup_0002.jpg
    :alt: Disk Image
    :align: center
+   :width: 500
 
    Disk Image
 
@@ -104,6 +106,7 @@ Step 3: Select your forensic image
 .. figure:: img/setup_0003.jpg
    :alt: Forensic Image Selection
    :align: center
+   :width: 500
 
    Forensic Image Selection
 
@@ -116,6 +119,7 @@ Step 4: Run the ForensicVM client plugin
 .. figure:: img/setup_0004.jpg
    :alt: Select data source
    :align: center
+   :width: 500
 
    Select Datasource
 
@@ -138,6 +142,7 @@ Step 6: Add  a new user
 .. figure:: img/setup_0006.jpg
    :alt: Add user
    :align: center
+   :width: 500
 
    Add user
 
@@ -151,6 +156,7 @@ Step 7: Add  a new api key to the user
 .. figure:: img/setup_0007.jpg
    :alt: Add API key to user
    :align: center
+   :width: 500
 
    Add API key to user
 
@@ -162,6 +168,7 @@ Step 8: Copy the user API key
 .. figure:: img/setup_0008.jpg
    :alt: Copy user api key
    :align: center
+   :width: 500
 
    Copy user API key
 
@@ -173,6 +180,7 @@ Step 9: Paste the user API key
 .. figure:: img/setup_0009.jpg
    :alt: Past user API key
    :align: center
+   :width: 500
 
    Paste the user API key
 
@@ -185,6 +193,7 @@ Step 10: Fill and test the Forensic VM Server configuration
 .. figure:: img/setup_0010.jpg
    :alt: Fill and test forensic VM
    :align: center
+   :width: 500
 
    Fill and test forensic VM Server Configuration
 
@@ -196,6 +205,7 @@ Step 11: Forensic VM Server configuration test success
 .. figure:: img/setup_0011.jpg
    :alt: Forensic VM Server Connection test
    :align: center
+   :width: 500
 
    Forensic VM server connection test
 
@@ -208,6 +218,7 @@ Step 12: Configure Windows Share over Forensic SSH Server Redirection
 .. figure:: img/setup_0012.jpg
    :alt: Configure and copy SSH key to the server
    :align: center
+   :width: 500
 
    Configure and copy the ssh key to the server
 
@@ -219,6 +230,7 @@ Step 13: Windows Share over Forensic SSH copy ssh key status
 .. figure:: img/setup_0013.jpg
    :alt: Copy ssh key status
    :align: center
+   :width: 500
 
    Copy ssh key status
 
@@ -233,6 +245,7 @@ Step 14: Testing Windows Share over Forensic SSH Server Redirection
 .. figure:: img/setup_0014.jpg
    :alt: Test Windows share over ssh
    :align: center
+   :width: 500
 
    Test windows share over ssh
 
@@ -243,6 +256,7 @@ Step 15: Configure windows share over ssh
 .. figure:: img/setup_0015.jpg
    :alt: Configure windows share over ssh
    :align: center
+   :width: 500
 
    Configure windows share over ssh
 
@@ -253,6 +267,7 @@ Step 16: Configure the share login and the share password
 .. figure:: img/setup_0016.jpg
    :alt: Configure the share login and the Share password
    :align: center
+   :width: 500
 
    Share login and the share password configuration
 
@@ -263,6 +278,7 @@ Step 17: Create Share Button
 .. figure:: img/setup_0017.jpg
    :alt: Create a share button
    :align: center
+   :width: 500
 
    Create share button
 
@@ -274,6 +290,7 @@ Step 18: Create a share Dialog
 .. figure:: img/setup_0018.jpg
    :alt: Create share command window
    :align: center
+   :width: 500
 
    Create a share command window
 
@@ -284,6 +301,7 @@ Step 19: Testing the forensicVM image Windows share over ssh
 .. figure:: img/setup_0019.jpg
    :alt: Testing the forensicVM image Windows share over ssh
    :align: center
+   :width: 500
 
    Testing the forensicVM image Windows share over ssh
 
