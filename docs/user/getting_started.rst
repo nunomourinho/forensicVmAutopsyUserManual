@@ -12,22 +12,38 @@ Navigating the Interface
 
 Your first step is to run the ForensicVM Client Plugin in Autopsy Software. The main interface will open. Manage this by right-clicking the datasource and choosing "Run Ingest Modules". After this, the Forensic Client Plugin main program interface will open.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/infographics_0000.jpg
    :name: interface-overview
    :alt: Overview of ForensicVM Interface
 
    Overview of ForensicVM Interface
 
+.. raw:: latex
+
+   \FloatBarrier
+
 Autopsy ForensicVM Client Plugin: A Comprehensive Interface Guide
 ---------------------------------------------------------------
 
 The Autopsy ForensicVM Client Plugin serves as a pivotal hub for forensic analysts. This interface is designed for interactive engagement with forensic images, subsequently allowing users to transform these images into a forensic virtual machine (ForensicVM). Here's a breakdown of its primary functionalities on the Autopsy ForensicVM Client Plugin main interface:
+
+.. raw:: latex
+
+   \FloatBarrier
 
 .. figure:: img/infographics_0001.jpg
    :name: Autopsy-ForensicVM-Plugin
    :alt: Autopsy ForensicVM Client Plugin
 
    Autopsy ForensicVM Client Plugin Main
+
+.. raw:: latex
+
+   \FloatBarrier
 
 
 
@@ -192,10 +208,18 @@ Webscreen Console Main Area
 
 The following figure elucidates the available options:
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/infographics_0002.jpg
    :alt: Overview of the ForensicVM Webscreen Console
 
    Overview of the ForensicVM Webscreen Console functionalities.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 - **(1) Control bar open icon**: By clicking on this icon, users can unveil the auto-hiding control bar that seamlessly overlays the main screen, bestowing access to an assortment of functionalities.
 - **(2) Notification area**: Strategically positioned at the top, this zone is dedicated to presenting error, notification, and warning messages.
@@ -207,11 +231,19 @@ ForensicVM Webscreen Console Control Toolbar
 
 Upon clicking the control bar open icon, users are presented with the Control Toolbar, illustrated below:
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/infographics_0003.jpg
    :name: control-toolbar-overview
    :alt: Overview of the Control Toolbar in ForensicVM Webscreen Console
 
    Overview of the Control Toolbar in ForensicVM Webscreen Console
+
+.. raw:: latex
+
+   \FloatBarrier
 
 The Control Toolbar facilitates the following actions:
 
@@ -243,11 +275,19 @@ If you find that the screen appears cropped or that certain parts of the interfa
 3. **Modify Scaling Mode**:
    - **Scaling Mode Adjustment**: Inside the settings, find the option labeled **"Scaling mode."** From the available choices, select **"Local Scaling."** This adjustment ensures the interface perfectly fits within your screen, displaying all elements in their entirety.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/infographics_0005.jpg
    :alt: Altering webscreen scaling to local scaling for complete visibility.
    :align: center
 
    A visual representation showcasing the process of adjusting the webscreen scaling to "Local Scaling" for an optimized, full-screen experience.
+
+.. raw:: latex
+
+   \FloatBarrier
 
 
 ForensicVM Server Web Control Interface
@@ -255,10 +295,18 @@ ForensicVM Server Web Control Interface
 
 For enhanced collaboration, remote forensic investigators have the capability to log into a dedicated web interface. This platform not only facilitates shared control of the remote web interface but also empowers multiple investigators to access the same ForensicVM simultaneously. This multi-user functionality enables diverse investigative actions such as capturing screenshots, collecting potential evidences onto the evidence disk, and initiating video recordings.
 
+.. raw:: latex
+
+   \FloatBarrier
+
 .. figure:: img/infographics_0004.jpg
    :alt: A visual representation of the ForensicVM Server Web Control Interface
 
    A visual representation of the ForensicVM Server Web Control Interface
+
+.. raw:: latex
+
+   \FloatBarrier
 
 Interface Breakdown:
 
