@@ -10,12 +10,20 @@ To shut down the forensicVM from the main plugin interface, follow these simple 
 
    a) Locate the shutdown button on the main interface as depicted in the figure below.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/shutdown_vm_0001.jpg
       :alt: Shut down VM on the main interface
       :align: center
       :width: 500
 
       Shut down VM on the main interface
+
+   .. raw:: latex
+
+      \FloatBarrier
 
    b) Press the shutdown button to deactivate the virtual machine.
 
@@ -26,6 +34,10 @@ To shut down the forensicVM through the web remote screen interface, you need to
 
    1) Locate the shutdown icon.
    2) Press the shutdown button to deactivate the virtual machine.
+
+   .. raw:: latex
+
+      \FloatBarrier
    
    .. figure:: img/shutdown_vm_0002.jpg
       :alt: Login on the main web interface
@@ -33,6 +45,10 @@ To shut down the forensicVM through the web remote screen interface, you need to
       :width: 500
 
       Login on the main web interface
+
+   .. raw:: latex
+
+      \FloatBarrier
 
 
 3) Shut Down ForensicVM on the Web Interface
@@ -46,12 +62,20 @@ Another option to shut down the forensicVM is from the web remote screen. This m
 
    c) Locate and click the shutdown button, as shown in the figure below.
 
+   .. raw:: latex
+
+      \FloatBarrier
+
    .. figure:: img/shutdown_vm_0003.jpg
       :alt: Shut down VM on web interface
       :align: center
       :width: 500
 
       Shut down VM on the web interface
+
+   .. raw:: latex
+
+      \FloatBarrier
 
   
 These three methods ensure that you can shut down the forensicVM from various points in the system, allowing for seamless control depending on your needs and preferences.
