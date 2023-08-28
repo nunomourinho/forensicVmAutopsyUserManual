@@ -39,6 +39,7 @@ Press the button labeled "Make and Download Memory Dump" to initiate the process
 .. figure:: img/memory_dump_0001.jpg
    :alt: Press "Make and Download Memory Dump" button
    :align: center
+   :width: 500
 
    Press "Make and Download Memory Dump" button
 
@@ -49,6 +50,7 @@ Choose the default forensicVM image case path to save the memory dump.
 .. figure:: img/memory_dump_0002.jpg
    :alt: Save the memory dump
    :align: center
+   :width: 500
 
    Save the memory dump
 
@@ -59,6 +61,7 @@ Keep track of the download progress, including an estimated time remaining for t
 .. figure:: img/memory_dump_0003.jpg
    :alt: Memory Download progress
    :align: center
+   :width: 500
 
    Memory Download progress
 
@@ -69,6 +72,7 @@ A success message will appear, stating that the memory was saved as "memory.dump
 .. figure:: img/memory_dump_0005.jpg
    :alt: Success message
    :align: center
+   :width: 500
 
    Success message
 
@@ -79,6 +83,7 @@ The Windows explorer will open automatically, displaying the folder containing t
 .. figure:: img/memory_dump_0006.jpg
    :alt: Windows explorer open on the memory dump folder
    :align: center
+   :width: 500
 
    Windows explorer open on the memory dump folder
 
@@ -127,6 +132,7 @@ Start by locating the memory dump file on your system. Open Windows Explorer, na
 .. figure:: img/memory_dump_0007.jpg
    :alt: Copy the path of the memory dump
    :align: center
+   :width: 500
 
    Copy the path of the memory dump
 
@@ -137,6 +143,7 @@ Open Autopsy and initiate the process of adding a new data source by pressing th
 .. figure:: img/memory_dump_0008.jpg
    :alt: Press "Add Data Source"
    :align: center
+   :width: 500
 
    Press "Add Data Source"
 
@@ -147,6 +154,7 @@ You will be prompted to select a host, which is the computer or device where the
 .. figure:: img/memory_dump_0009.jpg
    :alt: Select the host
    :align: center
+   :width: 500
 
    Select the host
 
@@ -157,6 +165,7 @@ In this step, you will specify the type of data you are importing. Select "Memor
 .. figure:: img/memory_dump_0010.jpg
    :alt: Select Memory Image File (Volatility)
    :align: center
+   :width: 500
 
    Select Memory Image File (Volatility)
 
@@ -167,6 +176,7 @@ A file browser window will appear. Click the "Browse" button, navigate to the lo
 .. figure:: img/memory_dump_0011.jpg
    :alt: Click "Browse" button
    :align: center
+   :width: 500
 
    Click "Browse" button
 
@@ -177,6 +187,7 @@ Once you have located the "memory.dump" file, select it by clicking on it, then 
 .. figure:: img/memory_dump_0012.jpg
    :alt: Paste and select the memory.dump file
    :align: center
+   :width: 500
 
    Paste and select the memory.dump file
 
@@ -187,6 +198,7 @@ You will now be asked to configure several settings specific to your analysis. S
 .. figure:: img/memory_dump_0013.jpg
    :alt: Configure settings
    :align: center
+   :width: 500
 
    Configure settings
 
@@ -197,6 +209,7 @@ Deselect all plugins in this step. Then, press "Next."
 .. figure:: img/memory_dump_0014.jpg
    :alt: Deselect plugins
    :align: center
+   :width: 500
 
    Deselect plugins
 
@@ -207,6 +220,7 @@ This step may take some time, as Autopsy processes the memory dump. Depending on
 .. figure:: img/memory_dump_0015.jpg
    :alt: Ingesting memory
    :align: center
+   :width: 500
 
    Ingesting memory
 
@@ -217,6 +231,7 @@ Upon completion, a dialog will appear, summarizing the process and any issues en
 .. figure:: img/memory_dump_0016.jpg
    :alt: Press "Finish"
    :align: center
+   :width: 500
 
    Press "Finish"
 
@@ -227,6 +242,7 @@ With the import process complete, you can now find the imported memory dump with
 .. figure:: img/memory_dump_0017.jpg
    :alt: Locate and browse the memory dump
    :align: center
+   :width: 500
 
    Locate and browse the memory dump
 
