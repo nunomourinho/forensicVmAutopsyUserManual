@@ -283,3 +283,45 @@ Glossary
 
    ForensicVM Server Web Control Interface
       A web interface designed for remote forensic investigators to collaborate and control the ForensicVM.
+
+   ForensicVM
+      A tool designed to simplify the digital forensics investigation process by allowing the virtualization and management of forensic images.
+
+   Client
+      Provides a user-friendly interface for managing forensic images. It allows users to create, run, and decommission instances as per their needs.
+
+   Hypervisor
+      Responsible for the execution of virtualized forensic images. Manages resources and ensures isolation between different instances.
+
+   Forensic Image
+      A digital snapshot or copy of a storage device, preserving both the structure and content. It's crucial for digital forensic investigations.
+
+   Interface
+      The user-friendly platform of ForensicVM that presents various features and tools systematically.
+
+   Autopsy Interface
+      The interface from which features tailored to aid forensic analysts can be accessed.
+
+   Plugin
+      Extensions that provide specific functionalities to ForensicVM. The plugin architecture fosters community involvement and functionality expansion.
+
+   Memory Dump
+      A snapshot of the content of computer memory. Used in forensic analysis to review the state of the system at a particular time.
+
+   Netdata
+      A tool for real-time health monitoring and performance troubleshooting for systems.
+
+   Wireshark
+      A network packet analyzer. It captures network packets in real-time and displays them in human-readable format.
+
+   WebShell
+      A script that can be uploaded to a web server to enable remote administration of the machine.
+
+   Password Administration
+      Tools or methods to reset forgotten passwords or generate new administrator accounts.
+
+   Hibernate File Management
+      Tools or methods to manage or remove hibernation files.
+
+   Data Extraction and Analysis
+      Tools or functionalities that help to extract and analyze data from a forensic image.
