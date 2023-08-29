@@ -58,3 +58,33 @@ Glossary
    TTPs (Tactics, Techniques, and Procedures)
       Patterns of activities or methods associated with a specific threat actor or group of threat actors.
 
+   Autopsy ForensicVM plugin
+      A specific plugin for the Autopsy framework that aids in the forensic analysis of VMs.
+
+   Autopsy framework
+      A platform used for conducting digital investigations, such as for analyzing disk images or VM files.
+
+   Data source
+      Specific input or evidence, such as a disk image or VM file, which will be analyzed within the forensic tool.
+
+   Host configuration
+      The settings that determine how the data source is treated or processed within a forensic analysis environment.
+
+   Disk Image or VM File
+      A type of data source that represents either a snapshot of a disk or a virtual machine image.
+
+   Forensic image
+      A digital copy of a device's storage, used for the purpose of forensic investigation.
+
+   Sector size
+      A fundamental unit of data storage on a disk, usually specified in bytes (e.g., 512 bytes).
+
+   Python Ingest Plugin
+      A plugin in Autopsy used to automate the ingestion of data from a data source.
+
+   ForensicVM Client plugin
+      A specialized tool within the Autopsy ForensicVM plugin suite that aids in the forensic analysis of virtual machines.
+
+   ForensicVM Loader
+      Part of the ForensicVM toolset that initializes the forensic analysis environment for VM analysis.
+
