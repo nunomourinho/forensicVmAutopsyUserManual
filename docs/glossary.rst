@@ -373,3 +373,39 @@ Glossary
 
    ForensicVM Loader
       A component of the ForensicVM plugin responsible for initializing and setting up the environment for VM analysis.
+
+   Autopsy ForensicVM Plugin
+      A tool used for VM forensic analysis and integration within the Autopsy framework.
+
+   Direct Copy to Server
+      A method that duplicates the forensic image, creating a new forensic virtual machine on the server. 
+
+   Link Creation
+      A method where a link is established between the local forensic image and a new VM on the server.
+
+   forensicVM
+      Forensic Virtual Machine created for investigations.
+
+   SSH Connection
+      Secure Shell connection; a cryptographic network protocol for secure data communication.
+
+   samba CIFS share
+      A type of shared resource that can be accessed by other computers. Known as Windows share.
+
+   qcow2 format
+      A popular disk image format used in KVM virtualization.
+
+   KVM
+      Kernel-based Virtual Machine, a virtualization infrastructure for the Linux kernel.
+
+   Fallback Conversion
+      A backup method of conversion for unidentified OS.
+
+   MS-DOS Command Window
+      A command-line interface available in older versions of Windows.
+
+   KVM drivers
+      Drivers optimized for KVM virtualization.
+
+   ForensicVM Web Screen Interface
+      A web-based interface that lets users interact with the forensicVM directly.
