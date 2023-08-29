@@ -458,5 +458,56 @@ Glossary
    Web Remote Screen
       A specific section of the web interface tailored for remote access.
 
-   “Virtualize b) Link to VM”
-      An option to convert a forensic image to a forensic virtual machine by establishing a link.
+   Autopsy Plugin Interface
+      The UI within the Autopsy framework that provides options to manage the forensicVM.
+
+   Browse ForensicVM
+      Accessing and navigating the forensic virtual machine using interfaces like web browsers.
+
+   Control
+      A UI element, such as a button, that provides management capabilities (e.g., "Start," "Stop," "Reset") for the forensicVM.
+
+   Forensic Image
+      A digital snapshot or representation of data, often used for forensic investigations.
+
+   ForensicVM Main Screen
+      The primary interface of the forensic virtual machine when accessed via the web.
+
+   ForensicVM Remote Screen Interface
+      A display of the forensicVM as seen when accessed remotely, especially through web interfaces.
+
+   Main Web Interface
+      The primary browser-based interface for managing and interacting with the forensicVM.
+
+   Open ForensicVM
+      An action or option to access the forensicVM's main display, either through the Autopsy plugin or web interface.
+
+   Open ForensicVM on the Main Interface
+      The process or action of accessing the forensicVM directly through the Autopsy plugin interface.
+
+   Plugin Interface
+      The user interface provided by a software plugin, such as the one in Autopsy for the forensicVM.
+
+   Web Interface URL
+      The web address used to access the forensicVM's browser-based interface.
+
+   Deactivate
+      The process of shutting down or turning off a virtual machine, making it inactive.
+
+   Main Plugin Interface (Shutdown)
+      The primary UI within the Autopsy framework that offers options to shut down the forensicVM.
+
+   Shutdown Button
+      A UI control present on various interfaces that, when pressed, initiates the process to shut down the forensicVM.
+
+   Shutdown Icon
+      A graphical representation or symbol indicating the control to shut down the forensicVM.
+
+   Shut Down VM on the Web Interface
+      The method of deactivating the forensicVM directly from the web-based interface.
+
+   Shut Down VM on the Web Remote Screen
+      The method of shutting down the forensicVM when accessing remotely via the web.
+
+   Web Remote Screen (Shutdown)
+      A method to shut down the forensicVM when accessed remotely, offering flexibility for those working from distant locations or specific service interfaces.
