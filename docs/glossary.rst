@@ -148,3 +148,31 @@ Glossary
 
    root privileges
       The highest level of access rights on a system, allowing full control over all functions and files.
+
+   Windows 10 or later
+      A version of the Microsoft Windows operating system. ForensicVM supports Windows 10 and its successors for running the Autopsy plugin.
+
+   Autopsy 4.20 or later
+      A version of the digital forensics platform and graphical interface. ForensicVM requires at least version 4.20 for compatibility.
+
+   64-bit multi-core processor
+      A type of processor with multiple cores that can process 64-bit data chunks simultaneously, ensuring optimal performance for ForensicVM.
+
+   RAM
+      Random Access Memory. ForensicVM requires a minimum of 16 GB RAM for efficient operation. The Autopsy documentation suggests that the software can use up to 4GB of RAM, not including the additional memory the Solr text indexing server might use.
+
+   Nvme
+      Non-Volatile Memory Express. A modern protocol developed for SSDs to take advantage of high-speed PCI Express storage devices.
+
+   SSD
+      Solid State Drive. A faster type of storage device compared to traditional HDDs, beneficial for speeding up acquisition processes.
+
+   1980x1080 resolution
+      A specific pixel count for display screens. This resolution is recommended to ensure a clear and detailed view of the ForensicVM interface.
+
+   Autopsy 4.20
+      A specific version of the digital forensics software that is necessary for compatibility with the ForensicVM plugin.
+
+   readonly windows shares
+      Network-shared folders in the Windows operating system that do not allow modifications to the shared files. The ForensicVM plugin may create such shares and therefore requires specific permissions.
+
