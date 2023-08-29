@@ -2,6 +2,7 @@ Glossary
 =========
 
 .. glossary::
+   :sorted:
 
    forensicVM
       A specialized virtual machine that operates on a hypervisor and is utilized in digital forensic investigations. It is created through the conversion of a forensic image into a virtual machine format. The operating system is detected, and necessary drivers are installed to replicate the functionality of the original system. An initial snapshot is created to preserve the original state. The forensicVM simulates the original computer or server within a safe and controlled environment, allowing detailed examination without risk to other systems.
@@ -115,3 +116,35 @@ Glossary
    Hypervisor
       A virtual machine monitor or VMM that creates and runs virtual machines.
 
+   Debian 11 (Bullseye)
+      An operating system release that ForensicVM supports.
+
+   64-bit multi-core processor
+      A type of processor with multiple cores that can process 64-bit data chunks simultaneously. It's recommended for ForensicVM to ensure optimal performance, especially for complex tasks.
+
+   RAM
+      Random Access Memory. It's a type of computer memory used for temporary storage and quick access. ForensicVM requires a minimum of 16 GB RAM, but 32 GB or more is recommended for efficient virtualization of forensic images.
+
+   NVMe
+      Non-Volatile Memory Express. A protocol developed for SSDs to exploit the full potential of high-speed PCI Express storage devices.
+
+   SSD
+      Solid State Drive. A storage device that uses integrated circuit assemblies to store data persistently, typically using flash memory.
+
+   RAID 10
+      A type of RAID (Redundant Array of Independent Disks) configuration that combines mirroring and striping to protect data. It's recommended for storing forensic images in ForensicVM.
+
+   Gigabit connection
+      A network connection that offers speeds of up to 1 gigabit per second.
+
+   SSH
+      Secure Shell. A cryptographic network protocol used for secure data communication and server administration.
+
+   HP ILO
+      Integrated Lights-Out. A remote management tool used for server administration.
+
+   QEMU
+      Quick Emulator. An open-source hypervisor that performs hardware virtualization. ForensicVM uses QEMU to create a new forensic hypervisor server.
+
+   root privileges
+      The highest level of access rights on a system, allowing full control over all functions and files.
