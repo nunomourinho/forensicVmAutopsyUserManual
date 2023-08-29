@@ -176,3 +176,39 @@ Glossary
    readonly windows shares
       Network-shared folders in the Windows operating system that do not allow modifications to the shared files. The ForensicVM plugin may create such shares and therefore requires specific permissions.
 
+   AutopsyVM client plugin
+      A software extension for the Autopsy digital forensics platform, which enables advanced functionalities specifically for ForensicVM.
+
+   ForensicVM.exe
+      The setup file responsible for installing the AutopsyVM client plugin on a user's system.
+
+   Plugin Location
+      The directory or file path where the AutopsyVM client plugin will be installed on your computer.
+
+   Data source
+      A reference or connection to data that Autopsy uses to gather evidence, such as forensic images.
+
+   Disk Image
+      A digital copy or replica of a physical disk. In the context of ForensicVM, a forensic image is used as a source for virtualization.
+
+   forensicVM Client plugin
+      The component of ForensicVM that is integrated within Autopsy to assist in processing and converting forensic images.
+
+   API key
+      A code passed in by computer programs to identify the calling program. It grants access to a service, in this case, the ForensicVM server.
+
+   SSH (Secure Shell)
+      A cryptographic network protocol used for operating network services securely over an unsecured network.
+
+   Windows Share
+      A feature in the Windows operating system that allows files and folders to be shared over a network.
+
+   Forensic SSH Server Redirection
+      A method used by ForensicVM to safely access Windows shared folders over the internet via a reverse SSH connection.
+
+   Reverse SSH connection
+      A technique where an SSH connection is initiated from a remote machine to the user's machine, essentially reversing the typical connection direction.
+
+   Firewall
+      A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security policies.
+
