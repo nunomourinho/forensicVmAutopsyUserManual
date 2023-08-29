@@ -88,3 +88,30 @@ Glossary
    ForensicVM Loader
       Part of the ForensicVM toolset that initializes the forensic analysis environment for VM analysis.
 
+   ForensicVM
+      A comprehensive project designed to assist forensic investigators in the virtualization of forensic images.
+
+   ForensicVM client
+      An Autopsy plugin, forming one of the two primary components of the ForensicVM project.
+
+   Autopsy
+      A platform or tool used for digital forensics investigations.
+
+   ForensicVM server
+      The main backbone of the ForensicVM system, developed using Django and Python, it facilitates the functionalities of the ForensicVM.
+
+   Django
+      A high-level Python web framework, promoting rapid development and pragmatic, clean design.
+
+   Python
+      A high-level programming language known for its clear syntax and readability.
+
+   Debian 11
+      A specific version of the Debian operating system. Recommended for installing the ForensicVM server.
+
+   Bare metal server
+      A physical server dedicated to a single tenant or purpose.
+
+   Hypervisor
+      A virtual machine monitor or VMM that creates and runs virtual machines.
+
