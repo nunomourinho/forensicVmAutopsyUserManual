@@ -12,3 +12,49 @@ Glossary
    VM
       Virtual machine - In computing, a virtual machine (VM) is the virtualization or emulation of a computer system. Virtual machines are based on computer architectures and provide the functionality of a physical computer. Their implementations may involve specialized hardware, software, or a combination of the two. Virtual machines differ and are organized by their function, shown here:
          System virtual machines (also called full virtualization VMs) provide a substitute for a real machine. They provide the functionality needed to execute entire operating systems. A hypervisor uses native execution to share and manage hardware, allowing for multiple environments that are isolated from one another yet exist on the same physical machine. Modern hypervisors use hardware-assisted virtualization, with virtualization-specific hardware features on the host CPUs providing assistance to hypervisors. (Reference: https://en.wikipedia.org/wiki/Virtual_machine)
+
+   Virtualization
+      The creation and management of virtualized instances of certain resources, in this context, forensic images.
+
+   Snapshot
+      A saved state of a virtualized resource, such as a VM or forensic image.
+
+   Forensic Image
+      A digital representation of data from a device, used for analysis in digital forensics.
+
+   Hypervisor
+      A piece of software, firmware, or hardware that creates and manages VMs.
+
+   QEMU
+      An open-source machine emulator and virtualizer.
+
+   KVM (Kernel-based Virtual Machine)
+      A virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.
+
+   Plugin Architecture
+      A method by which external additions can be made to extend a software's capabilities.
+
+   Evidence Disk
+      A disk containing all tags from Autopsy Software.
+
+   Network Card
+      A hardware component that connects a computer to a network.
+
+   Wireshark PCAP format
+      A specific format used to capture and save network traffic.
+
+   Memory Dump
+      The recorded state of the working memory of a computer program at a specific time.
+
+   ISO Management
+      The handling of ISO files, which are typically used for optical disk images.
+
+   Snapshot Management
+      The control and management of VM snapshots.
+
+   C2C (Command and Control) client
+      A centralized computer that issues commands to a botnet (a group of private computers infected with malicious software) and receives reports back.
+
+   TTPs (Tactics, Techniques, and Procedures)
+      Patterns of activities or methods associated with a specific threat actor or group of threat actors.
+
