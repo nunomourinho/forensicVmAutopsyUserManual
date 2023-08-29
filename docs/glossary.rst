@@ -325,3 +325,51 @@ Glossary
 
    Data Extraction and Analysis
       Tools or functionalities that help to extract and analyze data from a forensic image.
+
+   Autopsy
+      An open-source digital forensics platform used for conducting digital investigations.
+
+   Autopsy ForensicVM plugin
+      A plugin designed to enhance the capabilities of Autopsy by allowing users to process and analyze virtual machine images.
+
+   Wizard Interface
+      A user-friendly interface in software that guides users through a process step by step.
+
+   Case
+      A specific digital forensic investigation project in Autopsy that may contain one or more data sources.
+
+   Case Information
+      Metadata associated with a case, including its name and other optional details.
+
+   Host
+      In the context of Autopsy, refers to a machine or system from which data is being collected or investigated.
+
+   Data Source
+      An entity from which digital evidence is extracted. In this context, it refers specifically to disk images or virtual machine files.
+
+   Disk Image
+      A bit-by-bit copy of a physical disk, often used in digital forensics to preserve the state of a drive.
+
+   VM File (Virtual Machine File)
+      A file representing a virtual machine, which contains an OS, applications, and data, and can be executed on a hypervisor.
+
+   Forensic Image
+      A digital snapshot or copy of a storage device, preserving both the structure and content.
+
+   Time Zone
+      A region that observes a uniform standard time for legal, commercial, and social purposes.
+
+   Sector Size
+      The smallest addressable unit on a disk.
+
+   Python Ingest Plugin
+      A plugin in Autopsy used for data ingestion and is written in Python.
+
+   ForensicVM Client Plugin
+      The specific plugin in Autopsy that facilitates the analysis of VM images.
+
+   Data Source Processing Progress
+      A visual representation, usually a progress bar, showing the ongoing processing of a data source.
+
+   ForensicVM Loader
+      A component of the ForensicVM plugin responsible for initializing and setting up the environment for VM analysis.
