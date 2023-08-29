@@ -409,3 +409,54 @@ Glossary
 
    ForensicVM Web Screen Interface
       A web-based interface that lets users interact with the forensicVM directly.
+
+   Autopsy ForensicVM Plugin
+      A tool or extension used for forensic investigations within the Autopsy framework.
+
+   Autopsy Plugin
+      A tool or extension used for forensic investigations.
+
+   Blue Screen of Death
+      A colloquial term for a Windows system crash.
+
+   Command Line Window
+      A windowed interface for command-line interactions.
+
+   Direct Copy to Server
+      A method that duplicates the forensic image, creating a new forensic virtual machine on the server.
+
+   Fiber Optics
+      A type of high-speed internet connection.
+
+   ForensicVM
+      Forensic virtual machine.
+
+   Link Mode
+      A specific mode in which a forensic image is linked, rather than copied, to the forensicVM.
+
+   Login Button
+      A button clicked after entering username and password to gain access to the web interface.
+
+   Main Plugin Interface
+      A location from where the forensicVM can be initiated.
+
+   “Open ForensicVM”
+      An option/button to interact with the forensicVM's graphical interface.
+
+   Shutdown Button
+      A button in the Autopsy Plugin used to power off the forensicVM.
+
+   Start Button
+      A button used to initiate the forensicVM.
+
+   Stop Button
+      A button in the Autopsy Plugin used to halt the forensicVM.
+
+   Web Interface
+      An interface accessible via a web browser where users can control the forensicVM.
+
+   Web Remote Screen
+      A specific section of the web interface tailored for remote access.
+
+   “Virtualize b) Link to VM”
+      An option to convert a forensic image to a forensic virtual machine by establishing a link.
