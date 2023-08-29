@@ -212,3 +212,74 @@ Glossary
    Firewall
       A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security policies.
 
+   Getting Started
+      The initial section to acquaint yourself with the basics of ForensicVM.
+
+   ForensicVM
+      A forensic virtual machine used to convert forensic images for detailed analysis.
+
+   Autopsy Software
+      The software in which the ForensicVM Client Plugin runs.
+
+   Installation and Setup
+      Steps necessary to install and prepare ForensicVM for use.
+
+   ForensicVM Client Plugin
+      The main program interface of ForensicVM that runs in Autopsy Software.
+
+   Autopsy ForensicVM Client Plugin: A Comprehensive Interface Guide
+      A detailed guide describing the Autopsy ForensicVM Client Plugin's functionalities and operations.
+
+   Main Toolbar Overview
+      A description of the primary toolbar on the Autopsy ForensicVM Client Plugin.
+
+   Virtualize Tab
+      The main tab within the toolbar that provides access to core ForensicVM operations.
+
+   Autopsy Case
+      Displays Autopsy case details, including existing case tags and the generated unique UUID.
+
+   Output Console
+      A console that captures all system messages and is instrumental for debugging.
+
+   Secondary Toolbar Overview
+      An overview of the secondary set of tools in the Autopsy ForensicVM Client Plugin.
+
+   Main Panel Overview
+      A detailed breakdown of the main display area based on the selected tab option.
+
+   Notification Area
+      A designated area on the interface for system notifications, warnings, and error messages.
+
+   Convert Forensic Image to VM
+      Options that facilitate transforming the forensic image into a forensic virtual machine.
+
+   VM Control
+      Options to manage the basic operations of the forensic virtual machine.
+
+   Screenshot Management
+      Tools to capture and manage screenshots during forensic investigations.
+
+   Memory Dump
+      Tools to engage with the active memory data of the forensic virtual machine.
+
+   Tools
+      Additional utilities for forensic operations within the ForensicVM interface.
+
+   Network
+      Options to manage network settings and operations for the ForensicVM.
+
+   ForensicVM Webscreen Console
+      An interactive console providing access to the virtual screen of the remote ForensicVM.
+
+   Webscreen Console Main Area
+      A description of the main area in the ForensicVM Webscreen Console.
+
+   ForensicVM Webscreen Console Control Toolbar
+      A detailed overview of the Control Toolbar in the ForensicVM Webscreen Console.
+
+   Adjusting Screen Scaling: Local Scaling
+      Steps to optimize the viewing experience within the webscreen console.
+
+   ForensicVM Server Web Control Interface
+      A web interface designed for remote forensic investigators to collaborate and control the ForensicVM.
