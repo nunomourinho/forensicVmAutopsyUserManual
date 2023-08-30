@@ -669,3 +669,44 @@ Reset
     Third-Party Tools
         Software or utilities that are not part of the original package or platform but can be integrated or used alongside it for additional functionalities.
 
+    Evidence Disk
+        An automatically generated drive that appears during the conversion of a forensic image to a ForensicVM. It contains directories named after Autopsy tags and serves as a container for evidence related to each tag.
+
+    ForensicVM
+        A virtual machine environment tailored for forensic analysis. It is derived from a forensic image and is used for systematic investigations without compromising the original data.
+
+    Autopsy Tags
+        Markers or labels within the Autopsy forensic software that aid in categorizing and organizing evidence. They are reflected as directories in the evidence disk.
+
+    Plugin
+        Software components that add specific features to an existing computer program. Within the context, plugins in Autopsy can help in functions such as creating new user credentials or resetting existing ones.
+
+    Forensic Administrator User
+        A user profile with elevated privileges, potentially created for the purpose of a forensic investigation, to ensure unrestricted access to required data.
+
+    BitLocker Drive
+        A drive encryption feature integrated into the Microsoft Windows operating system. In the provided context, the entire encrypted BitLocker drive is showcased being transferred for forensic analysis.
+
+    Ubuntu 22.10
+        A version of the Ubuntu operating system. Ubuntu is an open-source software platform that runs everywhere from the PC to the server and the cloud.
+
+    Evidence Disk
+        The specific drive or storage area where collected forensic evidence is saved. It is often labeled as “possible evidence”.
+
+    File Explorer
+        A graphical user interface (GUI) component that lets users manage and view files. It is used to navigate and identify the evidence disk.
+
+    Autopsy Tags
+        Markers or labels within the Autopsy forensic software that help in organizing evidence into specific categories. These tags are represented as folders on the evidence disk.
+
+    Hash Dump File
+        A file that contains hashed representations of data. In the context, it is identified as potential evidence.
+
+    Meterpreter
+        A type of payload in the Metasploit framework that provides an investigator with a command line interface to the targeted system. In the context, its deployment is considered as potential evidence.
+
+    ForensicVM
+        A virtual machine environment tailored for forensic investigations. It's essential to manage its operations correctly to preserve the integrity of the evidence.
+
+    Power Off/Log Out Option
+        An option in operating systems (like Ubuntu 22.10) that allows users to either shut down or log out of their accounts. Proper shutdown is recommended to ensure the integrity of collected evidence.
