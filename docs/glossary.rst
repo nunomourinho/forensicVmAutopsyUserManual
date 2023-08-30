@@ -710,3 +710,39 @@ Reset
 
     Power Off/Log Out Option
         An option in operating systems (like Ubuntu 22.10) that allows users to either shut down or log out of their accounts. Proper shutdown is recommended to ensure the integrity of collected evidence.
+
+    Autopsy
+        A digital forensics platform used for analyzing and managing forensic data.
+
+    qcow2
+        A disk file format commonly used in QEMU, a free and open-source hardware virtualization solution.
+
+    vmdk
+        A disk file format used for virtual appliances developed for VMware products.
+
+    Autopsy ForensicVM plugin
+        A plugin within the Autopsy platform tailored to manage and interact with a Forensic Virtual Machine (VM).
+
+    forensicVM
+        A virtual machine specifically designed or purposed for forensic investigations.
+
+    Import Evidence Disk
+        A function or feature that allows users to introduce an evidence disk into the analysis environment.
+
+    Windows Explorer
+        The default file manager in Microsoft Windows operating systems that provides a graphical user interface for accessing the file system.
+
+    Save As Dialog
+        A prompt or interface in software applications that lets users specify the name and location of a file they wish to save.
+
+    Data Source
+        Refers to a repository or a location from which data is acquired. In the context of Autopsy, it refers to the origin or source of forensic evidence.
+
+    VM Image
+        A virtual disk image, which contains a virtual system's disk data, used for creating replicas of or taking snapshots of original virtual disks.
+
+    Plugins
+        Modular software components that add specific abilities to a larger software application. In the Autopsy context, they're used to enhance or extend functionality.
+
+    Notable Item Tag
+        A label or marker in Autopsy, used to identify and categorize significant pieces of evidence or data points during forensic analysis.
