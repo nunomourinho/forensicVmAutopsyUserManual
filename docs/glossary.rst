@@ -1094,3 +1094,75 @@ Glossary
 
    WebShell Interface
       The user interface that is presented upon accessing the WebShell, providing a direct and secure interaction with the server.
+
+   Netdata
+      A real-time monitoring tool that offers insights into server and application performance.
+
+   Real-time Look
+      Refers to Netdata's capability to update its insights every second.
+
+   Alerts
+      Notifications triggered when certain parameters exceed predefined limits.
+
+   Easy-to-Read Charts
+      Graphical representations provided by Netdata to display various metrics in a comprehensible manner.
+
+   Installation
+      The process of setting up Netdata on a system. For ForensicVM Server, Netdata comes pre-installed.
+
+   Autopsy ForensicVM Client Plugin
+      A plugin interface in ForensicVM from which users can access various tools, including Netdata.
+
+   ForensicVM main web page
+      The primary interface of the ForensicVM, through which users can navigate to different tools and features, including Netdata.
+
+   CPU
+      Central Processing Unit, a primary indicator of a server's processing capability. Netdata provides insights into its utilization.
+
+   Memory
+      RAM (Random Access Memory) usage and availability, tracked by Netdata.
+
+   Disk Activity
+      Indicates how actively a disk is being read or written to, monitored by Netdata.
+
+   Network
+      Pertains to data transmission rates and network activity.
+
+   Set Your Alarms
+      A feature in Netdata that allows users to customize alert thresholds based on their needs.
+
+   Connect with Other Tools
+      Refers to Netdata's integration capabilities, where it can relay alerts to other platforms such as Slack or Twilio.
+
+   Booting without signed drivers
+      Refers to the potential issue of a machine not booting when certain drivers, such as virtio drivers, are unsigned or possess an invalid signature for a given operating system.
+
+   Advanced options in the Automatic Repair boot screen
+      An option in the boot screen that provides advanced repair capabilities when facing boot-related issues.
+
+   Troubleshoot
+      A selection available during boot-up that aids in diagnosing and fixing issues that prevent the system from starting.
+
+   Advanced options
+      A deeper layer of settings, usually accessed after selecting "Troubleshoot", that offers more specific ways to address boot issues.
+
+   Startup Settings
+      An option within the "Advanced options" which allows changing the behavior of Windows during startup.
+
+   Disable driver signature enforcement
+      A startup option that allows Windows to bypass driver signature checks during boot, potentially enabling problematic or unsigned drivers to load.
+
+   DEBUG: Remote ssh to folder
+      A feature that provides a direct remote connection to the forensicVM, facilitating the editing of configuration files or control over its state.
+
+   Autopsy ForensicVM Client Plugin
+      A software interface that aids in accessing and controlling the forensicVM.
+
+   Elevate to root permissions
+      The act of gaining elevated system access rights, commonly achieved using the "su" command in Unix-like systems.
+
+   Configuration file
+      A file that stores settings and parameters that define how a software or system behaves.
+
+   QEMU Documentation
+      The official documentation for QEMU, a software that provides hardware virtualization.
