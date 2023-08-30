@@ -440,7 +440,7 @@ Glossary
    Main Plugin Interface
       A location from where the forensicVM can be initiated.
 
-   “Open ForensicVM”
+   Open ForensicVM
       An option/button to interact with the forensicVM's graphical interface.
 
    Shutdown Button
@@ -512,7 +512,7 @@ Glossary
    Web Remote Screen (Shutdown)
       A method to shut down the forensicVM when accessed remotely, offering flexibility for those working from distant locations or specific service interfaces.
 
-forensicVM
+   forensicVM
       A specialized virtual machine tailored for forensic purposes.
 
    Main Plugin Interface
@@ -530,7 +530,7 @@ forensicVM
    Deactivate
       The act of turning off or shutting down the forensicVM, making it non-operational.
 
-Stop Button
+   Stop Button
       A user interface control designed to initiate the process to halt and stop the forensicVM.
 
    Web Remote Screen Interface
@@ -541,7 +541,8 @@ Stop Button
 
    Halt
       The act of temporarily pausing or stopping the operations of the forensicVM without fully shutting it down.
-Reset
+
+   Reset
       The act of immediately rebooting the forensicVM, similar to a hard restart. It brings the machine back to its initial or default state without shutting it down completely.
 
    Main Plugin Interface
@@ -785,3 +786,42 @@ Reset
 
     UUID (Universally Unique Identifier)
         A 128-bit number used to uniquely identify some object or entity on the Internet. In this context, it identifies the specific ForensicVM instance that was deleted.
+
+   forensicVM
+        A specialized virtual machine tailored for forensic investigations, often having a network card disabled by default for security reasons.
+
+   Network Card
+        A hardware component or a virtual representation that allows computers to connect to a network.
+
+   Firewall
+        A system or component designed to block unauthorized access, allowing only permitted communications to pass.
+
+   Wireshark pcap file
+        A specific file format used to capture and store network packets for later analysis using tools like Wireshark.
+
+   Autopsy ForensicVM Client Plugin Interface
+        A specific interface within the forensic investigation software, Autopsy, tailored for managing virtual forensic machines.
+
+   Web Screen Interface
+        An interface within the forensicVM that provides access to various settings including network configurations.
+
+   Panel Opener
+        An interface element that reveals various options within the forensicVM.
+
+   Network Troubleshooter
+        A built-in Windows tool designed to diagnose and fix common network issues.
+
+   IP Conflict
+        Occurs when two or more devices or components on the same local network claim to have the same IP address, leading to network malfunctions.
+
+   Linux Terminal
+        A command-line interface in Linux-based operating systems for executing commands.
+
+   ifconfig
+        A system administration utility in Unix-like operating systems to configure, control, and query TCP/IP network interface parameters.
+
+   Cloud Services
+        Platforms and applications that provide data and services over the internet, often requiring network access to retrieve data.
+
+   Session Cookies
+        Small pieces of data stored on a user's computer during a browsing session, often containing information about user preferences or authentication status.
