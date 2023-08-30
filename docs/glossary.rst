@@ -999,8 +999,98 @@ Glossary
    Rollback
       The process of reverting the state of the ForensicVM to a previously taken snapshot.
 
-   "Danger Zone!"
+   Danger Zone
       A section within the ForensicVM client interface dedicated to critical or potentially irreversible operations, such as deleting snapshots.
 
    Snapshot Deletion Interface
       An interface or prompt within the ForensicVM client that facilitates the process of deleting a snapshot.
+
+   Plugins
+      Serve as a vital component of the forensicVM, enabling forensic investigators with capabilities to bypass protections in locked forensicVM machines.
+
+   Authentication Bypass Features
+      A suite of plugins designed specifically to bypass various authentication measures.
+
+   Add Windows Forensic Admin
+      A plugin that creates a new Windows admin user with specific credentials. The user belongs to the “Administrator” group.
+
+   Add Linux Forensic Admin
+      A plugin to create a new Linux user with 'sudo' permissions.
+
+   Patch Accessibility
+      A strategic patch enabling the invocation of a system-level cmd.exe prompt by pressing the shift key five times on the Windows login screen.
+
+   Bypass Windows Password
+      A plugin that patches the “ntlmshared.dll” file, allowing for the bypass of Windows authentication.
+
+   Additional Security Bypass Features
+      Plugins designed to bypass other security measures apart from authentication.
+
+   Disable Windows Defender and Firewall
+      A plugin that disables both Windows Defender and the firewall.
+
+   Reset Windows 2003 or XP Activation
+      A plugin that resets activation for Windows 2003 or XP.
+
+   BOOTFIX: Disable Driver Enforcement
+      A utility that addresses challenges related to driver signatures.
+
+   Browsing Available Plugins
+      A process to view, manage, and deploy available plugins for ForensicVM using the Autopsy ForensicVM Client.
+
+   Executing Plugins
+      The process of running plugins on the ForensicVM.
+
+   Pre-plugin Execution Recommendation
+      A cautionary advice to capture a snapshot of the machine's state before initiating any plugin.
+
+   Community Plugins Project
+      An open initiative aiming to enhance ForensicVM functionalities through community contributions.
+
+   Access the Project Repository
+      The hosted project on GitHub where you can view, clone, or fork the ForensicVM Plugins repository.
+
+   Contributing Code
+      Steps to contribute developed plugins or improvements to existing ones.
+
+   Feature Suggestions and Plugin Requests
+      A method to contribute ideas for new plugins, features, or improvements without coding them.
+
+   Fine-Tuning ForensicVM
+      The process of making adjustments to various configuration parameters of a ForensicVM. This is done via a configuration file that is generated when a forensic image is converted into a ForensicVM.
+
+   Configuration File
+      A file that contains various parameters for the forensic virtual machine, such as memory size, attached disks, UEFI boot options, and more.
+
+   Autopsy ForensicVM Client interface
+      The software interface where users can adjust various parameters of the ForensicVM.
+
+   Modifying Memory Size
+      The process of adjusting the ForensicVM’s memory size within the “Fine-Tuning” section of the Autopsy ForensicVM Client interface.
+
+   Setting the VM Date & Time
+      A function that allows users to define the start date & time for the ForensicVM.
+
+   WebShell for Remote Administration
+      A tool based on the shellinabox project adapted into a Django application that facilitates enhanced remote server administration, offering secure root access to the server.
+
+   shellinabox project
+      An open-source project that enables users to access remote servers from a web browser using a web-based terminal emulator.
+
+   Django application
+      A web framework written in Python that allows for rapid web development.
+
+   Accessing the WebShell
+      Refers to the methods available for users to access the WebShell for remote administration.
+
+   Autopsy ForensicVM Client Plugin
+      A plugin interface through which one can access various tools, including the WebShell.
+
+   Open ForensicVM WebShell button
+      A button within the Autopsy ForensicVM Client Plugin that allows users to launch the WebShell in their default browser.
+
+   ForensicVM Main Web Interface
+      The primary interface of the ForensicVM, where users can navigate to various tools and features, including the WebShell.
+
+   WebShell Interface
+      The user interface that is presented upon accessing the WebShell, providing a direct and secure interaction with the server.
