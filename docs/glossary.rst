@@ -746,3 +746,42 @@ Reset
 
     Notable Item Tag
         A label or marker in Autopsy, used to identify and categorize significant pieces of evidence or data points during forensic analysis.
+
+    Autopsy
+        A digital forensics platform designed for analyzing and managing forensic data.
+
+    Tag
+        A label or marker within Autopsy used to identify and categorize data points or items of interest during forensic analysis.
+
+    Ingest Modules
+        Modules in Autopsy that perform data extraction, analysis, and organization tasks automatically for the investigator.
+
+    ForensicVM Client Plugin
+        A specific plugin within Autopsy tailored for managing and interacting with a Forensic Virtual Machine (VM).
+
+    forensicVM
+        A virtual machine purposed for forensic investigations.
+
+    hibernation
+        A power-saving mode for computers. In Windows, when the system goes into hibernation, it saves the current state of the system (including open applications and documents) into the hibernation file and shuts down, allowing for a faster start-up later.
+
+    evidence.vmdk disk
+        A specific format of a virtual disk image used to store forensic evidence in the context of Autopsy and VMs.
+
+    Recreate Evidence Disk
+        An action that leads to the deletion and fresh generation of the evidence disk within the Autopsy environment.
+
+    Confirmation Dialog
+        A prompt or interface that seeks affirmation from a user for a potentially critical action.
+
+    ForensicVM
+        A virtual machine purposed for forensic investigations.
+
+    Delete VM Button
+        A designated button within the ForensicVM interface or related software used to initiate the deletion process of the virtual machine.
+
+    Confirmation Popup
+        A user interface element that appears to ensure that the user wants to proceed with an action, in this case, the deletion of the ForensicVM. 
+
+    UUID (Universally Unique Identifier)
+        A 128-bit number used to uniquely identify some object or entity on the Internet. In this context, it identifies the specific ForensicVM instance that was deleted.
