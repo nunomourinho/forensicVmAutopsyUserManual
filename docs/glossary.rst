@@ -511,3 +511,161 @@ Glossary
 
    Web Remote Screen (Shutdown)
       A method to shut down the forensicVM when accessed remotely, offering flexibility for those working from distant locations or specific service interfaces.
+
+forensicVM
+      A specialized virtual machine tailored for forensic purposes.
+
+   Main Plugin Interface
+      The primary user interface within a specific framework, in this context, used for managing the forensicVM.
+
+   Shutdown Button
+      A user interface control designed to initiate the process to deactivate and shut down the forensicVM.
+
+   Web Remote Screen Interface
+      A web-based interface allowing users to remotely control and manage the forensicVM. It can be accessed after logging in.
+
+   Web Interface
+      The web-based platform from which users can manage and control the forensicVM. It offers different functionalities including shutting down the machine.
+
+   Deactivate
+      The act of turning off or shutting down the forensicVM, making it non-operational.
+
+Stop Button
+      A user interface control designed to initiate the process to halt and stop the forensicVM.
+
+   Web Remote Screen Interface
+      A web-based interface allowing users to remotely control and manage the forensicVM. It can be accessed after logging in.
+
+   Web Interface
+      The web-based platform from which users can manage and control the forensicVM. It offers different functionalities including stopping the machine.
+
+   Halt
+      The act of temporarily pausing or stopping the operations of the forensicVM without fully shutting it down.
+Reset
+      The act of immediately rebooting the forensicVM, similar to a hard restart. It brings the machine back to its initial or default state without shutting it down completely.
+
+   Main Plugin Interface
+      The primary user interface within a specific framework, used for managing and controlling the forensicVM.
+
+   Reset Button
+      A user interface control designed to immediately reboot the forensicVM, bringing it to its default or initial state.
+
+   Web Remote Screen Interface
+      A web-based interface allowing users to remotely control and manage the forensicVM. It provides options to reset the machine, among other functionalities.
+
+   Web Interface
+      A web-based platform through which users can manage, control, and reset the forensicVM. It is accessible through a browser and might be preferable for remote operations or specific service interfaces.
+
+   Immediate Reboot
+      A rapid restart of the forensicVM without fully shutting it down. This is especially useful in scenarios requiring quick troubleshooting, testing, or managing different VM states.
+
+   forensicVM
+      A specialized virtual machine tailored for forensic purposes.
+
+   Autopsy
+      A digital forensics platform used for analyzing, managing, and reporting digital evidence.
+
+   Screenshot
+      A digital image that captures the contents of a computer screen, often used for documentation, analysis, or reporting purposes.
+
+   Web Screen Interface
+      A web-based platform through which users can interact with and manage the forensicVM.
+
+   ZIP File
+      A file format that allows for lossless data compression. It can contain multiple files or folders compressed into a single file.
+
+   Save Screenshots Button
+      A button in the interface that initiates the process of saving captured screenshots.
+
+   Save As Dialogue
+      A dialog box in software that prompts the user to specify the location and name of a file before saving it.
+
+   Download Progress
+      An indicator that displays the current status of a download operation.
+
+   Logical Files
+      A type of data source in Autopsy representing non-physical files, often used for importing various types of digital data.
+
+   Picture Analyser Plugin
+      A plugin in Autopsy used to analyze and manage pictures or images.
+
+   Tagging
+      The act of marking or labeling a specific item (like a screenshot) for identification, organization, or further analysis.
+
+   Import
+      The act of bringing data into a software platform (like Autopsy) from an external source.
+    Memory Dump
+        Refers to the process of capturing the content of a computer’s memory (RAM) at a specific moment in time.
+
+    Security Analysis
+        In cybersecurity, it involves using memory dumps to uncover malware behavior, detect hidden processes, analyze injected codes, and assess user credentials.
+
+    Forensic Analysis
+        Using memory dumps in digital forensics to reconstruct events, recover data, and analyze user and system interactions.
+
+    Legal Evidence
+        In legal proceedings, memory dumps might provide evidence related to computer usage, unauthorized access, and intellectual property theft.
+
+    Autopsy
+        A digital forensics platform used to conduct disk forensics and post-mortem analysis.
+
+    Volatility
+        An open-source memory forensics framework.
+
+    Rekall
+        A memory forensics toolkit.
+
+    WinDbg
+        Microsoft’s debugger used for debugging Windows applications and analyzing memory dumps.
+
+    Magnet RAM Capture
+        A free tool designed to capture physical RAM.
+
+    FTK Imager
+        A product by AccessData, used for capturing and analyzing memory dumps.
+
+    MoonSols DumpIt
+        A tool for creating memory dumps from Windows systems.
+
+    Redline
+        A tool provided by FireEye offering advanced memory and file analysis capabilities.
+
+    GRR (Google Rapid Response)
+        An incident response framework that includes memory analysis capabilities.
+
+    Belkasoft Evidence Center
+        A software solution that includes the ability to analyze computer memory.
+
+    X-Ways Forensics
+        A commercial forensic software with strong memory analysis features.
+
+    Forensic Virtual Machine (VM)
+        A digital environment replicated from a forensic image that serves as a snapshot of a system at a specific point in time.
+
+    Immutable Record
+        A non-alterable and chronological documentation, especially in the form of a video, that captures every action and finding during an investigation.
+
+    Transparency and Accountability
+        The assurance that the forensic process is done ethically and without tampering, as demonstrated by a detailed log such as a video recording.
+
+    Legal Compliance
+        Adhering to standards and requirements established by legal authorities, ensuring the chain of custody is maintained.
+
+    Chain of Custody
+        The chronological documentation or paper trail, showing the seizure, custody, control, transfer, analysis, and disposition of physical or electronic evidence.
+
+    Autopsy Software
+        A digital forensics platform utilized for disk forensics and post-mortem analysis.
+
+    Video Recording Sound
+        Refers to the audio component of a video recording. In the context provided, the current VM does not support audio capture, though it is recognized as an important feature for some investigations.
+
+    Ingest Plugins
+        Plugins or modules in forensic software that are used to process and analyze specific types of data or evidence.
+
+    Tagging
+        The process of marking or labeling a piece of evidence or finding with a specific tag or label to easily categorize, search, or identify it later.
+
+    Third-Party Tools
+        Software or utilities that are not part of the original package or platform but can be integrated or used alongside it for additional functionalities.
+
