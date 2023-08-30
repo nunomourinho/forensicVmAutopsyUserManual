@@ -825,3 +825,182 @@ Glossary
 
    Session Cookies
         Small pieces of data stored on a user's computer during a browsing session, often containing information about user preferences or authentication status.
+
+   Disable Network Card
+      The action of turning off the network card to halt all network communications for the forensicVM.
+
+   Web Screen Interface
+      An interface within the forensicVM that provides access to various settings including network configurations.
+
+   Panel Opener
+      An interface element within the forensicVM, used to reveal more options or configurations.
+
+   Wireshark pcap Files
+      A specific file format used to capture and store network packets for later analysis using tools like Wireshark.
+
+   pcap.zip
+      A compressed file containing Wireshark pcap files collected during the network card activity periods.
+
+   7-zip
+      A free and open-source file archiver, commonly used for compressing and decompressing files.
+
+   Wireshark
+      A network protocol analyzer tool, which captures and displays packets for detailed analysis.
+
+   Traffic Analysis
+      The process of intercepting and examining messages to deduce information from patterns in communication, endpoints, and more.
+
+   Evidence Collection
+      The process of gathering evidence, often digital, to support investigations and potentially use in court.
+
+   Timestamps
+      Digital records of specific times at which events occurred.
+
+   Decoding Protocols
+      The process of translating network data from a machine-based protocol into a format that is human-readable.
+
+   Data Overload
+      A situation where the amount of captured data is so vast that it becomes challenging to identify essential and relevant information.
+
+   Tampered Data
+      Information that has been intentionally altered or falsified to mislead or deceive.
+
+   pcap Directory
+      The directory or folder where pcap files, often extracted from the pcap.zip, are stored for analysis.
+
+   Media Management in ForensicVM
+      The procedure to navigate, upload, select, insert, eject, delete, and boot from ISO files within ForensicVM.
+   
+   ISO files
+      Encapsulations of entire file systems used to house specialized forensic tools.
+   
+   Network Isolation
+      A safety measure that eliminates the need for network connectivity to mitigate associated risks.
+   
+   Protective Shield
+      The protection provided by ForensicVM’s virtual environment to the host system against potential threats.
+   
+   Evidence Preservation
+      The safeguarding of the original state of evidence, reducing risks of contamination or alteration.
+   
+   Browse and Upload ISO
+      The process to navigate the interface and upload essential ISO files to the ForensicVM environment.
+   
+   Select ISO / Web Select CD-ROM
+      Instructions on choosing the appropriate ISO file or CD-ROM.
+   
+   List Remote ISO Files
+      An overview of ISO files stored remotely on the ForensicVM server.
+   
+   Insert ISO / Web Insert CD-ROM
+      Procedure to virtually insert an ISO file or CD-ROM for access within the ForensicVM environment.
+   
+   Eject ISO / Web Eject CD-ROM
+      Guidance on ejecting a mounted ISO file or CD-ROM.
+   
+   Delete ISO
+      Instructions to remove unwanted ISO files.
+   
+   Bootable Media
+      Details about booting from an ISO or CD-ROM for specific forensic tasks.
+   
+   Autopsy ForensicVM Client Plugin
+      A plugin in ForensicVM used for various operations, including ISO management.
+   
+   Media Panel
+      An interface section in the Autopsy VM used to manage ISO files.
+   
+   Media Panel Separator
+      A component in the ForensicVM Client Plugin to access the Media Panel.
+   
+   Media Control Modal Box
+      An interface component used in the process of inserting or ejecting ISOs via the web interface.
+   
+   Control Bar icon
+      An icon that reveals the tool panel in the ForensicVM's web interface.
+   ISO
+      An optical disc image containing the content from a CD, DVD, or Blu-ray Disc.
+
+   Virtual CD-ROM Drive
+      A simulated CD-ROM drive that can read ISO files as if they were physical discs.
+
+   Possible Evidence virtual drive
+      A dedicated virtual drive within ForensicVM designed to store potential pieces of evidence without contaminating the original data.
+
+   Bootable Media
+      Digital storage media, like an ISO, that contains a boot sector, allowing a computer to start up from it.
+
+   BIOS
+      Basic Input/Output System, a software that is built into the PC, and is the first code run by a PC when powered on.
+
+   UEFI
+      Unified Extensible Firmware Interface, a specification for the software program that connects a computer's firmware to its operating system.
+
+   Boot Manager
+      A software process that starts the operating system when the computer is powered on.
+
+   UEFI QEMU DVD-ROM
+      A UEFI-compatible DVD-ROM virtual device provided by QEMU, a hosted virtual machine monitor.
+
+   ForensicVM
+      A virtualized environment tailored for forensic investigations.
+
+   Kali Linux Forensic Tools
+      A set of forensic tools provided by the Kali Linux distribution.
+
+   ISO
+      An optical disc image that can be used to reproduce the content of a CD or DVD.
+
+   Virtual CD-ROM drive
+      A software representation of a CD-ROM drive that allows the mounting and reading of ISO files as if they were physical discs.
+
+   Autopsy ForensicVM Client Plugin
+      A software plugin for the Autopsy forensics platform that facilitates interaction with the ForensicVM environment.
+
+   Web Screen Interface
+      A web-based interface that provides access to various functionalities, including the ability to eject and manage media within the ForensicVM.
+
+   Media Control Modal Panel
+      A specific part of the web screen interface that provides controls for media management.
+
+   Delete
+      The action of permanently removing an item, in this context, an ISO file, from storage or memory.
+
+   Media Panel
+      A section within the Autopsy ForensicVM Client Plugin interface that allows users to manage different media files, including ISOs.
+
+   Snapshots
+      A feature in ForensicVM that captures and preserves the state of the system or evidence at a specific point in time. 
+
+   Base Snapshot
+      Often referred to as the 'first snapshot,' this represents the initial state of a system or piece of evidence, functioning as an untouched reference point.
+
+   Digital Evidence
+      Information stored or transmitted in binary form that might be relied upon in court.
+
+   What-If Analysis
+      A series of hypothetical scenarios in forensic investigations, where investigators simulate actions to test different hypotheses.
+
+   Documentation and Chain of Custody
+      A process to ensure that the evidence is genuine and reliable, maintained through a documented and unbroken sequence of possession or control.
+
+   ForensicVM
+      A virtual machine that offers tools and functionalities essential for digital forensic investigations.
+
+   Autopsy ForensicVM Client
+      The interface or platform from which forensic investigators access and manage the ForensicVM functionalities, including snapshot management.
+
+   Snapshot Management
+      A section or functionality within the ForensicVM or its client interface, where snapshots are created, viewed, and managed.
+
+   List Remote Snapshots
+      A feature that allows users to manually fetch and view the list of all snapshots associated with a ForensicVM from a remote server.
+
+   Rollback
+      The process of reverting the state of the ForensicVM to a previously taken snapshot.
+
+   "Danger Zone!"
+      A section within the ForensicVM client interface dedicated to critical or potentially irreversible operations, such as deleting snapshots.
+
+   Snapshot Deletion Interface
+      An interface or prompt within the ForensicVM client that facilitates the process of deleting a snapshot.
