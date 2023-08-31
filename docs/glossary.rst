@@ -538,37 +538,22 @@ Glossary
    Python
       A high-level programming language known for its clear syntax and readability.
 
-   Python Ingest Plugin
-      A plugin in Autopsy used to automate the ingestion of data from a data source.
-
-   Python Ingest Plugin
-      A plugin in Autopsy used for data ingestion and is written in Python.
+     Python Ingest Plugin
+      A plugin in Autopsy written in Python, used to automate the ingestion of data from a data source.
 
    qcow2
-      A disk file format commonly used in QEMU, a free and open-source hardware virtualization solution.
-
-   qcow2 format
-      A popular disk image format used in KVM virtualization.
+      A disk file format commonly used in QEMU and KVM virtualization. It is a free and open-source hardware virtualization solution.
 
    QEMU
-      An open-source machine emulator and virtualizer.
-
-   QEMU
-      Quick Emulator. An open-source hypervisor that performs hardware virtualization. ForensicVM uses QEMU to create a new forensic hypervisor server.
-
-   QEMU Documentation
-      The official documentation for QEMU, a software that provides hardware virtualization.
+      Quick Emulator. An open-source machine emulator, virtualizer, and hypervisor that performs hardware virtualization. ForensicVM uses QEMU to create a new forensic hypervisor server.
 
    RAID 10
       A type of RAID (Redundant Array of Independent Disks) configuration that combines mirroring and striping to protect data. It’s recommended for storing forensic images in ForensicVM.
 
    RAM
-      Random Access Memory. It’s a type of computer memory used for temporary storage and quick access. ForensicVM requires a minimum of 16 GB RAM, but 32 GB or more is recommended for efficient virtualization of forensic images.
+      Random Access Memory. A type of computer memory used for temporary storage and quick access. ForensicVM requires a minimum of 16 GB RAM for efficient operation, although 32 GB or more is recommended for efficient virtualization of forensic images. The Autopsy documentation suggests that the software can use up to 4GB of RAM, not including the additional memory the Solr text indexing server might use.
 
-   RAM
-      Random Access Memory. ForensicVM requires a minimum of 16 GB RAM for efficient operation. The Autopsy documentation suggests that the software can use up to 4GB of RAM, not including the additional memory the Solr text indexing server might use.
-
-   readonly windows shares
+   Readonly windows shares
       Network-shared folders in the Windows operating system that do not allow modifications to the shared files. The ForensicVM plugin may create such shares and therefore requires specific permissions.
 
    Real-time Look
@@ -598,20 +583,11 @@ Glossary
    Rollback
       The process of reverting the state of the ForensicVM to a previously taken snapshot.
 
-   root privileges
+   Root privileges
       The highest level of access rights on a system, allowing full control over all functions and files.
 
-   samba CIFS share
+   Samba CIFS share
       A type of shared resource that can be accessed by other computers. Known as Windows share.
-
-   Save As Dialog
-      A prompt or interface in software applications that lets users specify the name and location of a file they wish to save.
-
-   Save As Dialogue
-      A dialog box in software that prompts the user to specify the location and name of a file before saving it.
-
-   Save Screenshots Button
-      A button in the interface that initiates the process of saving captured screenshots.
 
    Screenshot
       A digital image that captures the contents of a computer screen, often used for documentation, analysis, or reporting purposes.
@@ -619,20 +595,11 @@ Glossary
    Screenshot Management
       Tools to capture and manage screenshots during forensic investigations.
 
-   Secondary Toolbar Overview
-      An overview of the secondary set of tools in the Autopsy ForensicVM Client Plugin.
-
-   Sector size
-      A fundamental unit of data storage on a disk, usually specified in bytes (e.g., 512 bytes).
-
    Sector Size
-      The smallest addressable unit on a disk.
+      A fundamental unit of data storage on a disk, usually specified in bytes (e.g., 512 bytes). It is the smallest addressable unit on a disk.
 
    Security Analysis
       In cybersecurity, it involves using memory dumps to uncover malware behavior, detect hidden processes, analyze injected codes, and assess user credentials.
-
-   Select ISO / Web Select CD-ROM
-      Instructions on choosing the appropriate ISO file or CD-ROM.
 
    Session Cookies
       Small pieces of data stored on a user’s computer during a browsing session, often containing information about user preferences or authentication status.
@@ -643,26 +610,14 @@ Glossary
    Setting the VM Date & Time
       A function that allows users to define the start date & time for the ForensicVM.
 
-   shellinabox project
+   Shellinabox project
       An open-source project that enables users to access remote servers from a web browser using a web-based terminal emulator.
 
-   Shut Down VM on the Web Interface
-      The method of deactivating the forensicVM directly from the web-based interface.
-
-   Shut Down VM on the Web Remote Screen
-      The method of shutting down the forensicVM when accessing remotely via the web.
-
-   Shutdown Button
-      A button in the Autopsy Plugin used to power off the forensicVM.
-
-   Shutdown Button
-      A UI control present on various interfaces that, when pressed, initiates the process to shut down the forensicVM.
-
-   Shutdown Button
-      A user interface control designed to initiate the process to deactivate and shut down the forensicVM.
-
-   Shutdown Icon
-      A graphical representation or symbol indicating the control to shut down the forensicVM.
+   Shutdown
+      - **Shut Down VM on the Web Interface**: The method of deactivating the forensicVM directly from the web-based interface.
+      - **Shut Down VM on the Web Remote Screen**: The method of shutting down the forensicVM when accessed remotely via the web.
+      - **Shutdown Button**: A user interface control designed to initiate the process to deactivate and shut down the forensicVM. This button is present in the Autopsy Plugin and various other interfaces.
+      - **Shutdown Icon**: A graphical representation or symbol indicating the control to shut down the forensicVM.
 
    Snapshot
       A saved state of a virtualized resource, such as a VM or forensic image.
@@ -671,28 +626,24 @@ Glossary
       An interface or prompt within the ForensicVM client that facilitates the process of deleting a snapshot.
 
    Snapshot Management
-      The control and management of VM snapshots.
-
-   Snapshot Management
-      A section or functionality within the ForensicVM or its client interface, where snapshots are created, viewed, and managed.
+      - **Snapshot Management**: The control and management of VM snapshots.
+      - **Snapshot Management in ForensicVM**: A section or functionality within the ForensicVM or its client interface, where snapshots are created, viewed, and managed.
 
    Snapshots
       A feature in ForensicVM that captures and preserves the state of the system or evidence at a specific point in time.
 
-   SSD
-      Solid State Drive. A storage device that uses integrated circuit assemblies to store data persistently, typically using flash memory.
+   Stop Button
+      - **Stop Button in Autopsy Plugin**: A button within the Autopsy Plugin interface specifically used to halt the forensicVM.
+      - **UI Control for Halting**: A user interface control designed to initiate the process to halt and stop the forensicVM.
 
    SSD
-      Solid State Drive. A faster type of storage device compared to traditional HDDs, beneficial for speeding up acquisition processes.
+      - **SSD (Solid State Drive)**: A storage device that uses integrated circuit assemblies to store data persistently, typically using flash memory.
+      - **SSD for Acquisition**: A faster type of storage device compared to traditional HDDs, beneficial for speeding up acquisition processes.
 
    SSH
-      Secure Shell. A cryptographic network protocol used for secure data communication and server administration.
-
-   SSH (Secure Shell)
-      A cryptographic network protocol used for operating network services securely over an unsecured network.
-
-   SSH Connection
-      Secure Shell connection; a cryptographic network protocol for secure data communication.
+      - **SSH (Secure Shell)**: A cryptographic network protocol used for secure data communication and server administration.
+      - **SSH for Network Services**: Used for operating network services securely over an unsecured network.
+      - **SSH Connection**: Refers to a Secure Shell connection, which utilizes the cryptographic network protocol for secure data communication.
 
    Start Button
       A button used to initiate the forensicVM.
@@ -700,20 +651,12 @@ Glossary
    Startup Settings
       An option within the “Advanced options” which allows changing the behavior of Windows during startup.
 
-   Stop Button
-      A button in the Autopsy Plugin used to halt the forensicVM.
-
-   Stop Button
-      A user interface control designed to initiate the process to halt and stop the forensicVM.
-
    Tag
       A label or marker within Autopsy used to identify and categorize data points or items of interest during forensic analysis.
 
    Tagging
-      The act of marking or labeling a specific item (like a screenshot) for identification, organization, or further analysis.
-
-   Tagging
-      The process of marking or labeling a piece of evidence or finding with a specific tag or label to easily categorize, search, or identify it later.
+      - **Tagging Action**: The act of marking or labeling a specific item (like a screenshot) for identification, organization, or further analysis.
+      - **Tagging in Forensic Context**: The process of marking or labeling a piece of evidence or finding with a specific tag or label to easily categorize, search, or identify it later.
 
    Tampered Data
       Information that has been intentionally altered or falsified to mislead or deceive.
@@ -754,14 +697,8 @@ Glossary
    UUID (Universally Unique Identifier)
       A 128-bit number used to uniquely identify some object or entity on the Internet. In this context, it identifies the specific ForensicVM instance that was deleted.
 
-   Video Recording Sound
-      Refers to the audio component of a video recording. In the context provided, the current VM does not support audio capture, though it is recognized as an important feature for some investigations.
-
    Virtual CD-ROM Drive
-      A simulated CD-ROM drive that can read ISO files as if they were physical discs.
-
-   Virtual CD-ROM drive
-      A software representation of a CD-ROM drive that allows the mounting and reading of ISO files as if they were physical discs.
+      A simulated or software representation of a CD-ROM drive that allows the mounting and reading of ISO files as if they were physical discs.
 
    Virtualization
       The creation and management of virtualized instances of certain resources, in this context, forensic images.
@@ -791,43 +728,23 @@ Glossary
       An interface accessible via a web browser where users can control the forensicVM.
 
    Web Interface
-      The web-based platform from which users can manage and control the forensicVM. It offers different functionalities including shutting down the machine.
-
-   Web Interface
-      The web-based platform from which users can manage and control the forensicVM. It offers different functionalities including stopping the machine.
-
-   Web Interface
-      A web-based platform through which users can manage, control, and reset the forensicVM. It is accessible through a browser and might be preferable for remote operations or specific service interfaces.
+      - **Web Interface for Managing ForensicVM**: A web-based platform from which users can manage and control the forensicVM. It offers different functionalities, including shutting down or stopping the machine.
+      - **Web Interface for Controlling ForensicVM**: A web-based platform through which users can manage, control, and reset the forensicVM. It is accessible through a browser and might be preferable for remote operations or specific service interfaces.
 
    Web Interface URL
       The web address used to access the forensicVM’s browser-based interface.
 
-   Web Remote Screen
-      A specific section of the web interface tailored for remote access.
-
-   Web Remote Screen (Shutdown)
-      A method to shut down the forensicVM when accessed remotely, offering flexibility for those working from distant locations or specific service interfaces.
+   Web Remote Screen / Web Remote Screen (Shutdown)
+      - **Web Remote Screen**: A specific section of the web interface tailored for remote access. It allows users to remotely control and manage the forensicVM, providing options like shutting down the machine.
+      - **Web Remote Screen (Shutdown)**: A method to shut down the forensicVM when accessed remotely, offering flexibility for those working from distant locations or specific service interfaces.
 
    Web Remote Screen Interface
-      A web-based interface allowing users to remotely control and manage the forensicVM. It can be accessed after logging in.
-
-   Web Remote Screen Interface
-      A web-based interface allowing users to remotely control and manage the forensicVM. It can be accessed after logging in.
-
-   Web Remote Screen Interface
-      A web-based interface allowing users to remotely control and manage the forensicVM. It provides options to reset the machine, among other functionalities.
+      A web-based interface allowing users to remotely control and manage the forensicVM. It can be accessed after logging in. It provides options to reset the machine, among other functionalities.
 
    Web Screen Interface
-      A web-based platform through which users can interact with and manage the forensicVM.
-
-   Web Screen Interface
-      An interface within the forensicVM that provides access to various settings including network configurations.
-
-   Web Screen Interface
-      An interface within the forensicVM that provides access to various settings including network configurations.
-
-   Web Screen Interface
-      A web-based interface that provides access to various functionalities, including the ability to eject and manage media within the ForensicVM.
+      - **Web Screen Interface**: A web-based platform through which users can interact with and manage the forensicVM.
+      - **Web Screen Interface**: An interface within the forensicVM that provides access to various settings including network configurations.
+      - **Web Screen Interface**: A web-based interface that provides access to various functionalities, including the ability to eject and manage media within the ForensicVM.
 
    Webscreen Console Main Area
       A description of the main area in the ForensicVM Webscreen Console.
@@ -857,19 +774,10 @@ Glossary
       A feature in the Windows operating system that allows files and folders to be shared over a network.
 
    Wireshark
-      A network packet analyzer. It captures network packets in real-time and displays them in human-readable format.
+      A network protocol analyzer tool that captures network packets in real-time and displays them in a human-readable format for detailed analysis.
 
-   Wireshark
-      A network protocol analyzer tool, which captures and displays packets for detailed analysis.
-
-   Wireshark pcap file
-      A specific file format used to capture and store network packets for later analysis using tools like Wireshark.
-
-   Wireshark pcap Files
-      A specific file format used to capture and store network packets for later analysis using tools like Wireshark.
-
-   Wireshark PCAP format
-      A specific format used to capture and save network traffic.
+   Wireshark pcap
+      A specific file format used to capture and store network packets for later analysis using tools like Wireshark. It is commonly used to capture and save network traffic data.
 
    Wizard Interface
       A user-friendly interface in software that guides users through a process step by step.
