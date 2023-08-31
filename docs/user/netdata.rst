@@ -9,7 +9,7 @@ Introduction
 Key Points
 ----------
 
-- **:term:`Real-time Look`**: :term:`Netdata` updates every second, helping catch issues fast.
+- :term:`Real-time Look`: :term:`Netdata` updates every second, helping catch issues fast.
 
 - **Sees Everything**: It checks everything - like how the CPU is used, memory use, disk activity, and how the network is doing.
 
@@ -24,7 +24,7 @@ How to Start with :term:`Netdata` on :term:`ForensicVM Server`
 
 :term:`Netdata` is already installed on :term:`ForensicVM Server`.
 
-**How to Use the :term:`Netdata` Dashboard**:
+**How to Use the** :term:`Netdata` **Dashboard**:
 
 You can open it from the Autopsy :term:`ForensicVM Client Plugin`:
 
@@ -84,7 +84,7 @@ Example of what you see:
 
 - **Memory**: Make sure there's enough RAM for all the tasks.
 
-- **:term:`Disk Activity`**: Make sure the disk isn’t too busy. If it is, tasks might slow down.
+- :term:`Disk Activity`: Make sure the disk isn’t too busy. If it is, tasks might slow down.
 
 - **Network**: Keep an eye on data coming in and out, especially with big files.
 
@@ -93,11 +93,11 @@ Example of what you see:
 Making :term:`Netdata` Work for You
 ---------------------------
 
-- **:term:`Set Your Alarms`**: Set warnings for things that matter to you.
+- :term:`Set Your Alarms`: Set warnings for things that matter to you.
 
 - **Your Dashboard**: Make a dashboard that shows what's important for your tasks.
 
-- **:term:`Connect with Other Tools`**: :term:`Netdata` can send alerts to places like Slack, Twilio, or email.
+- :term:`Connect with Other Tools`: :term:`Netdata` can send alerts to places like Slack, Twilio, or email.
 
 
 :term:`Netdata` is a great helper for those using :term:`ForensicVM Server`. It watches over things and makes sure all is good. For admins, it's a must-have tool.
