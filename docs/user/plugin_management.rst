@@ -39,7 +39,7 @@ The suite of plugins specifically designed to bypass authentication includes:
 
 Apart from authentication bypass, there are plugins designed to circumvent other security measures:
 
-- **Disable Windows Defender and :term:`Firewall`**:
+- **Disable Windows Defender and** :term:`Firewall`:
 
   - Certain external security tools like NirSoft or Mimikatz necessitate the deactivation of antivirus programs. This plugin disables both Windows Defender and the firewall to accommodate such tools.
 
@@ -55,7 +55,7 @@ Apart from authentication bypass, there are plugins designed to circumvent other
 
       - **Support for Programs Using Unsigned Drivers**: Some utilities or programs require the use of unsigned drivers. Disabling the driver enforcement provides flexibility to run these applications without any hitches.
 
-      - **Blue Screen Issue Resolution**: After converting a forensic image, systems may sometimes experience the infamous ':term:`Blue Screen of Death`' (BSOD) due to driver issues. This tool can assist in resolving those problems by ensuring that all drivers, even the unsigned ones, can run without any enforcement barriers.
+      - **Blue Screen Issue Resolution**: After converting a forensic image, systems may sometimes experience the infamous :term:`Blue Screen of Death` (BSOD) due to driver issues. This tool can assist in resolving those problems by ensuring that all drivers, even the unsigned ones, can run without any enforcement barriers.
 
 .. note::
 
@@ -113,7 +113,7 @@ The capability to execute plugins enhances the versatility of the ForensicVM, al
    Initiate the plugin execution by pressing the **Run Selected Plugin** button.
 
 4. **Review the Plugin Output**:
-   Post execution, it's vital to inspect the results and logs. These can be found within the **:term:`Output Console`** tab.
+   Post execution, it's vital to inspect the results and logs. These can be found within the :term:`Output Console` tab.
 
     .. raw:: latex
 
