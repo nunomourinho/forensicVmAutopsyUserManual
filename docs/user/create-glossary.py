@@ -277,11 +277,10 @@ for file_name in os.listdir("."):
         print(f"Processing {file_name}...")
 
         for term in terms:
-            print(term)
+            #print(term)
             temp_file = f"{file_name}.temp"
             with open(file_name, "r") as input_file, open(temp_file, "w") as output_file:
-                for line in input_file:
-                    
+                for line in input_file:                    
                     line = line.replace(term, generate_replacement(term))
                     output_file.write(line)
 
