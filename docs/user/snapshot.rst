@@ -7,7 +7,7 @@ Why snapshots are so important for a forensic investigation
 In the dynamic realm of digital forensics, the ability to preserve, replicate, and revert to specific states of digital evidence is paramount. Snapshots in ForensicVM offer this essential capability. Here's an in-depth look at why snapshots are indispensable for forensic investigators:
 
 :term:`Base Snapshot`: The Pristine Beginning
-***************************************
+**********************************************
 
 The *base snapshot* or sometimes referred to as the 'first snapshot,' is a reflection of the initial state of a system or a piece of evidence. Just as a crime scene investigator would secure a scene to ensure no contamination occurs, in digital forensics, the base snapshot acts as that secured, untouched crime scene. It represents the data in its original, unaltered form, enabling investigators to always have a pristine reference point.
 
@@ -24,7 +24,7 @@ Forensic investigation often involves a series of "what-if" scenarios. Investiga
 Additional Considerations
 **************************
 
-1. **Documentation and :term:`Chain of Custody`**: Every snapshot can serve as a documented step in the investigative process, aiding in maintaining a clear chain of custody.
+1. **Documentation and** :term:`Chain of Custody`: Every snapshot can serve as a documented step in the investigative process, aiding in maintaining a clear chain of custody.
 
 2. **Efficiency and Speed**: Instead of restoring from backups or original sources, which can be time-consuming, snapshots allow for quick reversion, making the investigative process more efficient.
 
@@ -57,7 +57,7 @@ It is highly recommended to create your first snapshot immediately after the mac
 
     1. **Open the Autopsy ForensicVM Client**: Ensure you have the Autopsy ForensicVM Client interface launched and ready.
 
-    2. **Navigate to :term:`Snapshot Management`**: This section is dedicated to creating, viewing, and managing snapshots of your ForensicVM.
+    2. **Navigate to** :term:`Snapshot Management`: This section is dedicated to creating, viewing, and managing snapshots of your ForensicVM.
 
     3. **Initiate Snapshot Creation**:
    
@@ -81,16 +81,16 @@ It is highly recommended to create your first snapshot immediately after the mac
 Once you've successfully created a snapshot, it will be saved and listed in the Snapshot management section. You can then access this snapshot whenever needed to revert your ForensicVM to that particular state.
 
 :term:`List Remote Snapshots`
-----------------------
+------------------------------
 
 While the Autopsy ForensicVM Client interface typically auto-updates to display all available snapshots, there may be occasions where the list isn't refreshed in real-time. In such scenarios, it's beneficial to use the ":term:`List Remote Snapshots`" feature to manually fetch and view the list of all remote snapshots associated with the current ForensicVM.
 
 **List snapshots**
 1. **Open the Autopsy ForensicVM Client**: If not already open, launch the Autopsy ForensicVM Client interface to access the snapshot management features.
 
-2. **Navigate to the :term:`Snapshot Management` Area**: This section provides tools and options related to creating, viewing, and managing snapshots of your ForensicVM.
+2. **Navigate to the** :term:`Snapshot Management` **Area**: This section provides tools and options related to creating, viewing, and managing snapshots of your ForensicVM.
 
-3. **Manually :term:`List Remote Snapshots`**:
+3. **Manually** :term:`List Remote Snapshots`:
    
    - Look for the ":term:`List Remote Snapshots`" button. This button is specifically designed to fetch the list of snapshots from the remote server and display them within the interface.
    - Click on the ":term:`List Remote Snapshots`" button to initiate the listing process.
