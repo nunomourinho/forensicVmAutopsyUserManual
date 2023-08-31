@@ -259,10 +259,6 @@ terms = [
     'Autopsy ForensicVM Client Plugin: A Comprehensive Interface Guide',
 ]
 
-replacement_text = ""
-for term in terms:
-    replacement_text += generate_replacement(term)
-
 excluded_file = "glossary.rst"
 
 import os
@@ -286,7 +282,7 @@ for file_name in os.listdir("."):
             with open(file_name, "r") as input_file, open(temp_file, "w") as output_file:
                 for line in input_file:
                     
-                    line = line.replace(term, replacement_text)
+                    line = line.replace(term, generate_replacement(term))
                     output_file.write(line)
 
         os.remove(file_name)
