@@ -266,8 +266,8 @@ for file_name in os.listdir("."):
             with open(file_name, "r") as input_file, open(temp_file, "w") as output_file:
                 for line in input_file:                    
                     line = line.replace(term, generate_replacement(term))
-                    fixed_line = fix_rst_term_line(line)
-                    output_file.write(fixed_line)
+                    #fixed_line = fix_rst_term_line(line)
+                    output_file.write(line)
 
             os.remove(file_name)
             os.rename(temp_file, file_name)
