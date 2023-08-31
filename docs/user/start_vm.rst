@@ -116,7 +116,7 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
 
 **Steps to Start, Stop, or Shutdown**:
 
-1. **Activate ForensicVM in the Main :term:`Plugin Interface`**:
+1. **Activate ForensicVM in the Main** :term:`Plugin Interface`:
    
    To initiate the VM, click the "Start" button.
 
