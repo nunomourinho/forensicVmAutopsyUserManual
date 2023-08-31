@@ -1,5 +1,5 @@
 def generate_replacement(term):
-    return f":term:`{term}`\n"
+    return f":term:`{term}`"
 
 terms = [
     'SSD',
