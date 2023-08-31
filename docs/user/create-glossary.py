@@ -1,5 +1,5 @@
 def generate_replacement(term):
-    return f"{term}\n:term:`{term}`\n"
+    return f":term:`{term}`\n"
 
 terms = [
     'VM',
@@ -284,8 +284,8 @@ for file_name in os.listdir("."):
                     line = line.replace(term, generate_replacement(term))
                     output_file.write(line)
 
-        os.remove(file_name)
-        os.rename(temp_file, file_name)
+            os.remove(file_name)
+            os.rename(temp_file, file_name)
 
         processed_files += 1
         print(f"{file_name} processed. ({processed_files}/{total_files})")
