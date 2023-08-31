@@ -1,4 +1,4 @@
-Managing the :term:`Network Card` to Capture and Analyse Network Traffic
+Managing the Network Card to Capture and Analyse Network Traffic
 =================================================================
 
 By default, the forensicVM initiates with its network card disabled. This design choice is deliberate, to minimize the potential risks of activating a network card on a possibly compromised virtual forensic machine. Activating such a network card could jeopardize not only your individual computer but the broader network environment.
@@ -13,14 +13,14 @@ inbuilt firewall designed to block access to identified local networks while per
    It's paramount to treat the activation of the network card as a method of last    resort. Alternatively, consider using a remotely hosted forensicVM server. The integrity of the firewall isn't foolproof, meaning there's always a risk that malicious software might infiltrate your network. Furthermore, a compromised machine could ping back to an attacker, potentially revealing your external IP address and inadvertently notifying a malicious actor that they are under active investigation!
 
 Enable the :term:`Network Card`
-------------------------
+-------------------------------
 
 To activate the network card on the forensicVM, there are two methods available. The first method involves using the Autopsy ForensicVM client plugin interface, and the second requires directly interacting with the web screen interface through the network icon.
 
 Enable network card using the Autopsy ForensicVM Client :term:`Plugin Interface`
-**************************************************************************
+*********************************************************************************
 
-**Activate :term:`Network Card` Button**
+**Activate** :term:`Network Card` **Button**
 
 1. Start the forensicVM machine.
 2. Navigate to the Network Panel within the interface.
@@ -41,7 +41,7 @@ Enable network card using the Autopsy ForensicVM Client :term:`Plugin Interface`
 
    \FloatBarrier
 
-**Confirmation of :term:`Network Card` Activation**
+**Confirmation of** :term:`Network Card` **Activation**
 
 After clicking the button, a popup window will appear to confirm the successful 
 activation of the network card.
@@ -61,11 +61,11 @@ activation of the network card.
    \FloatBarrier
 
 Enable Network Using the :term:`Web Screen Interface`
-************************************************
+******************************************************
 
 Activating the network card can also be achieved via the :term:`Web Screen Interface`. This method allows users to manage network settings without diving into the main software interface. Here's how to enable the network card using the :term:`Web Screen Interface`:
 
-**Activating Network through :term:`Web Screen Interface` Steps**
+**Activating Network through** :term:`Web Screen Interface` **Steps**
 
 1. Initiate the **Panel Opener (1)** to reveal the available options.
 2. Locate and click on the **network icon (2)** to access network settings.
@@ -163,7 +163,7 @@ Collect Network Evidence
 
 Enabling the network card is often crucial for forensic investigations, especially when collecting evidence from cloud services. This is particularly relevant when users have not logged out from a service or when session cookies remain in the browser. Such scenarios allow forensic investigators to trace digital breadcrumbs and gather additional evidence that may be inaccessible from offline forensic images. Below are two illustrative examples:
 
-**Gathering Data from :term:`Cloud Services` - OneDrive Example**
+**Gathering Data from** :term:`Cloud Services` **- OneDrive Example**
 
 The following figure demonstrates data extraction from OneDrive, a popular online cloud service.
 
@@ -182,7 +182,7 @@ The following figure demonstrates data extraction from OneDrive, a popular onlin
 
    \FloatBarrier
 
-**Gathering Data from :term:`Cloud Services` - Online Storage Example**
+**Gathering Data from** :term:`Cloud Services` **- Online Storage Example**
 
 In this next example, an online file storage platform is accessed using cached credentials:
 
@@ -204,7 +204,7 @@ In this next example, an online file storage platform is accessed using cached c
 
 
 Disable the :term:`Network Card`
--------------------------
+---------------------------------
 
 There are two primary methods to deactivate the network card on the forensicVM:
 
@@ -212,9 +212,9 @@ There are two primary methods to deactivate the network card on the forensicVM:
 2. Directly interacting with the web screen interface.
 
 Disable :term:`Network Card` with the Autopsy ForensicVM Client :term:`Plugin Interface`
-**************************************************************************
+*****************************************************************************************
 
-**Steps to Deactivate :term:`Network Card`**:
+**Steps to Deactivate** :term:`Network Card`:
 
 #. Ensure that the forensicVM machine is running.
 #. Within the interface, go to the Network Panel.
@@ -236,7 +236,7 @@ Disable :term:`Network Card` with the Autopsy ForensicVM Client :term:`Plugin In
    \FloatBarrier
 
 Using the :term:`Web Screen Interface` to Disable the :term:`Network Card`
-************************************************************
+****************************************************************************
 
 The :term:`Web Screen Interface` offers an alternative approach for users who prefer to manage network settings without engaging with the main software interface.
 
@@ -263,7 +263,7 @@ The :term:`Web Screen Interface` offers an alternative approach for users who pr
 
 
 Download :term:`Wireshark pcap` Files
-------------------------------
+---------------------------------------
 
 **Downloading pcap Files**
 
@@ -286,7 +286,7 @@ To obtain the :term:`Wireshark pcap` files, follow the instructions below:
 
       \FloatBarrier
 
-2. A :term:`Windows Explorer` window will prompt you to select a save location for the `:term:`pcap.zip`` file. It's recommended to maintain the default save path, which is typically set to the image case folder.
+2. A :term:`Windows Explorer` window will prompt you to select a save location for the :term:`pcap.zip` file. It's recommended to maintain the default save path, which is typically set to the image case folder.
 
    .. raw:: latex
 
@@ -303,7 +303,7 @@ To obtain the :term:`Wireshark pcap` files, follow the instructions below:
 
       \FloatBarrier
 
-3. The download progress will be displayed, indicating the time required to complete the download. This duration can vary depending on the size of the `:term:`pcap.zip`` file.
+3. The download progress will be displayed, indicating the time required to complete the download. This duration can vary depending on the size of the :term:`pcap.zip` file.
 
    .. raw:: latex
 
@@ -335,7 +335,7 @@ To obtain the :term:`Wireshark pcap` files, follow the instructions below:
 
       \FloatBarrier
 
-5. The :term:`Windows Explorer` will automatically open to the default save location of `:term:`pcap.zip``.
+5. The :term:`Windows Explorer` will automatically open to the default save location of :term:`pcap.zip`.
 
    .. raw:: latex
 
@@ -352,7 +352,7 @@ To obtain the :term:`Wireshark pcap` files, follow the instructions below:
 
       \FloatBarrier
 
-6. To decompress the `:term:`pcap.zip`` file, you can use a program like :term:`7-zip`. The extraction can take some time, especially if the pcap files are large.
+6. To decompress the :term:`pcap.zip`` file, you can use a program like :term:`7-zip`. The extraction can take some time, especially if the pcap files are large.
 
    .. raw:: latex
 
@@ -391,9 +391,9 @@ Analyzing network traffic is an integral part of digital forensic investigations
 
 **Importance of Analyzing Traffic in Forensic Investigations**
 
-1. **:term:`Evidence Collection`**: Analyzing traffic can reveal communication with suspicious IP addresses, hinting at potential data exfiltration or command-and-control servers.
+1. :term:`Evidence Collection`: Analyzing traffic can reveal communication with suspicious IP addresses, hinting at potential data exfiltration or command-and-control servers.
 2. **User Behavior**: Network traffic can provide clues about user behavior, including sites visited, files downloaded, or apps used.
-3. **:term:`Timestamps`**: Traffic analysis can help in reconstructing timelines of events, crucial for correlating actions across different evidence sources.
+3. :term:`Timestamps`: Traffic analysis can help in reconstructing timelines of events, crucial for correlating actions across different evidence sources.
 4. **Detect Malware**: Unusual network traffic patterns can be indicative of malware communication.
 
 
@@ -401,14 +401,14 @@ Analyzing network traffic is an integral part of digital forensic investigations
 
 1. **Comprehensive Data View**: Wireshark offers a detailed view of packets, allowing forensic investigators to delve deep into the network interactions.
 2. **Filtering and Searching**: With its advanced filtering options, investigators can isolate relevant data quickly.
-3. **:term:`Decoding Protocols`**: Wireshark can decode a vast array of protocols, aiding in understanding the specifics of network conversations.
+3. :term:`Decoding Protocols`: Wireshark can decode a vast array of protocols, aiding in understanding the specifics of network conversations.
 4. **Visualization**: Graphical features like flow graphs help in visualizing communication patterns.
 
 **Dangers**
 
-1. **:term:`Data Overload`**: The volume of data in pcap files can be overwhelming, and without proper focus, important details might be missed.
+1. :term:`Data Overload`: The volume of data in pcap files can be overwhelming, and without proper focus, important details might be missed.
 2. **Privacy Concerns**: Analyzing traffic can inadvertently capture personal or sensitive information of innocent users.
-3. **:term:`Tampered Data`**: If the forensic image virtual machine is compromised, the network data might be tampered with, leading to incorrect conclusions.
+3. :term:`Tampered Data`: If the forensic image virtual machine is compromised, the network data might be tampered with, leading to incorrect conclusions.
 4. **Misinterpretation**: Without proper expertise, normal traffic can be misinterpreted as malicious or vice versa.
 
 .. note::
