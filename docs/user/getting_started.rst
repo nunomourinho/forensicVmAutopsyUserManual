@@ -64,17 +64,17 @@ The Autopsy :term:`ForensicVM Client Plugin` serves as a pivotal hub for forensi
     - **Handle Snapshots**: Capture and revert the ForensicVM to various states.
     - **Capture Screenshots**: Record specific instances or frames within the ForensicVM.
     - **Memory Management**: Generate and retrieve memory dumps, vital for observing real-time operations within the ForensicVM.
-    - **Virtual :term:`Evidence Disk` Management**: Import and regenerate the virtual evidence disk, accumulating all potential pieces of evidence.
+    - **Virtual** :term:`Evidence Disk` Management: Import and regenerate the virtual evidence disk, accumulating all potential pieces of evidence.
     - **Network Management**: Toggle network cards on or off, and capture pcap (packet capture) files for granular network investigations.
     - **ForensicVM Customization**: Modify the starting date/time, reallocate memory, among other settings.
     - **Performance Analysis**: Employ :term:`Netdata` for comprehensive metric analysis of the ForensicVM's operations.
     - **Troubleshooting**: Secure an SSH connection to the ForensicVM machine, connecting directly to its remote directory. Additionally, avail an equivalent webshell for an internet-based SSH interaction with the server.
 
-3. **:term:`Autopsy Case`**:
+3. :term:`Autopsy Case`:
     
     - This tab displays the Autopsy case details, including the extant case tags (utilized for case folder creation) and the generated UUID. This UUID is unique and becomes the name for the foundational directory of the forensic virtual machine.
 
-4. **:term:`Output Console`**:
+4. :term:`Output Console`:
     
     - This console captures all system messages. It's a valuable tool for debugging or ascertaining the final state of operations.
 
@@ -146,9 +146,9 @@ Make and Download a :term:`Memory Dump` (8)
 
 Engage with the active memory data of the forensic virtual machine:
 
-- **Make :term:`Memory Dump`**: Generate a snapshot of the forensicVM's current memory state, capturing active processes, and other runtime details.
+- **Make** :term:`Memory Dump`: Generate a snapshot of the forensicVM's current memory state, capturing active processes, and other runtime details.
 
-- **Download :term:`Memory Dump`**: Retrieve the created memory dump for further analysis, facilitating deeper investigations using tools such as:
+- **Download** :term:`Memory Dump`: Retrieve the created memory dump for further analysis, facilitating deeper investigations using tools such as:
   
   - The :term:`Volatility` plugin within the Autopsy software.
   - External utilities like :term:`Volatility` 3.0.
@@ -195,7 +195,7 @@ Manage network settings and operations:
 - **Disable network card**:
     Deactivates the network card and saves a pcap file with all captured traffic to the server.
 
-- **Download :term:`Wireshark pcap` files**:
+- **Download** :term:`Wireshark pcap` **files**:
     Download all generated pcap files as a zip file, enabling investigators to analyze captured network traffic using tools like Wireshark or other network traffic analysis software.
 
 ForensicVM Webscreen Console
@@ -310,14 +310,14 @@ For enhanced collaboration, remote forensic investigators have the capability to
 
 Interface Breakdown:
 
-- **(1) :term:`VM Control` Options**: 
+- **(1)** :term:`VM Control` **Options**: 
     * **Start**: Power on the ForensicVM.
     * **Stop**: Power off the ForensicVM.
     * **Shutdown**: Properly shut down the ForensicVM, ensuring all processes are terminated correctly.
     * **Reset**: Reboot the ForensicVM.
     * **Browse**: Launch the ForensicVM's web console, offering a visual interface to the VM.
 
-- **(2) :term:`Notification Area`**: A dedicated space where various system communications such as messages, warnings, and error alerts are displayed.
+- **(2)** :term:`Notification Area`: A dedicated space where various system communications such as messages, warnings, and error alerts are displayed.
 
 - **(3) Server Management and Utilities**:
     * **Server Status (:term:`Netdata`)**: Provides real-time performance metrics and monitoring using :term:`Netdata`.
