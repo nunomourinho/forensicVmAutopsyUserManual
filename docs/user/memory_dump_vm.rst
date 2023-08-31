@@ -400,4 +400,3 @@ Analyzing memory dumps is a vital task in computer forensics, malware analysis, 
 10. X-Ways Forensics: `X-Ways Forensics <https://www.x-ways.net/forensics/index-m.html>`_ a commercial product with strong memory analysis features.
 
 These tools offer a wide range of capabilities, from capturing memory images to detailed analysis. Depending on the specific requirements of the analysis, an investigator might choose one or several of these tools.
-
