@@ -1,7 +1,7 @@
 Running Autopsy Forensic VM Plugin
 ====================================
 
-To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a new case within the Autopsy framework and then seamlessly integrate a new data source. Below, the comprehensive procedure is outlined:
+To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a new case within the :term:`Autopsy framework` and then seamlessly integrate a new data source. Below, the comprehensive procedure is outlined:
 
 1) **Add a New Case to Autopsy**
    
@@ -23,7 +23,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
       \FloatBarrier
 
 
-2) **Fill in Case Name in Case Information**
+2) **Fill in Case Name in** :term:`Case Information` ******
    
    Once the case addition window pops up, provide a unique and descriptive name for your case. This helps in distinguishing it from other cases in the future.
 
@@ -33,11 +33,11 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 
    .. figure:: img/autopsy_add_data_source_0002.jpg
-      :alt: Fill in Case Name in Case Information
+      :alt: Fill in Case Name in :term:`Case Information`
       :align: center
       :width: 600px
 
-      Fill in Case Name in Case Information
+      Fill in Case Name in :term:`Case Information`
 
       .. raw:: latex
 
@@ -90,9 +90,9 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
       \FloatBarrier
 
 
-5) **Select Data Source Type as "Disk Image or VM File"**
+5) **Select :term:`Data Source` Type as ":term:`Disk Image or VM File`"**
 
-   Choose the type of data source you're incorporating. For this procedure, select "Disk Image or VM File", which allows Autopsy to process VM images and disk snapshots.
+   Choose the type of data source you're incorporating. For this procedure, select ":term:`Disk Image or VM File`", which allows Autopsy to process VM images and disk snapshots.
 
    .. raw:: latex
 
@@ -101,11 +101,11 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 
    .. figure:: img/autopsy_add_data_source_0005.jpg
-      :alt: Select Data Source Type
+      :alt: Select :term:`Data Source` Type
       :align: center
       :width: 600px
 
-      Select Data Source Type
+      Select :term:`Data Source` Type
 
    .. raw:: latex
 
@@ -113,7 +113,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 
 
-6) **Browse and Choose Your Forensic Image**
+6) **Browse and Choose Your** :term:`Forensic Image` ******
 
    Navigate through your file system and pick the appropriate forensic image or VM file. Ensure that the chosen file is compatible and accessible.
 
@@ -124,11 +124,11 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 
    .. figure:: img/autopsy_add_data_source_0006.jpg
-      :alt: Choose Your Forensic Image
+      :alt: Choose Your :term:`Forensic Image`
       :align: center
       :width: 600px
 
-      Choose Your Forensic Image
+      Choose Your :term:`Forensic Image`
 
    .. raw:: latex
 
@@ -136,7 +136,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 
 
-7) **Select Extra Parameters Like Time Zone and Sector Size**
+7) **Select Extra Parameters Like** :term:`Time Zone` and :term:`Sector Size` ******
 
    Fine-tune your forensic analysis by selecting the relevant time zone and determining the sector size. These parameters help in accurate data extraction and interpretation.
 
@@ -158,9 +158,9 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 
 
-8) **Configure the Python Ingest Plugin to Run and Select the ForensicVM Client Plugin**
+8) **Configure the** :term:`Python` Ingest Plugin to Run and Select the :term:`ForensicVM Client Plugin` ******
 
-   Activate the Python Ingest Plugin for automated data ingestion. Also, ensure to select the ForensicVM Client plugin, which is pivotal for the VM forensic analysis.
+   Activate the :term:`Python` Ingest Plugin for automated data ingestion. Also, ensure to select the ForensicVM Client plugin, which is pivotal for the VM forensic analysis.
 
    .. raw:: latex
 
@@ -169,11 +169,11 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 
    .. figure:: img/autopsy_add_data_source_0008.jpg
-      :alt: Configure the Python Ingest Plugin
+      :alt: Configure the :term:`Python` Ingest Plugin
       :align: center
       :width: 600px
 
-      Configure the Python Ingest Plugin
+      Configure the :term:`Python` Ingest Plugin
 
    .. raw:: latex
 
@@ -181,7 +181,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 
 
-9) **Monitor the Data Source Processing Progress**
+9) **Monitor the :term:`Data Source` Processing Progress**
 
    As the data gets processed, an intuitive progress bar displays the ongoing activities and the completion percentage. Keep an eye on this to gauge the processing speed and potential completion time.
 
@@ -192,11 +192,11 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 
    .. figure:: img/autopsy_add_data_source_0009.jpg
-      :alt: Data Source Processing Progress
+      :alt: :term:`Data Source` Processing Progress
       :align: center
       :width: 600px
 
-      Data Source Processing Progress
+      :term:`Data Source` Processing Progress
 
    .. raw:: latex
 
@@ -204,20 +204,20 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 
 
-10) **Await the ForensicVM Loader's Initialization**
+10) **Await the :term:`ForensicVM Loader`'s Initialization**
 
-   The ForensicVM Loader will make a brief appearance. This indicates that the plugin is gearing up for execution. It will automatically close once the plugin is fully initialized.
+   The :term:`ForensicVM Loader` will make a brief appearance. This indicates that the plugin is gearing up for execution. It will automatically close once the plugin is fully initialized.
 
    .. raw:: latex
 
       \FloatBarrier
 
    .. figure:: img/autopsy_add_data_source_0010.jpg
-      :alt: ForensicVM Loader Initialization
+      :alt: :term:`ForensicVM Loader` Initialization
       :align: center
       :width: 600px
 
-      ForensicVM Loader Initialization
+      :term:`ForensicVM Loader` Initialization
 
    .. raw:: latex
 
@@ -227,7 +227,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 11) **Complete the Procedure and Minimize Autopsy Window**
 
-   Click on the "Finish" button to round off the 'Add Data Source' wizard. For better visibility and multitasking, it's advisable to minimize the main Autopsy window at this juncture.
+   Click on the "Finish" button to round off the 'Add :term:`Data Source`' wizard. For better visibility and multitasking, it's advisable to minimize the main Autopsy window at this juncture.
 
    .. raw:: latex
 
@@ -236,11 +236,11 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 
    .. figure:: img/autopsy_add_data_source_0011.jpg
-      :alt: Finish Data Source Wizard
+      :alt: Finish :term:`Data Source` Wizard
       :align: center
       :width: 600px
 
-      Finish Data Source Wizard
+      Finish :term:`Data Source` Wizard
 
    .. raw:: latex
 
@@ -248,7 +248,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 
 
-12) **Engage with the Autopsy ForensicVM Client Plugin Interface**
+12) **Engage with the Autopsy ForensicVM Client** :term:`Plugin Interface` ******
 
    Post the previous steps, the dedicated window for the Autopsy ForensicVM Client plugin will emerge. Here, you can conduct in-depth VM forensics using the myriad features offered by the plugin.
 
@@ -259,11 +259,11 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
 
 
    .. figure:: img/autopsy_add_data_source_0012.jpg
-      :alt: ForensicVM Client Plugin Interface
+      :alt: ForensicVM Client :term:`Plugin Interface`
       :align: center
       :width: 600px
 
-      ForensicVM Client Plugin Interface
+      ForensicVM Client :term:`Plugin Interface`
 
    .. raw:: latex
 
