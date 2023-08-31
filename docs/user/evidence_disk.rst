@@ -418,7 +418,7 @@ A notification popup will display the evidence path.
    :align: center
    :width: 600px
 
-   *Evidence.:term:`vmdk` in :term:`Windows Explorer`*
+   *Evidence.*:term:`vmdk` *in* :term:`Windows Explorer`
 
 .. raw:: latex
 
@@ -437,7 +437,7 @@ Hold Shift, right-click on evidence.:term:`vmdk`, and select "Copy as path".
    :align: center
    :width: 600px
 
-   *Copying evidence.:term:`vmdk` Path*
+   *Copying evidence.*:term:`vmdk` *Path*
 
 .. raw:: latex
 
@@ -513,7 +513,7 @@ Paste the evidence.:term:`vmdk` path and set the "Time zone".
    :align: center
    :width: 600px
 
-   *Inputting evidence.:term:`vmdk` Path in Autopsy*
+   *Inputting evidence.*:term:`vmdk` *Path in Autopsy*
 
 .. raw:: latex
 
