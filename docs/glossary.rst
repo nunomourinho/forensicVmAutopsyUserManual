@@ -8,10 +8,7 @@ Glossary
       A specific pixel count for display screens. This resolution is recommended to ensure a clear and detailed view of the ForensicVM interface.
 
    64-bit multi-core processor
-      A type of processor with multiple cores that can process 64-bit data chunks simultaneously. It’s recommended for ForensicVM to ensure optimal performance, especially for complex tasks.
-
-   64-bit multi-core processor
-      A type of processor with multiple cores that can process 64-bit data chunks simultaneously, ensuring optimal performance for ForensicVM.
+      A processor with multiple cores capable of handling 64-bit data chunks simultaneously. It's essential for ForensicVM to achieve optimal performance, especially during intricate tasks.
 
    7-zip
       A free and open-source file archiver, commonly used for compressing and decompressing files.
@@ -50,100 +47,25 @@ Glossary
       A suite of plugins designed specifically to bypass various authentication measures.
 
    Autopsy
-      A platform or tool used for digital forensics investigations.
-
-   Autopsy
-      An open-source digital forensics platform used for conducting digital investigations.
-
-   Autopsy
-      A digital forensics platform used for analyzing, managing, and reporting digital evidence.
-
-   Autopsy
-      A digital forensics platform used to conduct disk forensics and post-mortem analysis.
-
-   Autopsy
-      A digital forensics platform used for analyzing and managing forensic data.
-
-   Autopsy
-      A digital forensics platform designed for analyzing and managing forensic data.
-
-   Autopsy 4.20
-      A specific version of the digital forensics software that is necessary for compatibility with the ForensicVM plugin.
-
-   Autopsy 4.20 or later
-      A version of the digital forensics platform and graphical interface. ForensicVM requires at least version 4.20 for compatibility.
+      An open-source digital forensics platform designed for analyzing, managing, reporting, and conducting digital investigations. It is used for disk forensics, post-mortem analysis, and handling forensic data. The platform also provides a user interface to manage various functionalities, including the ForensicVM. ForensicVM requires compatibility with at least Autopsy version 4.20.
 
    Autopsy Case
       Displays Autopsy case details, including existing case tags and the generated unique UUID.
 
-   Autopsy ForensicVM Client
-      The interface or platform from which forensic investigators access and manage the ForensicVM functionalities, including snapshot management.
-
-   Autopsy ForensicVM Client interface
-      The software interface where users can adjust various parameters of the ForensicVM.
+   Autopsy framework
+      A subset of the Autopsy platform focused on tools and functionalities used for conducting investigations, such as analyzing disk images or VM files, and post-mortem analysis.
 
    Autopsy ForensicVM Client Plugin
-      A plugin in ForensicVM used for various operations, including ISO management.
-
-   Autopsy ForensicVM Client Plugin
-      A software plugin for the Autopsy forensics platform that facilitates interaction with the ForensicVM environment.
-
-   Autopsy ForensicVM Client Plugin
-      A plugin interface through which one can access various tools, including the WebShell.
-
-   Autopsy ForensicVM Client Plugin
-      A plugin interface in ForensicVM from which users can access various tools, including Netdata.
-
-   Autopsy ForensicVM Client Plugin
-      A software interface that aids in accessing and controlling the forensicVM.
-
-   Autopsy ForensicVM Client Plugin Interface
-      A specific interface within the forensic investigation software, Autopsy, tailored for managing virtual forensic machines.
+      An extension for the Autopsy framework, this plugin facilitates interaction with the ForensicVM environment. Through this interface, forensic investigators can access and manage various functionalities, including snapshot, ISO, and tools management like WebShell and Netdata. It is also tailored for managing and analyzing virtual forensic machines.
 
    Autopsy ForensicVM Client Plugin: A Comprehensive Interface Guide
-      A detailed guide describing the Autopsy ForensicVM Client Plugin’s functionalities and operations.
+      A detailed guide describing the functionalities and operations of the Autopsy ForensicVM Client Plugin.
 
-   Autopsy ForensicVM plugin
-      A specific plugin for the Autopsy framework that aids in the forensic analysis of VMs.
-
-   Autopsy ForensicVM plugin
-      A plugin designed to enhance the capabilities of Autopsy by allowing users to process and analyze virtual machine images.
-
-   Autopsy ForensicVM Plugin
-      A tool used for VM forensic analysis and integration within the Autopsy framework.
-
-   Autopsy ForensicVM Plugin
-      A tool or extension used for forensic investigations within the Autopsy framework.
-
-   Autopsy ForensicVM plugin
-      A plugin within the Autopsy platform tailored to manage and interact with a Forensic Virtual Machine (VM).
-
-   Autopsy framework
-      A platform used for conducting digital investigations, such as for analyzing disk images or VM files.
-
-   Autopsy Interface
-      The interface from which features tailored to aid forensic analysts can be accessed.
+   Autopsy Tags
+      Markers or labels within the Autopsy platform that aid in organizing and categorizing evidence. They are represented as directories or folders on the evidence disk.
 
    Autopsy Plugin
-      A tool or extension used for forensic investigations.
-
-   Autopsy Plugin Interface
-      The UI within the Autopsy framework that provides options to manage the forensicVM.
-
-   Autopsy Software
-      The software in which the ForensicVM Client Plugin runs.
-
-   Autopsy Software
-      A digital forensics platform utilized for disk forensics and post-mortem analysis.
-
-   Autopsy Tags
-      Markers or labels within the Autopsy forensic software that aid in categorizing and organizing evidence. They are reflected as directories in the evidence disk.
-
-   Autopsy Tags
-      Markers or labels within the Autopsy forensic software that help in organizing evidence into specific categories. These tags are represented as folders on the evidence disk.
-
-   AutopsyVM client plugin
-      A software extension for the Autopsy digital forensics platform, which enables advanced functionalities specifically for ForensicVM.
+      Extensions or tools within the Autopsy platform designed to enhance its forensic investigation capabilities. These plugins extend the core functionality of the Autopsy platform. The ForensicVM Client Plugin is a notable example.
 
    Bare metal server
       A physical server dedicated to a single tenant or purpose.
@@ -167,10 +89,7 @@ Glossary
       A software process that starts the operating system when the computer is powered on.
 
    Bootable Media
-      Details about booting from an ISO or CD-ROM for specific forensic tasks.
-
-   Bootable Media
-      Digital storage media, like an ISO, that contains a boot sector, allowing a computer to start up from it.
+      Digital storage media, like an ISO, that contains a boot sector, allowing a computer to start up from it. It provides details about booting from an ISO or CD-ROM for specific forensic tasks.
 
    BOOTFIX: Disable Driver Enforcement
       A utility that addresses challenges related to driver signatures.
@@ -215,10 +134,7 @@ Glossary
       An open initiative aiming to enhance ForensicVM functionalities through community contributions.
 
    Configuration File
-      A file that contains various parameters for the forensic virtual machine, such as memory size, attached disks, UEFI boot options, and more.
-
-   Configuration file
-      A file that stores settings and parameters that define how a software or system behaves.
+      A file that stores settings and parameters that define how a software or system behaves, and contains various parameters for the forensic virtual machine, such as memory size, attached disks, UEFI boot options, and more.
 
    Confirmation Dialog
       A prompt or interface that seeks affirmation from a user for a potentially critical action.
@@ -253,32 +169,17 @@ Glossary
    Data Overload
       A situation where the amount of captured data is so vast that it becomes challenging to identify essential and relevant information.
 
-   Data source
-      Specific input or evidence, such as a disk image or VM file, which will be analyzed within the forensic tool.
-
-   Data source
-      A reference or connection to data that Autopsy uses to gather evidence, such as forensic images.
-
    Data Source
-      An entity from which digital evidence is extracted. In this context, it refers specifically to disk images or virtual machine files.
-
-   Data Source
-      Refers to a repository or a location from which data is acquired. In the context of Autopsy, it refers to the origin or source of forensic evidence.
+      An entity from which digital evidence is extracted. This can refer to a repository, location, specific input, or reference. In the context of Autopsy, it encompasses evidence such as disk images, VM files, or any origin of forensic data. It is used as a connection or reference to gather, analyze, and acquire evidence within the forensic tool.
 
    Data Source Processing Progress
       A visual representation, usually a progress bar, showing the ongoing processing of a data source.
 
    Deactivate
-      The process of shutting down or turning off a virtual machine, making it inactive.
-
-   Deactivate
-      The act of turning off or shutting down the forensicVM, making it non-operational.
-
-   Debian 11
-      A specific version of the Debian operating system. Recommended for installing the ForensicVM server.
+      The process or act of shutting down or turning off a virtual machine or forensicVM, making it inactive or non-operational.
 
    Debian 11 (Bullseye)
-      An operating system release that ForensicVM supports.
+      A specific version of the Debian operating system, also known as Bullseye. Recommended for installing the ForensicVM server and supported by ForensicVM.
 
    DEBUG: Remote ssh to folder
       A feature that provides a direct remote connection to the forensicVM, facilitating the editing of configuration files or control over its state.
@@ -301,9 +202,6 @@ Glossary
    Direct Copy to Server
       A method that duplicates the forensic image, creating a new forensic virtual machine on the server.
 
-   Direct Copy to Server
-      A method that duplicates the forensic image, creating a new forensic virtual machine on the server.
-
    Disable driver signature enforcement
       A startup option that allows Windows to bypass driver signature checks during boot, potentially enabling problematic or unsigned drivers to load.
 
@@ -316,29 +214,17 @@ Glossary
    Disk Activity
       Indicates how actively a disk is being read or written to, monitored by Netdata.
 
-   Disk Image
-      A digital copy or replica of a physical disk. In the context of ForensicVM, a forensic image is used as a source for virtualization.
-
-   Disk Image
-      A bit-by-bit copy of a physical disk, often used in digital forensics to preserve the state of a drive.
-
    Disk Image or VM File
-      A type of data source that represents either a snapshot of a disk or a virtual machine image.
+      A digital copy or replica of a physical disk, also known as a bit-by-bit copy, often used in digital forensics to preserve the state of a drive. In the context of ForensicVM, a forensic image is used as a source for virtualization. As a data source, it represents either a snapshot of a disk or a virtual machine image.
 
    Django
-      A high-level Python web framework, promoting rapid development and pragmatic, clean design.
-
-   Django application
-      A web framework written in Python that allows for rapid web development.
+      A high-level Python web framework that promotes rapid development and pragmatic, clean design. Allows for rapid web development.
 
    Documentation and Chain of Custody
       A process to ensure that the evidence is genuine and reliable, maintained through a documented and unbroken sequence of possession or control.
 
    Download Progress
       An indicator that displays the current status of a download operation.
-
-   Easy-to-Read Charts
-      Graphical representations provided by Netdata to display various metrics in a comprehensible manner.
 
    Eject ISO / Web Eject CD-ROM
       Guidance on ejecting a mounted ISO file or CD-ROM.
@@ -350,13 +236,7 @@ Glossary
       The process of gathering evidence, often digital, to support investigations and potentially use in court.
 
    Evidence Disk
-      A disk containing all tags from Autopsy Software.
-
-   Evidence Disk
-      An automatically generated drive that appears during the conversion of a forensic image to a ForensicVM. It contains directories named after Autopsy tags and serves as a container for evidence related to each tag.
-
-   Evidence Disk
-      The specific drive or storage area where collected forensic evidence is saved. It is often labeled as “possible evidence”.
+      A disk or drive that serves multiple functions. It contains all tags from Autopsy Software and is automatically generated during the conversion of a forensic image to a ForensicVM. The disk contains directories named after Autopsy tags and serves as a container for evidence related to each tag. Additionally, it is the specific storage area where collected forensic evidence is saved and is often labeled as "possible evidence".
 
    Evidence Preservation
       The safeguarding of the original state of evidence, reducing risks of contamination or alteration.
@@ -383,10 +263,7 @@ Glossary
       The process of making adjustments to various configuration parameters of a ForensicVM. This is done via a configuration file that is generated when a forensic image is converted into a ForensicVM.
 
    Firewall
-      A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security policies.
-
-   Firewall
-      A system or component designed to block unauthorized access, allowing only permitted communications to pass.
+      A network security system or component that monitors and controls incoming and outgoing network traffic based on predetermined security policies. Designed to block unauthorized access, it allows only permitted communications to pass.
 
    Forensic Administrator User
       A user profile with elevated privileges, potentially created for the purpose of a forensic investigation, to ensure unrestricted access to required data.
@@ -395,19 +272,7 @@ Glossary
       Using memory dumps in digital forensics to reconstruct events, recover data, and analyze user and system interactions.
 
    Forensic Image
-      A digital representation of data from a device, used for analysis in digital forensics.
-
-   Forensic image
-      A digital copy of a device’s storage, used for the purpose of forensic investigation.
-
-   Forensic Image
-      A digital snapshot or copy of a storage device, preserving both the structure and content. It’s crucial for digital forensic investigations.
-
-   Forensic Image
-      A digital snapshot or copy of a storage device, preserving both the structure and content.
-
-   Forensic Image
-      A digital snapshot or representation of data, often used for forensic investigations.
+      A digital representation, snapshot, or copy of a storage device or data from a device. It preserves both the structure and content and is used for the purpose of analysis and investigation in digital forensics. Crucial for digital forensic investigations.
 
    Forensic SSH Server Redirection
       A method used by ForensicVM to safely access Windows shared folders over the internet via a reverse SSH connection.
@@ -415,101 +280,26 @@ Glossary
    Forensic Virtual Machine (VM)
       A digital environment replicated from a forensic image that serves as a snapshot of a system at a specific point in time.
 
-   forensicVM
-      A specialized virtual machine that operates on a hypervisor and is utilized in digital forensic investigations. It is created through the conversion of a forensic image into a virtual machine format. The operating system is detected, and necessary drivers are installed to replicate the functionality of the original system. An initial snapshot is created to preserve the original state. The forensicVM simulates the original computer or server within a safe and controlled environment, allowing detailed examination without risk to other systems.
-
-   ForensicVM
-      A comprehensive project designed to assist forensic investigators in the virtualization of forensic images.
-
-   ForensicVM
-      A forensic virtual machine used to convert forensic images for detailed analysis.
-
-   ForensicVM
-      A tool designed to simplify the digital forensics investigation process by allowing the virtualization and management of forensic images.
-
-   forensicVM
-      Forensic Virtual Machine created for investigations.
-
-   ForensicVM
-      Forensic virtual machine.
-
-   forensicVM
-      A specialized virtual machine tailored for forensic purposes.
-
-   forensicVM
-      A specialized virtual machine tailored for forensic purposes.
-
-   ForensicVM
-      A virtual machine environment tailored for forensic analysis. It is derived from a forensic image and is used for systematic investigations without compromising the original data.
-
-   ForensicVM
-      A virtual machine environment tailored for forensic investigations. It’s essential to manage its operations correctly to preserve the integrity of the evidence.
-
-   forensicVM
-      A virtual machine specifically designed or purposed for forensic investigations.
-
-   forensicVM
-      A virtual machine purposed for forensic investigations.
-
-   ForensicVM
-      A virtual machine purposed for forensic investigations.
-
-   forensicVM
-      A specialized virtual machine tailored for forensic investigations, often having a network card disabled by default for security reasons.
-
-   ForensicVM
-      A virtualized environment tailored for forensic investigations.
-
-   ForensicVM
-      A virtual machine that offers tools and functionalities essential for digital forensic investigations.
-
-   ForensicVM client
-      An Autopsy plugin, forming one of the two primary components of the ForensicVM project.
-
-   ForensicVM Client plugin
-      A specialized tool within the Autopsy ForensicVM plugin suite that aids in the forensic analysis of virtual machines.
-
-   forensicVM Client plugin
-      The component of ForensicVM that is integrated within Autopsy to assist in processing and converting forensic images.
+   ForensicVM / forensicVM
+      A specialized or comprehensive virtual machine environment tailored for forensic investigations. It operates on a hypervisor and is derived from a forensic image. The operating system is detected, and necessary drivers are installed to replicate the functionality of the original system. An initial snapshot is created to preserve the original state. The ForensicVM allows detailed examination within a safe and controlled environment, without risk to other systems or compromising the original data. It often has a network card disabled by default for security reasons and offers tools and functionalities essential for digital forensic investigations. Designed to assist forensic investigators in the virtualization, management, and analysis of forensic images, it’s essential to manage its operations correctly to preserve the integrity of the evidence.
 
    ForensicVM Client Plugin
-      The main program interface of ForensicVM that runs in Autopsy Software.
-
-   ForensicVM Client Plugin
-      The specific plugin in Autopsy that facilitates the analysis of VM images.
-
-   ForensicVM Client Plugin
-      A specific plugin within Autopsy tailored for managing and interacting with a Forensic Virtual Machine (VM).
+      A specialized Autopsy plugin that forms one of the two primary components of the ForensicVM project. It is the main program interface running in Autopsy Software and is designed to assist in the processing, converting, and forensic analysis of virtual machines and forensic images. Tailored for managing and interacting with Forensic Virtual Machines (VM), it facilitates the analysis of VM images.
 
    ForensicVM Loader
-      Part of the ForensicVM toolset that initializes the forensic analysis environment for VM analysis.
-
-   ForensicVM Loader
-      A component of the ForensicVM plugin responsible for initializing and setting up the environment for VM analysis.
+      A component that is part of the ForensicVM toolset and plugin, responsible for initializing and setting up the forensic analysis environment for VM analysis.
 
    ForensicVM Main Screen
       The primary interface of the forensic virtual machine when accessed via the web.
 
-   ForensicVM Main Web Interface
-      The primary interface of the ForensicVM, where users can navigate to various tools and features, including the WebShell.
+   ForensicVM Main Web Interface or web page
+      The primary interface of the ForensicVM, where users can navigate to various tools and features, including the WebShell and Netdata.
 
-   ForensicVM main web page
-      The primary interface of the ForensicVM, through which users can navigate to different tools and features, including Netdata.
+   ForensicVM Server Remote Web Screen/Console Control Interface
+      A web-based interface designed for remote forensic investigators to collaborate and control the ForensicVM. It lets users interact with the forensicVM directly and provides an interactive console for access to the virtual screen of the remote ForensicVM. It serves as a display of the forensicVM as seen when accessed remotely, especially through web interfaces.
 
-   ForensicVM Remote Screen Interface
-      A display of the forensicVM as seen when accessed remotely, especially through web interfaces.
-
-   ForensicVM server
+   ForensicVM Server
       The main backbone of the ForensicVM system, developed using Django and Python, it facilitates the functionalities of the ForensicVM.
-
-   ForensicVM Server Web Control Interface
-      A web interface designed for remote forensic investigators to collaborate and control the ForensicVM.
-
-   ForensicVM Web Screen Interface
-      A web-based interface that lets users interact with the forensicVM directly.
-
-   ForensicVM Webscreen Console
-      An interactive console providing access to the virtual screen of the remote ForensicVM.
 
    ForensicVM Webscreen Console Control Toolbar
       A detailed overview of the Control Toolbar in the ForensicVM Webscreen Console.
@@ -519,9 +309,6 @@ Glossary
 
    FTK Imager
       A product by AccessData, used for capturing and analyzing memory dumps.
-
-   Getting Started
-      The initial section to acquaint yourself with the basics of ForensicVM.
 
    Gigabit connection
       A network connection that offers speeds of up to 1 gigabit per second.
@@ -538,8 +325,11 @@ Glossary
    Hibernate File Management
       Tools or methods to manage or remove hibernation files.
 
-   hibernation
+   Hibernation
       A power-saving mode for computers. In Windows, when the system goes into hibernation, it saves the current state of the system (including open applications and documents) into the hibernation file and shuts down, allowing for a faster start-up later.
+
+   Hypervisor
+      A piece of software, firmware, or hardware that creates and manages virtual machines (VMs). Also known as a virtual machine monitor (VMM), it is responsible for the execution of virtualized forensic images, manages resources, and ensures isolation between different instances.
 
    Host
       In the context of Autopsy, refers to a machine or system from which data is being collected or investigated.
@@ -550,15 +340,6 @@ Glossary
    HP ILO
       Integrated Lights-Out. A remote management tool used for server administration.
 
-   Hypervisor
-      A piece of software, firmware, or hardware that creates and manages VMs.
-
-   Hypervisor
-      A virtual machine monitor or VMM that creates and runs virtual machines.
-
-   Hypervisor
-      Responsible for the execution of virtualized forensic images. Manages resources and ensures isolation between different instances.
-
    ifconfig
       A system administration utility in Unix-like operating systems to configure, control, and query TCP/IP network interface parameters.
 
@@ -566,7 +347,7 @@ Glossary
       A rapid restart of the forensicVM without fully shutting it down. This is especially useful in scenarios requiring quick troubleshooting, testing, or managing different VM states.
 
    Immutable Record
-      A non-alterable and chronological documentation, especially in the form of a video, that captures every action and finding during an investigation.
+      Non-alterable and chronological documentation, especially in the form of a video, captures every action and finding during an investigation.
 
    Import
       The act of bringing data into a software platform (like Autopsy) from an external source.
@@ -583,11 +364,8 @@ Glossary
    Insert ISO / Web Insert CD-ROM
       Procedure to virtually insert an ISO file or CD-ROM for access within the ForensicVM environment.
 
-   Installation
-      The process of setting up Netdata on a system. For ForensicVM Server, Netdata comes pre-installed.
-
-   Installation and Setup
-      Steps necessary to install and prepare ForensicVM for use.
+   Installation / Installation and Setup
+      The process of setting up various components, such as Netdata on a system. For ForensicVM Server, Netdata comes pre-installed. It also involves the steps necessary to install and prepare ForensicVM for use.
 
    Interface
       The user-friendly platform of ForensicVM that presents various features and tools systematically.
@@ -595,17 +373,8 @@ Glossary
    IP Conflict
       Occurs when two or more devices or components on the same local network claim to have the same IP address, leading to network malfunctions.
 
-   ISO
-      ISO 9660 (also known as ECMA-119) is a file system for optical disc media. The file system is an international standard available from the International Organization for Standardization (ISO). Since the specification is available for anybody to purchase, implementations have been written for many operating systems (Reference: https://en.wikipedia.org/wiki/ISO_9660)
-
-   ISO
-      An optical disc image containing the content from a CD, DVD, or Blu-ray Disc.
-
-   ISO
-      An optical disc image that can be used to reproduce the content of a CD or DVD.
-
-   ISO files
-      Encapsulations of entire file systems used to house specialized forensic tools.
+   ISO / ISO files
+      ISO 9660, also known as ECMA-119, is a file system for optical disc media standardized by the International Organization for Standardization (ISO). It is an optical disc image containing the content from a CD, DVD, or Blu-ray Disc that can be used to reproduce the content of these media. In the context of forensic tools, ISO files are encapsulations of entire file systems used to house specialized forensic tools. (Reference: `ISO 9660 on Wikipedia <https://en.wikipedia.org/wiki/ISO_9660>`_)
 
    ISO Management
       The handling of ISO files, which are typically used for optical disk images.
@@ -613,11 +382,8 @@ Glossary
    Kali Linux Forensic Tools
       A set of forensic tools provided by the Kali Linux distribution.
 
-   KVM
-      Kernel-based Virtual Machine, a virtualization infrastructure for the Linux kernel.
-
-   KVM (Kernel-based Virtual Machine)
-      A virtualization module in the Linux kernel that allows the kernel to function as a hypervisor.
+   KVM / Kernel-based Virtual Machine
+      A virtualization infrastructure for the Linux kernel that allows the kernel to function as a hypervisor.
 
    KVM drivers
       Drivers optimized for KVM virtualization.
@@ -656,16 +422,7 @@ Glossary
       A detailed breakdown of the main display area based on the selected tab option.
 
    Main Plugin Interface
-      A location from where the forensicVM can be initiated.
-
-   Main Plugin Interface
-      The primary user interface within a specific framework, in this context, used for managing the forensicVM.
-
-   Main Plugin Interface
-      The primary user interface within a specific framework, used for managing and controlling the forensicVM.
-
-   Main Plugin Interface (Shutdown)
-      The primary UI within the Autopsy framework that offers options to shut down the forensicVM.
+      The primary user interface within a specific framework, such as Autopsy, from where the forensicVM can be initiated, managed, and controlled. It also offers options to shut down the forensicVM.
 
    Main Toolbar Overview
       A description of the primary toolbar on the Autopsy ForensicVM Client Plugin.
@@ -683,10 +440,7 @@ Glossary
       The procedure to navigate, upload, select, insert, eject, delete, and boot from ISO files within ForensicVM.
 
    Media Panel
-      An interface section in the Autopsy VM used to manage ISO files.
-
-   Media Panel
-      A section within the Autopsy ForensicVM Client Plugin interface that allows users to manage different media files, including ISOs.
+      An interface section within the Autopsy ForensicVM Client Plugin used to manage different media files, including ISOs.
 
    Media Panel Separator
       A component in the ForensicVM Client Plugin to access the Media Panel.
@@ -695,16 +449,7 @@ Glossary
       RAM (Random Access Memory) usage and availability, tracked by Netdata.
 
    Memory Dump
-      The recorded state of the working memory of a computer program at a specific time.
-
-   Memory Dump
-      Tools to engage with the active memory data of the forensic virtual machine.
-
-   Memory Dump
-      A snapshot of the content of computer memory. Used in forensic analysis to review the state of the system at a particular time.
-
-   Memory Dump
-      Refers to the process of capturing the content of a computer’s memory (RAM) at a specific moment in time.
+      A snapshot or the recorded state of the working memory (RAM) of a computer program or system at a specific time. Used in forensic analysis to review the state of the system and includes tools to engage with the active memory data of the forensic virtual machine.
 
    Meterpreter
       A type of payload in the Metasploit framework that provides an investigator with a command line interface to the targeted system. In the context, its deployment is considered as potential evidence.
@@ -719,22 +464,13 @@ Glossary
       A command-line interface available in older versions of Windows.
 
    Netdata
-      A tool for real-time health monitoring and performance troubleshooting for systems.
-
-   Netdata
-      A real-time monitoring tool that offers insights into server and application performance.
+      A real-time health monitoring and performance troubleshooting tool for systems. It offers insights into server and application performance.
 
    Network
       Options to manage network settings and operations for the ForensicVM.
 
-   Network
-      Pertains to data transmission rates and network activity.
-
    Network Card
-      A hardware component that connects a computer to a network.
-
-   Network Card
-      A hardware component or a virtual representation that allows computers to connect to a network.
+      A hardware component or a virtual representation that connects a computer to a network.
 
    Network Isolation
       A safety measure that eliminates the need for network connectivity to mitigate associated risks.
@@ -749,31 +485,16 @@ Glossary
       A designated area on the interface for system notifications, warnings, and error messages.
 
    NVMe
-      Non-Volatile Memory Express. A protocol developed for SSDs to exploit the full potential of high-speed PCI Express storage devices.
-
-   Nvme
-      Non-Volatile Memory Express. A modern protocol developed for SSDs to take advantage of high-speed PCI Express storage devices.
+      Non-Volatile Memory Express. A modern protocol developed for SSDs to exploit the full potential of high-speed PCI Express storage devices.
 
    Open ForensicVM
-      An option/button to interact with the forensicVM’s graphical interface.
-
-   Open ForensicVM
-      An action or option to access the forensicVM’s main display, either through the Autopsy plugin or web interface.
-
-   Open ForensicVM on the Main Interface
-      The process or action of accessing the forensicVM directly through the Autopsy plugin interface.
-
-   Open ForensicVM WebShell button
-      A button within the Autopsy ForensicVM Client Plugin that allows users to launch the WebShell in their default browser.
+      An action or option to access and interact with the forensicVM’s main display, either through the Autopsy plugin or web interface. This can be initiated through various means such as a button within the Autopsy ForensicVM Client Plugin that allows users to launch the WebShell in their default browser.
 
    Output Console
       A console that captures all system messages and is instrumental for debugging.
 
    Panel Opener
-      An interface element that reveals various options within the forensicVM.
-
-   Panel Opener
-      An interface element within the forensicVM, used to reveal more options or configurations.
+      An interface element within the forensicVM used to reveal various options or configurations.
 
    Password Administration
       Tools or methods to reset forgotten passwords or generate new administrator accounts.
@@ -790,11 +511,8 @@ Glossary
    Picture Analyser Plugin
       A plugin in Autopsy used to analyze and manage pictures or images.
 
-   Plugin
-      Extensions that provide specific functionalities to ForensicVM. The plugin architecture fosters community involvement and functionality expansion.
-
-   Plugin
-      Software components that add specific features to an existing computer program. Within the context, plugins in Autopsy can help in functions such as creating new user credentials or resetting existing ones.
+   Plugin/Plugins
+      Modular software components that add specific features to an existing computer program. Within the context of ForensicVM and Autopsy, the plugin architecture fosters community involvement and functionality expansion. They enhance or extend functionality and provide forensic investigators with capabilities to bypass protections in locked forensicVM machines. They may also help in functions such as creating new user credentials or resetting existing ones.
 
    Plugin Architecture
       A method by which external additions can be made to extend a software’s capabilities.
@@ -804,12 +522,6 @@ Glossary
 
    Plugin Location
       The directory or file path where the AutopsyVM client plugin will be installed on your computer.
-
-   Plugins
-      Modular software components that add specific abilities to a larger software application. In the Autopsy context, they’re used to enhance or extend functionality.
-
-   Plugins
-      Serve as a vital component of the forensicVM, enabling forensic investigators with capabilities to bypass protections in locked forensicVM machines.
 
    Possible Evidence virtual drive
       A dedicated virtual drive within ForensicVM designed to store potential pieces of evidence without contaminating the original data.
