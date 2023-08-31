@@ -23,7 +23,7 @@ To efficiently use the Autopsy ForensicVM plugin, it's essential to initialize a
       \FloatBarrier
 
 
-2) **Fill in Case Name in :term:\`Case Information\`**
+2) **Fill in Case Name in :term:`Case Information`**
    
    Once the case addition window pops up, provide a unique and descriptive name for your case. This helps in distinguishing it from other cases in the future.
 
