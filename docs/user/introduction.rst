@@ -12,19 +12,19 @@ Overview of Features
 
 ForensicVM offers a range of features designed to enhance the forensic analysis process:
 
-- **Virtualization of :term:`Forensic Image`s**: ForensicVM enables the creation and management of virtualized instances of forensic images, paving the way for a more flexible and scalable analysis process. This virtualization can be executed either through a snapshot linked to the investigator's storage for quick selection or by full conversion, which transfers and converts the image to a remote server to maximize the VM's performance and features.
-- **:term:`Forensic Image` Lifecycle Management**: ForensicVM equips users with tools for managing every step of a forensic image's lifecycle, from creation to decommissioning. Convert the forensic image into a VM, start, stop, reset, snapshot, and safely delete the forensic image when it is no longer required.
+- **Virtualization of** :term:`Forensic Image`s: ForensicVM enables the creation and management of virtualized instances of forensic images, paving the way for a more flexible and scalable analysis process. This virtualization can be executed either through a snapshot linked to the investigator's storage for quick selection or by full conversion, which transfers and converts the image to a remote server to maximize the VM's performance and features.
+- :term:`Forensic Image` **Lifecycle Management**: ForensicVM equips users with tools for managing every step of a forensic image's lifecycle, from creation to decommissioning. Convert the forensic image into a VM, start, stop, reset, snapshot, and safely delete the forensic image when it is no longer required.
 - **Advanced Analysis Tools**: Equipped with a suite of powerful analysis tools, ForensicVM assists investigators in uncovering vital evidence.
-- **Integrated :term:`Hypervisor`**: The :term:`ForensicVM Server` features a robust hypervisor based on :term:`QEMU` and KVM to guarantee efficient execution and management of virtual machines.
+- **Integrated** :term:`Hypervisor`: The :term:`ForensicVM Server` features a robust hypervisor based on :term:`QEMU` and KVM to guarantee efficient execution and management of virtual machines.
 - **Collaboration**: ForensicVM employs a web development strategy that fosters remote and secure collaboration among forensic investigators. This method enables team members, regardless of their location, to work simultaneously on investigations in a digital space, enhancing productivity and communication. It leverages advanced encryption and security protocols to ensure that all collaborative efforts remain secure and confidential, protecting the integrity of investigations. In essence, ForensicVM's approach melds convenience, connectivity, and security, revolutionizing the way forensic investigations are conducted.
-- **:term:`Plugin Architecture`**: Plugins applied to the forensic virtual machine enable security bypassing, like creating new admins, resetting Windows activation, patching accessibility, and also allow the community to develop custom solutions that interact with ForensicVM.
+- :term:`Plugin Architecture`: Plugins applied to the forensic virtual machine enable security bypassing, like creating new admins, resetting Windows activation, patching accessibility, and also allow the community to develop custom solutions that interact with ForensicVM.
 - **:term:`Evidence Disk`**: An additional disk is automatically created with all tags from Autopsy Software, enabling easy and practical gathering and importing of evidence back to Autopsy.
-- **Optional :term:`Network Card`**: It is disabled by default but when activated, this network card records all network traffic on the server while protecting local networking from potential attacks with pre-installed firewall rules. It also records traffic in Wireshark PCAP format.
-- **On-the-Fly :term:`Memory Dump`s**: Capability to create volatility memory dumps at any moment.
+- **Optional** :term:`Network Card`: It is disabled by default but when activated, this network card records all network traffic on the server while protecting local networking from potential attacks with pre-installed firewall rules. It also records traffic in Wireshark PCAP format.
+- **On-the-Fly** :term:`Memory Dump`s: Capability to create volatility memory dumps at any moment.
 - **Integrated Screenshots**: Removes the need for an extra screenshot program.
 - **Integrated Video Recording**: Ability to record individual videos with a maximum duration of three hours, providing additional evidence if required.
 - **Media Management**: ISO management allows investigators to use their own tools during the investigation.
-- **:term:`Snapshot Management`**: Freeze the VM in time and recall a previous state to perform "what if" tests.
+- :term:`Snapshot Management`: Freeze the VM in time and recall a previous state to perform "what if" tests.
 - **Fine-tuning**: Adjust machine memory size and set the VM start date as needed.
 
 .. WARNING::
