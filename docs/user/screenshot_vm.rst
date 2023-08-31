@@ -424,7 +424,7 @@ This step-by-step guide helps you efficiently import the screenshots from the fo
 
 In the realm of digital forensics, Autopsy forensic software plays a crucial role in analyzing and managing evidence. A key feature of this powerful tool is its ability to handle screenshots, which are often vital in investigations.
 
-**:term:`Tagging` Relevant Screenshots**: With Autopsy, investigators can sift through various images and screenshots collected during the forensic analysis. If certain images are identified as potentially relevant to a case, they can be tagged for further scrutiny. This tagging function is more than a mere organizational tool; it's a systematic way to highlight essential visual information that may prove crucial in understanding the digital activities related to a case.
+:term:`Tagging` Relevant Screenshots: With Autopsy, investigators can sift through various images and screenshots collected during the forensic analysis. If certain images are identified as potentially relevant to a case, they can be tagged for further scrutiny. This tagging function is more than a mere organizational tool; it's a systematic way to highlight essential visual information that may prove crucial in understanding the digital activities related to a case.
 
 **How to Tag**: Simply right-click on the desired screenshot and select the "Tag" option. You may create custom tags or use predefined ones, adding notes or comments as necessary. This flexibility ensures that you can organize your screenshots in a way that suits your specific investigative needs.
 
