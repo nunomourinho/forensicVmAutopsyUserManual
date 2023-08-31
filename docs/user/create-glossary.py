@@ -1,3 +1,21 @@
+import re
+
+def fix_rst_term_line(line):
+    # Search for patterns like **text :term:`term` more_text**
+    matches = re.findall(r'\*\*(.*?)\:term\:\`(.*?)\`\*([\*\s])', line)
+    
+    for match in matches:
+        before_term, term, after_star = match
+        
+        # Create new line by moving the :term: outside the **
+        new_text = f"**{before_term.strip()}** :term:`{term}` **{after_star.strip()}**"
+        
+        # Replace the old text with the new text
+        old_text = f"**{before_term}:term:`{term}`{after_star}"
+        line = line.replace(old_text, new_text)
+        
+    return line
+
 def generate_replacement(term):
     return f":term:`{term}`"
 
@@ -233,7 +251,8 @@ for file_name in os.listdir("."):
             with open(file_name, "r") as input_file, open(temp_file, "w") as output_file:
                 for line in input_file:                    
                     line = line.replace(term, generate_replacement(term))
-                    output_file.write(line)
+                    fixed_line = fix_rst_term_line(line)
+                    output_file.write(fixed_line)
 
             os.remove(file_name)
             os.rename(temp_file, file_name)
