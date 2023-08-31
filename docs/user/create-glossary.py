@@ -1,20 +1,35 @@
 import re
 
 def fix_rst_term_line(line):
-    # Search for patterns like **text :term:`term` more_text**
-    matches = re.findall(r'\*\*(.*?)\:term\:\`(.*?)\`\*([\*\s])', line)
+    # This pattern captures three groups: (1) The text before :term:, (2) the term itself, (3) the text after :term:
+    pattern = r"(\*\*.*?)(\:term\:\`.*?\`)(.*?\*\*)"
     
-    for match in matches:
-        before_term, term, after_star = match
+    while re.search(pattern, line):
+        match = re.search(pattern, line)
+        before_term, term, after_term = match.groups()
         
-        # Create new line by moving the :term: outside the **
-        new_text = f"**{before_term.strip()}** :term:`{term}` **{after_star.strip()}**"
+        # Cases where the text before :term: is not empty and the text after :term: is not empty
+        if before_term != '**' and after_term != '**':
+            new_text = f"{before_term.strip()}** {term} **{after_term.strip()}"
+        
+        # Cases where only the text before :term: is not empty
+        elif before_term != '**':
+            new_text = f"{before_term.strip()}** {term}"
+        
+        # Cases where only the text after :term: is not empty
+        elif after_term != '**':
+            new_text = f"{term} **{after_term.strip()}"
+        
+        # Cases where both the text before and after :term: are empty
+        else:
+            new_text = f"{term}"
         
         # Replace the old text with the new text
-        old_text = f"**{before_term}:term:`{term}`{after_star}"
+        old_text = f"{before_term}{term}{after_term}"
         line = line.replace(old_text, new_text)
-        
+    
     return line
+
 
 def generate_replacement(term):
     return f":term:`{term}`"
