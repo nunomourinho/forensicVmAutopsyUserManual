@@ -1,13 +1,13 @@
-:term:`WebShell for Remote Administration`
-==================================
+WebShell for Remote Administration
+====================================
 
 For enhanced remote server administration, a webshell has been crafted based on the `shellinabox` project which has been adapted into a :term:`Django` application. This allows secure root access to the server, making it an invaluable tool for troubleshooting and remote server management tasks.
 
-**:term:`Accessing the WebShell`**:
+:term:`Accessing the WebShell`:
 
 There are two primary methods to access the WebShell:
 
-1. **Through the Autopsy :term:`ForensicVM Client Plugin`**:
+1. **Through the Autopsy** :term:`ForensicVM Client Plugin`:
 
    - Within the plugin interface, click on the *Open ForensicVM WebShell* button. This action will open the WebShell in your default browser.
 
@@ -26,7 +26,7 @@ There are two primary methods to access the WebShell:
 
         \FloatBarrier
 
-2. **Via the ForensicVM :term:`Main Web Interface`**:
+2. **Via the ForensicVM** :term:`Main Web Interface`:
 
    - Navigate to the main interface and click on the *Shell* link to access the WebShell.
 
@@ -45,7 +45,7 @@ There are two primary methods to access the WebShell:
 
         \FloatBarrier
 
-**:term:`WebShell Interface`**:
+:term:`WebShell Interface`:
 
 Upon accessing the WebShell, users will encounter an interface resembling the following:
 
