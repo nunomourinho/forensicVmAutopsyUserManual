@@ -1,8 +1,8 @@
 Making, Downloading, and Analyzing a Memory Dump (memory_dump_vm)
 =================================================================
 
-Making and download a :term:`Memory Dump`
-*********************************
+Making and download a Memory Dump
+***********************************
 Making a memory dump refers to the process of capturing the content of a computer's memory (RAM) at a specific moment in time. This snapshot can include various elements, ranging from currently running processes to user credentials and even the contents of open files. The practice is critical for several reasons:
 
 :term:`Security Analysis`
