@@ -280,17 +280,16 @@ for file_name in os.listdir("."):
     if file_name.endswith(".rst") and file_name != excluded_file:
         print(f"Processing {file_name}...")
 
-        with open(file_name, "r") as file:
-            content = file.readlines()
+        temp_file = f"{file_name}.temp"
+        with open(file_name, "r") as input_file, open(temp_file, "w") as output_file:
+            for line in input_file:
+                for term in terms:
+                    print(term)
+                    line = line.replace(term, replacement_text)
+                output_file.write(line)
 
-        updated_content = ""
-        for line in content:
-            for term in terms:
-                line = line.replace(term, replacement_text)
-            updated_content += line
-
-        with open(file_name, "w") as file:
-            file.write(updated_content)
+        os.remove(file_name)
+        os.rename(temp_file, file_name)
 
         processed_files += 1
         print(f"{file_name} processed. ({processed_files}/{total_files})")
