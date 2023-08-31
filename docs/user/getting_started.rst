@@ -204,7 +204,7 @@ ForensicVM Webscreen Console
 The webscreen console, developed on the HTML5 VNC technology known as NoVNC, provides a visual and interactive gateway to the virtual screen of the remote ForensicVM. Alongside basic interactions, it also offers an array of ForensicVM control options to augment the forensic investigation process. To access this feature-rich console, select the **Open ForensicVM** option. Delve deeper for more details:
 
 :term:`Webscreen Console Main Area`
-****************************
+************************************
 
 The following figure elucidates the available options:
 
@@ -227,7 +227,7 @@ The following figure elucidates the available options:
 
 
 :term:`ForensicVM Webscreen Console Control Toolbar`
-**********************************************
+*****************************************************
 
 Upon clicking the control bar open icon, users are presented with the Control Toolbar, illustrated below:
 
@@ -251,7 +251,7 @@ The Control Toolbar facilitates the following actions:
 - **Clipboard**: Enables basic data transfer between the user's environment and the ForensicVM, provided the :term:`QEMU` agent is installed on the virtual machine.
 - **Fullscreen**: Expands the ForensicVM webscreen to occupy the entire display area.
 - **Take a Screenshot**: Captures the current view of the remote ForensicVM.
-- **Enable or Disable the :term:`Network Card`**: This function is self-explanatory.
+- **Enable or Disable the** :term:`Network Card`: This function is self-explanatory.
 - **Insert or Eject Media**: Facilitates the selection, insertion, and ejection of CD-ROMs or DVDs containing additional forensic tools.
 - **Video Recording**: Initiates, terminates, and downloads video recordings at a rate of 30 frames per minute.
 - **Settings**: Provides access to several webscreen console preferences. Notably, users can adjust the scaling mode. Setting it to "Local Scaling" ensures the remote display fits the browser window perfectly.
