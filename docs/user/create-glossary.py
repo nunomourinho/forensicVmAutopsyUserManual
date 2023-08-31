@@ -280,13 +280,14 @@ for file_name in os.listdir("."):
     if file_name.endswith(".rst") and file_name != excluded_file:
         print(f"Processing {file_name}...")
 
-        temp_file = f"{file_name}.temp"
-        with open(file_name, "r") as input_file, open(temp_file, "w") as output_file:
-            for line in input_file:
-                for term in terms:
-                    print(term)
+        for term in terms:
+            print(term)
+            temp_file = f"{file_name}.temp"
+            with open(file_name, "r") as input_file, open(temp_file, "w") as output_file:
+                for line in input_file:
+                    
                     line = line.replace(term, replacement_text)
-                output_file.write(line)
+                    output_file.write(line)
 
         os.remove(file_name)
         os.rename(temp_file, file_name)
