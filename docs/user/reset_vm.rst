@@ -3,7 +3,7 @@ Resetting the Virtual Machine (VM)
 
 Resetting the forensic virtual machine (forensicVM) is akin to an immediate reboot, and there are three different ways to do so. These methods provide flexibility depending on your access level and location within the system interface:
 
-Reset ForensicVM in the Main Plugin Interface
+Reset ForensicVM in the Main :term:`Plugin Interface`
 ------------------------------------------------
 
 To reset the forensicVM from the main plugin interface, follow these simple steps:

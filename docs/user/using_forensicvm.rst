@@ -10,7 +10,7 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
 
    Running Autopsy Forensic VM Plugin <add_datasource> 
 
-   Convert a local Forensic Image to a remote Forensic Virtual Machine <convert_to_vm>
+   Convert a local :term:`Forensic Image` to a remote Forensic Virtual Machine <convert_to_vm>
 
    Start Forensic Virtual Machine <start_vm>
       Learn how to initiate the forensicVM through various methods, whether from the main plugin interface, web interface, or web remote screen.
@@ -29,15 +29,15 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
 
    Screenshot Forensic Virtual Machine <screenshot_vm>      
 
-   Making, Downloading, and Analyzing a Memory Dump <memory_dump_vm>
+   Making, Downloading, and Analyzing a :term:`Memory Dump` <memory_dump_vm>
 
    Recording Video Evidence from the ForensicVM <webrecord_video>
 
-   Gather Evidence Using the Evidence Disk <evidence_disk>
+   Gather Evidence Using the :term:`Evidence Disk` <evidence_disk>
 
    Deletion of ForensicVM at Investigation Conclusion <delete_vm>
 
-   Managing the Network Card to Capture and Analyse Network Traffic in Wireshark <network>
+   Managing the :term:`Network Card` to Capture and Analyse Network Traffic in Wireshark <network>
 
    Media Management - Use Extra Tools and Boot ISO Files <media>
 
@@ -45,8 +45,8 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
 
    Plugins - Security Bypass Utilities <plugin_management>
 
-   Fine-Tuning ForensicVM <finetunning>
+   :term:`Fine-Tuning ForensicVM` <finetunning>
 
-   WebShell for Remote Administration <webshell>
+   :term:`WebShell for Remote Administration` <webshell>
 
-   Netdata on ForensicVM Server <netdata>
+   :term:`Netdata` on :term:`ForensicVM Server` <netdata>

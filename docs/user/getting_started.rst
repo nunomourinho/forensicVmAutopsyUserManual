@@ -10,7 +10,7 @@ Before you can use ForensicVM, you must first install the software on your syste
 Navigating the Interface
 ------------------------
 
-Your first step is to run the ForensicVM Client Plugin in Autopsy Software. The main interface will open. Manage this by right-clicking the datasource and choosing "Run Ingest Modules". After this, the Forensic Client Plugin main program interface will open.
+Your first step is to run the :term:`ForensicVM Client Plugin` in Autopsy Software. The main interface will open. Manage this by right-clicking the datasource and choosing "Run :term:`Ingest Modules`". After this, the Forensic Client Plugin main program interface will open.
 
 .. raw:: latex
 
@@ -26,10 +26,10 @@ Your first step is to run the ForensicVM Client Plugin in Autopsy Software. The 
 
    \FloatBarrier
 
-Autopsy ForensicVM Client Plugin: A Comprehensive Interface Guide
+Autopsy :term:`ForensicVM Client Plugin`: A Comprehensive Interface Guide
 ---------------------------------------------------------------
 
-The Autopsy ForensicVM Client Plugin serves as a pivotal hub for forensic analysts. This interface is designed for interactive engagement with forensic images, subsequently allowing users to transform these images into a forensic virtual machine (ForensicVM). Here's a breakdown of its primary functionalities on the Autopsy ForensicVM Client Plugin main interface:
+The Autopsy :term:`ForensicVM Client Plugin` serves as a pivotal hub for forensic analysts. This interface is designed for interactive engagement with forensic images, subsequently allowing users to transform these images into a forensic virtual machine (ForensicVM). Here's a breakdown of its primary functionalities on the Autopsy :term:`ForensicVM Client Plugin` main interface:
 
 .. raw:: latex
 
@@ -37,9 +37,9 @@ The Autopsy ForensicVM Client Plugin serves as a pivotal hub for forensic analys
 
 .. figure:: img/infographics_0001.jpg
    :name: Autopsy-ForensicVM-Plugin
-   :alt: Autopsy ForensicVM Client Plugin
+   :alt: Autopsy :term:`ForensicVM Client Plugin`
 
-   Autopsy ForensicVM Client Plugin Main
+   Autopsy :term:`ForensicVM Client Plugin` Main
 
 .. raw:: latex
 
@@ -47,7 +47,7 @@ The Autopsy ForensicVM Client Plugin serves as a pivotal hub for forensic analys
 
 
 
-Main Toolbar Overview (1)
+:term:`Main Toolbar Overview` (1)
 **************************
 
 1. **Configuration**:
@@ -64,17 +64,17 @@ Main Toolbar Overview (1)
     - **Handle Snapshots**: Capture and revert the ForensicVM to various states.
     - **Capture Screenshots**: Record specific instances or frames within the ForensicVM.
     - **Memory Management**: Generate and retrieve memory dumps, vital for observing real-time operations within the ForensicVM.
-    - **Virtual Evidence Disk Management**: Import and regenerate the virtual evidence disk, accumulating all potential pieces of evidence.
+    - **Virtual :term:`Evidence Disk` Management**: Import and regenerate the virtual evidence disk, accumulating all potential pieces of evidence.
     - **Network Management**: Toggle network cards on or off, and capture pcap (packet capture) files for granular network investigations.
     - **ForensicVM Customization**: Modify the starting date/time, reallocate memory, among other settings.
-    - **Performance Analysis**: Employ Netdata for comprehensive metric analysis of the ForensicVM's operations.
+    - **Performance Analysis**: Employ :term:`Netdata` for comprehensive metric analysis of the ForensicVM's operations.
     - **Troubleshooting**: Secure an SSH connection to the ForensicVM machine, connecting directly to its remote directory. Additionally, avail an equivalent webshell for an internet-based SSH interaction with the server.
 
-3. **Autopsy Case**:
+3. **:term:`Autopsy Case`**:
     
     - This tab displays the Autopsy case details, including the extant case tags (utilized for case folder creation) and the generated UUID. This UUID is unique and becomes the name for the foundational directory of the forensic virtual machine.
 
-4. **Output Console**:
+4. **:term:`Output Console`**:
     
     - This console captures all system messages. It's a valuable tool for debugging or ascertaining the final state of operations.
 
@@ -95,18 +95,18 @@ Secondary Toolbar Overview (2)
     - **Finetuning** - Adjust memory capacity and define the initial start date.
 
 
-Main Panel Overview (3)
+:term:`Main Panel Overview` (3)
 *************************
 
     Based on the selected tab option, the main panel showcases different functionalities. For instance, when the **Media** tab is chosen, the corresponding list or form materializes in this space. Action buttons are located at the bottom. Among these, enabled buttons signify available actions, while disabled ones represent currently unavailable actions. These buttons toggle between enabled and disabled based on the ForensicVM machine's status or existence.
 
-Notification Area (4)
+:term:`Notification Area` (4)
 **********************
 
     The notification area serves as the designated space for displaying notifications, warnings, and error pop-ups, tailored to specific events. Whenever there's a need to apprise the user or when the system requires user interaction, a pop-up emerges in this area, seeking the user's attention or input.
 
 
-Convert Forensic Image to VM (5)
+Convert :term:`Forensic Image` to VM (5)
 **********************************
 
 These two buttons facilitate the transformation of the forensic image into a forensic virtual machine:
@@ -120,7 +120,7 @@ These two buttons facilitate the transformation of the forensic image into a for
 For both methods, the remote forensicVM integrates an overlay of information. This includes additional drivers and outcomes from the execution of security plugins or actions taken by forensic investigators on the machine. Importantly, this approach ensures the preservation of the original forensic image's integrity.
 
 
-VM Control (6)
+:term:`VM Control` (6)
 ***************
 
 Manage essential actions for the forensic virtual machine:
@@ -132,7 +132,7 @@ Manage essential actions for the forensic virtual machine:
 - **Delete**: Remove the forensic virtual machine entirely.
 
 
-Screenshot Management (7)
+:term:`Screenshot Management` (7)
 **************************
 
     Manage the screenshots taken during your forensic investigations:
@@ -141,20 +141,20 @@ Screenshot Management (7)
   
     - **Save Screenshots**: Compile and download all captured screenshots into a single ZIP file, allowing for easy storage and transfer.
 
-Make and Download a Memory Dump (8)
+Make and Download a :term:`Memory Dump` (8)
 ************************************
 
 Engage with the active memory data of the forensic virtual machine:
 
-- **Make Memory Dump**: Generate a snapshot of the forensicVM's current memory state, capturing active processes, and other runtime details.
+- **Make :term:`Memory Dump`**: Generate a snapshot of the forensicVM's current memory state, capturing active processes, and other runtime details.
 
-- **Download Memory Dump**: Retrieve the created memory dump for further analysis, facilitating deeper investigations using tools such as:
+- **Download :term:`Memory Dump`**: Retrieve the created memory dump for further analysis, facilitating deeper investigations using tools such as:
   
-  - The Volatility plugin within the Autopsy software.
-  - External utilities like Volatility 3.0.
-  - Rekall: Another powerful framework for memory forensics.
+  - The :term:`Volatility` plugin within the Autopsy software.
+  - External utilities like :term:`Volatility` 3.0.
+  - :term:`Rekall`: Another powerful framework for memory forensics.
   - MemProcFS: Useful for live RAM analysis and incident response.
-  - Redline: Offers a user-friendly interface for in-depth memory and file analysis.
+  - :term:`Redline`: Offers a user-friendly interface for in-depth memory and file analysis.
 
 Tools (9)
 ***********
@@ -162,7 +162,7 @@ Tools (9)
 Use auxiliary tools for various forensic operations:
 
 - **Import evidence disk into autopsy**:
-    Import a virtual disk allowing forensic investigators to collect and gather potential evidence. This option lets you import the disk as a vmdk disk into Autopsy for reporting purposes.
+    Import a virtual disk allowing forensic investigators to collect and gather potential evidence. This option lets you import the disk as a :term:`vmdk` disk into Autopsy for reporting purposes.
 
 - **Recreate evidence disk**:
     Delete and recreate the evidence disk. 
@@ -172,7 +172,7 @@ Use auxiliary tools for various forensic operations:
    This is a destructive action. Ensure to import the current evidence disk into Autopsy if it contains gathered evidence.
 
 - **Analyze ForensicVM performance**:
-    Utilize the Netdata software to pinpoint server bottlenecks, optimize server performance, and determine the root cause of any ForensicVM server issues.
+    Utilize the :term:`Netdata` software to pinpoint server bottlenecks, optimize server performance, and determine the root cause of any ForensicVM server issues.
 
 - **Open ForensicVM Webshell**:
     Initiate an SSH-over-internet webshell connection to the server.
@@ -195,7 +195,7 @@ Manage network settings and operations:
 - **Disable network card**:
     Deactivates the network card and saves a pcap file with all captured traffic to the server.
 
-- **Download Wireshark pcap files**:
+- **Download :term:`Wireshark pcap` files**:
     Download all generated pcap files as a zip file, enabling investigators to analyze captured network traffic using tools like Wireshark or other network traffic analysis software.
 
 ForensicVM Webscreen Console
@@ -203,7 +203,7 @@ ForensicVM Webscreen Console
 
 The webscreen console, developed on the HTML5 VNC technology known as NoVNC, provides a visual and interactive gateway to the virtual screen of the remote ForensicVM. Alongside basic interactions, it also offers an array of ForensicVM control options to augment the forensic investigation process. To access this feature-rich console, select the **Open ForensicVM** option. Delve deeper for more details:
 
-Webscreen Console Main Area
+:term:`Webscreen Console Main Area`
 ****************************
 
 The following figure elucidates the available options:
@@ -223,10 +223,10 @@ The following figure elucidates the available options:
 
 - **(1) Control bar open icon**: By clicking on this icon, users can unveil the auto-hiding control bar that seamlessly overlays the main screen, bestowing access to an assortment of functionalities.
 - **(2) Notification area**: Strategically positioned at the top, this zone is dedicated to presenting error, notification, and warning messages.
-- **(3) Main screen**: Serving as the primary interface of the webscreen, during the boot sequence, users can hit the ESC key to dive into the BIOS or UEFI. This permits modifications to pivotal settings, with a prime focus on the boot device, especially when initiating a boot from an ISO.
+- **(3) Main screen**: Serving as the primary interface of the webscreen, during the boot sequence, users can hit the ESC key to dive into the :term:`BIOS` or :term:`UEFI`. This permits modifications to pivotal settings, with a prime focus on the boot device, especially when initiating a boot from an ISO.
 
 
-ForensicVM Webscreen Console Control Toolbar
+:term:`ForensicVM Webscreen Console Control Toolbar`
 **********************************************
 
 Upon clicking the control bar open icon, users are presented with the Control Toolbar, illustrated below:
@@ -248,10 +248,10 @@ Upon clicking the control bar open icon, users are presented with the Control To
 The Control Toolbar facilitates the following actions:
 
 - **Show Extra Keys**: Displays icons representing frequently-used key combinations such as Ctrl+Alt+Del and the Windows key. Clicking these icons sends the corresponding key inputs to the ForensicVM.
-- **Clipboard**: Enables basic data transfer between the user's environment and the ForensicVM, provided the QEMU agent is installed on the virtual machine.
+- **Clipboard**: Enables basic data transfer between the user's environment and the ForensicVM, provided the :term:`QEMU` agent is installed on the virtual machine.
 - **Fullscreen**: Expands the ForensicVM webscreen to occupy the entire display area.
 - **Take a Screenshot**: Captures the current view of the remote ForensicVM.
-- **Enable or Disable the Network Card**: This function is self-explanatory.
+- **Enable or Disable the :term:`Network Card`**: This function is self-explanatory.
 - **Insert or Eject Media**: Facilitates the selection, insertion, and ejection of CD-ROMs or DVDs containing additional forensic tools.
 - **Video Recording**: Initiates, terminates, and downloads video recordings at a rate of 30 frames per minute.
 - **Settings**: Provides access to several webscreen console preferences. Notably, users can adjust the scaling mode. Setting it to "Local Scaling" ensures the remote display fits the browser window perfectly.
@@ -259,7 +259,7 @@ The Control Toolbar facilitates the following actions:
 - **Disconnect**: Ends the current webscreen session.
 - **Logout**: Signs the user out of the ForensicVM server.
 
-Adjusting Screen Scaling: Local Scaling
+:term:`Adjusting Screen Scaling: Local Scaling`
 ****************************************
 
 If you find that the screen appears cropped or that certain parts of the interface aren't fully visible, you can adjust the scaling settings for a more optimal viewing experience. Here's a comprehensive guide to making those adjustments:
@@ -290,7 +290,7 @@ If you find that the screen appears cropped or that certain parts of the interfa
    \FloatBarrier
 
 
-ForensicVM Server Web Control Interface
+:term:`ForensicVM Server` Web Control Interface
 ----------------------------------------
 
 For enhanced collaboration, remote forensic investigators have the capability to log into a dedicated web interface. This platform not only facilitates shared control of the remote web interface but also empowers multiple investigators to access the same ForensicVM simultaneously. This multi-user functionality enables diverse investigative actions such as capturing screenshots, collecting potential evidences onto the evidence disk, and initiating video recordings.
@@ -300,9 +300,9 @@ For enhanced collaboration, remote forensic investigators have the capability to
    \FloatBarrier
 
 .. figure:: img/infographics_0004.jpg
-   :alt: A visual representation of the ForensicVM Server Web Control Interface
+   :alt: A visual representation of the :term:`ForensicVM Server` Web Control Interface
 
-   A visual representation of the ForensicVM Server Web Control Interface
+   A visual representation of the :term:`ForensicVM Server` Web Control Interface
 
 .. raw:: latex
 
@@ -310,17 +310,17 @@ For enhanced collaboration, remote forensic investigators have the capability to
 
 Interface Breakdown:
 
-- **(1) VM Control Options**: 
+- **(1) :term:`VM Control` Options**: 
     * **Start**: Power on the ForensicVM.
     * **Stop**: Power off the ForensicVM.
     * **Shutdown**: Properly shut down the ForensicVM, ensuring all processes are terminated correctly.
     * **Reset**: Reboot the ForensicVM.
     * **Browse**: Launch the ForensicVM's web console, offering a visual interface to the VM.
 
-- **(2) Notification Area**: A dedicated space where various system communications such as messages, warnings, and error alerts are displayed.
+- **(2) :term:`Notification Area`**: A dedicated space where various system communications such as messages, warnings, and error alerts are displayed.
 
 - **(3) Server Management and Utilities**:
-    * **Server Status (Netdata)**: Provides real-time performance metrics and monitoring using Netdata.
+    * **Server Status (:term:`Netdata`)**: Provides real-time performance metrics and monitoring using :term:`Netdata`.
     * **Shell (webshell)**: Access to an SSH-over-web interface, allowing for direct server interactions.
     * **List VM**: Refresh and display the list of existing virtual machines on the server.
     * **Logout**: Facilitates logging out of the web interface, ensuring secure closure of sessions.

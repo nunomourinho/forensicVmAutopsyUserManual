@@ -3,7 +3,7 @@ Stopping the Virtual Machine (VM)
 
 There are three different ways to stop the forensic virtual machine (forensicVM). These methods provide flexibility depending on your access level and location within the system interface:
 
-1) Stop ForensicVM in the Main Plugin Interface
+1) Stop ForensicVM in the Main :term:`Plugin Interface`
 -----------------------------------------------
 
 To stop the forensicVM from the main plugin interface, follow these simple steps:

@@ -3,15 +3,15 @@ Recording Video from a Forensic Virtual Machine
 
 Recording video from a forensic virtual machine (VM) that was created from a forensic image is not just a technical procedure; it's a crucial part of preserving and analyzing digital evidence in a meticulous and traceable manner. Below are the reasons why this approach is essential:
 
-**Immutable Record**
+**:term:`Immutable Record`**
 
 When a virtual machine is created from a forensic image, it's a snapshot of a system at a specific point in time. Recording a video of the interactions and findings within this VM provides an immutable and chronological record. It ensures that every action taken can be reviewed, analyzed, and presented, leaving no room for doubt or ambiguity.
 
-**Transparency and Accountability**
+**:term:`Transparency and Accountability`**
 
 The video serves as a transparent and detailed log of what was done during the investigation. This helps in maintaining the integrity of the process, proving that the examination was conducted ethically and without alteration of the original data. If questions arise later, the video can be referred back to, to demonstrate exactly what was done.
 
-**Legal Compliance**
+**:term:`Legal Compliance`**
 
 In legal scenarios, the chain of custody must be robust and without breaks. Video recordings from the forensic VM provide a visual and auditable trail that can be an integral part of court proceedings. They offer judges, lawyers, and juries a clear and understandable view of the digital evidence, often aiding in decisions.
 
@@ -244,7 +244,7 @@ Import video recording for analysis in Autopsy Software
 
       \FloatBarrier
 
-2. **Open Autopsy software. On the menu bar, please click the "Add Data Source" button.**
+2. **Open Autopsy software. On the menu bar, please click the "Add :term:`Data Source`" button.**
 
    .. raw:: latex
 
@@ -278,18 +278,18 @@ Import video recording for analysis in Autopsy Software
 
       \FloatBarrier
 
-4. **Select Logical Files and click next.**
+4. **Select :term:`Logical Files` and click next.**
 
    .. raw:: latex
 
       \FloatBarrier
 
    .. figure:: img/webrecord_video_0015.jpg
-      :alt: Select Logical Files
+      :alt: Select :term:`Logical Files`
       :align: center
       :width: 500
 
-      Select Logical Files
+      Select :term:`Logical Files`
 
    .. raw:: latex
 
@@ -387,11 +387,11 @@ Import video recording for analysis in Autopsy Software
       \FloatBarrier
 
    .. figure:: img/webrecord_video_0021.jpg
-      :alt: Tagging video
+      :alt: :term:`Tagging` video
       :align: center
       :width: 500
 
-      Tagging video
+      :term:`Tagging` video
 
    .. raw:: latex
 
