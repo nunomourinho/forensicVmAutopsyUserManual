@@ -267,17 +267,32 @@ excluded_file = "glossary.rst"
 
 import os
 
+total_files = 0
+processed_files = 0
+
 for file_name in os.listdir("."):
     if file_name.endswith(".rst") and file_name != excluded_file:
-        print(file_name)
-        with open(file_name, "r") as file:
-            content = file.read()
+        total_files += 1
 
-        updated_content = content
-        for term in terms:
-            updated_content = updated_content.replace(term, replacement_text)
+print(f"Total files to process: {total_files}\n")
+
+for file_name in os.listdir("."):
+    if file_name.endswith(".rst") and file_name != excluded_file:
+        print(f"Processing {file_name}...")
+
+        with open(file_name, "r") as file:
+            content = file.readlines()
+
+        updated_content = ""
+        for line in content:
+            for term in terms:
+                line = line.replace(term, replacement_text)
+            updated_content += line
 
         with open(file_name, "w") as file:
             file.write(updated_content)
 
-print("Replacements completed in specified files.")
+        processed_files += 1
+        print(f"{file_name} processed. ({processed_files}/{total_files})")
+
+print("\nReplacements completed in specified files.")
