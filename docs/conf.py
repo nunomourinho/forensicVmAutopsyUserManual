@@ -68,7 +68,28 @@ latex_elements = {
   ''',
 }
 
+latex_engine = 'pdflatex'
+latex_elements = {
+    'preamble': r'''
+        % Preamble
+    ''',
+    'maketitle': r'''
+        \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
 
+        \begin{titlepage}
+            \centering
+            \vspace*{40mm} %%% * is used to give space from top
+            \IfFileExists{cover.jpg}{
+              \includegraphics[width=\textwidth]{cover.jpg}
+            }{
+              \textbf{Cover Image Not Found}
+            }
+            \newpage
+        \end{titlepage}
+        \clearpage
+        \pagenumbering{arabic}
+    '''
+}
 
 html_theme = 'sphinx_rtd_theme'
 
