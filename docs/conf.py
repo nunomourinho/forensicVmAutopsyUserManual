@@ -48,12 +48,19 @@ latex_elements = {
 }
 
 latex_elements = {
-    # ... existing settings ...
-    'preamble': r'''
+  'preamble': r'''
     \usepackage{graphicx}
-    \coverimage{cover.jpg}
-    '''
+    \newcommand{\coverpage}{
+      \begin{titlepage}
+        \centering
+        \includegraphics[width=\textwidth]{cover.jpg}
+      \end{titlepage}
+      \clearpage
+      \newpage\null\newpage
+    }
+  ''',
 }
+
 
 html_theme = 'sphinx_rtd_theme'
 
