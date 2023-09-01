@@ -69,6 +69,8 @@ latex_elements = {
             \end{textblock}
         \end{titlepage}
         \clearpage
+        \newpage\null\thispagestyle{empty}\clearpage  % Add two blank pages
+        \newpage\null\thispagestyle{empty}\clearpage  % Add two blank pages
         \pagenumbering{arabic}
     '''
 }
