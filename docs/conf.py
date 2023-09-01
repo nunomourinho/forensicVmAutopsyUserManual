@@ -47,19 +47,25 @@ latex_elements = {
     '''
 }
 
+latex_additional_files = ["cover.jpg"]
+
 latex_elements = {
   'preamble': r'''
     \usepackage{graphicx}
     \newcommand{\coverpage}{
       \begin{titlepage}
-        \centering
-        \includegraphics[width=\textwidth]{cover.jpg}
+        \IfFileExists{cover.jpg}{
+          \includegraphics[width=\textwidth]{cover.jpg}
+        }{
+          \textbf{Cover Image Not Found}
+        }
       \end{titlepage}
       \clearpage
       \newpage\null\newpage
     }
   ''',
 }
+
 
 
 html_theme = 'sphinx_rtd_theme'
