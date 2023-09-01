@@ -51,7 +51,7 @@ latex_elements = {
     # ... existing settings ...
     'preamble': r'''
     \usepackage{graphicx}
-    \coverimage{front_cover.svg}
+    \coverimage{frontcover.svg}
     '''
 }
 
