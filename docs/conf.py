@@ -47,6 +47,14 @@ latex_elements = {
     '''
 }
 
+latex_elements = {
+    # ... existing settings ...
+    'preamble': r'''
+    \usepackage{graphicx}
+    \coverimage{front_cover.svg}
+    '''
+}
+
 html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
