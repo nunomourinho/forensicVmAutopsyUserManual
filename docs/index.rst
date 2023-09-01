@@ -1,3 +1,8 @@
+.. raw:: latex
+
+   \coverpage
+
+
 Welcome to ForensicVM documentation!
 ===================================
 .. image:: https://zenodo.org/badge/675339901.svg
