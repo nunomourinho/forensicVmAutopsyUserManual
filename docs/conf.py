@@ -55,7 +55,9 @@ latex_elements = {
     \newcommand{\coverpage}{
       \begin{titlepage}
         \IfFileExists{cover.jpg}{
-          \includegraphics[width=\textwidth]{cover.jpg}
+          \newgeometry{margin=1cm}
+             \includegraphics[width=\textwidth]{cover.jpg}
+           \restoregeometry
         }{
           \textbf{Cover Image Not Found}
         }
