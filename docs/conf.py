@@ -56,6 +56,7 @@ latex_elements = {
         \usepackage[absolute]{textpos}
         \setlength{\TPHorizModule}{1cm}
         \setlength{\TPVertModule}{1cm}
+        \usepackage{etoolbox}  % for \AtEndDocument hook
     ''',
     'maketitle': r'''
         \begin{titlepage}
@@ -72,6 +73,18 @@ latex_elements = {
         \newpage\null\thispagestyle{empty}\clearpage  % Add two blank pages
         \newpage\null\thispagestyle{empty}\clearpage  % Add two blank pages
         \pagenumbering{arabic}
+        \AtEndDocument{
+            \clearpage  % Make sure no content is pending
+            \thispagestyle{empty}  % No headers or footers
+            \begin{textblock}{20}(0,0)
+                \IfFileExists{back_cover.jpg}{
+                  \includegraphics[width=\paperwidth,height=\paperheight]{back_cover.jpg}
+                }{
+                  \textbf{Back Cover Image Not Found}
+                }
+            \end{textblock}
+            \clearpage
+        }
     '''
 }
 
