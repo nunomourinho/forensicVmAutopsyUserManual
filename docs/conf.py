@@ -49,42 +49,24 @@ latex_elements = {
 
 latex_additional_files = ["cover.jpg"]
 
-latex_elements = {
-  'preamble': r'''
-    \usepackage{graphicx}
-    \newcommand{\coverpage}{
-      \begin{titlepage}
-        \IfFileExists{cover.jpg}{
-          \newgeometry{margin=1cm}
-             \includegraphics[width=\textwidth]{cover.jpg}
-           \restoregeometry
-        }{
-          \textbf{Cover Image Not Found}
-        }
-      \end{titlepage}
-      \clearpage
-      \newpage\null\newpage
-    }
-  ''',
-}
-
 latex_engine = 'pdflatex'
 latex_elements = {
     'preamble': r'''
-        % Preamble
+        \usepackage{graphicx}
+        \usepackage[absolute]{textpos}
+        \setlength{\TPHorizModule}{1cm}
+        \setlength{\TPVertModule}{1cm}
     ''',
     'maketitle': r'''
-        \pagenumbering{Roman} %%% to avoid page 1 conflict with actual page 1
-
         \begin{titlepage}
-            \centering
-            \vspace*{40mm} %%% * is used to give space from top
-            \IfFileExists{cover.jpg}{
-              \includegraphics[width=\textwidth]{cover.jpg}
-            }{
-              \textbf{Cover Image Not Found}
-            }
-            \newpage
+            \thispagestyle{empty}
+            \begin{textblock}{20}(0,0)
+                \IfFileExists{cover.jpg}{
+                  \includegraphics[width=\paperwidth,height=\paperheight]{cover.jpg}
+                }{
+                  \textbf{Cover Image Not Found}
+                }
+            \end{textblock}
         \end{titlepage}
         \clearpage
         \pagenumbering{arabic}
