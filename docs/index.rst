@@ -52,7 +52,7 @@ Check out the :doc:`usage` section for further information, including how to :re
    :caption: ForensicVM Plugin Manual
 
    Introduction <user/introduction>
-   Citation <user/citation>
+   Citation Guidelines <user/citation>
    System Requirements <user/system_requirements>    
    Installation and Setup <user/installation_and_setup>
    Getting Started <user/getting_started>
