@@ -787,9 +787,3 @@ Glossary
 
    ZIP File
       A file format that allows for lossless data compression. It can contain multiple files or folders compressed into a single file.
-
-
-.. raw:: latex
-
-   \backcover
-
