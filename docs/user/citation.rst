@@ -3,6 +3,22 @@ Citation
 
 If you find this work useful, please cite it using the following references:
 
+**Autopsy ForensicVM Client Plugin Software**
+
+.. code-block:: bibtex
+
+    @software{Mourinho_AutopsyForensicVM_2023,
+    author = {Mourinho, Nuno},
+    doi = {10.5281/zenodo.8153316},
+    month = {07},
+    title = {{Autopsy ForensicVM Client}},
+    url = {https://github.com/nunomourinho/AutopsyForensicVM},
+    year = {2023}
+    }
+
+
+**Official documentation - User Manual**
+
 .. code-block:: bibtex
 
     @misc{Mourinho_forensicVmAutopsyUserManual_2023,
@@ -16,12 +32,4 @@ If you find this work useful, please cite it using the following references:
     copyright = {European Union Public License 1.2}
     }
 
-    @software{Mourinho_AutopsyForensicVM_2023,
-    author = {Mourinho, Nuno},
-    doi = {10.5281/zenodo.8153316},
-    month = {07},
-    title = {{Autopsy ForensicVM Client}},
-    url = {https://github.com/nunomourinho/AutopsyForensicVM},
-    year = {2023}
-    }
 
