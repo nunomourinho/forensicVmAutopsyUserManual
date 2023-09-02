@@ -6,10 +6,10 @@ The evidence disk is an automatically generated drive that materializes during t
 In the event that new tags are introduced in Autopsy, corresponding folders for these tags will be fashioned once the plugin is restarted.
 
 .. tip::
-   In order to fabricate any missing tag directories, it's essential to first halt the ForensicVM's operations. It's advised to shut down the ForensicVM, subsequently close the plugin, and then reopen it via the Autopsy :term:`ForensicVM Client Plugin`. This procedure ensures that the environment is refreshed and ready to incorporate new changes.
+   In order to fabricate any missing tag directories, it's essential to first halt the ForensicVM's operations. It's advised to shut down the ForensicVM, subsequently close the plugin, and then reopen it via the Autopsy ForensicVM Client Plugin. This procedure ensures that the environment is refreshed and ready to incorporate new changes.
 
 
-:term:`Evidence Disk` Creation
+Evidence Disk Creation
 --------------------------------
 
 The creation of the evidence disk is an automated process. When you transition a forensic image into a ForensicVM, regardless of whether the method employed is virtualization copy or linking to the forensic image, the evidence disk is fashioned during the final phase of this procedure.
@@ -19,7 +19,7 @@ The creation of the evidence disk is an automated process. When you transition a
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0001.jpg
-   :alt: :term:`Evidence Disk` Creation Process
+   :alt: Evidence Disk Creation Process
    :align: center
    :width: 600px
 
@@ -46,7 +46,7 @@ Collecting digital evidence is a meticulous process, demanding precision, patien
 
    With access to the ForensicVM, you can now begin your deep dive into the system. Navigate through the directories, files, applications, and logs. Always keep an eye out for suspicious or relevant files, unusual patterns, or any anomalies that might serve as potential evidence.
 
-4. **Copying Relevant Files to the** :term:`Evidence Disk`:
+4. **Copying Relevant Files to the** Evidence Disk:
 
    As you uncover potential pieces of evidence:
 
@@ -83,9 +83,9 @@ Begin by logging into the operating system. Should there be a need, employ a plu
 
    \FloatBarrier
 
-**Identify Evidence and the** :term:`Evidence Disk`
+**Identify Evidence and the** Evidence Disk
 
-Post login, your next objective is to pinpoint the evidence disk. This specific disk is marked with the label **possible evidence**. Conventionally, it's designated as drive **D:**. The very essence of this disk is a collection of folders; each bearing the name of tags available in Autopsy. Though investigators have the liberty to tailor-make folders or sub-folders as per the requirements of their investigation, a suggested practice is to either refine or instate new tags in Autopsy. Post this step, both the :term:`Autopsy Plugin` and the ForensicVM should be restarted.
+Post login, your next objective is to pinpoint the evidence disk. This specific disk is marked with the label **possible evidence**. Conventionally, it's designated as drive **D:**. The very essence of this disk is a collection of folders; each bearing the name of tags available in Autopsy. Though investigators have the liberty to tailor-make folders or sub-folders as per the requirements of their investigation, a suggested practice is to either refine or instate new tags in Autopsy. Post this step, both the Autopsy Plugin and the ForensicVM should be restarted.
 
 .. raw:: latex
 
@@ -103,9 +103,9 @@ Post login, your next objective is to pinpoint the evidence disk. This specific 
 
    \FloatBarrier
 
-The :numref:`Fig. %s <evidence-windows>` offers a visual guide: The evidence drive is demarcated by a green rectangle, while the :term:`Windows Explorer` - which is in the process of identifying potential evidence - is enclosed within a red rectangle. The objective here is to locate and transfer the identified evidence into the "possible evidence" drive, ensuring they're nestled under the appropriate Autopsy Folder Tags.
+The :numref:`Fig. %s <evidence-windows>` offers a visual guide: The evidence drive is demarcated by a green rectangle, while the Windows Explorer - which is in the process of identifying potential evidence - is enclosed within a red rectangle. The objective here is to locate and transfer the identified evidence into the "possible evidence" drive, ensuring they're nestled under the appropriate Autopsy Folder Tags.
 
-**Example: Transferring the Entire Encrypted** :term:`BitLocker Drive`
+**Example: Transferring the Entire Encrypted** BitLocker Drive
 
 The illustration below showcases the entirety of an encrypted BitLocker drive being transferred to the Autopsy 'Follow Up' tag. The foundational principle of this process lies in ensuring that the full, unaltered encrypted drive is copied, preserving its integrity for forensic examination. By copying the entire encrypted disk file, forensic analysts can ensure they are working with a complete and untampered set of data.
 
@@ -149,7 +149,7 @@ Collecting Evidence on Linux
 
 **Accessing the System**
 
-To embark on evidence collection, the primary step involves gaining access to the Linux system. Knowledge of user credentials is essential. If you find yourself without the necessary credentials, consider utilizing available plugins to assist. Alternatively, developing and sharing a new plugin with the community could be a valuable contribution! The illustration below presents the login process for an :term:`Ubuntu 22.10` system featuring a comprehensive desktop environment.
+To embark on evidence collection, the primary step involves gaining access to the Linux system. Knowledge of user credentials is essential. If you find yourself without the necessary credentials, consider utilizing available plugins to assist. Alternatively, developing and sharing a new plugin with the community could be a valuable contribution! The illustration below presents the login process for an Ubuntu 22.10 system featuring a comprehensive desktop environment.
 
 
 .. raw:: latex
@@ -157,17 +157,17 @@ To embark on evidence collection, the primary step involves gaining access to th
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0006.jpg
-   :alt: :term:`Ubuntu 22.10` login screen
+   :alt: Ubuntu 22.10 login screen
    :align: center
    :width: 600px
 
-   :term:`Ubuntu 22.10` login screen with a full desktop.
+   Ubuntu 22.10 login screen with a full desktop.
 
 .. raw:: latex
 
    \FloatBarrier
 
-**Identifying the :term:`Evidence Disk`**
+**Identifying the Evidence Disk**
 
 After successfully logging in, launch the file explorer to identify the evidence disk. In the given instance, one would navigate to "Other locations" and subsequently double-click on "possible evidence" to initiate its mounting.
 
@@ -188,18 +188,18 @@ After successfully logging in, launch the file explorer to identify the evidence
 
 **Plan Evidence Gathering**
 
-Once the evidence drive is appropriately mounted, you're primed to delve into your evidence search. Displayed in the subsequent figure are folders corresponding to various :term:`Autopsy Tags`, offering a structured approach to evidence organization.
+Once the evidence drive is appropriately mounted, you're primed to delve into your evidence search. Displayed in the subsequent figure are folders corresponding to various Autopsy Tags, offering a structured approach to evidence organization.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0008.jpg
-   :alt: :term:`Autopsy Tags` folders
+   :alt: Autopsy Tags folders
    :align: center
    :width: 600px
 
-   :term:`Autopsy Tags` folders for structured evidence organization.
+   Autopsy Tags folders for structured evidence organization.
 
 .. raw:: latex
 
@@ -258,7 +258,7 @@ Before channeling the evidence disk into Autopsy, it's paramount to adopt one of
    :align: center
    :width: 600px
 
-   Accessing the power options on :term:`Ubuntu 22.10`.
+   Accessing the power options on Ubuntu 22.10.
 
 .. raw:: latex
 
@@ -285,14 +285,14 @@ To safeguard all collected evidence, conclude the procedure by opting for "Power
 
 .. _Import evidence disk:
 
-Import Possible :term:`Evidence Disk` into Autopsy
+Import Possible Evidence Disk into Autopsy
 ----------------------------------------------------
 
-Autopsy is a digital forensics platform. To import a :term:`qcow2` evidence disk, first convert it to :term:`vmdk`. Follow the guide below:
+Autopsy is a digital forensics platform. To import a qcow2 evidence disk, first convert it to vmdk. Follow the guide below:
 
 **Run the Autopsy ForensicVM plugin on the intended datasource**
 
-#. Begin by launching the :term:`Autopsy Case`.
+#. Begin by launching the Autopsy Case.
 #. Execute the Autopsy ForensicVM plugin on the case datasource.
 
 .. raw:: latex
@@ -300,11 +300,11 @@ Autopsy is a digital forensics platform. To import a :term:`qcow2` evidence disk
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0013.jpg
-   :alt: Autopsy ForensicVM :term:`Plugin Interface`
+   :alt: Autopsy ForensicVM Plugin Interface
    :align: center
    :width: 600px
    
-   *Autopsy ForensicVM* :term:`Plugin Interface`
+   *Autopsy ForensicVM* Plugin Interface
 
 .. raw:: latex
 
@@ -332,18 +332,18 @@ Autopsy is a digital forensics platform. To import a :term:`qcow2` evidence disk
 
 **Import evidence disk**
 
-Click the "Import :term:`Evidence Disk`" button.
+Click the "Import Evidence Disk" button.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0015.jpg
-   :alt: Import :term:`Evidence Disk` Interface
+   :alt: Import Evidence Disk Interface
    :align: center
    :width: 600px
 
-   *Import* :term:`Evidence Disk` *Interface*
+   *Import* Evidence Disk *Interface*
 
 .. raw:: latex
 
@@ -351,7 +351,7 @@ Click the "Import :term:`Evidence Disk`" button.
 
 **Save evidence disk to default path**
 
-A :term:`Windows Explorer` "Save As" dialog will appear. Retain the suggested path.
+A Windows Explorer "Save As" dialog will appear. Retain the suggested path.
 
 .. raw:: latex
 
@@ -368,7 +368,7 @@ A :term:`Windows Explorer` "Save As" dialog will appear. Retain the suggested pa
 
    \FloatBarrier
 
-**Monitor the** :term:`Download Progress`
+**Monitor the** Download Progress
 
 Wait for the evidence disk download to complete.
 
@@ -377,16 +377,16 @@ Wait for the evidence disk download to complete.
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0017.jpg
-   :alt: :term:`Download Progress` Bar
+   :alt: Download Progress Bar
    :align: center
 
-   :term:`Download Progress` *Bar*
+   Download Progress *Bar*
 
 .. raw:: latex
 
    \FloatBarrier
 
-:term:`Evidence Disk` **Informational Popup**
+Evidence Disk **Informational Popup**
 
 A notification popup will display the evidence path.
 
@@ -395,11 +395,11 @@ A notification popup will display the evidence path.
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0018.jpg
-   :alt: :term:`Evidence Disk` Popup Notification
+   :alt: Evidence Disk Popup Notification
    :align: center
    :width: 600px
 
-   :term:`Evidence Disk` *Popup Notification*
+   Evidence Disk *Popup Notification*
 
 .. raw:: latex
 
@@ -407,18 +407,18 @@ A notification popup will display the evidence path.
 
 **Locate the Evidence in the Path**
 
-:term:`Windows Explorer` will display the evidence.:term:`vmdk` path. Copy this path.
+Windows Explorer will display the evidence.vmdk path. Copy this path.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0019.jpg
-   :alt: Evidence.:term:`vmdk` in :term:`Windows Explorer`
+   :alt: Evidence.vmdk in Windows Explorer
    :align: center
    :width: 600px
 
-   *Evidence.*:term:`vmdk` *in* :term:`Windows Explorer`
+   *Evidence.*vmdk *in* Windows Explorer
 
 .. raw:: latex
 
@@ -426,37 +426,37 @@ A notification popup will display the evidence path.
 
 **Copy evidence disk path**
 
-Hold Shift, right-click on evidence.:term:`vmdk`, and select "Copy as path".
+Hold Shift, right-click on evidence.vmdk, and select "Copy as path".
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0020.jpg
-   :alt: Copying evidence.:term:`vmdk` Path
+   :alt: Copying evidence.vmdk Path
    :align: center
    :width: 600px
 
-   *Copying evidence.*:term:`vmdk` *Path*
+   *Copying evidence.*vmdk *Path*
 
 .. raw:: latex
 
    \FloatBarrier
 
-**Integrate a New :term:`Data Source` in Autopsy Software**
+**Integrate a New Data Source in Autopsy Software**
 
-Click "Add :term:`Data Source`" in Autopsy.
+Click "Add Data Source" in Autopsy.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0021.jpg
-   :alt: Add :term:`Data Source` Option in Autopsy
+   :alt: Add Data Source Option in Autopsy
    :align: center
    :width: 600px
 
-   *Add :term:`Data Source` Option in Autopsy*
+   *Add Data Source Option in Autopsy*
 
 .. raw:: latex
 
@@ -481,39 +481,39 @@ Select the same host when importing the evidence disk.
 
    \FloatBarrier
 
-**Specify :term:`Data Source` Type as :term:`VM Image`**
+**Specify Data Source Type as VM Image**
 
-Choose ":term:`Disk Image or VM File`" as the data source type.
+Choose "Disk Image or VM File" as the data source type.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0023.jpg
-   :alt: Selecting :term:`Data Source` Type in Autopsy
+   :alt: Selecting Data Source Type in Autopsy
    :align: center
    :width: 600px
 
-   Selecting :term:`Data Source` *Type in Autopsy*
+   Selecting Data Source *Type in Autopsy*
 
 .. raw:: latex
 
    \FloatBarrier
 
-**Enter the previously copied evidence.**:term:`vmdk` **path**
+**Enter the previously copied evidence.**vmdk **path**
 
-Paste the evidence.:term:`vmdk` path and set the "Time zone".
+Paste the evidence.vmdk path and set the "Time zone".
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0024.jpg
-   :alt: Inputting evidence.:term:`vmdk` Path in Autopsy
+   :alt: Inputting evidence.vmdk Path in Autopsy
    :align: center
    :width: 600px
 
-   *Inputting evidence.*:term:`vmdk` *Path in Autopsy*
+   *Inputting evidence.*vmdk *Path in Autopsy*
 
 .. raw:: latex
 
@@ -538,7 +538,7 @@ Deselect all plugins and click "Next".
 
    \FloatBarrier
 
-**Conclude the** :term:`Data Source` **Addition**
+**Conclude the** Data Source **Addition**
 
 Click "Finish".
 
@@ -566,11 +566,11 @@ Navigate to each folder and assign the "Notable Item" tag.
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0027.jpg
-   :alt: :term:`Tagging` Evidence in Autopsy
+   :alt: Tagging Evidence in Autopsy
    :align: center
    :width: 600px
 
-   :term:`Tagging` *Evidence in Autopsy*
+   Tagging *Evidence in Autopsy*
 
 .. raw:: latex
 
@@ -596,7 +596,7 @@ Tagged evidence will be highlighted.
    \FloatBarrier
 
 
-Update :term:`Evidence Disk` Tags
+Update Evidence Disk Tags
 ----------------------------------
 
 During the course of a forensic investigation, there may be instances when you need to append additional tags. Ensuring that the "possible evidence disk" reflects these changes is crucial. The following steps guide you on making sure the tag folders are created on the evidence disk:
@@ -642,26 +642,26 @@ During the course of a forensic investigation, there may be instances when you n
 
    \FloatBarrier
 
-**Initiate** :term:`Ingest Modules`
+**Initiate** Ingest Modules
 
 1. Right-click within Autopsy.
-2. Select "Run :term:`Ingest Modules`" from the dropdown menu.
+2. Select "Run Ingest Modules" from the dropdown menu.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0031.jpg
-   :alt: Running :term:`Ingest Modules` in Autopsy
+   :alt: Running Ingest Modules in Autopsy
    :align: center
 
-   *Running* :term:`Ingest Modules` *in Autopsy*
+   *Running* Ingest Modules *in Autopsy*
 
 .. raw:: latex
 
    \FloatBarrier
 
-**Activate the ForensicVM Client** :term:`Python` **Plugin**
+**Activate the ForensicVM Client** Python **Plugin**
 
 1. Deselect all plugins within Autopsy.
 2. Specifically select the "ForensicVM Client" plugin.
@@ -672,11 +672,11 @@ During the course of a forensic investigation, there may be instances when you n
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0032.jpg
-   :alt: Selecting the :term:`ForensicVM Client Plugin` in Autopsy
+   :alt: Selecting the ForensicVM Client Plugin in Autopsy
    :align: center
    :width: 600px
 
-   *Selecting the* :term:`ForensicVM Client Plugin` *in Autopsy*
+   *Selecting the* ForensicVM Client Plugin *in Autopsy*
 
 .. raw:: latex
 
@@ -744,7 +744,7 @@ Log into the forensicVM and identify the freshly generated tag folder.
    For users operating on Windows versions later than 8: If the evidence folder is elusive, ensure Windows is not in hibernation instead of being completely shut down. To bypass this, while shutting down the forensicVM, hold down the [Shift] key on your keyboard. This ensures the hibernation file is removed and the drive is primed to receive instructions. You can then retry the procedure.
 
 
-Recreate :term:`Evidence Disk`
+Recreate Evidence Disk
 -----------------------
 
 .. danger::
@@ -753,7 +753,7 @@ Recreate :term:`Evidence Disk`
 
 **Safely Shut Down Windows**
 
-To ensure that the evidence.:term:`vmdk` disk is unlocked, shut down Windows while pressing and holding the [Shift] key. This action ensures the hibernation file is deleted.
+To ensure that the evidence.vmdk disk is unlocked, shut down Windows while pressing and holding the [Shift] key. This action ensures the hibernation file is deleted.
 
 .. raw:: latex
 
@@ -770,26 +770,26 @@ To ensure that the evidence.:term:`vmdk` disk is unlocked, shut down Windows whi
 
    \FloatBarrier
 
-**Initiate** :term:`Evidence Disk` **Recreation**
+**Initiate** Evidence Disk **Recreation**
 
-Once the machine is completely shut down, press the "Recreate :term:`Evidence Disk`" button found on the Autopsy :term:`ForensicVM Client Plugin` interface.
+Once the machine is completely shut down, press the "Recreate Evidence Disk" button found on the Autopsy ForensicVM Client Plugin interface.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0037.jpg
-   :alt: Recreate :term:`Evidence Disk` Button
+   :alt: Recreate Evidence Disk Button
    :align: center
    :width: 600px
 
-   *Recreate* :term:`Evidence Disk` *Button*
+   *Recreate* Evidence Disk *Button*
 
 .. raw:: latex
 
    \FloatBarrier
 
-**First** :term:`Confirmation Dialog`
+**First** Confirmation Dialog
 
 Recreating the evidence disk necessitates its deletion—a critical action. A prompt will appear asking for confirmation on this deletion.
 
@@ -798,10 +798,10 @@ Recreating the evidence disk necessitates its deletion—a critical action. A pr
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0038.jpg
-   :alt: First :term:`Confirmation Dialog`
+   :alt: First Confirmation Dialog
    :align: center
 
-   *First :term:`Confirmation Dialog`*
+   *First Confirmation Dialog*
 
 **Final Confirmation Message**
 
@@ -862,7 +862,7 @@ Proceed to start, access, and log into the forensicVM.
 
    \FloatBarrier
 
-**Inspect the New** :term:`Evidence Disk`
+**Inspect the New** Evidence Disk
 
 A freshly recreated evidence disk will be generated with the current Autopsy evidence tags structured as folders. No previously acquired evidence will be included. As a crucial step, remember to `Import evidence disk`_ before recreating the evidence disk.
 
@@ -871,11 +871,11 @@ A freshly recreated evidence disk will be generated with the current Autopsy evi
    \FloatBarrier
 
 .. figure:: img/evidence_disk_0042.jpg
-   :alt: New :term:`Evidence Disk` Overview
+   :alt: New Evidence Disk Overview
    :align: center
    :width: 600px
 
-   *New :term:`Evidence Disk` Overview*
+   *New Evidence Disk Overview*
 
 .. raw:: latex
 

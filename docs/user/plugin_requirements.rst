@@ -1,5 +1,5 @@
 ===============================================
-Computer Requirements to use the :term:`Autopsy Plugin`
+Computer Requirements to use the Autopsy Plugin
 ===============================================
 
 To ensure that ForensicVM runs smoothly on your system, your computer and your server should meet or exceed the following requirements.
@@ -13,14 +13,14 @@ Operating System
 
 ForensicVM was tested and supports the following operating systems:
 
-- :term:`Windows 10 or later`
+- Windows 10 or later
 - Autopsy 4.20 or later
 
 
 Processor
 --------------------
 
-- A :term:`64-bit multi-core processor` is recommended for optimal performance.
+- A 64-bit multi-core processor is recommended for optimal performance.
 
 Memory
 --------------------
@@ -32,7 +32,7 @@ Storage
 
 - A minimum of 300 mb of free disk space is needed for the ForensicVM plugin installation.
 - Additional storage will be required for forensic images. The amount will depend on the size of the images you will be working with.
-- The use of Nvme or :term:`SSD` is not strictly necessary but recommend as it speeds up the aquisition processes.
+- The use of Nvme or SSD is not strictly necessary but recommend as it speeds up the aquisition processes.
 
 Networking
 --------------------

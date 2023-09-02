@@ -1,4 +1,4 @@
-:term:`Media Management in ForensicVM`: Leveraging ISOs for Enhanced Forensic Investigations
+Media Management in ForensicVM: Leveraging ISOs for Enhanced Forensic Investigations
 ====================================================================================
 
 In forensic investigations, the ability to access and utilize a wide array of specialized tools is of utmost importance. Different cases present unique challenges and often require specific utilities or software to effectively extract, analyze, or visualize evidence. ISO files, serving as encapsulations of entire file systems, are adept at housing a myriad of these specialized tools, thereby ensuring forensic professionals are always equipped with the right utilities.
@@ -7,42 +7,42 @@ The management and utilization of ISO files within ForensicVM is precisely tailo
 
 From a safety vantage point, employing ISOs within a virtual domain like ForensicVM comes with its set of undeniable perks:
 
-1. :term:`Network Isolation`: Leveraging tools from ISOs eliminates the need for network connectivity. This not only curtails risks associated with internet connectivity but also guarantees that neither evidence nor the operating environment is inadvertently compromised owing to network-centric threats or malware.
+1. Network Isolation: Leveraging tools from ISOs eliminates the need for network connectivity. This not only curtails risks associated with internet connectivity but also guarantees that neither evidence nor the operating environment is inadvertently compromised owing to network-centric threats or malware.
 
-2. :term:`Protective Shield`: Operating tools within ForensicVM's virtual periphery ensures the host system and its network remain insulated from looming threats. Any potentially malignant operations remain confined to the virtual environment, thereby preserving the sanctity of the primary forensic setup.
+2. Protective Shield: Operating tools within ForensicVM's virtual periphery ensures the host system and its network remain insulated from looming threats. Any potentially malignant operations remain confined to the virtual environment, thereby preserving the sanctity of the primary forensic setup.
 
-3. :term:`Evidence Preservation`: Operating in a controlled ambit significantly reduces risks associated with evidence contamination or inadvertent alterations. The sacrosanct nature of evidence remains unchallenged, a pivotal aspect for its admissibility in legal arenas.
+3. Evidence Preservation: Operating in a controlled ambit significantly reduces risks associated with evidence contamination or inadvertent alterations. The sacrosanct nature of evidence remains unchallenged, a pivotal aspect for its admissibility in legal arenas.
 
 ForensicVM's adeptness at ISO management not only broadens the forensic toolkit available to investigators but also accentuates the safety, security, and integrity quotient of the investigative process. This section unravels the nuances of these operations, offering insights into harnessing the full might of ISOs in your forensic pursuits.
 
 In the realm of digital forensics, every tool and capability at an investigator's disposal can be the difference between uncovering critical evidence or hitting a dead end. ISO files, in particular, offer a versatile medium to house a myriad of investigative utilities. With ForensicVM, managing and utilizing these ISO files becomes a straightforward endeavor, optimizing both efficiency and efficacy. Here's an overview of the key operations:
 
-- :term:`Browse and Upload ISO`: Discover how to navigate the interface to select and upload essential ISO files to the ForensicVM environment.
+- Browse and Upload ISO: Discover how to navigate the interface to select and upload essential ISO files to the ForensicVM environment.
 
-- **Select ISO / Web Select CD-ROM**: Instructions on choosing the right ISO file or CD-ROM from the Autopsy :term:`ForensicVM Client Plugin` or from the web interface.
+- **Select ISO / Web Select CD-ROM**: Instructions on choosing the right ISO file or CD-ROM from the Autopsy ForensicVM Client Plugin or from the web interface.
 
-- :term:`List Remote ISO Files`: Get an overview of all ISO files stored remotely on the ForensicVM server.
+- List Remote ISO Files: Get an overview of all ISO files stored remotely on the ForensicVM server.
 
-- :term:`Insert ISO / Web Insert CD-ROM`: Learn how to virtually insert an ISO file or CD-ROM for access within the virtualized forensic image,  from the Autopsy :term:`ForensicVM Client Plugin` or from the web interface.
+- Insert ISO / Web Insert CD-ROM: Learn how to virtually insert an ISO file or CD-ROM for access within the virtualized forensic image,  from the Autopsy ForensicVM Client Plugin or from the web interface.
 
-- :term:`Eject ISO / Web Eject CD-ROM`: Step-by-step guidance on safely ejecting a mounted ISO file or CD-ROM, from the Autopsy :term:`ForensicVM Client Plugin` or from the web interface.
+- Eject ISO / Web Eject CD-ROM: Step-by-step guidance on safely ejecting a mounted ISO file or CD-ROM, from the Autopsy ForensicVM Client Plugin or from the web interface.
 
 - **Delete ISO**: Understand how to remove ISO files that are no longer needed, ensuring a clutter-free workspace.
 
-- :term:`Bootable Media`: Dive into the specifics of booting from an ISO or CD-ROM, a critical capability for certain forensic tasks.
+- Bootable Media: Dive into the specifics of booting from an ISO or CD-ROM, a critical capability for certain forensic tasks.
 
 Proceed to the relevant subsections for detailed instructions and best practices to make the most of the media management features in ForensicVM.
 
 
-Uploading an ISO to the :term:`ForensicVM Server`
+Uploading an ISO to the ForensicVM Server
 --------------------------------------------------
 
 When conducting a forensic investigation, specialized tools are often required to aid in the extraction or analysis of data. Many of these tools are conveniently bundled into ISO files. With ForensicVM, you can seamlessly upload these ISO files, making them readily accessible for your investigation tasks. Here's a step-by-step guide to doing so:
 
 **Step 1: Access the Media Panel**
 
-- Navigate to the Autopsy VM and locate the :term:`ForensicVM Client Plugin`.
-- Click on the :term:`Media Panel Separator`.
+- Navigate to the Autopsy VM and locate the ForensicVM Client Plugin.
+- Click on the Media Panel Separator.
 
 **Step 2: Initiate the ISO Upload**
 
@@ -103,11 +103,11 @@ The upload process might take some time, depending on the size of the ISO file. 
 
 .. note::
    
-   During the upload process, the Autopsy :term:`ForensicVM Client Plugin` might become unresponsive. This is expected behavior. Please wait patiently until the upload completes.
+   During the upload process, the Autopsy ForensicVM Client Plugin might become unresponsive. This is expected behavior. Please wait patiently until the upload completes.
 
 **Step 5: Verify the Uploaded ISO**
 
-Once uploaded, you should be able to see the ISO file listed in the :term:`ISO Management` section of the ForensicVM server. This ensures your tools are now ready to be utilized in your ongoing investigation.
+Once uploaded, you should be able to see the ISO file listed in the ISO Management section of the ForensicVM server. This ensures your tools are now ready to be utilized in your ongoing investigation.
 
 .. raw:: latex
 
@@ -124,14 +124,14 @@ Once uploaded, you should be able to see the ISO file listed in the :term:`ISO M
 
    \FloatBarrier
 
-:term:`List Remote ISO Files`
+List Remote ISO Files
 ------------------------------
 
 When investigating digital evidence, it's crucial to maintain a catalog of tools and resources available for the task. ForensicVM facilitates this by allowing users to store ISO files remotely on its server. This section outlines the procedures to access and view this list of remotely stored ISO files.
 
 There are two primary methods to view these files:
 
-Using the Autopsy :term:`ForensicVM Client Plugin`
+Using the Autopsy ForensicVM Client Plugin
 ***************************************************
 
 **Step 1: Access the Media Panel**
@@ -147,14 +147,14 @@ Using the Autopsy :term:`ForensicVM Client Plugin`
 
 - The ISO file list will update.
 - Browse through the list to review available tools and resources.
-- If you find any tools missing or outdated, consider downloading or creating the necessary ISO files, and then upload them to the :term:`ForensicVM Server`.
+- If you find any tools missing or outdated, consider downloading or creating the necessary ISO files, and then upload them to the ForensicVM Server.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/list_remote_iso_0001.jpg
-   :alt: Viewing Remote ISO Files using Autopsy :term:`ForensicVM Client Plugin`
+   :alt: Viewing Remote ISO Files using Autopsy ForensicVM Client Plugin
    :align: center
    :width: 600
 
@@ -162,7 +162,7 @@ Using the Autopsy :term:`ForensicVM Client Plugin`
 
    \FloatBarrier
 
-   Viewing Remote ISO Files using Autopsy :term:`ForensicVM Client Plugin`
+   Viewing Remote ISO Files using Autopsy ForensicVM Client Plugin
 
 
 Method 1: Using the Web Interface
@@ -172,9 +172,9 @@ Method 1: Using the Web Interface
 
 - On the main screen, click on the **Control Bar** icon to reveal the tool panel.
 
-**Step 2: Open the** :term:`Media Control Modal Box`
+**Step 2: Open the** Media Control Modal Box
 
-- Within the tool panel, locate and click the **Eject** icon. This action will open the :term:`Media Control Modal Box`.
+- Within the tool panel, locate and click the **Eject** icon. This action will open the Media Control Modal Box.
 
 **Step 3: View ISO Dropdown**
 
@@ -196,12 +196,12 @@ Method 1: Using the Web Interface
 
    \FloatBarrier
 
-:term:`Insert ISO / Web Insert CD-ROM`
+Insert ISO / Web Insert CD-ROM
 --------------------------------
 
-Being able to virtually insert an ISO file or CD-ROM into the virtualized forensic image is pivotal during a digital investigation. Different tools and utilities can be loaded on the fly without compromising the integrity of the original image. This flexibility speeds up the forensic workflow and allows investigators to adapt to different scenarios quickly. The following sections guide you on how to accomplish this task using either the Autopsy :term:`ForensicVM Client Plugin` or the web interface.
+Being able to virtually insert an ISO file or CD-ROM into the virtualized forensic image is pivotal during a digital investigation. Different tools and utilities can be loaded on the fly without compromising the integrity of the original image. This flexibility speeds up the forensic workflow and allows investigators to adapt to different scenarios quickly. The following sections guide you on how to accomplish this task using either the Autopsy ForensicVM Client Plugin or the web interface.
 
-Using the Autopsy :term:`ForensicVM Client Plugin`
+Using the Autopsy ForensicVM Client Plugin
 ***************************************************
 
 **Step 1: Access the Media Panel**
@@ -224,11 +224,11 @@ Using the Autopsy :term:`ForensicVM Client Plugin`
    \FloatBarrier
 
 .. figure:: img/insert_iso_0001.jpg
-   :alt: Inserting ISO using the Autopsy :term:`ForensicVM Client Plugin`
+   :alt: Inserting ISO using the Autopsy ForensicVM Client Plugin
    :align: center
    :width: 600
 
-   Inserting ISO using the Autopsy :term:`ForensicVM Client Plugin`
+   Inserting ISO using the Autopsy ForensicVM Client Plugin
 
 .. raw:: latex
 
@@ -241,9 +241,9 @@ Using the Web Interface
 
 - From the main screen, identify and click on the **Control Bar** icon. This will reveal the tool panel.
 
-**Step 2: Navigate to the** :term:`Media Control Modal Box`
+**Step 2: Navigate to the** Media Control Modal Box
 
-- Inside the tool panel, find and click on the **Eject** icon. Activating this icon will present the :term:`Media Control Modal Box`.
+- Inside the tool panel, find and click on the **Eject** icon. Activating this icon will present the Media Control Modal Box.
 
 **Step 3: Select from the ISO Dropdown**
 
@@ -278,7 +278,7 @@ Run programs and utilities from ISO
 
 After successfully uploading and inserting an ISO into the virtualized forensic environment, the next step is to leverage the tools within. This section will guide you through accessing and utilizing the programs and utilities contained in the ISO.
 
-**Step 1: Locate the** :term:`Virtual CD-ROM Drive`
+**Step 1: Locate the** Virtual CD-ROM Drive
 
 - Once you've inserted the ISO as a virtual CD-ROM, navigate to your operating system's file explorer or equivalent.
 - Locate the virtual CD-ROM drive which should appear similar to a physical CD-ROM drive.
@@ -289,11 +289,11 @@ After successfully uploading and inserting an ISO into the virtualized forensic 
    \FloatBarrier
 
 .. figure:: img/run_iso_0001.jpg
-   :alt: Locating the :term:`Virtual CD-ROM Drive`
+   :alt: Locating the Virtual CD-ROM Drive
    :align: center
    :width: 600
 
-   Locating the :term:`Virtual CD-ROM Drive`
+   Locating the Virtual CD-ROM Drive
 
 .. raw:: latex
 
@@ -340,20 +340,20 @@ After successfully uploading and inserting an ISO into the virtualized forensic 
 
    \FloatBarrier
 
-:term:`Bootable Media`
+Bootable Media
 -----------------------
 
 There are instances during a forensic investigation where analysts may need to interact directly with the operating system or leverage specific tools that necessitate booting into a virtual machine (VM). ForensicVM's virtual CD-ROM drive has a unique characteristic: it can only accept CD-ROM insertions when the VM is running.
 
 The booting process of a CD-ROM involves the following steps:
 
-1. Boot into the operating system or access the :term:`BIOS`/:term:`UEFI` screen.
+1. Boot into the operating system or access the BIOS/UEFI screen.
 2. Insert the virtual CD-ROM into the drive.
 3. Perform a reboot or reset operation.
-4. Access the :term:`BIOS` or :term:`UEFI` by pressing the "ESC" key.
+4. Access the BIOS or UEFI by pressing the "ESC" key.
 5. Navigate to the boot device selection menu and confirm your choice.
 
-Method 1: Boot from Virtual CD-ROM Post-OS Bootup (:term:`BIOS` showcase)
+Method 1: Boot from Virtual CD-ROM Post-OS Bootup (BIOS showcase)
 *****************************************************************
 
 **Step 1: Boot into the Operating System**
@@ -400,7 +400,7 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup (:term:`BIOS` showcase)
 
 **Step 3: Initiate a System Restart**
 
-- Command the operating system to restart and wait for the :term:`BIOS` boot screen to emerge.
+- Command the operating system to restart and wait for the BIOS boot screen to emerge.
 
 .. raw:: latex
 
@@ -436,7 +436,7 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup (:term:`BIOS` showcase)
 
    \FloatBarrier
 
-**Step 5: Opt for the** :term:`Virtual CD-ROM Drive`
+**Step 5: Opt for the** Virtual CD-ROM Drive
 
 - From the available boot options, select the corresponding number for the virtual CD-ROM or DVD-ROM drive. For instance, in the example given, you'd press "4".
 
@@ -493,10 +493,10 @@ Method 1: Boot from Virtual CD-ROM Post-OS Bootup (:term:`BIOS` showcase)
 
    \FloatBarrier
 
-Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing :term:`UEFI`)
+Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing UEFI)
 **************************************************************************
 
-**Step 1: Access the** :term:`UEFI` **Boot Options**
+**Step 1: Access the** UEFI **Boot Options**
 
 - Power on the ForensicVM.
 - Rapidly access the web interface and press the "ESC" key to intercept the boot sequence.
@@ -506,11 +506,11 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing :term:`UEFI`)
    \FloatBarrier
 
 .. figure:: img/boot_iso_0008.jpg
-   :alt: Accessing :term:`UEFI` Boot Options
+   :alt: Accessing UEFI Boot Options
    :align: center
    :width: 600
 
-   Accessing :term:`UEFI` Boot Options
+   Accessing UEFI Boot Options
 
 .. raw:: latex
 
@@ -573,58 +573,58 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing :term:`UEFI`)
 
    \FloatBarrier
 
-**Step 5: Navigate to** :term:`UEFI` **Menu**
+**Step 5: Navigate to** UEFI **Menu**
 
-- Upon reboot, press the "ESC" key once more. This will usher you into the :term:`UEFI` menu.
+- Upon reboot, press the "ESC" key once more. This will usher you into the UEFI menu.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/boot_iso_0012.jpg
-   :alt: Accessing :term:`UEFI` Menu
+   :alt: Accessing UEFI Menu
    :align: center
    :width: 600
 
-   Accessing :term:`UEFI` Menu
+   Accessing UEFI Menu
 
 .. raw:: latex
 
    \FloatBarrier
 
-**Step 6: Opt for** ":term:`Boot Manager`"
+**Step 6: Opt for** "Boot Manager"
 
-- In the :term:`UEFI` menu, navigate to the ":term:`Boot Manager`" using arrow keys and confirm your selection with the <ENTER> key.
+- In the UEFI menu, navigate to the "Boot Manager" using arrow keys and confirm your selection with the <ENTER> key.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/boot_iso_0016.jpg
-   :alt: Selecting :term:`Boot Manager`
+   :alt: Selecting Boot Manager
    :align: center
    :width: 600
 
-   Selecting :term:`Boot Manager`
+   Selecting Boot Manager
 
 .. raw:: latex
 
    \FloatBarrier
 
-**Step 7: Choose** ":term:`UEFI` :term:`QEMU` **DVD-ROM"**
+**Step 7: Choose** "UEFI QEMU **DVD-ROM"**
 
-- From the available options, locate and select ":term:`UEFI` :term:`QEMU` DVD-ROM". Use the arrow keys for navigation and confirm with <ENTER>.
+- From the available options, locate and select "UEFI QEMU DVD-ROM". Use the arrow keys for navigation and confirm with <ENTER>.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/boot_iso_0013.jpg
-   :alt: :term:`UEFI` :term:`QEMU` DVD-ROM Option
+   :alt: UEFI QEMU DVD-ROM Option
    :align: center
    :width: 600
 
-   :term:`UEFI` :term:`QEMU` DVD-ROM Option
+   UEFI QEMU DVD-ROM Option
 
 .. raw:: latex
 
@@ -658,28 +658,28 @@ Method 2: Boot from Virtual CD-ROM at Boot Time (Showcasing :term:`UEFI`)
    \FloatBarrier
 
 .. figure:: img/boot_iso_0015.jpg
-   :alt: :term:`Kali Linux Forensic Tools`
+   :alt: Kali Linux Forensic Tools
    :align: center
    :width: 600
 
-   :term:`Kali Linux Forensic Tools`
+   Kali Linux Forensic Tools
 
 .. raw:: latex
 
    \FloatBarrier
 
 
-:term:`Eject ISO / Web Eject CD-ROM`
+Eject ISO / Web Eject CD-ROM
 -------------------------------------
 
 There are two methods to eject an ISO from the virtual CD-ROM drive:
 
-1. Using the Autopsy :term:`ForensicVM Client Plugin` interface.
+1. Using the Autopsy ForensicVM Client Plugin interface.
 2. Using the web screen interface.
 
 Below are detailed steps for each method:
 
-Method 1: Eject using the Autopsy ForensicVM Client :term:`Plugin Interface`
+Method 1: Eject using the Autopsy ForensicVM Client Plugin Interface
 *****************************************************************************
 
 **Step 1: Activate the "Eject" Function**
@@ -691,18 +691,18 @@ Method 1: Eject using the Autopsy ForensicVM Client :term:`Plugin Interface`
    \FloatBarrier
 
 .. figure:: img/eject_iso_0001.jpg
-   :alt: Ejecting via Autopsy :term:`ForensicVM Client Plugin`
+   :alt: Ejecting via Autopsy ForensicVM Client Plugin
    :align: center
    :width: 600
 
-   Ejecting via Autopsy :term:`ForensicVM Client Plugin`
+   Ejecting via Autopsy ForensicVM Client Plugin
 
 .. raw:: latex
 
    \FloatBarrier
 
 
-Method 2: Eject using the :term:`Web Screen Interface`
+Method 2: Eject using the Web Screen Interface
 *******************************************************
 
 **Step 1: Access the Web Toolbar**
@@ -711,7 +711,7 @@ Method 2: Eject using the :term:`Web Screen Interface`
 
 **Step 2: Initiate the Eject Process**
 
-- Click on the "Eject" icon (depicted with a "2" in the reference image). This will bring up the :term:`Media Control Modal Panel`.
+- Click on the "Eject" icon (depicted with a "2" in the reference image). This will bring up the Media Control Modal Panel.
 
 **Step 3: Finalize the Ejection**
 
@@ -722,22 +722,22 @@ Method 2: Eject using the :term:`Web Screen Interface`
    \FloatBarrier
 
 .. figure:: img/eject_iso_0002.jpg
-   :alt: Ejecting via :term:`Web Screen Interface`
+   :alt: Ejecting via Web Screen Interface
    :align: center
    :width: 600
 
-   Ejecting via :term:`Web Screen Interface`
+   Ejecting via Web Screen Interface
 
 .. raw:: latex
 
    \FloatBarrier
 
-Delete ISO Using the Autopsy ForensicVM Client :term:`Plugin Interface`
+Delete ISO Using the Autopsy ForensicVM Client Plugin Interface
 -------------------------------------------------------------------------
 
 To delete an ISO file, follow the steps below:
 
-**Step 1:** Navigate to the Media Panel within the Autopsy :term:`ForensicVM Client Plugin` interface.
+**Step 1:** Navigate to the Media Panel within the Autopsy ForensicVM Client Plugin interface.
 
 **Step 2:** Identify and select the ISO file you wish to delete.
 

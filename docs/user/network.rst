@@ -6,21 +6,21 @@ By default, the forensicVM initiates with its network card disabled. This design
 For many forensic investigations, an active network connection is unnecessary. When evidence is solely contained within a local device, it's recommended to keep the network card deactivated. This approach ensures the machine's safe operation and the security of your enterprise network or domain.
 
 However, in certain situations, there may be a need to activate the network card. For instance, when the forensic virtual machine is deemed safe and requires an internet connection to retrieve cloud-based data—data sourced from cached cloud access credentials like those from OneDrive, Google Drive, Nextcloud, OwnCloud, etc. In such cases, the forensicVM's network card can be enabled. This card has an 
-inbuilt firewall designed to block access to identified local networks while permitting internet connections. Additionally, every time the network card is toggled on or off, all inbound and outbound traffic is recorded. This leads to the creation of a :term:`Wireshark pcap` file for each activation and deactivation event.
+inbuilt firewall designed to block access to identified local networks while permitting internet connections. Additionally, every time the network card is toggled on or off, all inbound and outbound traffic is recorded. This leads to the creation of a Wireshark pcap file for each activation and deactivation event.
 
 .. danger::
 
    It's paramount to treat the activation of the network card as a method of last    resort. Alternatively, consider using a remotely hosted forensicVM server. The integrity of the firewall isn't foolproof, meaning there's always a risk that malicious software might infiltrate your network. Furthermore, a compromised machine could ping back to an attacker, potentially revealing your external IP address and inadvertently notifying a malicious actor that they are under active investigation!
 
-Enable the :term:`Network Card`
+Enable the Network Card
 -------------------------------
 
 To activate the network card on the forensicVM, there are two methods available. The first method involves using the Autopsy ForensicVM client plugin interface, and the second requires directly interacting with the web screen interface through the network icon.
 
-Enable network card using the Autopsy ForensicVM Client :term:`Plugin Interface`
+Enable network card using the Autopsy ForensicVM Client Plugin Interface
 *********************************************************************************
 
-**Activate** :term:`Network Card` **Button**
+**Activate** Network Card **Button**
 
 1. Start the forensicVM machine.
 2. Navigate to the Network Panel within the interface.
@@ -41,7 +41,7 @@ Enable network card using the Autopsy ForensicVM Client :term:`Plugin Interface`
 
    \FloatBarrier
 
-**Confirmation of** :term:`Network Card` **Activation**
+**Confirmation of** Network Card **Activation**
 
 After clicking the button, a popup window will appear to confirm the successful 
 activation of the network card.
@@ -60,12 +60,12 @@ activation of the network card.
 
    \FloatBarrier
 
-Enable Network Using the :term:`Web Screen Interface`
+Enable Network Using the Web Screen Interface
 ******************************************************
 
-Activating the network card can also be achieved via the :term:`Web Screen Interface`. This method allows users to manage network settings without diving into the main software interface. Here's how to enable the network card using the :term:`Web Screen Interface`:
+Activating the network card can also be achieved via the Web Screen Interface. This method allows users to manage network settings without diving into the main software interface. Here's how to enable the network card using the Web Screen Interface:
 
-**Activating Network through** :term:`Web Screen Interface` **Steps**
+**Activating Network through** Web Screen Interface **Steps**
 
 1. Initiate the **Panel Opener (1)** to reveal the available options.
 2. Locate and click on the **network icon (2)** to access network settings.
@@ -76,11 +76,11 @@ Activating the network card can also be achieved via the :term:`Web Screen Inter
    \FloatBarrier
 
 .. figure:: img/network_0003.jpg
-   :alt: Network Using the :term:`Web Screen Interface` 
+   :alt: Network Using the Web Screen Interface 
    :align: center
    :width: 500
 
-   Steps to activate the network through the :term:`Web Screen Interface` 
+   Steps to activate the network through the Web Screen Interface 
 
 .. raw:: latex
 
@@ -105,18 +105,18 @@ Once the network card is activated, an orange notification will pop up at the to
 
    \FloatBarrier
 
-Reseting the Operating System :term:`Network Card`
+Reseting the Operating System Network Card
 *******************************************
 
 From time to time, due to various reasons such as IP conflicts, connectivity issues, or configuration errors, it might be necessary to reset the network card. Resetting can re-establish a proper connection and can often solve common networking problems. Below are methods to reset the network card in Windows and Linux.
 
 **Windows 10**
 
-In Windows 10, the :term:`Network Troubleshooter` can assist in diagnosing and resolving common network-related problems.
+In Windows 10, the Network Troubleshooter can assist in diagnosing and resolving common network-related problems.
 
 1. Navigate to the system tray located in the bottom right corner of your screen.
 2. Right-click the network icon.
-3. From the context menu, select the "Troubleshoot problems" option. The :term:`Network Troubleshooter` will now start, and it will attempt to diagnose and resolve any detected issues.
+3. From the context menu, select the "Troubleshoot problems" option. The Network Troubleshooter will now start, and it will attempt to diagnose and resolve any detected issues.
 
 .. raw:: latex
 
@@ -127,7 +127,7 @@ In Windows 10, the :term:`Network Troubleshooter` can assist in diagnosing and r
    :align: center
    :width: 500
 
-   Using the :term:`Network Troubleshooter` in Windows 10
+   Using the Network Troubleshooter in Windows 10
 
 .. raw:: latex
 
@@ -163,7 +163,7 @@ Collect Network Evidence
 
 Enabling the network card is often crucial for forensic investigations, especially when collecting evidence from cloud services. This is particularly relevant when users have not logged out from a service or when session cookies remain in the browser. Such scenarios allow forensic investigators to trace digital breadcrumbs and gather additional evidence that may be inaccessible from offline forensic images. Below are two illustrative examples:
 
-**Gathering Data from** :term:`Cloud Services` **- OneDrive Example**
+**Gathering Data from** Cloud Services **- OneDrive Example**
 
 The following figure demonstrates data extraction from OneDrive, a popular online cloud service.
 
@@ -182,7 +182,7 @@ The following figure demonstrates data extraction from OneDrive, a popular onlin
 
    \FloatBarrier
 
-**Gathering Data from** :term:`Cloud Services` **- Online Storage Example**
+**Gathering Data from** Cloud Services **- Online Storage Example**
 
 In this next example, an online file storage platform is accessed using cached credentials:
 
@@ -203,7 +203,7 @@ In this next example, an online file storage platform is accessed using cached c
 
 
 
-Disable the :term:`Network Card`
+Disable the Network Card
 ---------------------------------
 
 There are two primary methods to deactivate the network card on the forensicVM:
@@ -211,10 +211,10 @@ There are two primary methods to deactivate the network card on the forensicVM:
 1. Using the Autopsy ForensicVM client plugin interface.
 2. Directly interacting with the web screen interface.
 
-Disable :term:`Network Card` with the Autopsy ForensicVM Client :term:`Plugin Interface`
+Disable Network Card with the Autopsy ForensicVM Client Plugin Interface
 *****************************************************************************************
 
-**Steps to Deactivate** :term:`Network Card`:
+**Steps to Deactivate** Network Card:
 
 #. Ensure that the forensicVM machine is running.
 #. Within the interface, go to the Network Panel.
@@ -235,10 +235,10 @@ Disable :term:`Network Card` with the Autopsy ForensicVM Client :term:`Plugin In
 
    \FloatBarrier
 
-Using the :term:`Web Screen Interface` to Disable the :term:`Network Card`
+Using the Web Screen Interface to Disable the Network Card
 ****************************************************************************
 
-The :term:`Web Screen Interface` offers an alternative approach for users who prefer to manage network settings without engaging with the main software interface.
+The Web Screen Interface offers an alternative approach for users who prefer to manage network settings without engaging with the main software interface.
 
 **Steps to Disable Network**:
 
@@ -251,25 +251,25 @@ The :term:`Web Screen Interface` offers an alternative approach for users who pr
    \FloatBarrier
 
 .. figure:: img/network_0007.jpg
-   :alt: Disabling the network card using the :term:`Web Screen Interface`
+   :alt: Disabling the network card using the Web Screen Interface
    :align: center
    :width: 500
 
-   Process to disable the network card using the :term:`Web Screen Interface`
+   Process to disable the network card using the Web Screen Interface
 
 .. raw:: latex
 
    \FloatBarrier
 
 
-Download :term:`Wireshark pcap` Files
+Download Wireshark pcap Files
 ---------------------------------------
 
 **Downloading pcap Files**
 
-To obtain the :term:`Wireshark pcap` files, follow the instructions below:
+To obtain the Wireshark pcap files, follow the instructions below:
 
-1. Click the "Download :term:`Wireshark pcap` files" button located on the Autopsy ForensicVM client plugin interface.
+1. Click the "Download Wireshark pcap files" button located on the Autopsy ForensicVM client plugin interface.
 
    .. raw:: latex
 
@@ -286,24 +286,24 @@ To obtain the :term:`Wireshark pcap` files, follow the instructions below:
 
       \FloatBarrier
 
-2. A :term:`Windows Explorer` window will prompt you to select a save location for the :term:`pcap.zip` file. It's recommended to maintain the default save path, which is typically set to the image case folder.
+2. A Windows Explorer window will prompt you to select a save location for the pcap.zip file. It's recommended to maintain the default save path, which is typically set to the image case folder.
 
    .. raw:: latex
 
       \FloatBarrier
 
    .. figure:: img/network_0011.jpg
-      :alt: Saving :term:`pcap.zip` file path
+      :alt: Saving pcap.zip file path
       :align: center
       :width: 500
 
-      Saving :term:`pcap.zip` file path
+      Saving pcap.zip file path
 
    .. raw:: latex
 
       \FloatBarrier
 
-3. The download progress will be displayed, indicating the time required to complete the download. This duration can vary depending on the size of the :term:`pcap.zip` file.
+3. The download progress will be displayed, indicating the time required to complete the download. This duration can vary depending on the size of the pcap.zip file.
 
    .. raw:: latex
 
@@ -335,35 +335,35 @@ To obtain the :term:`Wireshark pcap` files, follow the instructions below:
 
       \FloatBarrier
 
-5. The :term:`Windows Explorer` will automatically open to the default save location of :term:`pcap.zip`.
+5. The Windows Explorer will automatically open to the default save location of pcap.zip.
 
    .. raw:: latex
 
       \FloatBarrier
 
    .. figure:: img/network_0014.jpg
-      :alt: Default :term:`pcap.zip` path in explorer
+      :alt: Default pcap.zip path in explorer
       :align: center
       :width: 500
 
-      Default :term:`pcap.zip` path in explorer
+      Default pcap.zip path in explorer
 
    .. raw:: latex
 
       \FloatBarrier
 
-6. To decompress the :term:`pcap.zip`` file, you can use a program like :term:`7-zip`. The extraction can take some time, especially if the pcap files are large.
+6. To decompress the pcap.zip` file, you can use a program like 7-zip. The extraction can take some time, especially if the pcap files are large.
 
    .. raw:: latex
 
       \FloatBarrier
 
    .. figure:: img/network_0015.jpg
-      :alt: Extracting :term:`pcap.zip` file using :term:`7-zip`
+      :alt: Extracting pcap.zip file using 7-zip
       :align: center
       :width: 500
 
-      Extracting :term:`pcap.zip` file using :term:`7-zip`
+      Extracting pcap.zip file using 7-zip
 
    .. raw:: latex
 
@@ -391,9 +391,9 @@ Analyzing network traffic is an integral part of digital forensic investigations
 
 **Importance of Analyzing Traffic in Forensic Investigations**
 
-1. :term:`Evidence Collection`: Analyzing traffic can reveal communication with suspicious IP addresses, hinting at potential data exfiltration or command-and-control servers.
+1. Evidence Collection: Analyzing traffic can reveal communication with suspicious IP addresses, hinting at potential data exfiltration or command-and-control servers.
 2. **User Behavior**: Network traffic can provide clues about user behavior, including sites visited, files downloaded, or apps used.
-3. :term:`Timestamps`: Traffic analysis can help in reconstructing timelines of events, crucial for correlating actions across different evidence sources.
+3. Timestamps: Traffic analysis can help in reconstructing timelines of events, crucial for correlating actions across different evidence sources.
 4. **Detect Malware**: Unusual network traffic patterns can be indicative of malware communication.
 
 
@@ -401,14 +401,14 @@ Analyzing network traffic is an integral part of digital forensic investigations
 
 1. **Comprehensive Data View**: Wireshark offers a detailed view of packets, allowing forensic investigators to delve deep into the network interactions.
 2. **Filtering and Searching**: With its advanced filtering options, investigators can isolate relevant data quickly.
-3. :term:`Decoding Protocols`: Wireshark can decode a vast array of protocols, aiding in understanding the specifics of network conversations.
+3. Decoding Protocols: Wireshark can decode a vast array of protocols, aiding in understanding the specifics of network conversations.
 4. **Visualization**: Graphical features like flow graphs help in visualizing communication patterns.
 
 **Dangers**
 
-1. :term:`Data Overload`: The volume of data in pcap files can be overwhelming, and without proper focus, important details might be missed.
+1. Data Overload: The volume of data in pcap files can be overwhelming, and without proper focus, important details might be missed.
 2. **Privacy Concerns**: Analyzing traffic can inadvertently capture personal or sensitive information of innocent users.
-3. :term:`Tampered Data`: If the forensic image virtual machine is compromised, the network data might be tampered with, leading to incorrect conclusions.
+3. Tampered Data: If the forensic image virtual machine is compromised, the network data might be tampered with, leading to incorrect conclusions.
 4. **Misinterpretation**: Without proper expertise, normal traffic can be misinterpreted as malicious or vice versa.
 
 .. note::

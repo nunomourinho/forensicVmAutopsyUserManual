@@ -3,9 +3,9 @@ Convert Forensic Image to a Forensic Virtual Machine
 
 When aiming to convert a local forensic image to a remote forensic virtual machine on a server, two primary methods are prevalent:
 
-1. :term:`Direct Copy to Server`: This approach duplicates the forensic image, creating a new forensic virtual machine on the server. It grants comprehensive access and utility of the forensicVM, making it the ideal choice for collaborative remote investigations.
+1. Direct Copy to Server: This approach duplicates the forensic image, creating a new forensic virtual machine on the server. It grants comprehensive access and utility of the forensicVM, making it the ideal choice for collaborative remote investigations.
    
-2. :term:`Link Creation`: In this method, a link is forged between the local forensic image and a new counterpart on the server. Although it's swifter (given that the image isn't transferred to the remote server), there are limitations. The conversion and previewing are quick, yet initiating the machine locally is mandatory. The investigator must resort to the Autopsy client plugin to start the machine, as the web interface is incompatible due to the dependency on the original forensic image.
+2. Link Creation: In this method, a link is forged between the local forensic image and a new counterpart on the server. Although it's swifter (given that the image isn't transferred to the remote server), there are limitations. The conversion and previewing are quick, yet initiating the machine locally is mandatory. The investigator must resort to the Autopsy client plugin to start the machine, as the web interface is incompatible due to the dependency on the original forensic image.
 
 **Steps for Both Methods**:
 
@@ -20,13 +20,13 @@ When aiming to convert a local forensic image to a remote forensic virtual machi
 
 4. **Snapshot Creation**: An initial forensic image snapshot is generated. Acting as a base snapshot, it retains the state tied to the forensic image's virtual raw. This facilitates the installation of drivers without altering the forensic image's state or information, preserving the sanctity of the evidence.
 
-5. **Image Conversion**: The image undergoes a transformation into the :term:`qcow2` format - the favored format for KVM virtualization. It not only supports snapshots but also ensures the image only occupies the space used by the forensic image.
+5. **Image Conversion**: The image undergoes a transformation into the qcow2 format - the favored format for KVM virtualization. It not only supports snapshots but also ensures the image only occupies the space used by the forensic image.
 
 6. **Partition Detection**: The system identifies any partitions present within the image.
 
 7. **Operating System Detection**: The OS inside each partition is discerned. If recognized, KVM-optimized virtual drivers get pre-installed, which will initiate upon the forensic virtual machine's first boot.
 
-8. :term:`Fallback Conversion`: If the OS remains unidentified, the VM undergoes a full conversion without any driver installations. While this could potentially enable booting, post-conversion, manual scrutiny and possible KVM driver installations are essential.
+8. Fallback Conversion: If the OS remains unidentified, the VM undergoes a full conversion without any driver installations. While this could potentially enable booting, post-conversion, manual scrutiny and possible KVM driver installations are essential.
 
 9. **Partition Absence Handling**: In the event no partitions are identified, a virtual partition gets generated alongside a virtual boot device. This procedure aids in converting partition images into complete images. However, the user must invest additional effort to adapt this image for booting. They might need supplementary tools, like a virtual CD-ROM, to rectify and make the VM operational.
 
@@ -35,7 +35,7 @@ When aiming to convert a local forensic image to a remote forensic virtual machi
 
 Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the Server
 ****************************************************************************************
-:term:`Direct Copy to Server`: This approach duplicates the forensic image, creating a new forensic virtual machine on the server. It grants comprehensive access and utility of the forensicVM, making it the ideal choice for collaborative remote investigations.
+Direct Copy to Server: This approach duplicates the forensic image, creating a new forensic virtual machine on the server. It grants comprehensive access and utility of the forensicVM, making it the ideal choice for collaborative remote investigations.
 
 
 **Conversion steps:**
@@ -72,13 +72,13 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
       :alt: Popup alert confirming the start of the conversion.
       :align: center
 
-      Conversion :term:`Confirmation Popup`
+      Conversion Confirmation Popup
 
    .. raw:: latex
 
       \FloatBarrier
 
-3. :term:`MS-DOS Command Window` **Feedback**:
+3. MS-DOS Command Window **Feedback**:
 
    A MS-DOS command window materializes post confirmation. This window is instrumental in detecting the image format, which will be visibly printed within. Ensure to keep an eye out for messages color-coded in green, indicating successful steps. However, should there be any errors, take note for future reference.
 
@@ -91,7 +91,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
       :align: center
       :width: 600px
 
-      :term:`MS-DOS Command Window` Progress Display
+      MS-DOS Command Window Progress Display
 
    .. raw:: latex
 
@@ -99,7 +99,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
 4. **Driver Installation and Conversion Completion**:
 
-   During this phase, the system installs the required :term:`KVM drivers`. Various messages get displayed in this window. Here's a color code to understand them:
+   During this phase, the system installs the required KVM drivers. Various messages get displayed in this window. Here's a color code to understand them:
 
    - **Green**: Success messages.
    - **Blue**: Warnings.
@@ -217,7 +217,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 
       \FloatBarrier
 
-10. **ForensicVM** :term:`Web Screen Interface`:
+10. **ForensicVM** Web Screen Interface:
 
    Once inside the web screen interface, click the prominent "Connect / Start" button to establish a connection with the forensicVM and view its virtual screen monitor.
 
@@ -258,7 +258,7 @@ Method 1: Copy the Local Forensic Image to a New Forensic Virtual Machine on the
 Method 2: Link the Local Forensic Image to a New Forensic Virtual Machine on the Server
 ****************************************************************************************
 
-:term:`Link Creation`:
+Link Creation:
 
 In this method, a link is forged between the local forensic image and a new counterpart on the server. This approach is faster because it doesn't involve transferring the entire image to the remote server. However, there are some limitations. The conversion process and preview are swift, but starting the machine locally is a requirement. The investigator needs to use the Autopsy client plugin to initiate the machine since the web interface cannot be used due to its dependency on the original forensic image.
 
@@ -295,13 +295,13 @@ In this method, a link is forged between the local forensic image and a new coun
       :alt: A popup dialog confirming the start of the linking process.
       :align: center
 
-      Linking :term:`Confirmation Popup`
+      Linking Confirmation Popup
 
    .. raw:: latex
 
       \FloatBarrier
 
-3. :term:`MS-DOS Command Window` **Feedback**:
+3. MS-DOS Command Window **Feedback**:
 
    The MS-DOS command window will surface, and the software will identify the image format, displaying it within the window. Successful actions are highlighted in green. However, be vigilant and record any errors that arise.
 
@@ -314,7 +314,7 @@ In this method, a link is forged between the local forensic image and a new coun
       :align: center
       :width: 600px
 
-      :term:`MS-DOS Command Window` Feedback
+      MS-DOS Command Window Feedback
 
    .. raw:: latex
 
@@ -322,7 +322,7 @@ In this method, a link is forged between the local forensic image and a new coun
 
 4. **Driver Installation Phase**:
 
-   This step focuses on the installation of required :term:`KVM drivers`. The messages in this phase are color-coded:
+   This step focuses on the installation of required KVM drivers. The messages in this phase are color-coded:
    
    - **Green**: Success indicators.
    - **Blue**: Warnings.

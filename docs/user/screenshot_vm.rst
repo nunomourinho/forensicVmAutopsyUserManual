@@ -6,7 +6,7 @@ Making screenshots
 
 It is often necessary to take screenshots of the forensic virtual machine (forensicVM) for documentation, analysis, or reporting purposes. There are two primary ways to capture a screenshot, depending on your location within the system interface:
 
-1) Capture Screenshot in the Main :term:`Autopsy Plugin` Interface
+1) Capture Screenshot in the Main Autopsy Plugin Interface
 ----------------------------------------------------------
 
 To take a screenshot of the forensicVM from the main Autopsy plugin interface, please press the Screenshot button on the screenshot panel:
@@ -26,7 +26,7 @@ To take a screenshot of the forensicVM from the main Autopsy plugin interface, p
 
       \FloatBarrier
 
-2) Capture Screenshot in the :term:`Web Screen Interface`
+2) Capture Screenshot in the Web Screen Interface
 -------------------------------------------------
 
 Capturing a screenshot from the web screen interface is similarly straightforward:
@@ -54,7 +54,7 @@ Capturing a screenshot from the web screen interface is similarly straightforwar
 
 These methods enable you to capture visual records of the forensicVM from different points within the system, providing flexibility for various operational needs.
 
-Downloading Screenshots as a :term:`ZIP File`
+Downloading Screenshots as a ZIP File
 *************************************
 
 After capturing the necessary screenshots of the forensic virtual machine (forensicVM), you can download them all as a ZIP file. This process is done in four steps:
@@ -106,7 +106,7 @@ After capturing the necessary screenshots of the forensic virtual machine (foren
       \FloatBarrier
 
 
-3) :term:`Download Progress` and Success Alert
+3) Download Progress and Success Alert
 --------------------------------------
 
    a) A download progress bar will appear, showing the status of the download.
@@ -144,7 +144,7 @@ After capturing the necessary screenshots of the forensic virtual machine (foren
 4) Open Windows Path with Screenshots.zip
 -----------------------------------------
 
-   a) The Windows path where the `screenshots.zip` file is saved will be opened in :term:`Windows Explorer`.
+   a) The Windows path where the `screenshots.zip` file is saved will be opened in Windows Explorer.
 
    b) You can then access the ZIP file containing all the screenshots.
 
@@ -206,7 +206,7 @@ Importing Screenshots to Autopsy Software
 
       \FloatBarrier
 
-3) Add a New :term:`Data Source`
+3) Add a New Data Source
 ------------------------
    Open Autopsy and initiate the process of adding a new data source by selecting the relevant option in the interface.
 
@@ -244,26 +244,26 @@ Importing Screenshots to Autopsy Software
 
       \FloatBarrier
 
-5) Select :term:`Logical Files` as the :term:`Data Source`
+5) Select Logical Files as the Data Source
 ------------------------------------------
-   Select ":term:`Logical Files`" as the type of data source for importing the screenshots.
+   Select "Logical Files" as the type of data source for importing the screenshots.
 
    .. raw:: latex
 
       \FloatBarrier
 
    .. figure:: img/screenshot_vm_0011.jpg
-      :alt: Select :term:`Logical Files` as the data source
+      :alt: Select Logical Files as the data source
       :align: center
       :width: 500
 
-      Select :term:`Logical Files` as the data source
+      Select Logical Files as the data source
 
    .. raw:: latex
 
       \FloatBarrier
 
-6) Click the Button "Add" to Add a New Logical :term:`Data Source` Folder
+6) Click the Button "Add" to Add a New Logical Data Source Folder
 ----------------------------------------------------------------
    Click the "Add" button to create a new folder for the logical data source where the screenshots are stored.
 
@@ -358,7 +358,7 @@ Importing Screenshots to Autopsy Software
 
       \FloatBarrier
 
-11) Browse into the Imported LogicalFileSet Inside the :term:`Data Source`. Right-click the Mouse
+11) Browse into the Imported LogicalFileSet Inside the Data Source. Right-click the Mouse
 ----------------------------------------------------------------------------------------
    Browse the imported LogicalFileSet inside the data source, and right-click on the specific file you want to view.
 
@@ -417,14 +417,14 @@ Importing Screenshots to Autopsy Software
 
 This step-by-step guide helps you efficiently import the screenshots from the forensic virtual machine into Autopsy software for in-depth analysis, enabling a streamlined workflow and enhancing your investigation process.
 
-.. note:: **Importance of :term:`Tagging` Screenshots for Evidence**
+.. note:: **Importance of Tagging Screenshots for Evidence**
    :class: attention
 
-   :term:`Tagging` screenshots in Autopsy forensic software is a pivotal step in digital investigations. It allows forensic professionals to systematically identify, analyze, and report on crucial visual information. Tagged screenshots can be included in final reports, where they may be presented as potential evidence in legal proceedings. The process ensures the integrity of visual data and contributes significantly to building a solid case.
+   Tagging screenshots in Autopsy forensic software is a pivotal step in digital investigations. It allows forensic professionals to systematically identify, analyze, and report on crucial visual information. Tagged screenshots can be included in final reports, where they may be presented as potential evidence in legal proceedings. The process ensures the integrity of visual data and contributes significantly to building a solid case.
 
 In the realm of digital forensics, Autopsy forensic software plays a crucial role in analyzing and managing evidence. A key feature of this powerful tool is its ability to handle screenshots, which are often vital in investigations.
 
-:term:`Tagging` Relevant Screenshots: With Autopsy, investigators can sift through various images and screenshots collected during the forensic analysis. If certain images are identified as potentially relevant to a case, they can be tagged for further scrutiny. This tagging function is more than a mere organizational tool; it's a systematic way to highlight essential visual information that may prove crucial in understanding the digital activities related to a case.
+Tagging Relevant Screenshots: With Autopsy, investigators can sift through various images and screenshots collected during the forensic analysis. If certain images are identified as potentially relevant to a case, they can be tagged for further scrutiny. This tagging function is more than a mere organizational tool; it's a systematic way to highlight essential visual information that may prove crucial in understanding the digital activities related to a case.
 
 **How to Tag**: Simply right-click on the desired screenshot and select the "Tag" option. You may create custom tags or use predefined ones, adding notes or comments as necessary. This flexibility ensures that you can organize your screenshots in a way that suits your specific investigative needs.
 

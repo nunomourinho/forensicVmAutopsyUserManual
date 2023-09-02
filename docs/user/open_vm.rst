@@ -1,9 +1,9 @@
-Open or Browse the :term:`Forensic Virtual Machine (VM)`
+Open or Browse the Forensic Virtual Machine (VM)
 ===============================================
 
 There are two main ways to access the started forensicVM, each catering to different use cases and preferences:
 
-1) Open ForensicVM through the :term:`Plugin Interface`
+1) Open ForensicVM through the Plugin Interface
 -----------------------------------------------
    You can access the forensicVM directly through the Autopsy plugin interface.
 
@@ -22,7 +22,7 @@ There are two main ways to access the started forensicVM, each catering to diffe
 
       \FloatBarrier
 
-2) :term:`Browse ForensicVM` using the :term:`Main Web Interface`
+2) Browse ForensicVM using the Main Web Interface
 -------------------------------------------------
    Alternatively, you can browse the forensicVM through the main web interface. This approach is generally more accessible and can be used from any web browser that supports the required protocols.
 

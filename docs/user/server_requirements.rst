@@ -1,5 +1,5 @@
 =============================
-:term:`ForensicVM Server` Requirements
+ForensicVM Server Requirements
 ==============================
 
 To ensure that ForensicVM operates efficiently on your system, our server must meet or exceed the following requirements:
@@ -12,12 +12,12 @@ Operating System
 
 ForensicVM has been tested and supports the following operating systems:
 
-- :term:`Debian 11 (Bullseye)`
+- Debian 11 (Bullseye)
 
 Processor
 *********
 
-- A :term:`64-bit multi-core processor` is recommended for optimal performance. This will facilitate smoother operation, particularly when managing complex tasks.
+- A 64-bit multi-core processor is recommended for optimal performance. This will facilitate smoother operation, particularly when managing complex tasks.
 
 Memory
 ******
@@ -28,11 +28,11 @@ Storage
 *******
 
 - A minimum of 2 GB of free disk space is needed for the ForensicVM installation itself.
-- Additional storage will be required for forensic images. The amount will depend on the size of the images you will be working with. At least 1 TB of disk space, configured in :term:`RAID 10`, is recommended.
-- The use of :term:`NVMe` or :term:`SSD` is not strictly necessary but is recommended, as it can significantly speed up the virtualization process.
+- Additional storage will be required for forensic images. The amount will depend on the size of the images you will be working with. At least 1 TB of disk space, configured in RAID 10, is recommended.
+- The use of NVMe or SSD is not strictly necessary but is recommended, as it can significantly speed up the virtualization process.
 
 .. IMPORTANT::
-   Remember to account for the extra space needed for virtual :term:`ISO` CD-ROM or DVD with your own tools. These might require additional storage depending on your specific requirements.
+   Remember to account for the extra space needed for virtual ISO CD-ROM or DVD with your own tools. These might require additional storage depending on your specific requirements.
 
 Networking
 **********
@@ -42,12 +42,12 @@ Networking
 Display
 *******
 
-- No specific display requirements exist for the server. You only need SSH access or :term:`HP ILO` or similar for server administration.
+- No specific display requirements exist for the server. You only need SSH access or HP ILO or similar for server administration.
 
 Software Dependencies
 *********************
 
-- The installation will handle dependencies automatically. A dedicated server with Debian Bullseye as bare metal is necessary. Dedicated hardware with virtualization support is essential. The installation will create a new forensic hypervisor server based on :term:`QEMU`.
+- The installation will handle dependencies automatically. A dedicated server with Debian Bullseye as bare metal is necessary. Dedicated hardware with virtualization support is essential. The installation will create a new forensic hypervisor server based on QEMU.
 
 Additional Notes
 ****************

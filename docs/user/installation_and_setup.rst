@@ -11,19 +11,19 @@ Introduction
 
 The AutopsyVM client plugin is a valuable addition to Autopsy, enhancing its functionality for digital forensics. Follow the steps below to install the plugin.
 
-Step 1: Download :term:`ForensicVM.exe` Setup File
+Step 1: Download ForensicVM.exe Setup File
 ******************************************
 
-Download the latest version of the :term:`ForensicVM.exe` setup file from the [AutopsyForensicVM GitHub Releases](https://github.com/nunomourinho/AutopsyForensicVM/releases) page. Navigate to the "Assets" section and download the setup file.
+Download the latest version of the ForensicVM.exe setup file from the [AutopsyForensicVM GitHub Releases](https://github.com/nunomourinho/AutopsyForensicVM/releases) page. Navigate to the "Assets" section and download the setup file.
 
-Step 2: Run the :term:`ForensicVM.exe` Setup
+Step 2: Run the ForensicVM.exe Setup
 ************************************
 
-Run the :term:`ForensicVM.exe` setup file to begin the installation process. The setup consists of four steps:
+Run the ForensicVM.exe setup file to begin the installation process. The setup consists of four steps:
 
 1. Welcome Screen: Displays an introduction to the installation process.
 2. Component Installation: Proceed with the default settings. Do not make any changes.
-3. :term:`Plugin Location`: Specify the location where the AutopsyVM client plugin will be installed. Typically, this does not require any changes.
+3. Plugin Location: Specify the location where the AutopsyVM client plugin will be installed. Typically, this does not require any changes.
 4. Install: Click the "Install" button to start the installation process.
 
 Step 3: Complete the Installation
@@ -74,10 +74,10 @@ Here are the screenshots that illustrate the installation process:
    \FloatBarrier
 
 .. figure:: img/0003.JPG
-   :alt: :term:`Plugin Location`
+   :alt: Plugin Location
    :align: center
 
-   :term:`Plugin Location`
+   Plugin Location
 
 .. raw:: latex
 
@@ -152,11 +152,11 @@ Step 3: Select your forensic image
    \FloatBarrier
 
 .. figure:: img/setup_0003.jpg
-   :alt: :term:`Forensic Image` Selection
+   :alt: Forensic Image Selection
    :align: center
    :width: 500
 
-   :term:`Forensic Image` Selection
+   Forensic Image Selection
 
 .. raw:: latex
 
@@ -234,19 +234,19 @@ Step 7: Add  a new api key to the user
    \FloatBarrier
 
 .. figure:: img/setup_0007.jpg
-   :alt: Add :term:`API key` to user
+   :alt: Add API key to user
    :align: center
    :width: 500
 
-   Add :term:`API key` to user
+   Add API key to user
 
 .. raw:: latex
 
    \FloatBarrier
 
-Step 8: Copy the user :term:`API key`
+Step 8: Copy the user API key
 ******************************
- #. Select the newly created :term:`API key`
+ #. Select the newly created API key
  #. Press CTRL + C or copy it using the right mouse button and select copy
 
 .. raw:: latex
@@ -258,13 +258,13 @@ Step 8: Copy the user :term:`API key`
    :align: center
    :width: 500
 
-   Copy user :term:`API key`
+   Copy user API key
 
 .. raw:: latex
 
    \FloatBarrier
 
-Step 9: Paste the user :term:`API key`
+Step 9: Paste the user API key
 *******************************
  #. Put the mouse on the Forensic API field
  #. Press CTRL + V or paste it using the right mouse button and select paste
@@ -274,11 +274,11 @@ Step 9: Paste the user :term:`API key`
    \FloatBarrier
 
 .. figure:: img/setup_0009.jpg
-   :alt: Past user :term:`API key`
+   :alt: Past user API key
    :align: center
    :width: 500
 
-   Paste the user :term:`API key`
+   Paste the user API key
 
 .. raw:: latex
 
@@ -325,7 +325,7 @@ Step 11: Forensic VM Server configuration test success
 
    \FloatBarrier
 
-Step 12: Configure :term:`Windows Share` over :term:`Forensic SSH Server Redirection`
+Step 12: Configure Windows Share over Forensic SSH Server Redirection
 **********************************************************************
  The way that forensicVM Server access the forensic images is by making a reverse ssh connection to your computer and accessing a local share via the internet. The reverse ssh connection is in need to make a safe Windows share access. You should configure now the forensicVM server SSH address and port number:
  #. Please fill in the SSH Server Address and port number.
@@ -346,7 +346,7 @@ Step 12: Configure :term:`Windows Share` over :term:`Forensic SSH Server Redirec
 
    \FloatBarrier
 
-Step 13: :term:`Windows Share` over Forensic SSH copy ssh key status
+Step 13: Windows Share over Forensic SSH copy ssh key status
 *************************************************************
  #. If the configuration is correct you should see a dialog stating that a Public key added to authorized keys
  #. If not, you should see an error dialogue or a dialogue stating that the ssh public key is already present on the remote server
@@ -367,7 +367,7 @@ Step 13: :term:`Windows Share` over Forensic SSH copy ssh key status
    \FloatBarrier
 
 
-Step 14: Testing :term:`Windows Share` over :term:`Forensic SSH Server Redirection`
+Step 14: Testing Windows Share over Forensic SSH Server Redirection
 ********************************************************************
  #. Click the Test Ssh connection button
  #. If the configuration is correct you should see a dialog stating that the connection was successful

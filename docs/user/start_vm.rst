@@ -6,7 +6,7 @@ Three ways to start the forensicVM
 
 There are three different ways to start the forensic virtual machine (forensicVM). These methods provide flexibility depending on your access level and location within the system interface:
 
-1) Start ForensicVM in the Main :term:`Plugin Interface`
+1) Start ForensicVM in the Main Plugin Interface
 -------------------------------------------------
 
 To initiate the forensicVM from the main plugin interface, follow these simple steps:
@@ -106,17 +106,17 @@ Special Case: Starting the ForensicVM in Link Mode
 
 **Precautions and Considerations**:
 
-When a forensic image is converted to a forensic virtual machine using the "Virtualize b) Link to VM" option, it can only be started via the :term:`Autopsy Plugin`. Ensure that you adhere to the following precautions to guarantee a smooth operation of the virtual machine:
+When a forensic image is converted to a forensic virtual machine using the "Virtualize b) Link to VM" option, it can only be started via the Autopsy Plugin. Ensure that you adhere to the following precautions to guarantee a smooth operation of the virtual machine:
 
 .. warning::
    
-   1. Only initiate the linked forensicVM through the :term:`Autopsy Plugin`. Avoid using the forensicVM web interface—it will be ineffective.
+   1. Only initiate the linked forensicVM through the Autopsy Plugin. Avoid using the forensicVM web interface—it will be ineffective.
    2. Utilize a reliable internet connection, such as fiber optics. Any connection disruptions could lead to machine disk timeouts, and potentially the virtual machine encountering a "blue screen of death."
-   3. Maintain the command line window in an open state. This window must remain open at all times. To power off or stop the forensicVM, use the "Stop" or "Shutdown" options in the :term:`Autopsy Plugin`. This method ensures the prevention of lingering mount points on your computer, which could cause issues.
+   3. Maintain the command line window in an open state. This window must remain open at all times. To power off or stop the forensicVM, use the "Stop" or "Shutdown" options in the Autopsy Plugin. This method ensures the prevention of lingering mount points on your computer, which could cause issues.
 
 **Steps to Start, Stop, or Shutdown**:
 
-1. **Activate ForensicVM in the Main** :term:`Plugin Interface`:
+1. **Activate ForensicVM in the Main** Plugin Interface:
    
    To initiate the VM, click the "Start" button.
 
@@ -202,18 +202,18 @@ When a forensic image is converted to a forensic virtual machine using the "Virt
 
       \FloatBarrier
 
-   It's imperative to note that the solitary and secure method to halt or power off the machine is by utilizing the "Shutdown" or "Stop" buttons available in the :term:`Autopsy Plugin`.
+   It's imperative to note that the solitary and secure method to halt or power off the machine is by utilizing the "Shutdown" or "Stop" buttons available in the Autopsy Plugin.
 
    .. raw:: latex
 
       \FloatBarrier
 
    .. figure:: img/start_vm_0009.jpg
-      :alt: :term:`Autopsy Plugin` buttons for shutting down or stopping the machine.
+      :alt: Autopsy Plugin buttons for shutting down or stopping the machine.
       :align: center
       :width: 500
 
-      :term:`Autopsy Plugin`'s control buttons.
+      Autopsy Plugin's control buttons.
 
    .. raw:: latex
 

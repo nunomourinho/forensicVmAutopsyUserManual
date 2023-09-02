@@ -3,12 +3,12 @@ Plugins - Security Bypass Utilities
 
 Plugins serve as a vital component of the forensicVM, offering an array of capabilities that can greatly assist forensic investigators. Often, forensic investigators encounter forensicVM machines that are locked or protected by certain security measures, making it difficult to access them. One common scenario is where the forensicVM is locked behind a user account, with the suspect not revealing the password. Plugins provide methods to bypass these protections.
 
-:term:`Authentication Bypass Features`
+Authentication Bypass Features
 ---------------------------------------
 
 The suite of plugins specifically designed to bypass authentication includes:
 
-- :term:`Add Windows Forensic Admin`:
+- Add Windows Forensic Admin:
   
   - This plugin creates a new Windows admin user under the "Administrator" group. The credentials for this user are:
 
@@ -17,7 +17,7 @@ The suite of plugins specifically designed to bypass authentication includes:
     
     The newly created user can also be used to reset the password for any local account.
 
-- :term:`Add Linux Forensic Admin`:
+- Add Linux Forensic Admin:
 
   - Creates a new Linux user with the following credentials:
     
@@ -26,28 +26,28 @@ The suite of plugins specifically designed to bypass authentication includes:
     
     This user is granted 'sudo' permissions, allowing elevated access.
 
-- :term:`Patch Accessibility`:
+- Patch Accessibility:
 
   - A strategic patch that enables forensic administrators to invoke a system-level cmd.exe prompt. This can be triggered by pressing the shift key five times consecutively on the Windows login screen.
 
-- :term:`Bypass Windows Password`:
+- Bypass Windows Password:
 
   - This plugin patches the "ntlmshared.dll" file, effectively allowing a bypass of Windows authentication. While the login screen will accept any password entered, it will still utilize the cached user password hash. This is particularly crucial when trying to access encrypted auto-mounted BitLocker files that depend on the original user's credentials for access.
 
-:term:`Additional Security Bypass Features`
+Additional Security Bypass Features
 -------------------------------------------
 
 Apart from authentication bypass, there are plugins designed to circumvent other security measures:
 
-- **Disable Windows Defender and** :term:`Firewall`:
+- **Disable Windows Defender and** Firewall:
 
   - Certain external security tools like NirSoft or Mimikatz necessitate the deactivation of antivirus programs. This plugin disables both Windows Defender and the firewall to accommodate such tools.
 
-- :term:`Reset Windows 2003 or XP Activation`:
+- Reset Windows 2003 or XP Activation:
 
   - This is required for instances where a forensic investigator needs to access machines that are awaiting activation, like Windows 2003 or XP. The plugin resets the activation to allow unobstructed login.
 
-- :term:`BOOTFIX: Disable Driver Enforcement`:
+- BOOTFIX: Disable Driver Enforcement:
 
   - When working with older systems or in scenarios where you've converted a forensic image, you might encounter certain constraints related to driver signatures. The "Disable Driver Enforcement" utility addresses these challenges:
 
@@ -55,14 +55,14 @@ Apart from authentication bypass, there are plugins designed to circumvent other
 
       - **Support for Programs Using Unsigned Drivers**: Some utilities or programs require the use of unsigned drivers. Disabling the driver enforcement provides flexibility to run these applications without any hitches.
 
-      - **Blue Screen Issue Resolution**: After converting a forensic image, systems may sometimes experience the infamous :term:`Blue Screen of Death` (BSOD) due to driver issues. This tool can assist in resolving those problems by ensuring that all drivers, even the unsigned ones, can run without any enforcement barriers.
+      - **Blue Screen Issue Resolution**: After converting a forensic image, systems may sometimes experience the infamous Blue Screen of Death (BSOD) due to driver issues. This tool can assist in resolving those problems by ensuring that all drivers, even the unsigned ones, can run without any enforcement barriers.
 
 .. note::
 
    While these plugins provide powerful capabilities, they should be used responsibly and ethically. Misuse could lead to unintended consequences or legal issues.
 
 
-:term:`Browsing Available Plugins`
+Browsing Available Plugins
 -----------------------------------
 
 Forensic investigations often require an adaptable approach, and the ability to extend functionality through plugins makes the ForensicVM tool particularly versatile. To stay updated with the latest available plugins or to review the catalog of installed plugins, the Autopsy ForensicVM Client provides an easy-to-use interface.
@@ -90,7 +90,7 @@ Forensic investigations often require an adaptable approach, and the ability to 
 
        \FloatBarrier
 
-:term:`Executing Plugins`
+Executing Plugins
 ---------------------------
 
 The capability to execute plugins enhances the versatility of the ForensicVM, allowing for specialized tasks and bypassing certain security measures. However, prior to running any plugin, precautions are necessary to ensure the integrity of the investigation and to minimize potential issues.
@@ -113,7 +113,7 @@ The capability to execute plugins enhances the versatility of the ForensicVM, al
    Initiate the plugin execution by pressing the **Run Selected Plugin** button.
 
 4. **Review the Plugin Output**:
-   Post execution, it's vital to inspect the results and logs. These can be found within the :term:`Output Console` tab.
+   Post execution, it's vital to inspect the results and logs. These can be found within the Output Console tab.
 
     .. raw:: latex
 
@@ -134,21 +134,21 @@ The capability to execute plugins enhances the versatility of the ForensicVM, al
 
    For the integrity of the process, always ensure a complete shutdown of the ForensicVM before executing any plugins. In the context of Windows, pressing the shift key while initiating the shutdown ensures the machine isn't placed in hibernation and undergoes a full shutdown. This step is crucial as hibernation can interfere with the functionality of certain plugins and the snapshot reverting process.
 
-Join the :term:`Community Plugins Project` and Shape ForensicVM's Future!
+Join the Community Plugins Project and Shape ForensicVM's Future!
 ------------------------------------------------------------------
 
-The :term:`Community Plugins Project` for AutoPsy ForensicVM is an open initiative aimed at driving innovation and enhancing the functionalities of the ForensicVM tool. As a community-driven platform, we invite individuals from all backgrounds to contribute. Whether you're a seasoned developer, a forensic investigator with a penchant for coding, or a user with an innovative idea, your input can make a difference!
+The Community Plugins Project for AutoPsy ForensicVM is an open initiative aimed at driving innovation and enhancing the functionalities of the ForensicVM tool. As a community-driven platform, we invite individuals from all backgrounds to contribute. Whether you're a seasoned developer, a forensic investigator with a penchant for coding, or a user with an innovative idea, your input can make a difference!
 
 Here's how you can get involved:
 
-:term:`Access the Project Repository`
+Access the Project Repository
 **************************************
 
 The entire project is hosted on GitHub. You can view, clone, or fork the repository by visiting:
 
 `ForensicVM Plugins on GitHub <https://github.com/nunomourinho/forensicVM-Plugins>`_
 
-:term:`Contributing Code`
+Contributing Code
 **************************
 
 If you've developed a new plugin or made improvements to existing ones, follow these steps to contribute:
