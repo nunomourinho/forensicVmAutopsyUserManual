@@ -47,7 +47,7 @@ latex_elements = {
     '''
 }
 
-latex_additional_files = ["cover.jpg"]
+latex_additional_files = ["cover.jpg", "backcover.jpg"]
 
 latex_engine = 'pdflatex'
 latex_elements = {
@@ -72,13 +72,16 @@ latex_elements = {
         \clearpage
         \newpage\null\thispagestyle{empty}\clearpage  % Add two blank pages
         \newpage\null\thispagestyle{empty}\clearpage  % Add two blank pages
+        \newpage\null\thispagestyle{empty}\clearpage  % Add two blank pages
         \pagenumbering{arabic}
         \AtEndDocument{
             \clearpage  % Make sure no content is pending
+            \newpage\null\thispagestyle{empty}\clearpage  % Add two blank pages
+            \newpage\null\thispagestyle{empty}\clearpage  % Add two blank pages
             \thispagestyle{empty}  % No headers or footers
             \begin{textblock}{20}(0,0)
-                \IfFileExists{back_cover.jpg}{
-                  \includegraphics[width=\paperwidth,height=\paperheight]{back_cover.jpg}
+                \IfFileExists{backcover.jpg}{
+                  \includegraphics[width=\paperwidth,height=\paperheight]{backcover.jpg}
                 }{
                   \textbf{Back Cover Image Not Found}
                 }
