@@ -110,8 +110,7 @@ latex_elements = {
             \end{textblock}
             \clearpage
         }
-    ''',
-    ...
+    ''',    
 }
 
 html_theme = 'sphinx_rtd_theme'
