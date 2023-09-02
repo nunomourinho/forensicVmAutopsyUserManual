@@ -54,6 +54,7 @@ latex_engine = 'pdflatex'
 latex_elements = {
     'preamble': r'''
         \usepackage{graphicx}
+        \usepackage{placeins}        
         \usepackage[absolute]{textpos}
         \setlength{\TPHorizModule}{1cm}
         \setlength{\TPVertModule}{1cm}
