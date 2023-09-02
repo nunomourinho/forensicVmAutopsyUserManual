@@ -50,6 +50,7 @@ latex_elements = {
 latex_additional_files = ["cover.jpg", "backcover.jpg"]
 
 latex_engine = 'pdflatex'
+
 latex_elements = {
     'preamble': r'''
         \usepackage{graphicx}
@@ -77,8 +78,8 @@ latex_elements = {
         \AtEndDocument{
             \clearpage  % Make sure no content is pending
             \newpage\null\thispagestyle{empty}\clearpage  % Add two blank pages
-            \newpage\null\thispagestyle{empty}\clearpage  % Add two blank pages
-            \thispagestyle{empty}  % No headers or footers
+            \newpage\null\thispagestyle{empty}\clearpage  // Add two blank pages
+            \thispagestyle{empty}  // No headers or footers
             \begin{textblock}{20}(0,0)
                 \IfFileExists{backcover.jpg}{
                   \includegraphics[width=\paperwidth,height=\paperheight]{backcover.jpg}
@@ -92,26 +93,6 @@ latex_elements = {
 }
 
 
-latex_elements = {
-    'preamble': r'''
-        \usepackage{graphicx}
-        \usepackage[absolute]{textpos}
-        \setlength{\TPHorizModule}{1cm}
-        \setlength{\TPVertModule}{1cm}
-        \newcommand{\backcover}{
-            \clearpage
-            \thispagestyle{empty}
-            \begin{textblock}{20}(0,0)
-                \IfFileExists{backcover.jpg}{
-                  \includegraphics[width=\paperwidth,height=\paperheight]{backcover.jpg}
-                }{
-                  \textbf{Back Cover Image Not Found}
-                }
-            \end{textblock}
-            \clearpage
-        }
-    ''',    
-}
 
 html_theme = 'sphinx_rtd_theme'
 
