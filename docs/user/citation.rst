@@ -8,6 +8,8 @@ Here's How You Can Cite Us
 We offer two main contributions: our **Forensic VM Autopsy User Manual** and the **Autopsy ForensicVM Client Plugin Software** software. Below are their BibTeX entries for your convenience.
 
 
+
+
 **Autopsy ForensicVM Client Plugin Software**
 
 .. code-block:: bibtex
@@ -20,6 +22,8 @@ We offer two main contributions: our **Forensic VM Autopsy User Manual** and the
     url = {https://github.com/nunomourinho/AutopsyForensicVM},
     year = {2023}
     }
+
+
 
 
 **Forensic VM Autopsy User Manual**
