@@ -1,7 +1,7 @@
 - [ ] Create the dataset page
 - [x] fix images size
 - [x] fix image float in pdf
-- [ ] Create a glossary (https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html)
+- [x] Create a glossary (https://sublime-and-sphinx-guide.readthedocs.io/en/latest/glossary.html)
 - [x] Edit first pages
 - [x] Enumerate Autopsy forensicVM actions
    - [x] Fix legend and options in titles
@@ -80,9 +80,6 @@
          - [x] Logout
          - [x] Login
 - [x] Create a figure index
-- [ ] Create a table index
-
-
 
 - [ ] Make metrics:
    - [ ] Run the image conversion
