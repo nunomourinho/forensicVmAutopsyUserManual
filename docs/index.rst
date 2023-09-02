@@ -60,6 +60,6 @@ Check out the :doc:`usage` section for further information, including how to :re
    Troubleshooting Guide <troubleshooting>
    Glossary <glossary>
    List of Figures <figures>
-   Backcover <backcover>
+
 
 
