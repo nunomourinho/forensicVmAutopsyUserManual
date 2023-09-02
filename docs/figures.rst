@@ -1,4 +1,4 @@
-Figures listing
+Figures list
 ================
 
 .. raw:: latex
