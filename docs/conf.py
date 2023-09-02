@@ -79,8 +79,8 @@ latex_elements = {
         \AtEndDocument{
             \clearpage  % Make sure no content is pending
             \newpage\null\thispagestyle{empty}\clearpage  % Add two blank pages
-            \newpage\null\thispagestyle{empty}\clearpage  // Add two blank pages
-            \thispagestyle{empty}  // No headers or footers
+            \newpage\null\thispagestyle{empty}\clearpage  % Add two blank pages
+            \thispagestyle{empty}  % No headers or footers
             \begin{textblock}{20}(0,0)
                 \IfFileExists{backcover.jpg}{
                   \includegraphics[width=\paperwidth,height=\paperheight]{backcover.jpg}
