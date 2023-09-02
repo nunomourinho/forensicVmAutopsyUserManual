@@ -91,6 +91,29 @@ latex_elements = {
     '''
 }
 
+
+latex_elements = {
+    'preamble': r'''
+        \usepackage{graphicx}
+        \usepackage[absolute]{textpos}
+        \setlength{\TPHorizModule}{1cm}
+        \setlength{\TPVertModule}{1cm}
+        \newcommand{\backcover}{
+            \clearpage
+            \thispagestyle{empty}
+            \begin{textblock}{20}(0,0)
+                \IfFileExists{backcover.jpg}{
+                  \includegraphics[width=\paperwidth,height=\paperheight]{backcover.jpg}
+                }{
+                  \textbf{Back Cover Image Not Found}
+                }
+            \end{textblock}
+            \clearpage
+        }
+    ''',
+    ...
+}
+
 html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
