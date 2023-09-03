@@ -48,12 +48,6 @@ html_theme_options = {
     'display_version': False,
 }
 
-latex_elements = {
-    'preamble': r'''
-    \usepackage{placeins}
-    '''
-}
-
 latex_additional_files = ["cover.jpg", "backcover.jpg"]
 
 latex_engine = 'pdflatex'
@@ -61,11 +55,11 @@ latex_engine = 'pdflatex'
 latex_elements = {
     'preamble': r'''
         \usepackage{graphicx}
-        \usepackage{placeins}        
+        \usepackage{placeins}
         \usepackage[absolute]{textpos}
         \setlength{\TPHorizModule}{1cm}
         \setlength{\TPVertModule}{1cm}
-        \usepackage{etoolbox} 
+        \usepackage{etoolbox}
     ''',
     'maketitle': r'''
         \begin{titlepage}
@@ -91,7 +85,6 @@ latex_elements = {
             \begin{textblock}{20}(0,0)
                 \IfFileExists{backcover.jpg}{
                   \includegraphics[width=\paperwidth,height=\paperheight]{backcover.jpg}
-                  \textbf{-}
                 }{
                   \textbf{Back Cover Image Not Found}
                 }
@@ -100,8 +93,6 @@ latex_elements = {
         }
     '''
 }
-
-
 
 
 # -- Options for EPUB output
