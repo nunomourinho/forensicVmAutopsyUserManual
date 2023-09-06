@@ -85,6 +85,7 @@ latex_elements = {
             \begin{textblock}{20}(0,0)
                 \IfFileExists{backcover.jpg}{
                   \includegraphics[width=\paperwidth,height=\paperheight]{backcover.jpg}
+                  \textbf{2023}
                 }{
                   \textbf{Back Cover Image Not Found}
                 }
