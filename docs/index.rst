@@ -5,9 +5,6 @@
 
 Welcome to ForensicVM documentation!
 ===================================
-.. image:: https://zenodo.org/badge/675339901.svg
-   :target: https://zenodo.org/badge/latestdoi/675339901
-
 .. raw:: latex
 
    \FloatBarrier
@@ -22,6 +19,9 @@ Welcome to ForensicVM documentation!
 .. raw:: latex
 
    \FloatBarrier
+
+.. image:: https://zenodo.org/badge/675339901.svg
+   :target: https://zenodo.org/badge/latestdoi/675339901
 
 **ForensicVM** is a comprehensive project designed to assist forensic investigators in the virtualization of forensic images. By utilizing advanced technologies and tools, ForensicVM simplifies the process of analyzing and examining digital evidence in a virtualized environment.
 
