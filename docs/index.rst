@@ -12,7 +12,7 @@ Welcome to ForensicVM documentation!
 
    \FloatBarrier
 
-.. figure:: ForensicVM.jpg
+.. figure:: ForensicVM-black.jpg
    :alt: ForensicVM logo
    :width: 600
    :align: center
