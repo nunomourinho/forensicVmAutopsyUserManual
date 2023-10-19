@@ -21,10 +21,11 @@ Multiple investigators may handle a piece of evidence. By having a centralized s
 Error Detection
 ****************
 
-If any errors are made regarding the custody of evidence, the ability to review comments may help investigators pinpoint where the mistake happened, ensuring that it can be corrected and learned from in future investigations.
+Within ForensicVM, investigators have the capability to take snapshots and add comments at various stages of their analysis. If any errors are made regarding the custody of evidence or during the investigation, these snapshots provide a safe point to which investigators can roll back. This ensures that mistakes can be swiftly corrected without affecting the integrity of the ongoing analysis. Furthermore, the ability to review comments alongside these snapshots can assist investigators in pinpointing exactly where the mistake occurred, providing valuable insights for learning and improvement in future investigations.
 
-Chain of Custody - Document and Save and download chain of custody docx
-************************************************************************
+
+Chain of Custody: Document, Save, and Download as DOCX
+********************************************************
 
 Save a comment
 ---------------
