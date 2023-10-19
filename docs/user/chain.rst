@@ -1,5 +1,5 @@
-Saving Chain of Custody Comments on a Database
-==============================================
+Chain of Custody Management in ForensicVM
+===========================================
 
 Recording and maintaining a chain of custody in digital forensics is paramount to ensuring the integrity and veracity of digital evidence. When it comes to making comments or annotations about the custody of particular items, it is essential to have a robust system in place that captures these comments accurately and provides mechanisms for their retrieval. The following elaborates on the importance of such a system:
 
