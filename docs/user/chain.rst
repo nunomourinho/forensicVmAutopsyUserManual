@@ -29,60 +29,60 @@ Chain of Custody - Document and Save and download chain of custody docx
 Save a comment
 ---------------
 
-**Open the chain of custody web modal popup by clicking on the designated button and enter your comment in the textbox provided. Once done, click the button to submit your comment to the database.**
+Open the chain of custody web modal popup by clicking on the designated button and enter your comment in the textbox provided. Once done, click the button to submit your comment to the database.
 
-   .. raw:: latex
+.. raw:: latex
 
-      \FloatBarrier
+   \FloatBarrier
    
-   .. figure:: img/chain_0001.jpg
-      :alt: Open the chain of custody web modal popup and submit comment
-      :align: center
-      :width: 500
+.. figure:: img/chain_0001.jpg
+   :alt: Open the chain of custody web modal popup and submit comment
+   :align: center
+   :width: 500
 
-      Open the chain of custody web modal popup and submit comment
+   Open the chain of custody web modal popup and submit comment
 
-   .. raw:: latex
+.. raw:: latex
 
-      \FloatBarrier
+   \FloatBarrier
 
 Download chain of custody docx
 -------------------------------
 
-**To download the chain of custody report, click on the "Download" button. This action will trigger a download on your browser.**
+To download the chain of custody report, click on the "Download" button. This action will trigger a download on your browser.
 
-   .. raw:: latex
+.. raw:: latex
 
-      \FloatBarrier
+   \FloatBarrier
 
-   .. figure:: img/chain_0002.jpg
-      :alt: Trigger the download action
-      :align: center
-      :width: 500
+.. figure:: img/chain_0002.jpg
+   :alt: Trigger the download action
+   :align: center
+   :width: 500
 
-      Trigger the download action
+   Trigger the download action
 
-   .. raw:: latex
+.. raw:: latex
 
-      \FloatBarrier
+   \FloatBarrier
 
 Chain of custody document format
 ---------------------------------
 
-**Review the downloaded chain of custody report. The report will display details such as the user, date, action, parameters of the action, UUID of the forensicVM, and the IP address of the user.**
+Review the downloaded chain of custody report. The report will display details such as the user, date, action, parameters of the action, UUID of the forensicVM, and the IP address of the user.
 
-   .. raw:: latex
+.. raw:: latex
 
-      \FloatBarrier
+   \FloatBarrier
 
-   .. figure:: img/chain_0003.jpg
-      :alt: Review the chain of custody report
-      :align: center
-      :width: 500
+.. figure:: img/chain_0003.jpg
+   :alt: Review the chain of custody report
+   :align: center
+   :width: 500
 
-      Review the chain of custody report
+   Review the chain of custody report
 
-   .. raw:: latex
+.. raw:: latex
 
-      \FloatBarrier
+   \FloatBarrier
 
