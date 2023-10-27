@@ -254,8 +254,8 @@ The Control Toolbar facilitates the following actions:
 - **Enable or Disable the** Network Card: This function is self-explanatory.
 - **Insert or Eject Media**: Facilitates the selection, insertion, and ejection of CD-ROMs or DVDs containing additional forensic tools.
 - **Video Recording**: Initiates, terminates, and downloads video recordings at a rate of 30 frames per minute.
-- **Manage Chain of Custody**: Generate and download the chain of custody records document; Save a comment on the chain of custody.
-- **Virtual introspect**: Take a memory dump and analyse it automaticaly using memory introspection, with the help of volatility 3. . See current process tree, Running command line with arguments, Enviroment Variables, Possible malware injection processes, Network Connections and Running Network Services.
+- **Manage Chain of Custody**: 1) Generate and download the chain of custody records document; 2) Save a comment on the chain of custody.
+- **Virtual introspect**: Take a memory dump and analyse it automaticaly using memory introspection, with the help of volatility 3. See current process tree, Running command line with arguments, Enviroment Variables, Possible malware injection processes, Network Connections and Running Network Services.
 - **Settings**: Provides access to several webscreen console preferences. Notably, users can adjust the scaling mode. Setting it to "Local Scaling" ensures the remote display fits the browser window perfectly.
 - **Power**: Offers control over the ForensicVM's power states, including shutdown, stop, and reset actions.
 - **Disconnect**: Ends the current webscreen session.
@@ -325,6 +325,7 @@ Interface Breakdown:
     * **Server Status (Netdata)**: Provides real-time performance metrics and monitoring using Netdata.
     * **Shell (webshell)**: Access to an SSH-over-web interface, allowing for direct server interactions.
     * **List VM**: Refresh and display the list of existing virtual machines on the server.
+    * **Metrics**: 1) Export virtualization gather metrics as excel document. 2) Export analysis as a word or latex document.
     * **Logout**: Facilitates logging out of the web interface, ensuring secure closure of sessions.
 
 Next Steps
