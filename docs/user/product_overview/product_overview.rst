@@ -313,12 +313,18 @@ In the table below, the distribution of features across the different zones of t
      - X
      - .
      - .
-     - .
+     - .   
    * - - :ref:`Import video recording for analysis in Autopsy Software`
      - .
      - .
      - .
      - X
+     - .
+   * - - :ref:`Chain of Custody Management in ForensicVM`
+     - .
+     - X
+     - .
+     - .
      - .
    * - :ref:`WebShell for Remote Administration`
      - X
