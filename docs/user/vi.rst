@@ -120,7 +120,7 @@ The ForensicVM introspection is composed  by seven tabs:
 
    \FloatBarrier   
 
-5) Netscan results
+5) Netscan results: List of network open connections. Can be a posible indicator of compromise. For instance, is a address is listed at virustotal.com urls or in https://sitereview.symantec.com it could indicate a connection to a C2C site.
 
 .. raw:: latex
 
@@ -137,6 +137,8 @@ The ForensicVM introspection is composed  by seven tabs:
 
    \FloatBarrier   
 
+6) Netstat: Running network services. Could indicate compromise if an unknow system is opening ports on the local forensicVM.
+
 .. raw:: latex
 
    \FloatBarrier
@@ -152,6 +154,7 @@ The ForensicVM introspection is composed  by seven tabs:
 
    \FloatBarrier   
 
+7) Possible user password hash: Lists the password hash in memory. This hashes when used in an external site, like crackstation.com could be used to find the user password, facilitating the task of retriving addicional cached evidence in the forensicVM by the forensic investigator.
 
 .. raw:: latex
 
@@ -167,6 +170,8 @@ The ForensicVM introspection is composed  by seven tabs:
 .. raw:: latex
 
    \FloatBarrier   
+
+Example of the Bart Simpson hash beeing decoded to the original password "bart".
 
 .. raw:: latex
 
