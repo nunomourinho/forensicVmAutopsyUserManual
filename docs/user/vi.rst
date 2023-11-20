@@ -1,189 +1,147 @@
 Virtual Introspection
-=========================
+=====================
 
-Virtual introspection allows the user to access the internal state of a forensicVM. Throuth the use of virtual introspection one can access process state, the process running, the command line that is presently executed, files in memory, handles, the operative system state. 
-We achive the virtual introspection using the qemu hability to make memmory snapshots that are analísed througth volatility 3.
+Virtual introspection enables users to delve into the internal state of a forensicVM. It's a powerful tool for accessing various aspects of the VM's operating state, such as the current processes, the command line being executed, files loaded into memory, active handles, and overall system status.
 
-Presently the virtual introspection only works on windows operating systems.
+This functionality is achieved through QEMU's capability to create memory snapshots. These snapshots are then analyzed using Volatility 3, a leading framework for memory analysis.
 
-The first step to execute virtual introspection is to run the forensicVM until the operating system boots completly. Then you press the Virtual Introspect button on the forensicVM webclient screen:
+Currently, virtual introspection is compatible exclusively with Windows operating systems.
+
+**Starting Virtual Introspection:**
+To begin virtual introspection, first run the forensicVM until the operating system has fully booted. Then, press the 'Virtual Introspect' button located on the forensicVM web client interface:
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/vi-0001.jpg
-   :alt: <change me>
+   :alt: Screenshot of the Virtual Introspect button in the forensicVM web client
    :align: center
    :width: 500
 
-   Change me
+   Screenshot of the Virtual Introspect button in the forensicVM web client
 
-
-After pressing the virtual introspection button, a progress window appears. This progress will automaticaly open the results when the introspection process was completed.
-
-.. raw:: latex
-
-   \FloatBarrier   
+Once you press the button, a progress window will appear. This window will automatically display the results of the introspection process upon completion.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/vi-0002.jpg
-   :alt: <change me>
+   :alt: Progress window for Virtual Introspection in forensicVM
    :align: center
    :width: 500
 
-   Change me
+   Progress window for Virtual Introspection in forensicVM
 
-.. raw:: latex
+**Components of ForensicVM Introspection:**
+The ForensicVM introspection process comprises seven informative tabs:
 
-   \FloatBarrier   
- 
-The ForensicVM introspection is composed  by seven tabs:
-1) Process Tree
-2) Command Line Arguments
-3) Enviroment Variables
-4) Possible malware injection processes
-5) Network connections
-6) Network services
-7) Possible user password hash
-
-
-1) Process tree: The list of processes that are currently running in the system. Even if the forensicVM is locket on the login screen we can see what are the currently running processes.
+1) **Process Tree:** Displays a list of all active processes within the system, providing insight even when the forensicVM is locked on the login screen.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/vi-0003.jpg
-   :alt: <change me>
+   :alt: Process Tree tab in ForensicVM Introspection
    :align: center
    :width: 500
 
-      Change me
+   Process Tree tab in ForensicVM Introspection
 
-.. raw:: latex
-
-   \FloatBarrier   
-
-2) Command line arguments: The commands that are or were running and the arguments.
+2) **Command Line Arguments:** Shows the commands and arguments that are or were being executed in the system.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/vi-0004.jpg
-   :alt: <change me>
+   :alt: Command Line Arguments tab in ForensicVM Introspection
    :align: center
    :width: 500
 
-   Change me
+   Command Line Arguments tab in ForensicVM Introspection
 
-.. raw:: latex
-
-   \FloatBarrier   
-
-3) Enviroment Variables: The enviroment variables looaded by eache running process
+3) **Environment Variables:** Lists the environment variables associated with each running process.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/vi-0005.jpg
-   :alt: <change me>
+   :alt: Environment Variables tab in ForensicVM Introspection
    :align: center
    :width: 500
 
-   Change me
+   Environment Variables tab in ForensicVM Introspection
 
-.. raw:: latex
-
-   \FloatBarrier   
-
-
-4) Possible malware ingestion processes: Processes that were injected or run with special priviledges. They could indicate malware injection techniques, but they can also be false positives. Addition attention is needed.
+4) **Possible Malware Injection Processes:** Identifies processes that may have been injected or run with elevated privileges, which could suggest malware activity but also include false positives.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/vi-0006.jpg
-   :alt: <change me>
+   :alt: Possible Malware Injection Processes tab in ForensicVM Introspection
    :align: center
    :width: 500
 
-   Change me
+   Possible Malware Injection Processes tab in ForensicVM Introspection
 
-.. raw:: latex
-
-   \FloatBarrier   
-
-5) Netscan results: List of network open connections. Can be a posible indicator of compromise. For instance, is a address is listed at virustotal.com urls or in https://sitereview.symantec.com it could indicate a connection to a C2C site.
+5) **Netscan Results:** Provides a list of open network connections, which can be indicators of compromise, especially if connections to known malicious sites are detected.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/vi-0007.jpg
-   :alt: <change me>
+   :alt: Netscan Results tab in ForensicVM Introspection
    :align: center
    :width: 500
 
-   Change me
+   Netscan Results tab in ForensicVM Introspection
 
-.. raw:: latex
-
-   \FloatBarrier   
-
-6) Netstat: Running network services. Could indicate compromise if an unknow system is opening ports on the local forensicVM.
+6) **Netstat:** Shows running network services, with potential signs of compromise if unknown systems are opening ports on the local forensicVM.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/vi-0008.jpg
-   :alt: <change me>
+   :alt: Netstat tab in ForensicVM Introspection
    :align: center
    :width: 500
 
-   Change me
+   Netstat tab in ForensicVM Introspection
 
-.. raw:: latex
-
-   \FloatBarrier   
-
-7) Possible user password hash: Lists the password hash in memory. This hashes when used in an external site, like crackstation.com could be used to find the user password, facilitating the task of retriving addicional cached evidence in the forensicVM by the forensic investigator.
+7) **Possible User Password Hashes:** Displays password hashes found in memory. These hashes can be analyzed further on external platforms like crackstation.com to potentially uncover user passwords.
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/vi-0009.jpg
-   :alt: <change me>
+   :alt: Possible User Password Hashes tab in ForensicVM Introspection
    :align: center
    :width: 500
 
-   Change me
+   Possible User Password Hashes tab in ForensicVM Introspection
 
-.. raw:: latex
-
-   \FloatBarrier   
-
-Example of the Bart Simpson hash beeing decoded to the original password "bart".
+**Example Case:**
+An example is provided where the Bart Simpson hash is decoded to reveal the original password, "bart."
 
 .. raw:: latex
 
    \FloatBarrier
 
 .. figure:: img/vi-0010.jpg
-   :alt: <change me>
+   :alt: Example of password hash decoding in ForensicVM
    :align: center
    :width: 500
 
-   Change me
+   Example of password hash decoding in ForensicVM
 
 .. raw:: latex
 
-   \FloatBarrier   
+   \FloatBarrier
