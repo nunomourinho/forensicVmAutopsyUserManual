@@ -1,6 +1,13 @@
 Virtual Introspection
 =========================
 
+Virtual introspection allows the user to access the internal state of a forensicVM. Throuth the use of virtual introspection one can access process state, the process running, the command line that is presently executed, files in memory, handles, the operative system state. 
+We achive the virtual introspection using the qemu hability to make memmory snapshots that are analísed througth volatility 3.
+
+Presently the virtual introspection only works on windows operating systems.
+
+The first step to execute virtual introspection is to run the forensicVM until the operating system boots completly. Then you press the Virtual Introspect button on the forensicVM webclient screen:
+
 .. raw:: latex
 
    \FloatBarrier
