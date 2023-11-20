@@ -2,7 +2,7 @@ Virtual Introspection
 =========================
 
 
-   .. figure:: img/vi_0001.jpg
+   .. figure:: img/vi-0001.jpg
       :alt: <change me>
       :align: center
       :width: 500
