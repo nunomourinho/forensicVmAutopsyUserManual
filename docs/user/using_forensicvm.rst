@@ -47,7 +47,7 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
 
    Chain of Custody Management in ForensicVM <chain>
 
-   Virtual Introspection <virtual_introspection>
+   Virtual Introspection <vi>
       Detailed guide on accessing and analyzing the internal state of the forensicVM using virtual introspection, including process states, command line execution, and system status.
 
    Fine-Tuning ForensicVM <finetunning>
