@@ -19,6 +19,9 @@ The first step to execute virtual introspection is to run the forensicVM until t
 
    Change me
 
+
+After pressing the virtual introspection button, a progress window appears. This progress will automaticaly open the results when the introspection process was completed.
+
 .. raw:: latex
 
    \FloatBarrier   
@@ -37,6 +40,18 @@ The first step to execute virtual introspection is to run the forensicVM until t
 .. raw:: latex
 
    \FloatBarrier   
+ 
+The ForensicVM introspection is composed  by seven tabs:
+1) Process Tree
+2) Command Line Arguments
+3) Enviroment Variables
+4) Possible malware injection processes
+5) Network connections
+6) Network services
+7) Possible user password hash
+
+
+1) Process tree: The list of processes that are currently running in the system. Even if the forensicVM is locket on the login screen we can see what are the currently running processes.
 
 .. raw:: latex
 
@@ -53,6 +68,8 @@ The first step to execute virtual introspection is to run the forensicVM until t
 
    \FloatBarrier   
 
+2) Command line arguments: The commands that are or were running and the arguments.
+
 .. raw:: latex
 
    \FloatBarrier
@@ -67,6 +84,8 @@ The first step to execute virtual introspection is to run the forensicVM until t
 .. raw:: latex
 
    \FloatBarrier   
+
+3) Enviroment Variables: The enviroment variables looaded by eache running process
 
 .. raw:: latex
 
@@ -83,6 +102,9 @@ The first step to execute virtual introspection is to run the forensicVM until t
 
    \FloatBarrier   
 
+
+4) Possible malware ingestion processes: Processes that were injected or run with special priviledges. They could indicate malware injection techniques, but they can also be false positives. Addition attention is needed.
+
 .. raw:: latex
 
    \FloatBarrier
@@ -97,6 +119,8 @@ The first step to execute virtual introspection is to run the forensicVM until t
 .. raw:: latex
 
    \FloatBarrier   
+
+5) Netscan results
 
 .. raw:: latex
 
