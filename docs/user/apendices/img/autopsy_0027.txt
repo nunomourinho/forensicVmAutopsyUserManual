@@ -1,0 +1,1 @@
+A compreensive search was made to try to extract via a autopsy plugin data from the local financial and cloud applications detected. There were not found autopsy plugins for any of these apps ( reference annex of plugin list)

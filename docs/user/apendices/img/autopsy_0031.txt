@@ -1,0 +1,1 @@
+Started and opened the virtualized forensicVM

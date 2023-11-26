@@ -1,0 +1,1 @@
+Extra plugins like parse sqllite databases were downloaded

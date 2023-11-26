@@ -1,0 +1,1 @@
+Github says that a local repository was deleted. We cannot clone it again because we are offline.

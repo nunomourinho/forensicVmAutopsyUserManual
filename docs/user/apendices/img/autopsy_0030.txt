@@ -1,0 +1,2 @@
+Converted the forensic image to a forensicVM
+Elapsed time: 0 days, 0 hours, 15 minutes, 52 seconds

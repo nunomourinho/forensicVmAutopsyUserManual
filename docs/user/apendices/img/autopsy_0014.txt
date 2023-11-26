@@ -1,0 +1,1 @@
+LastOpenedFile=C:\\Program Files (x86)\\HomeBank\\share\\homebank\\datas\\example.xhb

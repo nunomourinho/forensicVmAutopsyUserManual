@@ -1,0 +1,1 @@
+An anti-forensic tool was found, Eraser 6.6.0.2993 and a local application named HomeBank 5.7.1

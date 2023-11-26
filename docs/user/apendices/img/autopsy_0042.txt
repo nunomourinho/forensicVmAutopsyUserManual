@@ -1,0 +1,1 @@
+It is not possible to access the contents of the secret nuclear plants in offline mode
