@@ -55,3 +55,5 @@ This section provides a detailed guide on how to use ForensicVM in your forensic
    WebShell for Remote Administration <webshell>
 
    Netdata on ForensicVM Server <netdata>
+
+   Use case study and solutions - Bart the hacker <case_study_bart_solutions>
