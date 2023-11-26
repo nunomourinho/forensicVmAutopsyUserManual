@@ -75,7 +75,7 @@ Optional case information was also provided to provide additional context and me
    :width: 50%
    :align: center
    :alt: Providing Optional Case Information
-   :figwidth: 300px  # You can specify a width in pixels for better control.
+
    :label: fig:autopsy_0003
 
    Providing Optional Case Information
