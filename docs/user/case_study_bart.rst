@@ -273,3 +273,126 @@ The creation of an Autopsy HTML report is a critical step for documenting the in
 
 Local applications and those identified as relevant through tagging were systematically documented within the Autopsy report as well. This incorporation of tagged local and cloud applications allows for a more comprehensive review of the software environment of the system under investigation (Figure~\ref{fig:autopsy_0023}).
 
+.. _FloatBarrier:
+
+.. figure:: apendices/img/autopsy_0023.jpg
+   :width: 50%
+   :align: center
+   :alt: Tagged files depicting local and cloud applications within Autopsy
+
+   Tagged files depicting local and cloud applications within Autopsy
+   :label: fig:autopsy_0023
+
+Live forensic with ForensicVM - Phase 1: Network disabled
+--------------------------------------------------------
+
+The commencement of live forensics entails the virtualization of the forensic image, utilizing the capabilities of the ForensicVM server and client infrastructure.
+
+The initial step involves initiating the ForensicVM client ingest module via Autopsy, as illustrated in Figure~\ref{fig:autopsy_0028}.
+
+.. figure:: apendices/img/autopsy_0028.jpg
+   :width: 50%
+   :align: center
+   :alt: Run ingest modules: ForensicVM Client
+
+   Run ingest modules: ForensicVM Client
+   :label: fig:autopsy_0028
+
+Subsequently, a comprehensive virtualization of the image was executed. Utilizing the command \textbf{Virtualize - a) Convert to VM}, a duplicate of the forensic image is created. This process entails altering the hardware abstraction layer by incorporating virtio optimized drivers, culminating in the creation of a ForensicVM, as depicted in Figure~\ref{fig:autopsy_0029}, Figure~\ref{fig:autopsy_0030}, and Figure~\ref{fig:autopsy_0031}.
+
+.. figure:: apendices/img/autopsy_0029.jpg
+   :width: 50%
+   :align: center
+   :alt: ForensicVM client main form
+
+   ForensicVM client main form
+   :label: fig:autopsy_0029
+
+.. figure:: apendices/img/autopsy_0030.jpg
+   :width: 50%
+   :align: center
+   :alt: Forensic image to forensicVM Conversion progress
+
+   Forensic image to forensicVM Conversion progress
+   :label: fig:autopsy_0030
+
+.. figure:: apendices/img/autopsy_0031.jpg
+   :width: 50%
+   :align: center
+   :alt: ForensicVM First execution
+
+   ForensicVM First execution
+   :label: fig:autopsy_0031
+
+The recovery questions were noted to be identical (\textbf{bart}), prompting an attempt to use them as the password. This strategy proved effective due to the recovery questions being set identically to the password, as shown in Figure~\ref{fig:autopsy_0033}.
+
+.. figure:: apendices/img/autopsy_0033.jpg
+   :width: 50%
+   :align: center
+   :alt: Password recovery utilizing identical security questions
+
+   Password recovery utilizing identical security questions
+   :label: fig:autopsy_0033
+
+Access was successfully gained to the Bart desktop, which featured a wallpaper indicating potential malicious intent with the message "I will hack Springfield...," as seen in Figure~\ref{fig:autopsy_0034}.
+
+.. figure:: apendices/img/autopsy_0034.jpg
+   :width: 50%
+   :align: center
+   :alt: Bart desktop with indicative wallpaper message
+
+   Bart desktop with indicative wallpaper message
+   :label: fig:autopsy_0034
+
+The desktop was populated with numerous icons, one of which was for the Evernote cloud application. Activating this icon initiated Evernote, within which several recent notes were apparent: Extra images, Secret nuclear plants, Bart Simpson Passwords, and My pass, as illustrated in Figure~\ref{fig:autopsy_0035}.
+
+.. figure:: apendices/img/autopsy_0035.jpg
+   :width: 50%
+   :align: center
+   :alt: Evernote application with recent notes
+
+   Evernote application with recent notes
+   :label: fig:autopsy_0035
+
+In the forensic investigation within the Evernote application, a notebook titled \textbf{Bart secret plans} containing three notes was identified. The procedure to export these notes to the forensicVM evidence drive is crucial, as illustrated in Figure~\ref{fig:autopsy_0036}.
+
+.. figure:: apendices/img/autopsy_0036.jpg
+   :width: 50%
+   :align: center
+   :alt: Evernote notebook 'Bart secret plans'
+
+   Evernote notebook 'Bart secret plans'
+   :label: fig:autopsy_0036
+
+To commence the note export process, the notes were first converted into PDF format as shown in Figure~\ref{fig:autopsy_0037}.
+
+.. figure:: apendices/img/autopsy_0037.jpg
+   :width: 50%
+   :align: center
+   :alt: Exporting notes as PDF
+
+   Exporting notes as PDF
+   :label: fig:autopsy_0037
+
+The notes were then methodically stored in a subfolder named Evernote, located within the Cloud\_applications tag in Autopsy. The \textbf{Bart secret plans} file was exported to this specific folder, detailed in Figure~\ref{fig:autopsy_0038}.
+
+.. figure:: apendices/img/autopsy_0038.jpg
+   :width: 50%
+   :align: center
+   :alt: PDF export destination folder structure
+
+   PDF export destination folder structure
+   :label: fig:autopsy_0038
+
+A verification step was conducted to ensure that the exported PDFs contained all potential evidence, as confirmed in Figure~\ref{fig:autopsy_0039}.
+
+.. figure:: apendices/img/autopsy_0039.jpg
+   :width: 50%
+   :align: center
+   :alt: Verification of exported PDF content
+
+   Verification of exported PDF content
+   :label: fig:autopsy_0039
+
+The export procedure was repeated for another notebook titled \textbf{Primeiro bloco de notas}, which was also moved to the Evernote folder on the evidence disk, as depicted in Figure~\ref{fig:autopsy_0040}.
+
