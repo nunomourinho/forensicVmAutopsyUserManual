@@ -771,4 +771,77 @@ The next phase in the investigative process involves exporting the ForensicVM ev
    Selection of the 'Import Evidence Disk' option in the Autopsy Forensic Client
    :label: fig:autopsy_0078
 
+.. _fig-autopsy_0079:
+
+.. figure:: apendices/img/autopsy_0079.jpg
+   :align: center
+   :width: 50%
+
+   Finalization of the ForensicVM evidence disk export in VMDK format.
+
+.. |FloatBarrier| raw:: html
+
+   <hr/>
+
+In the final step of the digital forensic analysis, a new data source was added to the Autopsy forensic software. This new data source was the VMDK disk which contained the evidence that had been previously gathered from ForensicVM. This action is paramount for enabling a detailed examination and analysis within the Autopsy environment. The step-by-step process of adding this new evidence source is captured in Figures :ref:`fig-autopsy_0080` through :ref:`fig-autopsy_0085`.
+
+.. |FloatBarrier| raw:: html
+
+   <hr/>
+
+.. _fig-autopsy_0080:
+
+.. figure:: apendices/img/autopsy_0080.jpg
+   :align: center
+   :width: 50%
+
+   Initiating the addition of a new data source in Autopsy.
+
+.. _fig-autopsy_0081:
+
+.. figure:: apendices/img/autopsy_0081.jpg
+   :align: center
+   :width: 50%
+
+   Selecting the evidence disk for the new data source.
+
+.. _fig-autopsy_0082:
+
+.. figure:: apendices/img/autopsy_0082.jpg
+   :align: center
+   :width: 50%
+
+   Confirming the selection of the VMDK disk file.
+
+.. _fig-autopsy_0083:
+
+.. figure:: apendices/img/autopsy_0083.jpg
+   :align: center
+   :width: 50%
+
+   Setting up the data source parameters in Autopsy.
+
+.. _fig-autopsy_0084:
+
+.. figure:: apendices/img/autopsy_0084.jpg
+   :align: center
+   :width: 50%
+
+   Progression of the data source addition process.
+
+.. _fig-autopsy_0085:
+
+.. figure:: apendices/img/autopsy_0085.jpg
+   :align: center
+   :width: 50%
+
+   Completion of the new data source addition in Autopsy.
+
+.. |FloatBarrier| raw:: html
+
+   <hr/>
+
+Post-importation of the meticulously crafted evidence disk into Autopsy, the investigation is poised to enter a detailed examination phase. The evidence disk, structured with folders mirroring the tags utilized within Autopsy, allows for an organized and efficient review process. The subsequent investigative steps will leverage the logical structure and tagging system to ensure a comprehensive analysis of the data.
+
+... [additional explanatory text as in your original content]
 
