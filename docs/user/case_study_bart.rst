@@ -396,3 +396,113 @@ A verification step was conducted to ensure that the exported PDFs contained all
 
 The export procedure was repeated for another notebook titled \textbf{Primeiro bloco de notas}, which was also moved to the Evernote folder on the evidence disk, as depicted in Figure~\ref{fig:autopsy_0040}.
 
+.. _FloatBarrier:
+
+.. figure:: apendices/img/autopsy_0040.jpg
+   :width: 50%
+   :align: center
+   :alt: Exporting 'Primeiro bloco de notas' from Evernote
+
+   Exporting 'Primeiro bloco de notas' from Evernote
+   :label: fig:autopsy_0040
+
+Investigation revealed that the **bart secret plans** notebook was shared by a user named **Nuno Mourinho**, which may indicate collaborative or shared use of the contents, as evidenced by Figures \ref{fig:autopsy_0041} and \ref{fig:autopsy_0042}.
+
+.. figure:: apendices/img/autopsy_0041.jpg
+   :width: 50%
+   :align: center
+   :alt: Shared user detail for 'bart secret plans' notebook
+
+   Shared user detail for 'bart secret plans' notebook
+   :label: fig:autopsy_0041
+
+.. figure:: apendices/img/autopsy_0042.jpg
+   :width: 50%
+   :align: center
+   :alt: Notebook sharing information indicating 'Nuno Mourinho'
+
+   Notebook sharing information indicating 'Nuno Mourinho'
+   :label: fig:autopsy_0042
+
+Additionally, the Evernote trash was scrutinized, and it was confirmed that no notes had been deleted, as shown in Figure~\ref{fig:autopsy_0043}. The absence of deleted notes might suggest that the user did not attempt to remove evidence or considered the contents of the notes to be non-incriminating.
+
+.. figure:: apendices/img/autopsy_0043.jpg
+   :width: 50%
+   :align: center
+   :alt: Checking Evernote trash for deleted notes
+
+   Checking Evernote trash for deleted notes
+   :label: fig:autopsy_0043
+
+The forensic analysis included the observation of software behavior in a controlled environment. The Discord application displayed a notification for an update, which could not be completed due to a lack of internet connectivity, leaving the application in a state of limbo as depicted in Figure~\ref{fig:autopsy_0044}.
+
+.. figure:: apendices/img/autopsy_0044.jpg
+   :width: 50%
+   :align: center
+   :alt: Discord application unable to update without internet connection
+
+   Discord application unable to update without internet connection
+   :label: fig:autopsy_0044
+
+Subsequently, GitHub Desktop was launched, which is a graphical client interface for interacting with GitHub repositories. It attempted to locate a repository named hackSpringField, but without internet access, the search was unsuccessful, as demonstrated in Figure~\ref{fig:autopsy_0045}.
+
+.. figure:: apendices/img/autopsy_0045.jpg
+   :width: 50%
+   :align: center
+   :alt: GitHub Desktop failing to find the 'hackSpringField' repository
+
+   GitHub Desktop failing to find the 'hackSpringField' repository
+   :label: fig:autopsy_0045
+
+Due to the absence of an internet or local network connection, the content within the GitHub repository could not be retrieved or reviewed, which is an essential aspect to consider for future investigative steps. This scenario is highlighted in Figure~\ref{fig:autopsy_0046}.
+
+.. figure:: apendices/img/autopsy_0046.jpg
+   :width: 50%
+   :align: center
+   :alt: Unreachable GitHub repository contents due to lack of network connectivity
+
+   Unreachable GitHub repository contents due to lack of network connectivity
+   :label: fig:autopsy_0046
+
+The investigation then moved to financial applications, with a specific focus on Homebank. An attempt to launch this application was made as indicated by the presence of its icon, and this is captured in Figure~\ref{fig:autopsy_0047}.
+
+.. figure:: apendices/img/autopsy_0047.jpg
+   :width: 50%
+   :align: center
+   :alt: Locating the Homebank application
+
+   Locating the Homebank application
+   :label: fig:autopsy_0047
+
+Upon accessing Homebank, the last opened file named example.xhb was identified, suggesting a possible area of interest for the investigation. The examination of this file is depicted in Figure~\ref{fig:autopsy_0048}.
+
+.. figure:: apendices/img/autopsy_0048.jpg
+   :width: 50%
+   :align: center
+   :alt: Opening the last accessed file in Homebank
+
+   Opening the last accessed file in Homebank
+   :label: fig:autopsy_0048
+
+Within the example.xhb file, the existence of a Bitcoin account was noted. Even though the file bore the name 'example', it was considered worthy of detailed examination to discern any potential financial improprieties or to trace financial transactions, as shown in Figure~\ref{fig:autopsy_0049}.
+
+.. figure:: apendices/img/autopsy_0049.jpg
+   :width: 50%
+   :align: center
+   :alt: Evidence of a Bitcoin account in the Homebank file 'example.xhb'
+
+   Evidence of a Bitcoin account in the Homebank file 'example.xhb'
+   :label: fig:autopsy_0049
+
+So far, this analysis underscores the complexity of digital forensics, particularly when dealing with cloud-based services and financial software, where access to the content is often restricted without proper connectivity or credentials.
+
+Upon uncovering Bitcoin-related transaction data within the Homebank application, steps were taken to document this information. The transactions were exported to a PDF file for ease of analysis and future reference, a process captured in Figures~\ref{fig:autopsy_0050} and \ref{fig:autopsy_0051}.
+
+.. figure:: apendices/img/autopsy_0050.jpg
+   :width: 50%
+   :align: center
+   :alt: Exporting Bitcoin transaction data to PDF
+
+   Exporting Bitcoin transaction data to PDF
+   :label: fig:autopsy_0050
+
