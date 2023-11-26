@@ -169,4 +169,107 @@ Moreover, the identification of specific applications such as Eraser 6.2.0.2993,
    Applications Identification
    :label: fig:autopsy_0012
 
+.. _FloatBarrier:
+
+.. figure:: apendices/img/autopsy_0012.jpg
+   :width: 50%
+   :align: center
+   :alt: Applications of Interest Including Secure File Deletion and Personal Finance Management Tools
+
+   Applications of Interest Including Secure File Deletion and Personal Finance Management Tools
+   :label: fig:autopsy_0012
+
+The further discovery of Money Manager Ex v.1.6.4, another financial management tool, as indicated in Figure~\ref{fig:autopsy_0013}, reinforces the financial angle of the user's activity profile. This could be integral to constructing a narrative regarding the suspect's financial dealings or motivations.
+
+.. figure:: apendices/img/autopsy_0013.jpg
+   :width: 50%
+   :align: center
+   :alt: Additional Financial Application Money Manager Ex Indicating In-Depth Financial Activities
+
+   Additional Financial Application Money Manager Ex Indicating In-Depth Financial Activities
+   :label: fig:autopsy_0013
+
+Lastly, the opening of a financial database named example.xhb from the HomeBank files, as shown in Figure~\ref{fig:autopsy_0014}, further corroborates the financial dimension of the investigation. This particular file may contain transaction records, budgets, or other financial data which could be analysed to provide a clearer understanding of the suspect's financial behaviour or potential illicit activities.
+
+.. figure:: apendices/img/autopsy_0014.jpg
+   :width: 50%
+   :align: center
+   :alt: Opened Financial Database example.xhb Revealing Recent User Activities with Financial Data
+
+   Opened Financial Database example.xhb Revealing Recent User Activities with Financial Data
+   :label: fig:autopsy_0014
+
+The discovery of the example.xhb database in XML format, as depicted in Figure~\ref{fig:autopsy_0015}, adds a layer of complexity due to the proprietary structure of the file. This could imply that special attention must be paid to decipher the data structure to interpret the financial information contained within. The proprietary nature of the format might necessitate the use of specific tools or methods to extract and analyse the data accurately.
+
+.. figure:: apendices/img/autopsy_0015.jpg
+   :width: 50%
+   :align: center
+   :alt: Proprietary XML Structure of the example.xhb Database
+
+   Proprietary XML Structure of the example.xhb Database
+   :label: fig:autopsy_0015
+
+The identification of cloud applications in the forensic investigation is critical as it may provide insight into data that is not stored locally on the device. The accounts discovered through the Autopsy software, including GitHub, live.com, discord.com, and evernote.com, extend the potential for finding evidence to the cloud. The presence of these services as shown in Figure~\ref{fig:autopsy_0016}, suggests a broad range of user activity, from software development and project management to personal communication and note-taking, which could be relevant to the case.
+
+.. figure:: apendices/img/autopsy_0016.jpg
+   :width: 50%
+   :align: center
+   :alt: Overview of Cloud Applications Uncovered in Autopsy
+
+   Overview of Cloud Applications Uncovered in Autopsy
+   :label: fig:autopsy_0016
+
+Tagging folders related to financial applications within Autopsy helps in organising evidence and highlights the importance of financial data in the investigation. As illustrated in Figure~\ref{fig:autopsy_0017}, tagging these folders ensures that relevant information is easily accessible and distinguishable from other unrelated data, facilitating a more efficient investigation process.
+
+.. figure:: apendices/img/autopsy_0017.jpg
+   :width: 50%
+   :align: center
+   :alt: Tagging of Folders Pertaining to Financial Applications
+
+   Tagging of Folders Pertaining to Financial Applications
+   :label: fig:autopsy_0017
+
+The creation of an Autopsy HTML report is a critical step for documenting the investigation, offering a comprehensive and accessible format for presenting the findings. The series of figures, from Figure~\ref{fig:autopsy_0018} to Figure~\ref{fig:autopsy_0022}, encapsulate various aspects of the report, from the general overview to specific details regarding data sources and tagged items.
+
+.. figure:: apendices/img/autopsy_0018.jpg
+   :width: 50%
+   :align: center
+   :alt: Snapshot of the Autopsy HTML Report Interface
+
+   Snapshot of the Autopsy HTML Report Interface
+   :label: fig:autopsy_0018
+
+.. figure:: apendices/img/autopsy_0019.jpg
+   :width: 50%
+   :align: center
+   :alt: Detailing the Data Source 'bart.E01' within the HTML Report
+
+   Detailing the Data Source 'bart.E01' within the HTML Report
+   :label: fig:autopsy_0019
+
+.. figure:: apendices/img/autopsy_0020.jpg
+   :width: 50%
+   :align: center
+   :alt: Autopsy HTML Report Showing Tagged Items and Analysis Results
+
+   Autopsy HTML Report Showing Tagged Items and Analysis Results
+   :label: fig:autopsy_0020
+
+.. figure:: apendices/img/autopsy_0021.jpg
+   :width: 50%
+   :align: center
+   :alt: Compilation of All Results in the Autopsy HTML Report
+
+   Compilation of All Results in the Autopsy HTML Report
+   :label: fig:autopsy_0021
+
+.. figure:: apendices/img/autopsy_0022.jpg
+   :width: 50%
+   :align: center
+   :alt: Report Detailing Found Cloud Applications and Associated Usernames
+
+   Report Detailing Found Cloud Applications and Associated Usernames
+   :label: fig:autopsy_0022
+
+Local applications and those identified as relevant through tagging were systematically documented within the Autopsy report as well. This incorporation of tagged local and cloud applications allows for a more comprehensive review of the software environment of the system under investigation (Figure~\ref{fig:autopsy_0023}).
 
