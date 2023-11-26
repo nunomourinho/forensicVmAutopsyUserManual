@@ -506,3 +506,269 @@ Upon uncovering Bitcoin-related transaction data within the Homebank application
    Exporting Bitcoin transaction data to PDF
    :label: fig:autopsy_0050
 
+.. figure:: apendices/img/autopsy_0051.jpg
+   :width: 50%
+   :align: center
+   :alt: The process of printing transaction data to a PDF file
+
+   The process of printing transaction data to a PDF file
+   :label: fig:autopsy_0051
+
+.. _FloatBarrier:
+
+The forensic examination then proceeded to another financial application, Money Manager Ex. Upon initiation, the application's dashboard revealed an account with the noteworthy title 'Springfield ransom', as displayed in Figure~\ref{fig:autopsy_0052}.
+
+.. figure:: apendices/img/autopsy_0052.jpg
+   :width: 50%
+   :align: center
+   :alt: Dashboard of Money Manager Ex showing the 'Springfield ransom' account
+
+   Dashboard of Money Manager Ex showing the 'Springfield ransom' account
+   :label: fig:autopsy_0052
+
+Within this application, two significant transactions were identified: a withdrawal of 222 million by a user named Homer, and a deposit of 100 million to a Mr. Burns. These transactions, detailed in Figure~\ref{fig:autopsy_0053}, could suggest a flow of funds that may be pertinent to the investigation.
+
+.. figure:: apendices/img/autopsy_0053.jpg
+   :width: 50%
+   :align: center
+   :alt: Transactions in Money Manager Ex involving significant sums of money
+
+   Transactions in Money Manager Ex involving significant sums of money
+   :label: fig:autopsy_0053
+
+To collate the findings, a PDF document was created and stored on an evidence drive, ensuring the preservation of the data uncovered during the investigation. This step is illustrated in Figures~\ref{fig:autopsy_0055} and \ref{fig:autopsy_0056}.
+
+.. figure:: apendices/img/autopsy_0055.jpg
+   :width: 50%
+   :align: center
+   :alt: Compiling findings into a PDF document
+
+   Compiling findings into a PDF document
+   :label: fig:autopsy_0055
+
+.. figure:: apendices/img/autopsy_0056.jpg
+   :width: 50%
+   :align: center
+   :alt: Saving the PDF document to the evidence drive
+
+   Saving the PDF document to the evidence drive
+   :label: fig:autopsy_0056
+
+Finally, verification was carried out to ensure that the PDF created indeed contained the exported transaction data, as can be affirmed by Figure~\ref{fig:autopsy_0057}.
+
+.. figure:: apendices/img/autopsy_0057.jpg
+   :width: 50%
+   :align: center
+   :alt: Confirmation of the exported transaction data within the PDF document
+
+   Confirmation of the exported transaction data within the PDF document
+   :label: fig:autopsy_0057
+
+Live forensic with ForensicVM - Phase 2: Network enabled
+--------------------------------------------------------
+
+In the continuation of the live forensic analysis using ForensicVM, the investigation progressed to include cloud-based evidence following the activation of the network interface. This crucial step is depicted in Figure~\ref{fig:autopsy_0058}.
+
+.. figure:: apendices/img/autopsy_0058.jpg
+   :width: 50%
+   :align: center
+   :alt: Enabling the network interface on the ForensicVM webscreen
+
+   Enabling the network interface on the ForensicVM webscreen
+   :label: fig:autopsy_0058
+
+One of the primary cloud applications scrutinised was GitHub Desktop. This application was of particular interest as it may contain repositories that could provide evidence of illicit activity if the computer in question belonged to a potential hacker. The repository named **hackSpringField** was cloned as an initial step, a process illustrated in Figure~\ref{fig:autopsy_0059}.
+
+.. figure:: apendices/img/autopsy_0059.jpg
+   :width: 50%
+   :align: center
+   :alt: Cloning the deleted repository 'hackSpringField' using GitHub Desktop
+
+   Cloning the deleted repository 'hackSpringField' using GitHub Desktop
+   :label: fig:autopsy_0059
+
+Within the cloned repository, a README file disclosed Bart's likely malicious intent, containing the message "I will hack Springfield Buhahahahahaha!", as seen in Figure~\ref{fig:autopsy_0060}.
+
+.. figure:: apendices/img/autopsy_0060.jpg
+   :width: 50%
+   :align: center
+   :alt: The README file within the 'hackSpringField' repository indicating potential malevolent intentions
+
+   The README file within the 'hackSpringField' repository indicating potential malevolent intentions
+   :label: fig:autopsy_0060
+
+The exploration of Bart's GitHub repositories revealed several with names that suggest they could be tools for malicious purposes:
+
+- RATreeViewSpringField
+- StichRATSpringfield
+- TheFatRatSpringField
+- awesome-ratSpringField
+- basicRATSpringField
+
+These repositories were cloned as part of the investigatory process, as documented in Figures~\ref{fig:autopsy_0061}, \ref{fig:autopsy_0062}, and \ref{fig:autopsy_0063}.
+
+.. figure:: apendices/img/autopsy_0061.jpg
+   :width: 50%
+   :align: center
+   :alt: Cloning of repositories suspected to be associated with malicious activities
+
+   Cloning of repositories suspected to be associated with malicious activities
+   :label: fig:autopsy_0061
+
+.. figure:: apendices/img/autopsy_0062.jpg
+   :width: 50%
+   :align: center
+   :alt: Acquiring repository content for further forensic analysis
+
+   Acquiring repository content for further forensic analysis
+   :label: fig:autopsy_0062
+
+.. figure:: apendices/img/autopsy_0063.jpg
+   :width: 50%
+   :align: center
+   :alt: Documentation of the cloned repositories from the suspected hacker's GitHub account
+
+   Documentation of the cloned repositories from the suspected hacker's GitHub account
+   :label: fig:autopsy_0063
+
+Subsequently, the cloned repositories were transferred to a specifically labelled folder 'Github-Internet On' within the cloud\_applications autopsy tag folder, with the process captured in Figures~\ref{fig:autopsy_0064}, \ref{fig:autopsy_0065}, and \ref{fig:autopsy_0066}.
+
+.. figure:: apendices/img/autopsy_0064.jpg
+   :width: 50%
+   :align: center
+   :alt: Copying cloned repositories to the designated forensic analysis folder
+
+   Copying cloned repositories to the designated forensic analysis folder
+   :label: fig:autopsy_0064
+
+.. figure:: apendices/img/autopsy_0065.jpg
+   :width: 50%
+   :align: center
+   :alt: Organising the collected repositories in the 'Github-Internet On' folder for detailed examination
+
+   Organising the collected repositories in the 'Github-Internet On' folder for detailed examination
+   :label: fig:autopsy_0065
+
+.. _FloatBarrier:
+
+The shared notebook named **bart secret plans** now has 14 notes, an increase of 11 notes from when the system was examined in offline mode. This surge in content could indicate active use or automated synchronization once the network was enabled. Among these notes, several are titled with 'Command and Control (C2C)', each followed by a sequence number, which suggests a structured approach to potentially illicit command sequences. Furthermore, the presence of Evernote Cloud API python guide notes could imply an intention to leverage Evernote as a platform for issuing commands to compromised systems or for managing a network of controlled devices. An illustrative note contains the command *sdelete -z c:*, which is known to overwrite free space on a drive with zeros, typically a method to prevent data recovery -- a concerning find, possibly indicative of attempts to obfuscate or destroy evidence. This detail is depicted in Figure~\ref{fig:autopsy_0066}.
+
+.. figure:: apendices/img/autopsy_0066.jpg
+   :width: 50%
+   :align: center
+   :alt: Screenshot illustrating the use of 'sdelete' command within a note from the 'bart secret plans' notebook
+
+   Screenshot illustrating the use of 'sdelete' command within a note from the 'bart secret plans' notebook
+   :label: fig:autopsy_0066
+
+In a detailed examination, all notes from the **bart secret plans** notebook were exported as multiple webpages to be preserved as evidence, as shown in Figures~\ref{fig:autopsy_0067} and \ref{fig:autopsy_0068}.
+
+.. figure:: apendices/img/autopsy_0067.jpg
+   :width: 50%
+   :align: center
+   :alt: Exporting the contents of 'bart secret plans' to webpages, part 1
+
+   Exporting the contents of 'bart secret plans' to webpages, part 1
+   :label: fig:autopsy_0067
+
+.. figure:: apendices/img/autopsy_0068.jpg
+   :width: 50%
+   :align: center
+   :alt: Exporting the contents of 'bart secret plans' to webpages, part 2
+
+   Exporting the contents of 'bart secret plans' to webpages, part 2
+   :label: fig:autopsy_0068
+
+Similarly, the *Primeiro bloco de notas* (First Notebook) was exported, revealing an additional note not previously visible in offline mode. The findings are presented in Figure~\ref{fig:autopsy_0069}.
+
+.. figure:: apendices/img/autopsy_0069.jpg
+   :width: 50%
+   :align: center
+   :alt: The export process of the 'Primeiro bloco de notas' indicating the presence of an additional note
+
+   The export process of the 'Primeiro bloco de notas' indicating the presence of an additional note
+   :label: fig:autopsy_0069
+
+Upon inspecting the Discord application, which was set to the Portuguese language, we accessed the user bart.simpson's server. The server's activity log, accessed via the bart.simpson\_springfield login, can be observed in Figure~\ref{fig:autopsy_0070}.
+
+.. figure:: apendices/img/autopsy_0070.jpg
+   :width: 50%
+   :align: center
+   :alt: Accessing Discord server with bart.simpson\_springfield user credentials
+
+   Accessing Discord server with bart.simpson\_springfield user credentials
+   :label: fig:autopsy_0070
+
+Further investigation within the server revealed a channel named 'Servidor de bart.simpson' (bart.simpson's server), which contained an announcement seemingly related to the sale of data on the dark web, as captured in Figure~\ref{fig:autopsy_0072} after opening the server shown in Figure~\ref{fig:autopsy_0071}.
+
+.. figure:: apendices/img/autopsy_0071.jpg
+   :width: 50%
+   :align: center
+   :alt: The Discord server 'Servidor de bart.simpson' accessed for investigation
+
+   The Discord server 'Servidor de bart.simpson' accessed for investigation
+   :label: fig:autopsy_0071
+
+.. figure:: apendices/img/autopsy_0072.jpg
+   :width: 50%
+   :align: center
+   :alt: Announcement on 'Servidor de bart.simpson' revealing intentions to sell data on the dark web
+
+   Announcement on 'Servidor de bart.simpson' revealing intentions to sell data on the dark web
+   :label: fig:autopsy_0072
+
+Within the Discord channel named cyber-security-bypass, the user 'bart' claimed to have *ex-filtrated data from the Springfield Nuclear Plant*. Evidence of such a breach was showcased in an Excel format, which was presented as a sample of the exfiltrated data. Additionally, 'bart' stipulated a ransom demand of 1000 dollars for the recovery of the data, directing the payment to be made to a specified Bitcoin wallet. This incriminating interaction, including the digital ransom note and the proof of the stolen data, is captured in Figure~\ref{fig:autopsy_0073}.
+
+.. figure:: apendices/img/autopsy_0073.jpg
+   :width: 50%
+   :align: center
+   :alt: Screenshot displaying the ransom demand and sample of exfiltrated data from Springfield Nuclear Plant on Discord
+
+   Screenshot displaying the ransom demand and sample of exfiltrated data from Springfield Nuclear Plant on Discord
+   :label: fig:autopsy_0073
+
+Subsequent to the discovery of the Discord communication, efforts were made to download the chain of custody report utilizing the ForensicVM webscreen interface. This procedure is critical for maintaining the integrity of the digital evidence and ensuring that all investigative actions are properly documented. The process of downloading this report is depicted in Figures~\ref{fig:autopsy_0074} and \ref{fig:autopsy_0075}.
+
+.. figure:: apendices/img/autopsy_0074.jpg
+   :width: 50%
+   :align: center
+   :alt: Downloading the chain of custody report via the ForensicVM webscreen interface, part 1
+
+   Downloading the chain of custody report via the ForensicVM webscreen interface, part 1
+   :label: fig:autopsy_0074
+
+.. figure:: apendices/img/autopsy_0075.jpg
+   :width: 50%
+   :align: center
+   :alt: Downloading the chain of custody report via the ForensicVM webscreen interface, part 2
+
+   Downloading the chain of custody report via the ForensicVM webscreen interface, part 2
+   :label: fig:autopsy_0075
+
+The next phase in the investigative process involves exporting the ForensicVM evidence disk in the virtual machine disk (VMDK) format. This step is necessary to facilitate the importation of the disk into the Autopsy analysis tool for a comprehensive examination. The sequence of actions taken to halt the ForensicVM, followed by the initiation of the 'Import Evidence Disk' process, is sequentially illustrated in Figures~\ref{fig:autopsy_0076} through \ref{fig:autopsy_0079}.
+
+.. figure:: apendices/img/autopsy_0076.jpg
+   :width: 50%
+   :align: center
+   :alt: Initiating the export of ForensicVM evidence disk from the Autopsy Forensic Client main interface
+
+   Initiating the export of ForensicVM evidence disk from the Autopsy Forensic Client main interface
+   :label: fig:autopsy_0076
+
+.. figure:: apendices/img/autopsy_0077.jpg
+   :width: 50%
+   :align: center
+   :alt: Stopping the ForensicVM in preparation for exporting the evidence disk
+
+   Stopping the ForensicVM in preparation for exporting the evidence disk
+   :label: fig:autopsy_0077
+
+.. figure:: apendices/img/autopsy_0078.jpg
+   :width: 50%
+   :align: center
+   :alt: Selection of the 'Import Evidence Disk' option in the Autopsy Forensic Client
+
+   Selection of the 'Import Evidence Disk' option in the Autopsy Forensic Client
+   :label: fig:autopsy_0078
+
+
