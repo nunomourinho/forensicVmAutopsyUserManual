@@ -37,9 +37,9 @@ For further information, refer to the ForensicVM Autopsy Plugin User Manual avai
 
 The complete dataset can be accessed via the following links:
 
-* `Google Drive Dataset <https://drive.google.com/drive/folders/1ecGvwAToAfSRmCDmtVesrEhP7uMFh2M6>`
-* `Zenodo Dataset <https://zenodo.org/doi/10.5281/zenodo.10070981>`
-* `NIST CFReDS Dataset <https://cfreds.nist.gov/all/NunoMourinho%2FEstigBeja/BartthehackerForensicVMshowcase2023>`
+* `Google Drive Dataset <https://drive.google.com/drive/folders/1ecGvwAToAfSRmCDmtVesrEhP7uMFh2M6>`_
+* `Zenodo Dataset <https://zenodo.org/doi/10.5281/zenodo.10070981>`_
+* `NIST CFReDS Dataset <https://cfreds.nist.gov/all/NunoMourinho%2FEstigBeja/BartthehackerForensicVMshowcase2023>`_
 
 Challenge Solution
 ==================
