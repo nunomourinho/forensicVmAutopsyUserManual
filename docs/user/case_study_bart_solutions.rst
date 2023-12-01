@@ -47,9 +47,11 @@ Challenge Solution
 Dead box forensics
 ------------------
 
-The resolution of the digital forensic challenge began with the establishment of a new case within the forensic autopsy software. The initial phase involved the creation of a case as captured in Figure ~\ref{fig:autopsy001}.
+The resolution of the digital forensic challenge began with the establishment of a new case within the forensic autopsy software. The initial phase involved the creation of a case as captured in Figure autopsy_001_.
 
 .. _FloatBarrier:
+
+.. _autopsy_001:
 
 .. figure:: apendices/img/autopsy_0001.jpg
    :width: 50%
@@ -57,7 +59,7 @@ The resolution of the digital forensic challenge began with the establishment of
    :alt: Creation of a New Case
 
    Creation of a New Case
-   :label: fig:autopsy001
+   :label: fig:autopsy_001
 
 Subsequently, the case details were entered as demonstrated in Figure~\ref{fig:autopsy_0002}, ensuring that all pertinent information was correctly documented.
 
