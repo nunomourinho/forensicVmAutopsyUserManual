@@ -662,7 +662,7 @@ The shared notebook named **bart secret plans** now has 14 notes, an increase of
 
    Screenshot illustrating the use of 'sdelete' command within a note from the 'bart secret plans' notebook
 
-In a detailed examination, all notes from the **bart secret plans** notebook were exported as multiple webpages to be preserved as evidence, as shown in Figures :numref:`autopsy_0067` and \ref{fig:autopsy_0068}.
+In a detailed examination, all notes from the **bart secret plans** notebook were exported as multiple webpages to be preserved as evidence, as shown in Figures :numref:`autopsy_0067` and :numref:`autopsy_0068`.
 
 .. _autopsy_0067:
 .. figure:: apendices/img/autopsy_0067.jpg
@@ -729,7 +729,7 @@ Within the Discord channel named cyber-security-bypass, the user 'bart' claimed 
 
    Screenshot displaying the ransom demand and sample of exfiltrated data from Springfield Nuclear Plant on Discord   
 
-Subsequent to the discovery of the Discord communication, efforts were made to download the chain of custody report utilizing the ForensicVM webscreen interface. This procedure is critical for maintaining the integrity of the digital evidence and ensuring that all investigative actions are properly documented. The process of downloading this report is depicted in Figures :numref:`autopsy_0074` and \ref{fig:autopsy_0075}.
+Subsequent to the discovery of the Discord communication, efforts were made to download the chain of custody report utilizing the ForensicVM webscreen interface. This procedure is critical for maintaining the integrity of the digital evidence and ensuring that all investigative actions are properly documented. The process of downloading this report is depicted in Figures :numref:`autopsy_0074` and :numref:`autopsy_0075`.
 
 
 .. _autopsy_0074:
@@ -800,35 +800,35 @@ In the final step of the digital forensic analysis, a new data source was added 
 
    Initiating the addition of a new data source in Autopsy.
 
-.. autopsy_00081:
+.. _autopsy_00081:
 .. figure:: apendices/img/autopsy_0081.jpg
    :align: center
    :width: 50%
 
    Selecting the evidence disk for the new data source.
 
-.. autopsy_0082:
+.. _autopsy_0082:
 .. figure:: apendices/img/autopsy_0082.jpg
    :align: center
    :width: 50%
 
    Confirming the selection of the VMDK disk file.
 
-.. autopsy_0083:
+.. _autopsy_0083:
 .. figure:: apendices/img/autopsy_0083.jpg
    :align: center
    :width: 50%
 
    Setting up the data source parameters in Autopsy.
 
-.. autopsy_0084:
+.. _autopsy_0084:
 .. figure:: apendices/img/autopsy_0084.jpg
    :align: center
    :width: 50%
 
    Progression of the data source addition process.
 
-.. autopsy_0085:
+.. _autopsy_0085:
 .. figure:: apendices/img/autopsy_0085.jpg
    :align: center
    :width: 50%
