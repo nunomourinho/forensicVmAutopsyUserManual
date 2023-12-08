@@ -60,7 +60,7 @@ The resolution of the digital forensic challenge began with the establishment of
 
    Creation of a New Case   
 
-Subsequently, the case details were entered as demonstrated in Figure :numref:autopsy_002, ensuring that all pertinent information was correctly documented.
+Subsequently, the case details were entered as demonstrated in Figure :numref:`autopsy_002`, ensuring that all pertinent information was correctly documented.
 
 .. _autopsy_002:
 .. figure:: apendices/img/autopsy_0002.jpg
