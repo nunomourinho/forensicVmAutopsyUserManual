@@ -493,7 +493,7 @@ Within the example.xhb file, the existence of a Bitcoin account was noted. Even 
 
 So far, this analysis underscores the complexity of digital forensics, particularly when dealing with cloud-based services and financial software, where access to the content is often restricted without proper connectivity or credentials.
 
-Upon uncovering Bitcoin-related transaction data within the Homebank application, steps were taken to document this information. The transactions were exported to a PDF file for ease of analysis and future reference, a process captured in Figures :numref:`autopsy_0050` and \ref{fig:autopsy_0051}.
+Upon uncovering Bitcoin-related transaction data within the Homebank application, steps were taken to document this information. The transactions were exported to a PDF file for ease of analysis and future reference, a process captured in Figures :numref:`autopsy_0050` and :numfig:`autopsy_0051`.
 
 .. _autopsy_0050:
 .. figure:: apendices/img/autopsy_0050.jpg
