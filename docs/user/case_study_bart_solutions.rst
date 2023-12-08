@@ -92,6 +92,7 @@ To facilitate analysis, host information was generated as shown in Figure :numre
 The subsequent step was to select the disk image or VM file that contained the forensic evidence, ensuring that the correct data source was incorporated into the investigation (Figure :numref:`autopsy_0005`).
 
 .. _autopsy_005:
+
 .. figure:: apendices/img/autopsy_0005.jpg
    :width: 50%
    :align: center
@@ -102,6 +103,7 @@ The subsequent step was to select the disk image or VM file that contained the f
 The timezone configuration is critical for accurate timestamp analysis; therefore, the forensic image path was established and the timezone was adjusted to Europe/Lisbon as part of the configuration process (Figure :numref:`autopsy_0006`).
 
 .. _autopsy_006:
+
 .. figure:: apendices/img/autopsy_0006.jpg
    :width: 50%
    :align: center
@@ -113,6 +115,7 @@ The timezone configuration is critical for accurate timestamp analysis; therefor
 For initial data processing, ingest plugins were selected, specifically 'Recent Activity' and 'Picture Analyser', to extract relevant user activities and image-related evidence (Figure :numref:`autopsy_0007`).
 
 .. _autopsy_007:
+
 .. figure:: apendices/img/autopsy_0007.jpg
    :width: 50%
    :align: center
