@@ -403,7 +403,7 @@ The export procedure was repeated for another notebook titled \textbf{Primeiro b
 
    Exporting 'Primeiro bloco de notas' from Evernote   
 
-Investigation revealed that the **bart secret plans** notebook was shared by a user named **Nuno Mourinho**, which may indicate collaborative or shared use of the contents, as evidenced by Figures \ref{fig:autopsy_0041} and \ref{fig:autopsy_0042}.
+Investigation revealed that the **bart secret plans** notebook was shared by a user named **Nuno Mourinho**, which may indicate collaborative or shared use of the contents, as evidenced by Figures :numfig:`autopsy_0041` and :numfig:`autopsy_0042`.
 
 .. _autopsy_0041:
 .. figure:: apendices/img/autopsy_0041.jpg
