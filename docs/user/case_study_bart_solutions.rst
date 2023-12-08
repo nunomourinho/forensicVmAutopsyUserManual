@@ -69,7 +69,7 @@ Subsequently, the case details were entered as demonstrated in Figure :numref:`a
 
    Entering Case Information   
 
-Optional case information was also provided to provide additional context and metadata for the investigation, as shown in Figure \ref{fig:autopsy_0003}.
+Optional case information was also provided to provide additional context and metadata for the investigation, as shown in Figure :num_ref:`autopsy_0003`.
 
 .. _autopsy_003:
 .. figure:: apendices/img/autopsy_0003.jpg
