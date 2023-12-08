@@ -58,13 +58,11 @@ The resolution of the digital forensic challenge began with the establishment of
    :align: center
    :alt: Creation of a New Case
 
-   Creation of a New Case
-   :label: fig:autopsy_001
+   Creation of a New Case   
 
-Subsequently, the case details were entered as demonstrated in Figure~\ref{fig:autopsy_0002}, ensuring that all pertinent information was correctly documented.
+Subsequently, the case details were entered as demonstrated in Figure :numref:autopsy_002, ensuring that all pertinent information was correctly documented.
 
 .. _autopsy_002:
-
 .. figure:: apendices/img/autopsy_0002.jpg
    :width: 50%
    :align: center
