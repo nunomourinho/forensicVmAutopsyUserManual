@@ -748,7 +748,7 @@ Subsequent to the discovery of the Discord communication, efforts were made to d
 
    Downloading the chain of custody report via the ForensicVM webscreen interface, part 2
 
-The next phase in the investigative process involves exporting the ForensicVM evidence disk in the virtual machine disk (VMDK) format. This step is necessary to facilitate the importation of the disk into the Autopsy analysis tool for a comprehensive examination. The sequence of actions taken to halt the ForensicVM, followed by the initiation of the 'Import Evidence Disk' process, is sequentially illustrated in Figures :numref:`autopsy_0076` through \ref{fig:autopsy_0079}.
+The next phase in the investigative process involves exporting the ForensicVM evidence disk in the virtual machine disk (VMDK) format. This step is necessary to facilitate the importation of the disk into the Autopsy analysis tool for a comprehensive examination. The sequence of actions taken to halt the ForensicVM, followed by the initiation of the 'Import Evidence Disk' process, is sequentially illustrated in Figures :numref:`autopsy_0076` through :numref:`autopsy_0079`.
 
 .. _autopsy_0076:
 .. figure:: apendices/img/autopsy_0076.jpg
