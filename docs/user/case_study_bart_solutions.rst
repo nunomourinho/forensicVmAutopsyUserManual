@@ -403,7 +403,7 @@ The export procedure was repeated for another notebook titled \textbf{Primeiro b
 
    Exporting 'Primeiro bloco de notas' from Evernote   
 
-Investigation revealed that the **bart secret plans** notebook was shared by a user named **Nuno Mourinho**, which may indicate collaborative or shared use of the contents, as evidenced by Figures :numfig:`autopsy_0041` and :numfig:`autopsy_0042`.
+Investigation revealed that the **bart secret plans** notebook was shared by a user named **Nuno Mourinho**, which may indicate collaborative or shared use of the contents, as evidenced by Figures :numref:`autopsy_0041` and :numref:`autopsy_0042`.
 
 .. _autopsy_0041:
 .. figure:: apendices/img/autopsy_0041.jpg
@@ -493,7 +493,7 @@ Within the example.xhb file, the existence of a Bitcoin account was noted. Even 
 
 So far, this analysis underscores the complexity of digital forensics, particularly when dealing with cloud-based services and financial software, where access to the content is often restricted without proper connectivity or credentials.
 
-Upon uncovering Bitcoin-related transaction data within the Homebank application, steps were taken to document this information. The transactions were exported to a PDF file for ease of analysis and future reference, a process captured in Figures :numref:`autopsy_0050` and :numfig:`autopsy_0051`.
+Upon uncovering Bitcoin-related transaction data within the Homebank application, steps were taken to document this information. The transactions were exported to a PDF file for ease of analysis and future reference, a process captured in Figures :numref:`autopsy_0050` and :numref:`autopsy_0051`.
 
 .. _autopsy_0050:
 .. figure:: apendices/img/autopsy_0050.jpg
@@ -606,7 +606,7 @@ The exploration of Bart's GitHub repositories revealed several with names that s
 - basicRATSpringField
 
 
-These repositories were cloned as part of the investigatory process, as documented in Figures :numref:`autopsy_0061`, \ref{fig:autopsy_0062}, and \ref{fig:autopsy_0063}.
+These repositories were cloned as part of the investigatory process, as documented in Figures :numref:`autopsy_0061`, :numref:`autopsy_0062`, and :numref:`autopsy_0063`.
 
 .. _autopsy_0061:
 .. figure:: apendices/img/autopsy_0061.jpg
