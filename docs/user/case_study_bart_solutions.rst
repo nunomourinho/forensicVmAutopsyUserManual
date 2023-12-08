@@ -71,7 +71,7 @@ Subsequently, the case details were entered as demonstrated in Figure :numref:`a
 
 Optional case information was also provided to provide additional context and metadata for the investigation, as shown in Figure :numref:`autopsy_0003`.
 
-.. _autopsy_003:
+.. _autopsy_0003:
 .. figure:: apendices/img/autopsy_0003.jpg
    :width: 50%
    :align: center
@@ -81,7 +81,7 @@ Optional case information was also provided to provide additional context and me
 
 To facilitate analysis, host information was generated as shown in Figure :numref:`autopsy_0004`, which helps align the investigative environment with the specifics of the case.
 
-.. _autopsy_004:
+.. _autopsy_0004:
 .. figure:: apendices/img/autopsy_0004.jpg
    :width: 50%
    :align: center
@@ -91,7 +91,7 @@ To facilitate analysis, host information was generated as shown in Figure :numre
 
 The subsequent step was to select the disk image or VM file that contained the forensic evidence, ensuring that the correct data source was incorporated into the investigation (Figure :numref:`autopsy_0005`).
 
-.. _autopsy_005:
+.. _autopsy_0005:
 .. figure:: apendices/img/autopsy_0005.jpg
    :width: 50%
    :align: center
@@ -101,7 +101,7 @@ The subsequent step was to select the disk image or VM file that contained the f
 
 The timezone configuration is critical for accurate timestamp analysis; therefore, the forensic image path was established and the timezone was adjusted to Europe/Lisbon as part of the configuration process (Figure :numref:`autopsy_0006`).
 
-.. _autopsy_006:
+.. _autopsy_0006:
 .. figure:: apendices/img/autopsy_0006.jpg
    :width: 50%
    :align: center
@@ -112,7 +112,7 @@ The timezone configuration is critical for accurate timestamp analysis; therefor
 
 For initial data processing, ingest plugins were selected, specifically 'Recent Activity' and 'Picture Analyser', to extract relevant user activities and image-related evidence (Figure :numref:`autopsy_0007`).
 
-.. _autopsy_007:
+.. _autopsy_0007:
 .. figure:: apendices/img/autopsy_0007.jpg
    :width: 50%
    :align: center
@@ -122,7 +122,7 @@ For initial data processing, ingest plugins were selected, specifically 'Recent 
 
 The investigator then waited for the completion of the addition of the data source, monitoring the progress to ensure successful incorporation into the case (Figure :numref:`autopsy_0008`).
 
-.. _autopsy_008:
+.. _autopsy_0008:
 .. figure:: apendices/img/autopsy_0008.jpg
    :width: 50%
    :align: center
@@ -132,7 +132,7 @@ The investigator then waited for the completion of the addition of the data sour
 
 Upon successful addition of the data source, as confirmed by the software, the evidence was ready for a thorough examination (Figure :numref:`autopsy_0009`).
 
-.. _autopsy_009:
+.. _autopsy_0009:
 .. figure:: apendices/img/autopsy_0009.jpg
    :width: 50%
    :align: center
@@ -142,7 +142,7 @@ Upon successful addition of the data source, as confirmed by the software, the e
 
 Exploration within the "Os accounts" section yielded security answers that were potential avenues for password bypass efforts, with all answers being "\textbf{bart}", which could provide a breakthrough in the case (Figure :numref:`autopsy_0010`).
 
-.. _autopsy_010:
+.. _autopsy_0010:
 .. figure:: apendices/img/autopsy_0010.jpg
    :width: 50%
    :align: center
@@ -152,7 +152,7 @@ Exploration within the "Os accounts" section yielded security answers that were 
 
 In the process of forensic analysis, the discovery of the password '\textbf{Lisa@Springfield}' via the Autofill feature in the Autopsy Web form represents a pivotal development. This password is a critical piece of evidence for the case, as it could potentially grant access to restricted areas that may contain further information or clues. The uncovering of this password, as displayed in Figure :numref:`autopsy_0011`, underscores the importance of thorough examination of digital artefacts which may hold vital information within a forensic investigation.
 
-.. _autopsy_011:
+.. _autopsy_0011:
 .. figure:: apendices/img/autopsy_0011.jpg
    :width: 50%
    :align: center
@@ -162,7 +162,7 @@ In the process of forensic analysis, the discovery of the password '\textbf{Lisa
 
 Moreover, the identification of specific applications such as Eraser 6.2.0.2993, which is designed for secure file deletion, and HomeBank 5.7.1, a personal finance application, can offer valuable insights into the suspect's actions and intents. As depicted in Figure :numref:`autopsy_0012`, the presence of these applications may suggest attempts to conceal activities or manage finances in a way that is pertinent to the investigation.
 
-.. _autopsy_012:
+.. _autopsy_0012:
 .. figure:: apendices/img/autopsy_0012.jpg
    :width: 50%
    :align: center
@@ -172,7 +172,7 @@ Moreover, the identification of specific applications such as Eraser 6.2.0.2993,
 
 .. _FloatBarrier:
 
-.. _autopsy_012:
+.. _autopsy_0012:
 .. figure:: apendices/img/autopsy_0012.jpg
    :width: 50%
    :align: center
@@ -182,7 +182,7 @@ Moreover, the identification of specific applications such as Eraser 6.2.0.2993,
 
 The further discovery of Money Manager Ex v.1.6.4, another financial management tool, as indicated in Figure :numref:`autopsy_0013`, reinforces the financial angle of the user's activity profile. This could be integral to constructing a narrative regarding the suspect's financial dealings or motivations.
 
-.. _autopsy_013:
+.. _autopsy_0013:
 .. figure:: apendices/img/autopsy_0013.jpg
    :width: 50%
    :align: center
@@ -192,7 +192,7 @@ The further discovery of Money Manager Ex v.1.6.4, another financial management 
 
 Lastly, the opening of a financial database named example.xhb from the HomeBank files, as shown in Figure :numref:`autopsy_0014`, further corroborates the financial dimension of the investigation. This particular file may contain transaction records, budgets, or other financial data which could be analysed to provide a clearer understanding of the suspect's financial behaviour or potential illicit activities.
 
-.. _autopsy_014:
+.. _autopsy_0014:
 .. figure:: apendices/img/autopsy_0014.jpg
    :width: 50%
    :align: center
@@ -202,7 +202,7 @@ Lastly, the opening of a financial database named example.xhb from the HomeBank 
 
 The discovery of the example.xhb database in XML format, as depicted in Figure :numref:`autopsy_0015`, adds a layer of complexity due to the proprietary structure of the file. This could imply that special attention must be paid to decipher the data structure to interpret the financial information contained within. The proprietary nature of the format might necessitate the use of specific tools or methods to extract and analyse the data accurately.
 
-.. _autopsy_015:
+.. _autopsy_0015:
 .. figure:: apendices/img/autopsy_0015.jpg
    :width: 50%
    :align: center
@@ -212,7 +212,7 @@ The discovery of the example.xhb database in XML format, as depicted in Figure :
 
 The identification of cloud applications in the forensic investigation is critical as it may provide insight into data that is not stored locally on the device. The accounts discovered through the Autopsy software, including GitHub, live.com, discord.com, and evernote.com, extend the potential for finding evidence to the cloud. The presence of these services as shown in Figure :numref:`autopsy_0016`, suggests a broad range of user activity, from software development and project management to personal communication and note-taking, which could be relevant to the case.
 
-.. _autopsy_016:
+.. _autopsy_0016:
 .. figure:: apendices/img/autopsy_0016.jpg
    :width: 50%
    :align: center
@@ -222,7 +222,7 @@ The identification of cloud applications in the forensic investigation is critic
 
 Tagging folders related to financial applications within Autopsy helps in organising evidence and highlights the importance of financial data in the investigation. As illustrated in Figure :numref:`autopsy_0017`, tagging these folders ensures that relevant information is easily accessible and distinguishable from other unrelated data, facilitating a more efficient investigation process.
 
-.. _autopsy_017:
+.. _autopsy_0017:
 .. figure:: apendices/img/autopsy_0017.jpg
    :width: 50%
    :align: center
@@ -232,7 +232,7 @@ Tagging folders related to financial applications within Autopsy helps in organi
 
 The creation of an Autopsy HTML report is a critical step for documenting the investigation, offering a comprehensive and accessible format for presenting the findings. The series of figures, from Figure :numref:`autopsy_0018` to Figure :numref:`autopsy_0022`, encapsulate various aspects of the report, from the general overview to specific details regarding data sources and tagged items.
 
-.. _autopsy_018:
+.. _autopsy_0018:
 .. figure:: apendices/img/autopsy_0018.jpg
    :width: 50%
    :align: center
@@ -248,7 +248,7 @@ The creation of an Autopsy HTML report is a critical step for documenting the in
 
    Detailing the Data Source 'bart.E01' within the HTML Report
 
-.. _autopsy_020:
+.. _autopsy_0020:
 .. figure:: apendices/img/autopsy_0020.jpg
    :width: 50%
    :align: center
@@ -256,7 +256,7 @@ The creation of an Autopsy HTML report is a critical step for documenting the in
 
    Autopsy HTML Report Showing Tagged Items and Analysis Results
 
-.. _autopsy_021:
+.. _autopsy_0021:
 .. figure:: apendices/img/autopsy_0021.jpg
    :width: 50%
    :align: center
@@ -264,7 +264,7 @@ The creation of an Autopsy HTML report is a critical step for documenting the in
 
    Compilation of All Results in the Autopsy HTML Report
 
-.. _autopsy_022:
+.. _autopsy_0022:
 .. figure:: apendices/img/autopsy_0022.jpg
    :width: 50%
    :align: center
@@ -276,7 +276,7 @@ Local applications and those identified as relevant through tagging were systema
 
 .. _FloatBarrier:
 
-.. _autopsy_023:
+.. _autopsy_0023:
 .. figure:: apendices/img/autopsy_0023.jpg
    :width: 50%
    :align: center
@@ -291,7 +291,7 @@ The commencement of live forensics entails the virtualization of the forensic im
 
 The initial step involves initiating the ForensicVM client ingest module via Autopsy, as illustrated in Figure :numref:`autopsy_0028`.
 
-.. _autopsy_028:
+.. _autopsy_0028:
 .. figure:: apendices/img/autopsy_0028.jpg
    :width: 50%
    :align: center
@@ -301,7 +301,7 @@ The initial step involves initiating the ForensicVM client ingest module via Aut
 
 Subsequently, a comprehensive virtualization of the image was executed. Utilizing the command \textbf{Virtualize - a) Convert to VM}, a duplicate of the forensic image is created. This process entails altering the hardware abstraction layer by incorporating virtio optimized drivers, culminating in the creation of a ForensicVM, as depicted in Figure :numref:`autopsy_0029`, Figure :numref:`autopsy_0030`, and Figure :numref:`autopsy_0031`.
 
-.. _autopsy_029:
+.. _autopsy_0029:
 .. figure:: apendices/img/autopsy_0029.jpg
    :width: 50%
    :align: center
@@ -310,7 +310,7 @@ Subsequently, a comprehensive virtualization of the image was executed. Utilizin
    ForensicVM client main form   
 
 
-.. _autopsy_030:
+.. _autopsy_0030:
 .. figure:: apendices/img/autopsy_0030.jpg
    :width: 50%
    :align: center
@@ -318,7 +318,7 @@ Subsequently, a comprehensive virtualization of the image was executed. Utilizin
 
    Forensic image to forensicVM Conversion progress   
 
-.. _autopsy_031:
+.. _autopsy_0031:
 .. figure:: apendices/img/autopsy_0031.jpg
    :width: 50%
    :align: center
@@ -329,7 +329,7 @@ Subsequently, a comprehensive virtualization of the image was executed. Utilizin
 The recovery questions were noted to be identical (\textbf{bart}), prompting an attempt to use them as the password. This strategy proved effective due to the recovery questions being set identically to the password, as shown in Figure :numref:`autopsy_0033`.
 
 
-.. _autopsy_033:
+.. _autopsy_0033:
 .. figure:: apendices/img/autopsy_0033.jpg
    :width: 50%
    :align: center
@@ -339,7 +339,7 @@ The recovery questions were noted to be identical (\textbf{bart}), prompting an 
 
 Access was successfully gained to the Bart desktop, which featured a wallpaper indicating potential malicious intent with the message "I will hack Springfield...," as seen in Figure :numref:`autopsy_0034`.
 
-.. _autopsy_034:
+.. _autopsy_0034:
 .. figure:: apendices/img/autopsy_0034.jpg
    :width: 50%
    :align: center
@@ -350,7 +350,7 @@ Access was successfully gained to the Bart desktop, which featured a wallpaper i
 The desktop was populated with numerous icons, one of which was for the Evernote cloud application. Activating this icon initiated Evernote, within which several recent notes were apparent: Extra images, Secret nuclear plants, Bart Simpson Passwords, and My pass, as illustrated in Figure :numref:`autopsy_0035`.
 
 
-.. _autopsy_035:
+.. _autopsy_0035:
 .. figure:: apendices/img/autopsy_0035.jpg
    :width: 50%
    :align: center
@@ -360,7 +360,7 @@ The desktop was populated with numerous icons, one of which was for the Evernote
 
 In the forensic investigation within the Evernote application, a notebook titled \textbf{Bart secret plans} containing three notes was identified. The procedure to export these notes to the forensicVM evidence drive is crucial, as illustrated in Figure :numref:`autopsy_0036`.
 
-.. _autopsy_036:
+.. _autopsy_0036:
 .. figure:: apendices/img/autopsy_0036.jpg
    :width: 50%
    :align: center
@@ -370,7 +370,7 @@ In the forensic investigation within the Evernote application, a notebook titled
 
 To commence the note export process, the notes were first converted into PDF format as shown in Figure :numref:`autopsy_0037`.
 
-.. _autopsy_037:
+.. _autopsy_0037:
 .. figure:: apendices/img/autopsy_0037.jpg
    :width: 50%
    :align: center
@@ -381,7 +381,7 @@ To commence the note export process, the notes were first converted into PDF for
 The notes were then methodically stored in a subfolder named Evernote, located within the Cloud\_applications tag in Autopsy. The \textbf{Bart secret plans} file was exported to this specific folder, detailed in Figure :numref:`autopsy_0038`.
 
 
-.. _autopsy_038:
+.. _autopsy_0038:
 .. figure:: apendices/img/autopsy_0038.jpg
    :width: 50%
    :align: center
@@ -391,7 +391,7 @@ The notes were then methodically stored in a subfolder named Evernote, located w
 
 A verification step was conducted to ensure that the exported PDFs contained all potential evidence, as confirmed in Figure :numref:`autopsy_0039`.
 
-.. _autopsy_039:
+.. _autopsy_0039:
 .. figure:: apendices/img/autopsy_0039.jpg
    :width: 50%
    :align: center
@@ -403,7 +403,7 @@ The export procedure was repeated for another notebook titled \textbf{Primeiro b
 
 .. _FloatBarrier:
 
-.. _autopsy_040:
+.. _autopsy_0040:
 .. figure:: apendices/img/autopsy_0040.jpg
    :width: 50%
    :align: center
@@ -413,7 +413,7 @@ The export procedure was repeated for another notebook titled \textbf{Primeiro b
 
 Investigation revealed that the **bart secret plans** notebook was shared by a user named **Nuno Mourinho**, which may indicate collaborative or shared use of the contents, as evidenced by Figures \ref{fig:autopsy_0041} and \ref{fig:autopsy_0042}.
 
-.. _autopsy_041:
+.. _autopsy_0041:
 .. figure:: apendices/img/autopsy_0041.jpg
    :width: 50%
    :align: center
@@ -421,7 +421,7 @@ Investigation revealed that the **bart secret plans** notebook was shared by a u
 
    Shared user detail for 'bart secret plans' notebook   
 
-.. _autopsy_042:
+.. _autopsy_0042:
 .. figure:: apendices/img/autopsy_0042.jpg
    :width: 50%
    :align: center
@@ -431,7 +431,7 @@ Investigation revealed that the **bart secret plans** notebook was shared by a u
 
 Additionally, the Evernote trash was scrutinized, and it was confirmed that no notes had been deleted, as shown in Figure :numref:`autopsy_0043`. The absence of deleted notes might suggest that the user did not attempt to remove evidence or considered the contents of the notes to be non-incriminating.
 
-.. _autopsy_043:
+.. _autopsy_0043:
 .. figure:: apendices/img/autopsy_0043.jpg
    :width: 50%
    :align: center
@@ -441,7 +441,7 @@ Additionally, the Evernote trash was scrutinized, and it was confirmed that no n
 
 The forensic analysis included the observation of software behavior in a controlled environment. The Discord application displayed a notification for an update, which could not be completed due to a lack of internet connectivity, leaving the application in a state of limbo as depicted in Figure :numref:`autopsy_0044`.
 
-.. _autopsy_044:
+.. _autopsy_0044:
 .. figure:: apendices/img/autopsy_0044.jpg
    :width: 50%
    :align: center
@@ -451,7 +451,7 @@ The forensic analysis included the observation of software behavior in a control
 
 Subsequently, GitHub Desktop was launched, which is a graphical client interface for interacting with GitHub repositories. It attempted to locate a repository named hackSpringField, but without internet access, the search was unsuccessful, as demonstrated in Figure :numref:`autopsy_0045`.
 
-.. _autopsy_045:
+.. _autopsy_0045:
 .. figure:: apendices/img/autopsy_0045.jpg
    :width: 50%
    :align: center
@@ -461,7 +461,7 @@ Subsequently, GitHub Desktop was launched, which is a graphical client interface
 
 Due to the absence of an internet or local network connection, the content within the GitHub repository could not be retrieved or reviewed, which is an essential aspect to consider for future investigative steps. This scenario is highlighted in Figure :numref:`autopsy_0046`.
 
-.. _autopsy_046:
+.. _autopsy_0046:
 .. figure:: apendices/img/autopsy_0046.jpg
    :width: 50%
    :align: center
@@ -471,7 +471,7 @@ Due to the absence of an internet or local network connection, the content withi
 
 The investigation then moved to financial applications, with a specific focus on Homebank. An attempt to launch this application was made as indicated by the presence of its icon, and this is captured in Figure :numref:`autopsy_0047`.
 
-.. _autopsy_047:
+.. _autopsy_0047:
 .. figure:: apendices/img/autopsy_0047.jpg
    :width: 50%
    :align: center
@@ -481,7 +481,7 @@ The investigation then moved to financial applications, with a specific focus on
 
 Upon accessing Homebank, the last opened file named example.xhb was identified, suggesting a possible area of interest for the investigation. The examination of this file is depicted in Figure :numref:`autopsy_0048`.
 
-.. _autopsy_048:
+.. _autopsy_0048:
 .. figure:: apendices/img/autopsy_0048.jpg
    :width: 50%
    :align: center
@@ -491,7 +491,7 @@ Upon accessing Homebank, the last opened file named example.xhb was identified, 
 
 Within the example.xhb file, the existence of a Bitcoin account was noted. Even though the file bore the name 'example', it was considered worthy of detailed examination to discern any potential financial improprieties or to trace financial transactions, as shown in Figure :numref:`autopsy_0049`.
 
-.. _autopsy_049:
+.. _autopsy_0049:
 .. figure:: apendices/img/autopsy_0049.jpg
    :width: 50%
    :align: center
@@ -503,7 +503,7 @@ So far, this analysis underscores the complexity of digital forensics, particula
 
 Upon uncovering Bitcoin-related transaction data within the Homebank application, steps were taken to document this information. The transactions were exported to a PDF file for ease of analysis and future reference, a process captured in Figures :numref:`autopsy_0050` and \ref{fig:autopsy_0051}.
 
-.. _autopsy_050:
+.. _autopsy_0050:
 .. figure:: apendices/img/autopsy_0050.jpg
    :width: 50%
    :align: center
@@ -511,7 +511,7 @@ Upon uncovering Bitcoin-related transaction data within the Homebank application
 
    Exporting Bitcoin transaction data to PDF   
 
-.. _autopsy_051:
+.. _autopsy_0051:
 .. figure:: apendices/img/autopsy_0051.jpg
    :width: 50%
    :align: center
@@ -523,7 +523,7 @@ Upon uncovering Bitcoin-related transaction data within the Homebank application
 
 The forensic examination then proceeded to another financial application, Money Manager Ex. Upon initiation, the application's dashboard revealed an account with the noteworthy title 'Springfield ransom', as displayed in Figure :numref:`autopsy_0052`.
 
-.. _autopsy_052:
+.. _autopsy_0052:
 .. figure:: apendices/img/autopsy_0052.jpg
    :width: 50%
    :align: center
@@ -533,7 +533,7 @@ The forensic examination then proceeded to another financial application, Money 
 
 Within this application, two significant transactions were identified: a withdrawal of 222 million by a user named Homer, and a deposit of 100 million to a Mr. Burns. These transactions, detailed in Figure :numref:`autopsy_0053`, could suggest a flow of funds that may be pertinent to the investigation.
 
-.. _autopsy_053:
+.. _autopsy_0053:
 .. figure:: apendices/img/autopsy_0053.jpg
    :width: 50%
    :align: center
@@ -544,7 +544,7 @@ Within this application, two significant transactions were identified: a withdra
 To collate the findings, a PDF document was created and stored on an evidence drive, ensuring the preservation of the data uncovered during the investigation. This step is illustrated in Figures :numref:`autopsy_0055` and \ref{fig:autopsy_0056}.
 
 
-.. _autopsy_055:
+.. _autopsy_0055:
 .. figure:: apendices/img/autopsy_0055.jpg
    :width: 50%
    :align: center
@@ -552,7 +552,7 @@ To collate the findings, a PDF document was created and stored on an evidence dr
 
    Compiling findings into a PDF document   
 
-.. _autopsy_056:
+.. _autopsy_0056:
 .. figure:: apendices/img/autopsy_0056.jpg
    :width: 50%
    :align: center
@@ -563,7 +563,7 @@ To collate the findings, a PDF document was created and stored on an evidence dr
 Finally, verification was carried out to ensure that the PDF created indeed contained the exported transaction data, as can be affirmed by Figure :numref:`autopsy_0057`.
 
 
-.. _autopsy_057:
+.. _autopsy_0057:
 .. figure:: apendices/img/autopsy_0057.jpg
    :width: 50%
    :align: center
@@ -577,7 +577,7 @@ Live forensic with ForensicVM - Phase 2: Network enabled
 In the continuation of the live forensic analysis using ForensicVM, the investigation progressed to include cloud-based evidence following the activation of the network interface. This crucial step is depicted in Figure :numref:`autopsy_0058`.
 
 
-.. _autopsy_058:
+.. _autopsy_0058:
 .. figure:: apendices/img/autopsy_0058.jpg
    :width: 50%
    :align: center
@@ -587,7 +587,7 @@ In the continuation of the live forensic analysis using ForensicVM, the investig
 
 One of the primary cloud applications scrutinised was GitHub Desktop. This application was of particular interest as it may contain repositories that could provide evidence of illicit activity if the computer in question belonged to a potential hacker. The repository named **hackSpringField** was cloned as an initial step, a process illustrated in Figure :numref:`autopsy_0059`.
 
-.. _autopsy_059:
+.. _autopsy_0059:
 .. figure:: apendices/img/autopsy_0059.jpg
    :width: 50%
    :align: center
@@ -597,7 +597,7 @@ One of the primary cloud applications scrutinised was GitHub Desktop. This appli
 
 Within the cloned repository, a README file disclosed Bart's likely malicious intent, containing the message "I will hack Springfield Buhahahahahaha!", as seen in Figure :numref:`autopsy_0060`.
 
-.. _autopsy_060:
+.. _autopsy_0060:
 .. figure:: apendices/img/autopsy_0060.jpg
    :width: 50%
    :align: center
@@ -616,7 +616,7 @@ The exploration of Bart's GitHub repositories revealed several with names that s
 
 These repositories were cloned as part of the investigatory process, as documented in Figures :numref:`autopsy_0061`, \ref{fig:autopsy_0062}, and \ref{fig:autopsy_0063}.
 
-.. _autopsy_061:
+.. _autopsy_0061:
 .. figure:: apendices/img/autopsy_0061.jpg
    :width: 50%
    :align: center
@@ -624,7 +624,7 @@ These repositories were cloned as part of the investigatory process, as document
 
    Cloning of repositories suspected to be associated with malicious activities   
 
-.. _autopsy_062:
+.. _autopsy_0062:
 .. figure:: apendices/img/autopsy_0062.jpg
    :width: 50%
    :align: center
@@ -632,7 +632,7 @@ These repositories were cloned as part of the investigatory process, as document
 
    Acquiring repository content for further forensic analysis
 
-.. _autopsy_063:
+.. _autopsy_0063:
 .. figure:: apendices/img/autopsy_0063.jpg
    :width: 50%
    :align: center
@@ -642,7 +642,7 @@ These repositories were cloned as part of the investigatory process, as document
 
 Subsequently, the cloned repositories were transferred to a specifically labelled folder 'Github-Internet On' within the cloud\_applications autopsy tag folder, with the process captured in Figures :numref:`autopsy_0064`, \ref{fig:autopsy_0065}, and \ref{fig:autopsy_0066}.
 
-.. _autopsy_064:
+.. _autopsy_0064:
 .. figure:: apendices/img/autopsy_0064.jpg
    :width: 50%
    :align: center
@@ -650,7 +650,7 @@ Subsequently, the cloned repositories were transferred to a specifically labelle
 
    Copying cloned repositories to the designated forensic analysis folder   
 
-.. _autopsy_065:
+.. _autopsy_0065:
 .. figure:: apendices/img/autopsy_0065.jpg
    :width: 50%
    :align: center
@@ -662,7 +662,7 @@ Subsequently, the cloned repositories were transferred to a specifically labelle
 
 The shared notebook named **bart secret plans** now has 14 notes, an increase of 11 notes from when the system was examined in offline mode. This surge in content could indicate active use or automated synchronization once the network was enabled. Among these notes, several are titled with 'Command and Control (C2C)', each followed by a sequence number, which suggests a structured approach to potentially illicit command sequences. Furthermore, the presence of Evernote Cloud API python guide notes could imply an intention to leverage Evernote as a platform for issuing commands to compromised systems or for managing a network of controlled devices. An illustrative note contains the command *sdelete -z c:*, which is known to overwrite free space on a drive with zeros, typically a method to prevent data recovery -- a concerning find, possibly indicative of attempts to obfuscate or destroy evidence. This detail is depicted in Figure :numref:`autopsy_0066`.
 
-.. _autopsy_066:
+.. _autopsy_0066:
 .. figure:: apendices/img/autopsy_0066.jpg
    :width: 50%
    :align: center
@@ -672,7 +672,7 @@ The shared notebook named **bart secret plans** now has 14 notes, an increase of
 
 In a detailed examination, all notes from the **bart secret plans** notebook were exported as multiple webpages to be preserved as evidence, as shown in Figures :numref:`autopsy_0067` and \ref{fig:autopsy_0068}.
 
-.. _autopsy_067:
+.. _autopsy_0067:
 .. figure:: apendices/img/autopsy_0067.jpg
    :width: 50%
    :align: center
@@ -680,7 +680,7 @@ In a detailed examination, all notes from the **bart secret plans** notebook wer
 
    Exporting the contents of 'bart secret plans' to webpages, part 1   
 
-.. _autopsy_068:
+.. _autopsy_0068:
 .. figure:: apendices/img/autopsy_0068.jpg
    :width: 50%
    :align: center
@@ -690,7 +690,7 @@ In a detailed examination, all notes from the **bart secret plans** notebook wer
 
 Similarly, the *Primeiro bloco de notas* (First Notebook) was exported, revealing an additional note not previously visible in offline mode. The findings are presented in Figure :numref:`autopsy_0069`.
 
-.. _autopsy_069:
+.. _autopsy_0069:
 .. figure:: apendices/img/autopsy_0069.jpg
    :width: 50%
    :align: center
@@ -700,7 +700,7 @@ Similarly, the *Primeiro bloco de notas* (First Notebook) was exported, revealin
 
 Upon inspecting the Discord application, which was set to the Portuguese language, we accessed the user bart.simpson's server. The server's activity log, accessed via the bart.simpson\_springfield login, can be observed in Figure :numref:`autopsy_0070`.
 
-.. _autopsy_070:
+.. _autopsy_0070:
 .. figure:: apendices/img/autopsy_0070.jpg
    :width: 50%
    :align: center
@@ -710,7 +710,7 @@ Upon inspecting the Discord application, which was set to the Portuguese languag
 
 Further investigation within the server revealed a channel named 'Servidor de bart.simpson' (bart.simpson's server), which contained an announcement seemingly related to the sale of data on the dark web, as captured in Figure :numref:`autopsy_0072` after opening the server shown in Figure :numref:`autopsy_0071`.
 
-.. _autopsy_071:
+.. _autopsy_0071:
 .. figure:: apendices/img/autopsy_0071.jpg
    :width: 50%
    :align: center
@@ -718,7 +718,7 @@ Further investigation within the server revealed a channel named 'Servidor de ba
 
    The Discord server 'Servidor de bart.simpson' accessed for investigation   
 
-.. _autopsy_072:
+.. _autopsy_0072:
 .. figure:: apendices/img/autopsy_0072.jpg
    :width: 50%
    :align: center
@@ -729,7 +729,7 @@ Further investigation within the server revealed a channel named 'Servidor de ba
 Within the Discord channel named cyber-security-bypass, the user 'bart' claimed to have *ex-filtrated data from the Springfield Nuclear Plant*. Evidence of such a breach was showcased in an Excel format, which was presented as a sample of the exfiltrated data. Additionally, 'bart' stipulated a ransom demand of 1000 dollars for the recovery of the data, directing the payment to be made to a specified Bitcoin wallet. This incriminating interaction, including the digital ransom note and the proof of the stolen data, is captured in Figure :numref:`autopsy_0073`.
 
 
-.. _autopsy_073:
+.. _autopsy_0073:
 .. figure:: apendices/img/autopsy_0073.jpg
    :width: 50%
    :align: center
@@ -740,7 +740,7 @@ Within the Discord channel named cyber-security-bypass, the user 'bart' claimed 
 Subsequent to the discovery of the Discord communication, efforts were made to download the chain of custody report utilizing the ForensicVM webscreen interface. This procedure is critical for maintaining the integrity of the digital evidence and ensuring that all investigative actions are properly documented. The process of downloading this report is depicted in Figures :numref:`autopsy_0074` and \ref{fig:autopsy_0075}.
 
 
-.. _autopsy_074:
+.. _autopsy_0074:
 .. figure:: apendices/img/autopsy_0074.jpg
    :width: 50%
    :align: center
@@ -748,7 +748,7 @@ Subsequent to the discovery of the Discord communication, efforts were made to d
 
    Downloading the chain of custody report via the ForensicVM webscreen interface, part 1   
 
-.. _autopsy_075:
+.. _autopsy_0075:
 .. figure:: apendices/img/autopsy_0075.jpg
    :width: 50%
    :align: center
@@ -758,7 +758,7 @@ Subsequent to the discovery of the Discord communication, efforts were made to d
 
 The next phase in the investigative process involves exporting the ForensicVM evidence disk in the virtual machine disk (VMDK) format. This step is necessary to facilitate the importation of the disk into the Autopsy analysis tool for a comprehensive examination. The sequence of actions taken to halt the ForensicVM, followed by the initiation of the 'Import Evidence Disk' process, is sequentially illustrated in Figures :numref:`autopsy_0076` through \ref{fig:autopsy_0079}.
 
-.. _autopsy_076:
+.. _autopsy_0076:
 .. figure:: apendices/img/autopsy_0076.jpg
    :width: 50%
    :align: center
@@ -766,7 +766,7 @@ The next phase in the investigative process involves exporting the ForensicVM ev
 
    Initiating the export of ForensicVM evidence disk from the Autopsy Forensic Client main interface
 
-.. _autopsy_077:
+.. _autopsy_0077:
 .. figure:: apendices/img/autopsy_0077.jpg
    :width: 50%
    :align: center
@@ -774,7 +774,7 @@ The next phase in the investigative process involves exporting the ForensicVM ev
 
    Stopping the ForensicVM in preparation for exporting the evidence disk   
 
-.. _autopsy_078:
+.. _autopsy_0078:
 
 .. figure:: apendices/img/autopsy_0078.jpg
    :width: 50%
@@ -783,7 +783,7 @@ The next phase in the investigative process involves exporting the ForensicVM ev
 
    Selection of the 'Import Evidence Disk' option in the Autopsy Forensic Client   
 
-.. _autopsy_079:
+.. _autopsy_0079:
 
 .. figure:: apendices/img/autopsy_0079.jpg
    :align: center
@@ -795,20 +795,20 @@ The next phase in the investigative process involves exporting the ForensicVM ev
 
    <hr/>
 
-In the final step of the digital forensic analysis, a new data source was added to the Autopsy forensic software. This new data source was the VMDK disk which contained the evidence that had been previously gathered from ForensicVM. This action is paramount for enabling a detailed examination and analysis within the Autopsy environment. The step-by-step process of adding this new evidence source is captured in Figures :ref:`autopsy_0080` through :ref:`autopsy_0085`.
+In the final step of the digital forensic analysis, a new data source was added to the Autopsy forensic software. This new data source was the VMDK disk which contained the evidence that had been previously gathered from ForensicVM. This action is paramount for enabling a detailed examination and analysis within the Autopsy environment. The step-by-step process of adding this new evidence source is captured in Figures :numref:`autopsy_0080` through :numref:`autopsy_0085`.
 
 .. |FloatBarrier| raw:: html
 
    <hr/>
 
-.. _autopsy_080:
+.. _autopsy_0080:
 .. figure:: apendices/img/autopsy_0080.jpg
    :align: center
    :width: 50%
 
    Initiating the addition of a new data source in Autopsy.
 
-.. autopsy_0081:
+.. autopsy_00081:
 .. figure:: apendices/img/autopsy_0081.jpg
    :align: center
    :width: 50%
