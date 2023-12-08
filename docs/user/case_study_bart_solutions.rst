@@ -162,14 +162,6 @@ In the process of forensic analysis, the discovery of the password '\textbf{Lisa
 
 Moreover, the identification of specific applications such as Eraser 6.2.0.2993, which is designed for secure file deletion, and HomeBank 5.7.1, a personal finance application, can offer valuable insights into the suspect's actions and intents. As depicted in Figure :numref:`autopsy_0012`, the presence of these applications may suggest attempts to conceal activities or manage finances in a way that is pertinent to the investigation.
 
-.. _autopsy_0012:
-.. figure:: apendices/img/autopsy_0012.jpg
-   :width: 50%
-   :align: center
-   :alt: Applications Identification
-
-   Applications Identification   
-
 .. _FloatBarrier:
 
 .. _autopsy_0012:
