@@ -632,7 +632,7 @@ These repositories were cloned as part of the investigatory process, as document
 
    Documentation of the cloned repositories from the suspected hacker's GitHub account   
 
-Subsequently, the cloned repositories were transferred to a specifically labelled folder 'Github-Internet On' within the cloud\_applications autopsy tag folder, with the process captured in Figures :numref:`autopsy_0064`, \ref{fig:autopsy_0065}, and \ref{fig:autopsy_0066}.
+Subsequently, the cloned repositories were transferred to a specifically labelled folder 'Github-Internet On' within the cloud\_applications autopsy tag folder, with the process captured in Figures :numref:`autopsy_0064`, :numref:`autopsy_0065`, and :numref:`autopsy_0066`.
 
 .. _autopsy_0064:
 .. figure:: apendices/img/autopsy_0064.jpg
